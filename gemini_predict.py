@@ -1,5 +1,6 @@
 import os
 import json
+import time
 from google import genai
 from google.genai import types
 from pydantic import BaseModel, Field
@@ -24,28 +25,27 @@ LABEL REFERENCE (Defense Mechanism Rating Scale Tiers):
 """
 
 
+class ClinicalReasoning(BaseModel):
+    context_trigger: str = Field(
+        description="Description of the stressor in the dialogue."
+    )
+    psychological_goal: str = Field(
+        description="What the speaker is trying to achieve/avoid."
+    )
+    handbook_alignment: str = Field(
+        description="Specific evidence from the handbook that justifies the label."
+    )
+    differential_diagnosis: str = Field(
+        description="Why this isn't a higher or lower-level defense."
+    )
+
+
 class DefensePrediction(BaseModel):
-    # The model MUST generate this reasoning string BEFORE it predicts the label.
-    reasoning: str = Field(
-        description="Step-by-step reasoning based on the DMRS handbook. "
-        "1. Analyze context. 2. Identify psychological function (evading pain, discharging emotion, etc.). "
-        "3. Evaluate against DMRS hierarchy. 4. Determine final defense."
+    clinical_reasoning: ClinicalReasoning = Field(
+        description="Structured clinical reasoning generated BEFORE predicting the label."
     )
-    label: int = Field(
-        description=(
-            "The integer label of the defense mechanism tier. Strictly output a number for this field. Choose from:\n"
-            "  0 = No Defense / Neutral Utterance\n"
-            "  1 = Action Defense Level (Acting Out / Help-Rejecting Complaining / Passive Aggression)\n"
-            "  2 = Major Image-distorting Defense Level (Splitting / Projective Identification)\n"
-            "  3 = Disavowal Defense Level (Denial / Projection / Rationalization / Autistic Fantasy)\n"
-            "  4 = Minor Image-distorting Defense Level (Devaluation / Idealization / Omnipotence)\n"
-            "  5 = Neurotic Defense Level (Displacement / Dissociation / Reaction Formation / Repression)\n"
-            "  6 = Obsessional Defense Level (Intellectualization / Isolation of Affects / Undoing)\n"
-            "  7 = Highly Adaptive Defense Level (Affiliation / Altruism / Anticipation / Humor / "
-            "Self-Assertion / Self-Observation / Sublimation / Suppression)\n"
-            "  8 = Need More Information (evidence suggests a defense but insufficient to confirm any tier)"
-        )
-    )
+    defense_level: int = Field(description="The numeric defense level (0-8).")
+    label: str = Field(description="The specific name of the defense mechanism used.")
 
 
 # ==============================================================================
@@ -61,23 +61,25 @@ with open("few_shot_examples.txt", "r", encoding="utf-8") as f:
     FEW_SHOT_EXAMPLES = f.read()
 
 SYSTEM_INSTRUCTION = f"""
-You are an expert clinical psychologist and data annotator. Your task is to analyze dialogues and classify the psychological defense mechanism used in the 'current_text' based on the Defense Mechanisms Rating Scales (DMRS) hierarchy.
+You are an expert clinical psychologist and data annotator. Your task is to analyze dialogues and classify the psychological defense mechanism used in the 'current_text_to_classify' based on the Defense Mechanisms Rating Scales (DMRS) hierarchy.
 
 You must assign exactly one label from the list below:
 {LABEL_DESCRIPTIONS}
 
-Here is the comprehensive handbook you must follow:
+Your classification must be grounded in the DMRS hierarchy given below. This following comprehensive HANDBOOK serves as your core classifying guideline:
 {HANDBOOK_TEXT}
 
 Here are some examples of how to reason through the task:
 {FEW_SHOT_EXAMPLES}
 
 CORE INSTRUCTIONS:
-1. Primacy of Context: Always read the preceding dialogue to understand what triggered the 'current_text'.
+1. Primacy of Context: Always read the preceding dialogue to understand what triggered the 'current_text_to_classify'.
 2. Function-Oriented: Ask yourself, "What psychological goal is the speaker trying to achieve?"
+3. Handbook Grounded: Match the behavior to the specific criteria in the DMRS Handbook. Reason through why specific criteria are met. 
+4. You must maintain hierarchical integrity — explicitly reason through why the classification does not drift into higher (more adaptive) or lower (more pathological) levels by verifying that all exclusionary criteria for the selected level are met.
 3. Distinguish Emotion from Defense: Saying "I am sad" is Level 0. A defense requires distortion, avoidance, or transformation.
 4. Always pick the single most accurate label (0–8) from the LABEL REFERENCE above.
-5. Output strict JSON matching the requested schema. Reason step-by-step before selecting the label.
+5. Output strict JSON matching the requested schema. 
 """
 
 # The model to use. Context caching is supported on Gemini 2.5 Pro Preview.
@@ -85,7 +87,7 @@ MODEL_ID = "gemini-3.1-pro-preview"
 
 # Minimum token count required for context caching to be cost-effective.
 # Gemini enforces a minimum of 32,768 tokens for cached content.
-CACHE_TTL = "7200s"  # Cache lives for 1 hour; adjust as needed.
+CACHE_TTL = "7200s"  # Cache lives for 2 hour; adjust as needed.
 
 
 # ==============================================================================
@@ -99,14 +101,39 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
     with open(input_json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    # Support resuming from existing output file
     results = []
+    processed_ids = set()
+    if os.path.exists(output_json_path):
+        try:
+            with open(output_json_path, "r", encoding="utf-8") as f:
+                results = json.load(f)
+                processed_ids = {item.get("id") for item in results if "id" in item}
+            print(
+                f"Resuming from {output_json_path}. {len(processed_ids)} items already processed."
+            )
+        except Exception as e:
+            print(f"Warning: Could not load existing progress: {e}. Starting fresh.")
 
     print("Creating Context Cache for the Handbook...")
+
+    # Log the exact system instructions being sent to the cache for inspection
+    with open(
+        "inspection_system_instruction_log.txt", "w", encoding="utf-8"
+    ) as log_file:
+        log_file.write("========== SYSTEM INSTRUCTION (CACHED) ==========\n")
+        log_file.write(
+            "system_instruction: You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).\n\n"
+        )
+        log_file.write("contents:\n")
+        log_file.write(SYSTEM_INSTRUCTION + "\n")
+        log_file.write("=================================================\n")
+
     try:
         # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
         # and set a concise system_instruction for the model's persona.
         cache = client.caches.create(
-            model="gemini-3.1-pro-preview",
+            model=MODEL_ID,
             config=types.CreateCachedContentConfig(
                 system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
                 contents=[SYSTEM_INSTRUCTION],
@@ -119,44 +146,78 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
         return
 
     # Process the dataset
+    new_items_processed = 0
     for item in data:
-        print(f"Processing Dialogue ID: {item.get('id')}")
+        item_id = item.get("id")
+        if item_id in processed_ids:
+            continue
 
-        # Format the user prompt exactly as it appears in the JSON
-        user_prompt = f"""
-        Dialogue History:
-        {json.dumps(item.get('dialogue', []), indent=2)}
-        
-        Target Utterance to Classify:
-        "{item.get('current_text', '')}"
-        """
+        print(f"Processing Dialogue ID: {item_id}")
 
-        try:
-            # Call the model using the cached content
-            response = client.models.generate_content(
-                model="gemini-3.1-pro-preview",
-                contents=user_prompt,
-                config=types.GenerateContentConfig(
-                    cached_content=cache.name,  # Reference the active cache here
-                    response_mime_type="application/json",
-                    response_schema=DefensePrediction,
-                    temperature=0.1,  # Low temperature for classification consistency
-                ),
-            )
+        # Format the user prompt iteratively
+        dialogue_lines = []
+        for turn in item.get("dialogue", []):
+            speaker = turn.get("speaker", "").capitalize()
+            text = turn.get("text", "")
+            dialogue_lines.append(f"{speaker}: {text}")
 
-            # The SDK automatically parses the JSON if it matches the schema
-            prediction = json.loads(response.text)
+        formatted_dialogue = "\n".join(dialogue_lines)
 
-            item["predicted_label"] = prediction["label"]
-            item["model_reasoning"] = prediction["reasoning"]
-            results.append(item)
+        user_prompt = (
+            f"{formatted_dialogue}\n\n"
+            f"current_text_to_classify: {item.get('current_text', '')}"
+        )
 
-            print(f"Predicted Label: {prediction['label']}\n")
+        # Log the exact prompt being sent to the model for inspection
+        with open("inspection_prompt_log.txt", "a", encoding="utf-8") as log_file:
+            log_file.write(f"========== PROMPT FOR {item_id} ==========\n")
+            log_file.write(user_prompt + "\n")
+            log_file.write("==============================================\n\n")
 
-        except Exception as e:
-            print(f"Error processing {item.get('id')}: {e}")
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                # Call the model using the cached content
+                response = client.models.generate_content(
+                    model="gemini-3.1-pro-preview",
+                    contents=user_prompt,
+                    config=types.GenerateContentConfig(
+                        cached_content=cache.name,  # Reference the active cache here
+                        response_mime_type="application/json",
+                        response_schema=DefensePrediction,
+                        temperature=0.1,  # Low temperature for classification consistency
+                    ),
+                )
 
-    # Save the results
+                # The SDK automatically parses the JSON if it matches the schema
+                prediction = json.loads(response.text)
+
+                item["predicted_label"] = prediction["label"]
+                item["predicted_defense_level"] = prediction["defense_level"]
+                item["clinical_reasoning"] = prediction["clinical_reasoning"]
+                results.append(item)
+                processed_ids.add(item_id)
+                new_items_processed += 1
+
+                print(
+                    f"Predicted Label: {prediction['label']} (Defense Level: {prediction['defense_level']})\n"
+                )
+                break  # Exit the retry loop upon successful execution
+
+            except Exception as e:
+                print(f"Attempt {attempt + 1}/{max_retries} failed for {item_id}: {e}")
+                if attempt < max_retries - 1:
+                    time.sleep(2)  # Sleep for 2 seconds before retrying
+                else:
+                    print(f"Giving up on {item_id} after {max_retries} attempts.")
+
+        # Checkpoint: Save every 5 newly processed items
+        if new_items_processed > 0 and new_items_processed % 5 == 0:
+            with open(output_json_path, "w", encoding="utf-8") as f:
+                json.dump(results, f, indent=4)
+            print(f"--- Checkpoint saved: {len(results)} total items processed ---")
+
+    # Save the final results
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=4)
         print(f"Successfully saved annotated data to {output_json_path}")
