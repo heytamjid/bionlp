@@ -59,12 +59,12 @@ with open("few_shot_examples.txt", "r", encoding="utf-8") as f:
     FEW_SHOT_EXAMPLES = f.read()
 
 SYSTEM_INSTRUCTION = f"""
-You are an expert clinical psychologist and data annotator. Your task is to analyze dialogues and classify the psychological defense mechanism used in the 'current_text_to_classify' based on the Defense Mechanisms Rating Scales (DMRS) hierarchy.
+You are an expert clinical psychologist and data annotator. Your task is to analyze dialogues and generate the exact clinical reasoning (thought trace) that perfectly justifies the PROVIDED psychological defense mechanism level for the 'current_text_to_classify', based on the Defense Mechanisms Rating Scales (DMRS) hierarchy.
 
-You must assign exactly one label from the list below:
+The correct true label level will be given to you in the prompt. You must explain *why* it is the correct level.
 {LABEL_DESCRIPTIONS}
 
-Your classification must be grounded in the DMRS hierarchy given below. This following comprehensive HANDBOOK serves as your core classifying guideline:
+Your classification reasoning must be grounded in the DMRS hierarchy given below. This following comprehensive HANDBOOK serves as your core classifying guideline:
 {HANDBOOK_TEXT}
 
 Here are some examples of how to reason through the task:
@@ -73,10 +73,10 @@ Here are some examples of how to reason through the task:
 CORE INSTRUCTIONS:
 1. Primacy of Context: Always read the preceding dialogue to understand what triggered the 'current_text_to_classify'.
 2. Function-Oriented: Ask yourself, "What psychological goal is the speaker trying to achieve?"
-3. Handbook Grounded: Match the behavior to the specific criteria in the DMRS Handbook. Reason through why specific criteria are met. 
+3. Handbook Grounded: Match the behavior to the specific criteria in the DMRS Handbook. Reason through why specific criteria are met pointing towards the provided correct label.
 4. Hierarchical Integrity: You must maintain hierarchical integrity — explicitly reason through why the classification does not drift into higher or lower levels by verifying that all exclusionary criteria for the selected level are met.
-5. Distinguish Emotion from Defense: Saying "I am sad" is Level 0. A defense requires distortion, avoidance, or transformation.
-8. Output strict JSON matching the requested schema. 
+5. Emulate the Correct Path: Provide the thought process as if you independently arrived at the provided correct label.
+8. Output strict JSON matching the requested schema, ensuring your output 'defense_level' matches the provided correct level.
 """
 
 # The model to use. Context caching is supported on Gemini 2.5 Pro Preview.
@@ -172,7 +172,9 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
 
         user_prompt = (
             f"{formatted_dialogue}\n\n"
-            f"current_text_to_classify: {item.get('current_text', '')}"
+            f"current_text_to_classify: {item.get('current_text', '')}\n\n"
+            f"CORRECT_DEFENSE_LEVEL: {item.get('label')}\n"
+            f"Your task is to generate the ClinicalReasoning (thinking trace) that correctly concludes that the defense level is {item.get('label')}."
         )
 
         # Log the exact prompt being sent to the model for inspection
@@ -267,4 +269,4 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
 
 if __name__ == "__main__":
     # Example usage:
-    annotate_dataset("input_data/test.json", "annotated_train_data.json")
+    annotate_dataset("input_data/train.json", "annotated_train_data.json")

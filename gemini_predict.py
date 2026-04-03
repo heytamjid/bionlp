@@ -25,18 +25,42 @@ LABEL REFERENCE (Defense Mechanism Rating Scale Tiers):
 """
 
 
+# class ClinicalReasoning(BaseModel):
+#     context_trigger: str = Field(
+#         description="Description of the stressor in the dialogue."
+#     )
+#     psychological_goal: str = Field(
+#         description="What the speaker is trying to achieve/avoid."
+#     )
+#     handbook_alignment: str = Field(
+#         description="Specific evidence from the handbook that justifies the label."
+#     )
+#     differential_diagnosis: str = Field(
+#         description="Why this isn't a higher or lower-level defense."
+#     )
+
+
 class ClinicalReasoning(BaseModel):
-    context_trigger: str = Field(
-        description="Description of the stressor in the dialogue."
+    contextual_stressor: str = Field(
+        description="The specific stressful event or emotional trigger in the preceding dialogue."
     )
-    psychological_goal: str = Field(
-        description="What the speaker is trying to achieve/avoid."
+    expected_normative_emotion: str = Field(
+        description="The emotion a typical person would explicitly feel and express in response to this stressor (e.g., 'frustration', 'anxiety', 'sadness')."
     )
-    handbook_alignment: str = Field(
-        description="Specific evidence from the handbook that justifies the label."
+    actual_expressed_emotion: str = Field(
+        description="The actual emotional tone conveyed in the 'current_text_to_classify'. Is it flat, exaggerated, displaced, or absent?"
     )
-    differential_diagnosis: str = Field(
-        description="Why this isn't a higher or lower-level defense."
+    distortion_analysis: str = Field(
+        description="Analyze the gap between the expected emotion and the expressed emotion. Is the speaker minimizing, avoiding, acting out, or over-intellectualizing the stressor?"
+    )
+    handbook_evidence: str = Field(
+        description="Quote the specific DMRS handbook rule or DMRS-Q Item that matches the distortion analysis."
+    )
+    differential_diagnosis: str = (
+        Field(description="Why this isn't a higher or lower-level defense."),
+    )
+    is_it_a_minority_class: str = Field(
+        description="Why this is might NOT a Level 0 (Neutral) or NOT a Level 7 (Adaptive). Rule out the most likely incorrect extremes first."
     )
 
 
@@ -74,8 +98,10 @@ CORE INSTRUCTIONS:
 1. Primacy of Context: Always read the preceding dialogue to understand what triggered the 'current_text_to_classify'.
 2. Function-Oriented: Ask yourself, "What psychological goal is the speaker trying to achieve?"
 3. Handbook Grounded: Match the behavior to the specific criteria in the DMRS Handbook. Reason through why specific criteria are met. 
-4. Hierarchical Integrity: You must maintain hierarchical integrity — explicitly reason through why the classification does not drift into higher or lower levels.
-5. Distinguish Emotion from Defense: Saying "I am sad" is Level 0. A defense requires distortion, avoidance, or transformation.
+4. THE SUBTEXT PROTOCOL: Do not take the text at face value. If the preceding context contains a clear stressor (e.g., work pressure, conflict, loss), but the current text sounds suspiciously flat, overly polite, or tangentially factual, IT IS LIKELY A DEFENSE MECHANISM, NOT LEVEL 0. 
+5. Hierarchical Integrity: Explicitly reason through why the classification does not drift into higher or lower levels.
+6. IDENTIFY THE GAP: Ask yourself, "What emotion SHOULD this person be feeling right now? Where did that emotion go?" If it went into an action, it's Level 1. If it went into an excuse, it's Level 3. If it disappeared entirely into facts, it's Level 6.
+7. Distinguish Emotion from Defense: Saying "I am sad" is Level 0. A defense requires distortion, avoidance, or transformation.
 8. Output strict JSON matching the requested schema. 
 """
 
@@ -84,7 +110,7 @@ MODEL_ID = "gemini-3.1-pro-preview"
 
 # Minimum token count required for context caching to be cost-effective.
 # Gemini enforces a minimum of 32,768 tokens for cached content.
-CACHE_TTL = "7200s"  # Cache lives for 2 hour; adjust as needed.
+CACHE_TTL = "2000s"  # Cache lives for 2 hour; adjust as needed.
 
 
 # ==============================================================================
@@ -130,25 +156,26 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
         log_file.write("=================================================\n")
 
     # AS ALREADY CREATED, USING VIA cacheRef
-    # try:
-    #     # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
-    #     # and set a concise system_instruction for the model's persona.
-    #     cache = client.caches.create(
-    #         model=MODEL_ID,
-    #         config=types.CreateCachedContentConfig(
-    #             system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
-    #             contents=[SYSTEM_INSTRUCTION],
-    #             display_name="dmrs-handbook-cache",
-    #             ttl=CACHE_TTL,
-    #         ),
-    #     )
-    #     print(f"Cache created successfully: {cache.name}")
-    # except Exception as e:
-    #     print(f"Failed to create cache: {e}")
-    #     return
+    try:
+        # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
+        # and set a concise system_instruction for the model's persona.
+        cache = client.caches.create(
+            model=MODEL_ID,
+            config=types.CreateCachedContentConfig(
+                system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
+                contents=[SYSTEM_INSTRUCTION],
+                display_name="dmrs-handbook-cache",
+                ttl=CACHE_TTL,
+            ),
+        )
+        print(f"Cache created successfully: {cache.name}")
+    except Exception as e:
+        print(f"Failed to create cache: {e}")
+        return
+    cacheRef = cache.name
 
     # or if alrady has
-    cacheRef = "projects/942972453935/locations/global/cachedContents/5700403225157435392"  # cache.name
+    # cacheRef = "projects/942972453935/locations/global/cachedContents/5700403225157435392"  # cache.name
     print("\n Your Cache REF ISSSSS \n")
     print(cacheRef)
 
@@ -192,7 +219,7 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
                         cached_content=cacheRef,  # cache.name,  # Reference the active cache here
                         response_mime_type="application/json",
                         response_schema=DefensePrediction,
-                        temperature=0.1,  # Low temperature for classification consistency
+                        temperature=0.2,  # Low temperature for classification consistency
                         thinking_config=types.ThinkingConfig(
                             thinking_level=types.ThinkingLevel.HIGH
                         ),
