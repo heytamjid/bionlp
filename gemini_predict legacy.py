@@ -74,11 +74,10 @@ CORE INSTRUCTIONS:
 1. Primacy of Context: Always read the preceding dialogue to understand what triggered the 'current_text_to_classify'.
 2. Function-Oriented: Ask yourself, "What psychological goal is the speaker trying to achieve?"
 3. Handbook Grounded: Match the behavior to the specific criteria in the DMRS Handbook. Reason through why specific criteria are met. 
-4. Hierarchical Integrity: You must maintain hierarchical integrity — explicitly reason through why the classification does not drift into higher (more adaptive) or lower (more pathological) levels by verifying that all exclusionary criteria for the selected level are met.
-5. Distinguish Emotion from Defense: Saying "I am sad" is Level 0. A defense requires distortion, avoidance, or transformation.
-6. Verification & Reflection: Before finalizing your prediction, review your reasoning. Verify against the handbook to ensure no exclusionary criteria are violated. Check your differential diagnosis for potential errors.
-7. Always pick the single most accurate label (0–8) from the LABEL REFERENCE above.
-8. Output strict JSON matching the requested schema. 
+4. You must maintain hierarchical integrity — explicitly reason through why the classification does not drift into higher (more adaptive) or lower (more pathological) levels by verifying that all exclusionary criteria for the selected level are met.
+3. Distinguish Emotion from Defense: Saying "I am sad" is Level 0. A defense requires distortion, avoidance, or transformation.
+4. Always pick the single most accurate label (0–8) from the LABEL REFERENCE above.
+5. Output strict JSON matching the requested schema. 
 """
 
 # The model to use. Context caching is supported on Gemini 2.5 Pro Preview.
@@ -87,17 +86,15 @@ MODEL_ID = "gemini-3.1-pro-preview"
 # Minimum token count required for context caching to be cost-effective.
 # Gemini enforces a minimum of 32,768 tokens for cached content.
 CACHE_TTL = "7200s"  # Cache lives for 2 hour; adjust as needed.
+cacheRef = "cachedContents/pkd3ephtou62ih1lsyl3g5b03coofq1r5x28uqmw"
 
 
 # ==============================================================================
 # 3. Main Annotation Function
 # ==============================================================================
 def annotate_dataset(input_json_path: str, output_json_path: str):
-    # Initialize the client for Vertex AI.
-    # We explicitly provide the project_id found in your service account JSON.
-    client = genai.Client(
-        vertexai=True, project="project-ade5f3ce-e086-4d4c-91c", location="global"
-    )
+    # Initialize the client. Ensure GEMINI_API_KEY is in your environment variables.
+    client = genai.Client()
 
     # Load your dataset
     with open(input_json_path, "r", encoding="utf-8") as f:
@@ -132,27 +129,22 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
         log_file.write("=================================================\n")
 
     # AS ALREADY CREATED, USING VIA cacheRef
-    try:
-        # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
-        # and set a concise system_instruction for the model's persona.
-        cache = client.caches.create(
-            model=MODEL_ID,
-            config=types.CreateCachedContentConfig(
-                system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
-                contents=[SYSTEM_INSTRUCTION],
-                display_name="dmrs-handbook-cache",
-                ttl=CACHE_TTL,
-            ),
-        )
-        print(f"Cache created successfully: {cache.name}")
-    except Exception as e:
-        print(f"Failed to create cache: {e}")
-        return
-
-    # or if alrady has
-    cacheRef = cache.name
-    print("\n Your Cache REF ISSSSS \n")
-    print(cacheRef)
+    # try:
+    #     # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
+    #     # and set a concise system_instruction for the model's persona.
+    #     cache = client.caches.create(
+    #         model=MODEL_ID,
+    #         config=types.CreateCachedContentConfig(
+    #             system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
+    #             contents=[SYSTEM_INSTRUCTION],
+    #             display_name="dmrs-handbook-cache",
+    #             ttl=CACHE_TTL,
+    #         ),
+    #     )
+    #     print(f"Cache created successfully: {cache.name}")
+    # except Exception as e:
+    #     print(f"Failed to create cache: {e}")
+    #     return
 
     # Process the dataset
     new_items_processed = 0
@@ -195,9 +187,6 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
                         response_mime_type="application/json",
                         response_schema=DefensePrediction,
                         temperature=0.1,  # Low temperature for classification consistency
-                        thinking_config=types.ThinkingConfig(
-                            thinking_level=types.ThinkingLevel.HIGH
-                        ),
                     ),
                 )
 

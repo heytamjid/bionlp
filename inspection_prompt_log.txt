@@ -1463,3 +1463,1024 @@ Seeker: don't know what to do
 current_text_to_classify: don't know what to do
 ==============================================
 
+========== PROMPT FOR test_00034 ==========
+Supporter: Hi there, how are you doing today?
+Seeker: Hi I am not sure what to say here. I am not doing very well at all. I am feel sad and hopeless all the time, nothing is any fun, nothing makes me feel that I am doing anything good for anyone.
+Supporter: I am truly sorry you are feeling this way. Those feelings can be overwhelming. Have you tried talking to a professional about this?
+Seeker: I don't have any money to pay someone, my boyfriend tells me to quit having a pity party no one is coming to it and to just get over it. His comments and suggestions have not been helpful. My friends have tried to cheer me up but I can tell they are getting frustrated with me and I try to avoid them now.
+
+current_text_to_classify: I don't have any money to pay someone, my boyfriend tells me to quit having a pity party no one is coming to it and to just get over it. His comments and suggestions have not been helpful. My friends have tried to cheer me up but I can tell they are getting frustrated with me and I try to avoid them now.
+==============================================
+
+========== PROMPT FOR test_00035 ==========
+Supporter: Hi there, how are you doing today?
+Seeker: Hi I am not sure what to say here. I am not doing very well at all. I am feel sad and hopeless all the time, nothing is any fun, nothing makes me feel that I am doing anything good for anyone.
+Supporter: I am truly sorry you are feeling this way. Those feelings can be overwhelming. Have you tried talking to a professional about this?
+Seeker: I don't have any money to pay someone, my boyfriend tells me to quit having a pity party no one is coming to it and to just get over it. His comments and suggestions have not been helpful. My friends have tried to cheer me up but I can tell they are getting frustrated with me and I try to avoid them now.
+Supporter: There are many therapists out there that work on a sliding scale based on your income. Some even offer free sessions. I would look into that for your local area. It also does not seem like your boyfriend is taking the issue seriously. I will tell you from experience, ignoring the issue is not going to help.
+Seeker: I don't mean to put obstacles in the way of your help but I live 25 miles from town and there is no public transportation here and I don't have a car. You have felt like this before? How long did it last? What did you do to get better?
+
+current_text_to_classify: I don't mean to put obstacles in the way of your help but I live 25 miles from town and there is no public transportation here and I don't have a car. You have felt like this before? How long did it last? What did you do to get better?
+==============================================
+
+========== PROMPT FOR test_00036 ==========
+Supporter: hello
+Seeker: Well, I am depressed. And it is Christmas. I am still having bad flashbacks from War in Iraq Can you help? Um, hello. Are you there?
+
+current_text_to_classify: Well, I am depressed. And it is Christmas. I am still having bad flashbacks from War in Iraq Can you help? Um, hello. Are you there?
+==============================================
+
+========== PROMPT FOR test_00037 ==========
+Supporter: hello
+Seeker: Well, I am depressed. And it is Christmas. I am still having bad flashbacks from War in Iraq Can you help? Um, hello. Are you there?
+Supporter: I'm good. sorry I stepped out.
+Seeker: Well, can you help me? Why did you step out?
+
+current_text_to_classify: Well, can you help me? Why did you step out?
+==============================================
+
+========== PROMPT FOR test_00038 ==========
+Supporter: hello
+Seeker: Well, I am depressed. And it is Christmas. I am still having bad flashbacks from War in Iraq Can you help? Um, hello. Are you there?
+Supporter: I'm good. sorry I stepped out.
+Seeker: Well, can you help me? Why did you step out?
+Supporter: Are you a veteran? I am happy to help. I am sorry to hear that.
+Seeker: Do you smoke? A smoke break? Yes, I am a veteran.
+Supporter: No I quit smoking 10 years ago
+Seeker: Oh, that is good. There is no need to destroy your organs with nasty tobacco
+Supporter: I can only imagine your suffering but I used to date a Veteran and he had nightmare often so I could relate to you
+Seeker: I just keep having flashbacks of the war zone. Oh, that is good that you can relate.
+Supporter: Thanks, I agree. Health is important. Does that happen recently a lot?
+Seeker: They called me "Camouflage.' I was a bold Marine, but now my head is in the war....still
+Supporter: Thank you for serving our country. You are worth so much respect.
+Seeker: Yeah, I just need to get over my depression somehow. I need to shake my thoughts of the Hot Zone. Yah know?
+Supporter: Yes yes Marine is the toughest people in military. Wow. I think this is PTSD. I have been to Adult Hospitalization program where people who have depression, PTSD and anxiety disorders etc get together and talk to therapist. It helped a little bit. You might be intererested in that.
+Seeker: Ok I am glad to talk with you.
+Supporter: I could only see that in movies. wow, so scary.
+Seeker: Lots of my Marine buddies have had PTSD. Women and men alike. Women are also joining the Marines....
+
+current_text_to_classify: Lots of my Marine buddies have had PTSD. Women and men alike. Women are also joining the Marines....
+==============================================
+
+========== PROMPT FOR test_00039 ==========
+Supporter: hello
+Seeker: Well, I am depressed. And it is Christmas. I am still having bad flashbacks from War in Iraq Can you help? Um, hello. Are you there?
+Supporter: I'm good. sorry I stepped out.
+Seeker: Well, can you help me? Why did you step out?
+Supporter: Are you a veteran? I am happy to help. I am sorry to hear that.
+Seeker: Do you smoke? A smoke break? Yes, I am a veteran.
+Supporter: No I quit smoking 10 years ago
+Seeker: Oh, that is good. There is no need to destroy your organs with nasty tobacco
+Supporter: I can only imagine your suffering but I used to date a Veteran and he had nightmare often so I could relate to you
+Seeker: I just keep having flashbacks of the war zone. Oh, that is good that you can relate.
+Supporter: Thanks, I agree. Health is important. Does that happen recently a lot?
+Seeker: They called me "Camouflage.' I was a bold Marine, but now my head is in the war....still
+Supporter: Thank you for serving our country. You are worth so much respect.
+Seeker: Yeah, I just need to get over my depression somehow. I need to shake my thoughts of the Hot Zone. Yah know?
+Supporter: Yes yes Marine is the toughest people in military. Wow. I think this is PTSD. I have been to Adult Hospitalization program where people who have depression, PTSD and anxiety disorders etc get together and talk to therapist. It helped a little bit. You might be intererested in that.
+Seeker: Ok I am glad to talk with you.
+Supporter: I could only see that in movies. wow, so scary.
+Seeker: Lots of my Marine buddies have had PTSD. Women and men alike. Women are also joining the Marines....
+Supporter: I think your minds have deep scar. It needs healing. Wow I cannot imagine becoming a Marine. It requires a courage.
+Seeker: I know.....but do you recommend anything? Meditation or some other form of therapy?
+Supporter: yes I recommend playing some instruments if you are intersted yes I recommend playing some instruments if you are intersted
+Seeker: How does that help? I am interested in learning more....
+
+current_text_to_classify: How does that help? I am interested in learning more....
+==============================================
+
+========== PROMPT FOR test_00040 ==========
+Seeker: Hi there, how are things?
+
+current_text_to_classify: Hi there, how are things?
+==============================================
+
+========== PROMPT FOR test_00041 ==========
+Seeker: Hi there, how are things?
+Supporter: Hi Can I help you
+Seeker: Yes trying to get over the passing of my aunt a week ago.
+Supporter: You tell me That's so sad. I am sorry!
+Seeker: Thanks, it is actually a week today. My mother has taken it particularly hard, they were best friends
+Supporter: I can understand very how your mom is going through hard time.
+Seeker: Thanks. I really have not had much time to grieve myself since she is my first priority.
+Supporter: Time will heel her. That I can assure you.
+Seeker: Do you have any suggestions what I might try to cheer her up? After that I can worry about myself
+
+current_text_to_classify: Do you have any suggestions what I might try to cheer her up? After that I can worry about myself
+==============================================
+
+========== PROMPT FOR test_00042 ==========
+Seeker: Hi there, how are things?
+Supporter: Hi Can I help you
+Seeker: Yes trying to get over the passing of my aunt a week ago.
+Supporter: You tell me That's so sad. I am sorry!
+Seeker: Thanks, it is actually a week today. My mother has taken it particularly hard, they were best friends
+Supporter: I can understand very how your mom is going through hard time.
+Seeker: Thanks. I really have not had much time to grieve myself since she is my first priority.
+Supporter: Time will heel her. That I can assure you.
+Seeker: Do you have any suggestions what I might try to cheer her up? After that I can worry about myself
+Supporter: Tell her to meditation or yoga in the morning. This will definitely helped and her mind will be busy
+Seeker: That might be ok. I know she likes Neil Diamond. Maybe get some of that playing while she meditates.
+Supporter: That is wonderful idea too . She will recover soon
+Seeker: Now what should I do for myself after she is better?
+Supporter: Be busy with your daily routine. Planning is the key
+Seeker: I thought about trying some daily exercise like just walking around the block a couple times with my dog.
+Supporter: Good idea! You can take your mom along with you in the park. She will recover soon.
+Seeker: I thought about redecorating her house a little bit, they lived together for a long time maybe a change of scenery would do some good
+
+current_text_to_classify: I thought about redecorating her house a little bit, they lived together for a long time maybe a change of scenery would do some good
+==============================================
+
+========== PROMPT FOR test_00043 ==========
+Seeker: Hi there, how are things?
+Supporter: Hi Can I help you
+Seeker: Yes trying to get over the passing of my aunt a week ago.
+Supporter: You tell me That's so sad. I am sorry!
+Seeker: Thanks, it is actually a week today. My mother has taken it particularly hard, they were best friends
+Supporter: I can understand very how your mom is going through hard time.
+Seeker: Thanks. I really have not had much time to grieve myself since she is my first priority.
+Supporter: Time will heel her. That I can assure you.
+Seeker: Do you have any suggestions what I might try to cheer her up? After that I can worry about myself
+Supporter: Tell her to meditation or yoga in the morning. This will definitely helped and her mind will be busy
+Seeker: That might be ok. I know she likes Neil Diamond. Maybe get some of that playing while she meditates.
+Supporter: That is wonderful idea too . She will recover soon
+Seeker: Now what should I do for myself after she is better?
+Supporter: Be busy with your daily routine. Planning is the key
+Seeker: I thought about trying some daily exercise like just walking around the block a couple times with my dog.
+Supporter: Good idea! You can take your mom along with you in the park. She will recover soon.
+Seeker: I thought about redecorating her house a little bit, they lived together for a long time maybe a change of scenery would do some good
+Supporter: Yes, try to do all thgings. But do one by one. That is my advice for you
+Seeker: Ok, well thanks for your help
+
+current_text_to_classify: Ok, well thanks for your help
+==============================================
+
+========== PROMPT FOR test_00044 ==========
+Seeker: Hello
+Supporter: Hi, so tell me, how are you feeling today?
+Seeker: I am feeling depressed
+Supporter: If you tell me what's going on, I will be more than glad to help
+Seeker: I can't pinpoint what exactly is making me feel this way. It could be the pandemic. But basically I started to feel that there is not much point in anything.
+Supporter: The pandemic can definetely be a key factor here. When it first started, I remember feeling lost and unsure about things that I would normally would have no problem with. If you don't mind me asking, how old are you?
+Seeker: I am 30
+Supporter: Do you have any family, girlfriend, boyfriend, children?
+Seeker: I have family and a boyfriend but they all live far and I have not seen them in while.
+Supporter: Not seeing your closed ones or simply being apart from them can be more than enough to make us feel depressed or blue. Have you tried doing videocalls with them, for example?
+Seeker: Yes sometimes. I don't tell them how I feel though. I don't want them to worry about me.
+Supporter: I understand. However, there is nothing wrong with telling them that you are sad because you miss them. Something as simple as getting it off your chest can already make you feel better.
+Seeker: I suppose. I just worry that I will make them sad too. It's hard time for everyone.
+
+current_text_to_classify: I suppose. I just worry that I will make them sad too. It's hard time for everyone.
+==============================================
+
+========== PROMPT FOR test_00045 ==========
+Seeker: Hello
+Supporter: Hi, so tell me, how are you feeling today?
+Seeker: I am feeling depressed
+Supporter: If you tell me what's going on, I will be more than glad to help
+Seeker: I can't pinpoint what exactly is making me feel this way. It could be the pandemic. But basically I started to feel that there is not much point in anything.
+Supporter: The pandemic can definetely be a key factor here. When it first started, I remember feeling lost and unsure about things that I would normally would have no problem with. If you don't mind me asking, how old are you?
+Seeker: I am 30
+Supporter: Do you have any family, girlfriend, boyfriend, children?
+Seeker: I have family and a boyfriend but they all live far and I have not seen them in while.
+Supporter: Not seeing your closed ones or simply being apart from them can be more than enough to make us feel depressed or blue. Have you tried doing videocalls with them, for example?
+Seeker: Yes sometimes. I don't tell them how I feel though. I don't want them to worry about me.
+Supporter: I understand. However, there is nothing wrong with telling them that you are sad because you miss them. Something as simple as getting it off your chest can already make you feel better.
+Seeker: I suppose. I just worry that I will make them sad too. It's hard time for everyone.
+Supporter: Totally, but remember than they are there for you whenever you need them.
+Seeker: Yes that's true. Do you have any suggestions on what to say?
+Supporter: I bet something as simple as "Hey babe, I really miss you. I can't be glad with your abscence" could make your boyfriend feel loved while at the same time relieving you.
+Seeker: That is true. I believe I have a problem showing vulnerability.
+Supporter: That might be why you were unsure about telling them. Believe me, there is nothing wrong with showing vulnerability. We are all vulnerable in one way or another.
+Seeker: I haven't been with my boyfriend that long before the pandemic started so I still have some fears and trust issues. I fear that being weak pushes people away.
+Supporter: Hey, if he is the right one for you, he will completeley accept you as you are and love you. In the unlikely event that he "rejects" you for being "vulnerable", he wasn't even worth it in the first place. You deserve someone that appreciates you as much as you appreciate them :3
+Seeker: That is true. I should be brave enough to find out if he will be there when the chips are down. I am going to do it
+
+current_text_to_classify: That is true. I should be brave enough to find out if he will be there when the chips are down. I am going to do it
+==============================================
+
+========== PROMPT FOR test_00046 ==========
+Seeker: Hello
+Supporter: Hi, so tell me, how are you feeling today?
+Seeker: I am feeling depressed
+Supporter: If you tell me what's going on, I will be more than glad to help
+Seeker: I can't pinpoint what exactly is making me feel this way. It could be the pandemic. But basically I started to feel that there is not much point in anything.
+Supporter: The pandemic can definetely be a key factor here. When it first started, I remember feeling lost and unsure about things that I would normally would have no problem with. If you don't mind me asking, how old are you?
+Seeker: I am 30
+Supporter: Do you have any family, girlfriend, boyfriend, children?
+Seeker: I have family and a boyfriend but they all live far and I have not seen them in while.
+Supporter: Not seeing your closed ones or simply being apart from them can be more than enough to make us feel depressed or blue. Have you tried doing videocalls with them, for example?
+Seeker: Yes sometimes. I don't tell them how I feel though. I don't want them to worry about me.
+Supporter: I understand. However, there is nothing wrong with telling them that you are sad because you miss them. Something as simple as getting it off your chest can already make you feel better.
+Seeker: I suppose. I just worry that I will make them sad too. It's hard time for everyone.
+Supporter: Totally, but remember than they are there for you whenever you need them.
+Seeker: Yes that's true. Do you have any suggestions on what to say?
+Supporter: I bet something as simple as "Hey babe, I really miss you. I can't be glad with your abscence" could make your boyfriend feel loved while at the same time relieving you.
+Seeker: That is true. I believe I have a problem showing vulnerability.
+Supporter: That might be why you were unsure about telling them. Believe me, there is nothing wrong with showing vulnerability. We are all vulnerable in one way or another.
+Seeker: I haven't been with my boyfriend that long before the pandemic started so I still have some fears and trust issues. I fear that being weak pushes people away.
+Supporter: Hey, if he is the right one for you, he will completeley accept you as you are and love you. In the unlikely event that he "rejects" you for being "vulnerable", he wasn't even worth it in the first place. You deserve someone that appreciates you as much as you appreciate them :3
+Seeker: That is true. I should be brave enough to find out if he will be there when the chips are down. I am going to do it
+Supporter: I believe in you!
+Seeker: Thank you for supporting me.
+
+current_text_to_classify: Thank you for supporting me.
+==============================================
+
+========== PROMPT FOR test_00047 ==========
+Supporter: hi there?
+Seeker: Hi
+Supporter: how are you? what's new with you?
+Seeker: I am not doing so great. I fell down some stairs the other day and broke my foot and chipped my two front teeth.
+Supporter: Sorry to hear that. I feel you because I had an experience about breaking my bones. It was sad story. how you feel right now
+Seeker: I am grateful for my family they are taking care of me but I am on crutches and am in a boot when I am not icing my foot
+Supporter: Very good. I am glad that you have a good family who can support you whenever you need a help.
+Seeker: Yes I am struggling with some depression just because I am feeling a bit isolated with the broken foot along with COVID going on.
+Supporter: Totally, sad side of our current situation. I hope you can tide-over this hard time soon and you are doing your best at this time. So proud!
+Seeker: Thank you I appreciate that! Yes I am getting surgery like 2 days before christmas so this christmas should definitely be interesting to say the least haha.
+Supporter: Ohhh that sucks. I am happy to yo don't lose your fun and you are not pessimist which is good and it might help for your health. Always try to see the bright side
+Seeker: Yes exactly. I got my teeth fixed a couple days ago as well so that was good too! I am really leaning on my family for support but just felt like asking for some outside help which is why I am talking to you right now lol.
+Supporter: Exactly, sometimes we need new window to see things by different ankle. So can I ask you what you want me to do or what is really need you right now ?
+Seeker: I think I pretty much got everything I need from you- I just needed to vent I think. So we can stop talking now or whenever you have to leave
+Supporter: ok for sure, It was nice to talk you
+Seeker: You too!
+Supporter: hope you feel better
+Seeker: I appreciate that! thank you.
+
+current_text_to_classify: I appreciate that! thank you.
+==============================================
+
+========== PROMPT FOR test_00048 ==========
+Seeker: I'm stressed about COVID. I'm worried about getting it and having to stay home and lose money.
+Supporter: So COVID has been especially hard on you?
+Seeker: My husband has been laid off for 2 months and unemployment benefits only cover half of what he was making.
+Supporter: Just hearing that, I can imagine what a scary time this is.
+Seeker: Yes, and I have lots of kids and they are working in essential services so not only do i have to worry about covid but i have to worry about my kids getting covid. i can't wait until this pandemic is over and things can get back to normal.
+Supporter: Do your kids understand how helpful wearing a mask can be?
+Seeker: They do. They wear masks while at work but they still have boyfriends and they don't wear mask with friends or boyfriends.
+
+current_text_to_classify: They do. They wear masks while at work but they still have boyfriends and they don't wear mask with friends or boyfriends.
+==============================================
+
+========== PROMPT FOR test_00049 ==========
+Seeker: I'm stressed about COVID. I'm worried about getting it and having to stay home and lose money.
+Supporter: So COVID has been especially hard on you?
+Seeker: My husband has been laid off for 2 months and unemployment benefits only cover half of what he was making.
+Supporter: Just hearing that, I can imagine what a scary time this is.
+Seeker: Yes, and I have lots of kids and they are working in essential services so not only do i have to worry about covid but i have to worry about my kids getting covid. i can't wait until this pandemic is over and things can get back to normal.
+Supporter: Do your kids understand how helpful wearing a mask can be?
+Seeker: They do. They wear masks while at work but they still have boyfriends and they don't wear mask with friends or boyfriends.
+Supporter: So sometimes you worry that they aren't doing enough to protect themselves. I know I'm more worried about others than I am about myself right now.
+Seeker: Yes, and they are young so they do not understand how important it is to practice social distancing and wear a mask. We have had so many covid tests. Luckily they have all been negative.
+
+current_text_to_classify: Yes, and they are young so they do not understand how important it is to practice social distancing and wear a mask. We have had so many covid tests. Luckily they have all been negative.
+==============================================
+
+========== PROMPT FOR test_00050 ==========
+Seeker: I'm stressed about COVID. I'm worried about getting it and having to stay home and lose money.
+Supporter: So COVID has been especially hard on you?
+Seeker: My husband has been laid off for 2 months and unemployment benefits only cover half of what he was making.
+Supporter: Just hearing that, I can imagine what a scary time this is.
+Seeker: Yes, and I have lots of kids and they are working in essential services so not only do i have to worry about covid but i have to worry about my kids getting covid. i can't wait until this pandemic is over and things can get back to normal.
+Supporter: Do your kids understand how helpful wearing a mask can be?
+Seeker: They do. They wear masks while at work but they still have boyfriends and they don't wear mask with friends or boyfriends.
+Supporter: So sometimes you worry that they aren't doing enough to protect themselves. I know I'm more worried about others than I am about myself right now.
+Seeker: Yes, and they are young so they do not understand how important it is to practice social distancing and wear a mask. We have had so many covid tests. Luckily they have all been negative.
+Supporter: Maybe just reminding them that wearing masks protects both them and others could help? They sure wouldn't want to infect you or your husband, or others.
+Seeker: I do but they are young and the young are selfish. I'm not worried about getting covid. I'm worried about having to quarantine at home and not work. i supervise 15 people and if I get exposed I can't work for 3 weeks.
+Supporter: That is really relatable. I can understand how scary it is for you, especially with your husband's pay cut. What if you talk to a close friend when your anxiety is especially difficult ?
+Seeker: Yes, there is nothing to do but keep putting what foot in front of the other and doing the next best thing.
+Supporter: And with the holidays, I think it's really hitting a lot of us even harder right now. I feel that way too. Have any of your coworkers gotten covid?
+Seeker: Right. I hope we make it through the holidays without the pandemic getting even more out of control than it already is. I have had some coworkers at my location exposed to COVID and have to quarantine. At some of our other locations I have had coworkers get COVID and have to quarantine. My workplace is safe with PPE so I do not worry about getting covid from coworkers.
+Supporter: I'm glad you're safe in that regard. Is your husband working out of home or out in the field/office?
+Seeker: I had one poor coworker get exposed to covid twice. She has been gone off and on for over 2 months. My husband does construction and has been laid off for a couple of months. Construction has gone down because of the pandemic. Everyone has put a halt to projects.
+
+current_text_to_classify: I had one poor coworker get exposed to covid twice. She has been gone off and on for over 2 months. My husband does construction and has been laid off for a couple of months. Construction has gone down because of the pandemic. Everyone has put a halt to projects.
+==============================================
+
+========== PROMPT FOR test_00051 ==========
+Supporter: Hi! How are you today?
+Seeker: not too great at the moment
+Supporter: Oh no. I am sorry to hear that. Why do you feel that way?
+Seeker: because of the covid, I am afraid of going out in public
+Supporter: I totally get that. The world is a scary place right now with the pandemic.
+Seeker: and I get no help from my kids, they want me to stay in
+Supporter: Have you tried virtual ways of connecting with friends and family? I know that has been useful for me.
+Seeker: yes, I do speak with family through emails and facebook, but not being there in real life makes it hard
+Supporter: That is understandable. Hopefully with the vaccine, we will be able to see others in public soon. Have you tried some of the virtual visual apps such as Zoom or FaceTime?
+Seeker: my computer keeps giving me a hard time when I use Zoom..I have tried video conferencing on facebook messenger
+Supporter: Oh no! How have your video conferences on Facebook gone. Another thing I like to do is to meet up with friends in parks or public so that we are abiding by guidelines but can still be in person.
+Seeker: I have used Facebook messenger a lot so the visual side is easy. I am able to see my new granchild...that helps
+
+current_text_to_classify: I have used Facebook messenger a lot so the visual side is easy. I am able to see my new granchild...that helps
+==============================================
+
+========== PROMPT FOR test_00052 ==========
+Seeker: hello how are you today?
+Supporter: Hello, how are you feeling today?
+Seeker: a bit sad more depressed its just i keep getting benched at work i'm not really sure what do to *to do
+Supporter: I'm sorry to hear that! I think that would make most people feel upset.
+Seeker: i'm not really sure what i'm doing wrong
+Supporter: Ah, that was my next question. Sometimes things are happening out of our control, though.
+Seeker: what can i do though?
+Supporter: Have you thought of asking your boss or supervisor if there's anything going on?
+Seeker: hrm. i could do that! they are hard to get a hold of though
+Supporter: Of course! That sounds frustrating to not know why it's happening and not have the opportunity to ask.
+Seeker: yes...hrm. that may work. how can i stop being depressed all the time though.
+Supporter: I've also had bosses that are infrequently in the office and make getting good information hard
+Seeker: how did you fix the issue? i work at home and its like just trying to reach out - they are always busy
+Supporter: I think your feelings are normal, but if I were you, I might try to remember that the decisions of others aren't always a reflection of us or how we're performing.
+Seeker: this whole covid thing has me scrambling to talk to a live person
+Supporter: I can imagine!
+Seeker: ok, so just keep pushing and getting good work done ?
+Supporter: I was in a physical office when I had this problem, but the boss rotated between offices. It was hard to wait, but I just kept my head down until the next time she was available. That's what I did.
+Seeker: maybe i can try that. thank you. i'll give it a shot
+Supporter: I think reminding yourself that if there was a problem with your work they would be seeking YOU out, and not the other way around.
+Seeker: hrm...that's a good point! i hadn't thought of it that way
+
+current_text_to_classify: hrm...that's a good point! i hadn't thought of it that way
+==============================================
+
+========== PROMPT FOR test_00053 ==========
+Seeker: hello how are you today?
+Supporter: Hello, how are you feeling today?
+Seeker: a bit sad more depressed its just i keep getting benched at work i'm not really sure what do to *to do
+Supporter: I'm sorry to hear that! I think that would make most people feel upset.
+Seeker: i'm not really sure what i'm doing wrong
+Supporter: Ah, that was my next question. Sometimes things are happening out of our control, though.
+Seeker: what can i do though?
+Supporter: Have you thought of asking your boss or supervisor if there's anything going on?
+Seeker: hrm. i could do that! they are hard to get a hold of though
+Supporter: Of course! That sounds frustrating to not know why it's happening and not have the opportunity to ask.
+Seeker: yes...hrm. that may work. how can i stop being depressed all the time though.
+Supporter: I've also had bosses that are infrequently in the office and make getting good information hard
+Seeker: how did you fix the issue? i work at home and its like just trying to reach out - they are always busy
+Supporter: I think your feelings are normal, but if I were you, I might try to remember that the decisions of others aren't always a reflection of us or how we're performing.
+Seeker: this whole covid thing has me scrambling to talk to a live person
+Supporter: I can imagine!
+Seeker: ok, so just keep pushing and getting good work done ?
+Supporter: I was in a physical office when I had this problem, but the boss rotated between offices. It was hard to wait, but I just kept my head down until the next time she was available. That's what I did.
+Seeker: maybe i can try that. thank you. i'll give it a shot
+Supporter: I think reminding yourself that if there was a problem with your work they would be seeking YOU out, and not the other way around.
+Seeker: hrm...that's a good point! i hadn't thought of it that way
+Supporter: Hopefully that mindset can help you stay positive until you have the chance to speak with them, instead of worrying about what you've done wrong. That anxiety feels like what is keeping you down?
+Seeker: i think that will work. it maybe what's keeping me down. i'll try yoga too. I'll give it a shot and just talk with him when i see him online next time. he isn't online that often because we have 2 separate computers each for our work well...i hope you have a wonderful night! thank you for all your help!
+Supporter: I really hope that helps keep you afloat until you can get some real answers. Worrying about what-ifs is harder than just knowing what's goiong on!
+Seeker: yes i agree
+
+current_text_to_classify: yes i agree
+==============================================
+
+========== PROMPT FOR test_00054 ==========
+Seeker: hello how are you today?
+Supporter: Hello, how are you feeling today?
+Seeker: a bit sad more depressed its just i keep getting benched at work i'm not really sure what do to *to do
+Supporter: I'm sorry to hear that! I think that would make most people feel upset.
+Seeker: i'm not really sure what i'm doing wrong
+Supporter: Ah, that was my next question. Sometimes things are happening out of our control, though.
+Seeker: what can i do though?
+Supporter: Have you thought of asking your boss or supervisor if there's anything going on?
+Seeker: hrm. i could do that! they are hard to get a hold of though
+Supporter: Of course! That sounds frustrating to not know why it's happening and not have the opportunity to ask.
+Seeker: yes...hrm. that may work. how can i stop being depressed all the time though.
+Supporter: I've also had bosses that are infrequently in the office and make getting good information hard
+Seeker: how did you fix the issue? i work at home and its like just trying to reach out - they are always busy
+Supporter: I think your feelings are normal, but if I were you, I might try to remember that the decisions of others aren't always a reflection of us or how we're performing.
+Seeker: this whole covid thing has me scrambling to talk to a live person
+Supporter: I can imagine!
+Seeker: ok, so just keep pushing and getting good work done ?
+Supporter: I was in a physical office when I had this problem, but the boss rotated between offices. It was hard to wait, but I just kept my head down until the next time she was available. That's what I did.
+Seeker: maybe i can try that. thank you. i'll give it a shot
+Supporter: I think reminding yourself that if there was a problem with your work they would be seeking YOU out, and not the other way around.
+Seeker: hrm...that's a good point! i hadn't thought of it that way
+Supporter: Hopefully that mindset can help you stay positive until you have the chance to speak with them, instead of worrying about what you've done wrong. That anxiety feels like what is keeping you down?
+Seeker: i think that will work. it maybe what's keeping me down. i'll try yoga too. I'll give it a shot and just talk with him when i see him online next time. he isn't online that often because we have 2 separate computers each for our work well...i hope you have a wonderful night! thank you for all your help!
+Supporter: I really hope that helps keep you afloat until you can get some real answers. Worrying about what-ifs is harder than just knowing what's goiong on!
+Seeker: yes i agree
+Supporter: I hope you feel better soon and are able to clear it up!
+Seeker: thank you for your help! me too. i'll try what you have suggested and see if that doesn't work out well. who knows, maybe it just my project that i'm on.
+Supporter: Have a good night!
+Seeker: thank you you too! where are you located out of. i'm in virginia usa
+
+current_text_to_classify: thank you you too! where are you located out of. i'm in virginia usa
+==============================================
+
+========== PROMPT FOR test_00055 ==========
+Seeker: Hello I am here to talk about my overall daily stresses
+
+current_text_to_classify: Hello I am here to talk about my overall daily stresses
+==============================================
+
+========== PROMPT FOR test_00056 ==========
+Seeker: Hi
+
+current_text_to_classify: Hi
+==============================================
+
+========== PROMPT FOR test_00057 ==========
+Seeker: Hi
+Supporter: hello. How are you?
+Seeker: I'm honestly having a rough time
+Supporter: I'm sorry to hear that. Could you tell me about it?
+Seeker: Sure. I just lost my job and school is out so I feel like I have lost purpose
+Supporter: Thank you for telling me. I'm sorry to hear that. What did you do for your job?
+Seeker: I was a manager of a retail store that closed.
+Supporter: I see. That's a very important role for any business. I bet there are numerous other retailers out there looking for a good manager to hire.
+Seeker: That is true, I am just not sure if that is what I want to do anymore
+Supporter: I see. Well then, if this helps. The store closing might have been a positive thing, so you could find your next passion.
+Seeker: That is a good point.
+Supporter: I will also add, that being a Manager means you have some very important skills that would translate well to your next job, or anything you decide to do.
+Seeker: That's true. I know the experience will help me but I still miss it
+Supporter: Also, let's say you decided to work for another company, something new, outside of retail. Because you were a manager, you could also be promoted more quickly because of your management experience.
+Seeker: That is also true. I guess I just need to decide what I want to do now. That is probably the most difficult part.
+Supporter: Yes, it sounds like a part of you still misses the retail environment. I see that too. My best advice, is take a few days to think about what you really want to do. Think about what you are skilled at. Then decide which route you want to go. I know there will be numerous options out there for you in retail management, but if you wanted to do something different, there will be opportunities there too. Because you have options, you will likely pick the choice that will be most fulfilling for you, in something you will be passionate about - so this will likely be very positive for you.
+Seeker: That is really nice to say. I guess I am also just scared to go for something and have it not be as fulfilling as I thought
+
+current_text_to_classify: That is really nice to say. I guess I am also just scared to go for something and have it not be as fulfilling as I thought
+==============================================
+
+========== PROMPT FOR test_00058 ==========
+Seeker: Hi
+Supporter: hello. How are you?
+Seeker: I'm honestly having a rough time
+Supporter: I'm sorry to hear that. Could you tell me about it?
+Seeker: Sure. I just lost my job and school is out so I feel like I have lost purpose
+Supporter: Thank you for telling me. I'm sorry to hear that. What did you do for your job?
+Seeker: I was a manager of a retail store that closed.
+Supporter: I see. That's a very important role for any business. I bet there are numerous other retailers out there looking for a good manager to hire.
+Seeker: That is true, I am just not sure if that is what I want to do anymore
+Supporter: I see. Well then, if this helps. The store closing might have been a positive thing, so you could find your next passion.
+Seeker: That is a good point.
+Supporter: I will also add, that being a Manager means you have some very important skills that would translate well to your next job, or anything you decide to do.
+Seeker: That's true. I know the experience will help me but I still miss it
+Supporter: Also, let's say you decided to work for another company, something new, outside of retail. Because you were a manager, you could also be promoted more quickly because of your management experience.
+Seeker: That is also true. I guess I just need to decide what I want to do now. That is probably the most difficult part.
+Supporter: Yes, it sounds like a part of you still misses the retail environment. I see that too. My best advice, is take a few days to think about what you really want to do. Think about what you are skilled at. Then decide which route you want to go. I know there will be numerous options out there for you in retail management, but if you wanted to do something different, there will be opportunities there too. Because you have options, you will likely pick the choice that will be most fulfilling for you, in something you will be passionate about - so this will likely be very positive for you.
+Seeker: That is really nice to say. I guess I am also just scared to go for something and have it not be as fulfilling as I thought
+Supporter: that's possible. but you will have plenty of options either way. Could be a different retail store, or something new.
+Seeker: Yeah. It is a big decision, though. Thanks for talking it out with me
+
+current_text_to_classify: Yeah. It is a big decision, though. Thanks for talking it out with me
+==============================================
+
+========== PROMPT FOR test_00059 ==========
+Seeker: Hi
+Supporter: hello. How are you?
+Seeker: I'm honestly having a rough time
+Supporter: I'm sorry to hear that. Could you tell me about it?
+Seeker: Sure. I just lost my job and school is out so I feel like I have lost purpose
+Supporter: Thank you for telling me. I'm sorry to hear that. What did you do for your job?
+Seeker: I was a manager of a retail store that closed.
+Supporter: I see. That's a very important role for any business. I bet there are numerous other retailers out there looking for a good manager to hire.
+Seeker: That is true, I am just not sure if that is what I want to do anymore
+Supporter: I see. Well then, if this helps. The store closing might have been a positive thing, so you could find your next passion.
+Seeker: That is a good point.
+Supporter: I will also add, that being a Manager means you have some very important skills that would translate well to your next job, or anything you decide to do.
+Seeker: That's true. I know the experience will help me but I still miss it
+Supporter: Also, let's say you decided to work for another company, something new, outside of retail. Because you were a manager, you could also be promoted more quickly because of your management experience.
+Seeker: That is also true. I guess I just need to decide what I want to do now. That is probably the most difficult part.
+Supporter: Yes, it sounds like a part of you still misses the retail environment. I see that too. My best advice, is take a few days to think about what you really want to do. Think about what you are skilled at. Then decide which route you want to go. I know there will be numerous options out there for you in retail management, but if you wanted to do something different, there will be opportunities there too. Because you have options, you will likely pick the choice that will be most fulfilling for you, in something you will be passionate about - so this will likely be very positive for you.
+Seeker: That is really nice to say. I guess I am also just scared to go for something and have it not be as fulfilling as I thought
+Supporter: that's possible. but you will have plenty of options either way. Could be a different retail store, or something new.
+Seeker: Yeah. It is a big decision, though. Thanks for talking it out with me
+Supporter: Yes, of course. Take some time to think it through. Weigh your options, and the pros and cons of each. Then pick the option that will be the most rewarding for you.
+Seeker: Sounds like a great plan. Thanks again!
+Supporter: Thank you for talking with me.
+Seeker: Bye
+
+current_text_to_classify: Bye
+==============================================
+
+========== PROMPT FOR test_00060 ==========
+Seeker: Hello, I am feeling very sad because I tested positive for Covid this week. I am in quarantine away from my family.
+Supporter: sorry to hear about that. So your test results were positive. Did I get it right?
+Seeker: Yes, I tested positive for the Covid virus on Wednesday.
+
+current_text_to_classify: Yes, I tested positive for the Covid virus on Wednesday.
+==============================================
+
+========== PROMPT FOR test_00061 ==========
+Seeker: Hello, I am feeling very sad because I tested positive for Covid this week. I am in quarantine away from my family.
+Supporter: sorry to hear about that. So your test results were positive. Did I get it right?
+Seeker: Yes, I tested positive for the Covid virus on Wednesday.
+Supporter: It must be hard to stay alone. Are you having fever or any other sever symptoms. Hope there is someone to take care of you for a while at least.
+Seeker: I'm by myself in my house. My wife took the kids to stay with her father until my quarantine period is over. I have mainly cold symptoms - body aches, stuffy head, sore throat. Nothing too serious so far.
+Supporter: I had COVID last month with mild symptoms. Good to know that you don't have any sever symptoms. You will recover fast.
+Seeker: I hope so. I'm on the older side (not senior citizen yet) with high blood pressure, so I'm a little nervous about how it will affect me.
+Supporter: I can understand staying alone will be devastating. Keep monitoring your oxygen level. If that is normal, you don't have to worry. You can read watch tv or can do video calling to your family.
+Seeker: Thanks for the advice. We're doing a lot of video calls so I can see everyone. That helps.
+Supporter: I wish for your fast recovery. Hope this COVID situation end soon somehow.
+Seeker: That's what is so frustrating - I feel like a couple more months or so and I'd have the vaccine. Made it a year, then get infected during the stretch run of this pandemic.
+Supporter: Very true! It is kind of never ending. There should be some permanent solution for it.
+Seeker: I don't know if that will ever happen, but if it becomes rare and much less deadly like colds and flu, we should be able to return to a pre-covid life or close to it.
+Supporter: We can still hope for the best right now. Let's stay positive and fight it.
+Seeker: I was fighting it, but Covid won this week!
+
+current_text_to_classify: I was fighting it, but Covid won this week!
+==============================================
+
+========== PROMPT FOR test_00062 ==========
+Supporter: hello, how can I help you today?
+Seeker: hi i need to overcome from body shaming can you help me out so many people teasing that i lost job i gained weight no support from family and friends
+Supporter: That's so cruel of them
+Seeker: yes , even my partner is not understanding , i lost job due to covid i got covid , no money for treatment
+Supporter: Right now you're not working at all? I know it's very tough for you, can you stay away from your partner/ people around you for the time being?
+Seeker: yes , health is not supporting , due to covid , my lungs got infected and got migraine daily yea good idea, but thinking how to pay house rent and all .now i am depending on him only so baring such non scene from him
+Supporter: Since you are not working and staying home stuck with all the criticism won't help either, why don't you spend a few hours everyday outside? you can just go to the park, grocery stores, library... when at library, you can learn subjects that you want to know about
+Seeker: yea good idea , i have library card even, but i forgot thise. t thanks for remembering this card sure will try to go library and park is even far thAts ok will go by walk
+Supporter: yeah, scoop up indoor all day when you are not busy is very damaging to you mental health
+Seeker: YEA ITS TRUE . thanks for the suggestion dear . but thinking anybody tease me about my body so i was in home and dnt go out
+Supporter: you shouldn't put any thoughts to those heartless comments
+Seeker: due to winter i am not doing any workouts and not yet all interested to do any
+
+current_text_to_classify: due to winter i am not doing any workouts and not yet all interested to do any
+==============================================
+
+========== PROMPT FOR test_00063 ==========
+Supporter: Hello there, how are you feeling today?
+Seeker: I'm feeling pretty awful... I've been down and depressed for months now. It's hard to get through the days.
+
+current_text_to_classify: I'm feeling pretty awful... I've been down and depressed for months now. It's hard to get through the days.
+==============================================
+
+========== PROMPT FOR test_00064 ==========
+Supporter: Hello there, how are you feeling today?
+Seeker: I'm feeling pretty awful... I've been down and depressed for months now. It's hard to get through the days.
+Supporter: I understand. Is this related to the pandemic or is it something separate? I am sure that the pandemic has not helped, though!
+Seeker: It's definitely related! I lost my dream job, went to a lower paying one, and I gained a lot of weight while working from home.
+Supporter: Oh I can certainly relate to that one! I've gained a stone and a half in the last year. All this sitting around is not good for us!
+Seeker: It's definitely nice to know that other people are having similar emotions as me.
+
+current_text_to_classify: It's definitely nice to know that other people are having similar emotions as me.
+==============================================
+
+========== PROMPT FOR test_00065 ==========
+Supporter: Hello there, how are you feeling today?
+Seeker: I'm feeling pretty awful... I've been down and depressed for months now. It's hard to get through the days.
+Supporter: I understand. Is this related to the pandemic or is it something separate? I am sure that the pandemic has not helped, though!
+Seeker: It's definitely related! I lost my dream job, went to a lower paying one, and I gained a lot of weight while working from home.
+Supporter: Oh I can certainly relate to that one! I've gained a stone and a half in the last year. All this sitting around is not good for us!
+Seeker: It's definitely nice to know that other people are having similar emotions as me.
+Supporter: Sometimes just having someone to talk to who knows how you are feeling can be really helpful I think.
+Seeker: It's sad that this year has been so awful. It's hard to convince myself that it's getting better any time soon..
+Supporter: Can you make a list of all the things that you hope will be better next year so you can tick them off one by one?
+Seeker: 1. Better job 2. Healthier habits 3. Better financial situation
+Supporter: Well, the first and third one are out of your control really but you could make a start on the first one today if you liked :)
+Seeker: It's hard to take the first steps. I don't even know where to begin, sadly.
+Supporter: I can understand that. Perhaps you could join an exercise class or similar?
+Seeker: That's a pretty good idea. Have you ever done something like that?
+Supporter: I took an aerobics class once. It was quite fun and it was good exercise.
+Seeker: That does sound like fun. Do you have any other suggestions?
+Supporter: Well, it's maybe not the best time to be taking on a financial commitment but have you ever considered adopting a dog? Good company and good exercise
+Seeker: Actually, I have a cat!
+Supporter: Ah I have two - they are wonderful company. Alas you can't really walk with them though :)
+Seeker: They are great company. Sometimes when I am really feeling down, I remember that my cat needs me, so I need to stay strong.
+Supporter: Pets are great like that. Do you perhaps have a neighbour whose dog you could walk if you can't get one of your own?
+Seeker: That's a great idea. I just moved into a new apartment complex a couple weeks ago. Maybe I can get to know my neighbors. A lot of them have dogs.
+Supporter: It's a great way to make new friends too! Would you consider doing some voluntary work whilst you are out of work?
+Seeker: That's also a good idea. I know a lot of food banks around me are in need of volunteers.
+Supporter: I think it would be a really worthwhile thing to do and you would get to meet new people too I hope I have been able to help you a little!
+Seeker: I agree. I feel like I have a bunch of new ideas to start feeling better. I appreciate you talking to me.
+
+current_text_to_classify: I agree. I feel like I have a bunch of new ideas to start feeling better. I appreciate you talking to me.
+==============================================
+
+========== PROMPT FOR test_00066 ==========
+Seeker: hello
+Supporter: hi how is your side? Please how may I be of help
+Seeker: I would just like someone to talk to, very reserved because of covid
+Supporter: I could see that you are indoor and bored because of the pandemic season
+Seeker: yes very lonely and no one to talk to, world is so scary
+Supporter: everyone says so, life is in circle, you just need to keep on pushing it simultaneously.
+Seeker: i try very hard but I don't know how much longer i can take it
+Supporter: do you have any hobby? that you can use to wipe away time
+Seeker: i like to watch soccer and basketball
+
+current_text_to_classify: i like to watch soccer and basketball
+==============================================
+
+========== PROMPT FOR test_00067 ==========
+Seeker: hello
+Supporter: hi how is your side? Please how may I be of help
+Seeker: I would just like someone to talk to, very reserved because of covid
+Supporter: I could see that you are indoor and bored because of the pandemic season
+Seeker: yes very lonely and no one to talk to, world is so scary
+Supporter: everyone says so, life is in circle, you just need to keep on pushing it simultaneously.
+Seeker: i try very hard but I don't know how much longer i can take it
+Supporter: do you have any hobby? that you can use to wipe away time
+Seeker: i like to watch soccer and basketball
+Supporter: I was once in that situation, but what helped me is that, I never give up, though I may be overwhelmed with the challenges and unpalatable situations ..... I keep on pressing it,
+Seeker: I will keep trying to make people proud
+Supporter: I am a lover of sport, just get use to it, anytime you are down, take your phone and watch football or basket ball either on YouTube or any other means .
+Seeker: yes I will watch highlights and goals on YouTube very nice
+Supporter: that is what you need. Winner never quit ! Life is not friendly at a time, but when you look at mirror and tell yourself that you will make it, by God's grace you will make it
+Seeker: yes thank u yes I love God and Jesus
+Supporter: Jesus is the son of God and the savior, by His grace, we shall win
+Seeker: Yes I always pray he makes everything better I hope you have a very Merry Christmas may God bless u and your family
+
+current_text_to_classify: Yes I always pray he makes everything better I hope you have a very Merry Christmas may God bless u and your family
+==============================================
+
+========== PROMPT FOR test_00068 ==========
+Seeker: Good morning
+Supporter: Hello
+Seeker: Merry Christmas
+Supporter: Good morning Merry Christmas How may I help you today?
+Seeker: I'm just struggling real bad with depression lately. I feel like I'm not any good, but the other part of my mind says that just isn't true. Despite having those conflicting thoughts....I can't get going. I've been in a downward spiral....IDK how to escape it
+Supporter: I am so sorry i know how you are feeling just know everything is going to be okay what has been making your depression start?
+Seeker: I mean things do typically work themselves out, they always do....but I just can't get out of this rut I've been in. Well I lost my job because my GF had texted me saying she didn't want to be with me anymore....and I just couldn't handle it. Then I just started going downhill from there.....have had difficulty finding another job, or trying to replace lost income.
+
+current_text_to_classify: I mean things do typically work themselves out, they always do....but I just can't get out of this rut I've been in. Well I lost my job because my GF had texted me saying she didn't want to be with me anymore....and I just couldn't handle it. Then I just started going downhill from there.....have had difficulty finding another job, or trying to replace lost income.
+==============================================
+
+========== PROMPT FOR test_00069 ==========
+Seeker: Good morning
+Supporter: Hello
+Seeker: Merry Christmas
+Supporter: Good morning Merry Christmas How may I help you today?
+Seeker: I'm just struggling real bad with depression lately. I feel like I'm not any good, but the other part of my mind says that just isn't true. Despite having those conflicting thoughts....I can't get going. I've been in a downward spiral....IDK how to escape it
+Supporter: I am so sorry i know how you are feeling just know everything is going to be okay what has been making your depression start?
+Seeker: I mean things do typically work themselves out, they always do....but I just can't get out of this rut I've been in. Well I lost my job because my GF had texted me saying she didn't want to be with me anymore....and I just couldn't handle it. Then I just started going downhill from there.....have had difficulty finding another job, or trying to replace lost income.
+Supporter: Have you looked into seeking therapy that will sometimes help with your depression
+Seeker: I have an appointment scheduled with a Doctor on Tuesday actually.... I made a call the other day....which was difficult in and of itself
+
+current_text_to_classify: I have an appointment scheduled with a Doctor on Tuesday actually.... I made a call the other day....which was difficult in and of itself
+==============================================
+
+========== PROMPT FOR test_00070 ==========
+Supporter: Hi there, how are you doing today?
+Seeker: I am feeling really down.
+Supporter: I'm sorry to hear you're feeling that way, what has you feeling this way?
+Seeker: My husband and I have 4 kids. One of those children is a child from his previous marriage. We constantly argue about how he favors that child over our other 3.
+Supporter: Oh no, that's not good. Do the other kids see it as well?
+Seeker: 2 of the children are younger so they do not realize it but the other child is older and definitely notices.
+
+current_text_to_classify: 2 of the children are younger so they do not realize it but the other child is older and definitely notices.
+==============================================
+
+========== PROMPT FOR test_00071 ==========
+Supporter: Hello there, how are you doing today?
+Seeker: Hello there. I am feeling a bit down.
+
+current_text_to_classify: Hello there. I am feeling a bit down.
+==============================================
+
+========== PROMPT FOR test_00072 ==========
+Seeker: Hi. I'm feeling depressed and overwhelmed.
+Supporter: Please tell me more about it, when did it start?
+Seeker: It all started earlier this year. I live with my parents because I'm unable to care for myself , due to a disability. Well my dad has dementia, and my mom, who was the primary caregiver, was diagnosed with cancer. She's been in and out of hospital so now its up to me to keep everything afloat., I'm having a really hard time with it. Between work, school, keeping up the house, and caring for my dad, it's a lot to handle.
+Supporter: That's very exhausting doing that much, I really feel bad for you, you're a strong person to be able to handle so much by yourself
+Seeker: Thanks. But I'm really not that strong. It's really exhausting and overwhelming. My depression and anxiety are through the roof, and honestly, I'm not sure how long I can keep this up.
+
+current_text_to_classify: Thanks. But I'm really not that strong. It's really exhausting and overwhelming. My depression and anxiety are through the roof, and honestly, I'm not sure how long I can keep this up.
+==============================================
+
+========== PROMPT FOR test_00073 ==========
+Seeker: Hello I am very sad I am more depressed than ever
+Supporter: Would you care to elaborate about what you're feeling sad about?
+Seeker: I recently broke up with my girlfriend
+Supporter: I am sorry to hear that, that sounds difficult.
+Seeker: its been very hard on me I've spent the last few years wit her
+Supporter: How have you been coping? That can be really hard, have you been able to talk to anyone about it?
+Seeker: i've been trying to talk to family mainly my mom and brother
+Supporter: Do you find that to be helpful?
+Seeker: yes family is always there for me its only hard because I've been with my gf for so long and we've spent so much time during quarantine together
+Supporter: That's good, it's great to have a good support system. I can imagine that's difficult, that would be a lot of close time together. Have you been able to socialize with friends or colleagues?
+Seeker: i try to keep my personal life away from my coworkers i've talked to a few friends i'm actually going out tonight to meet some up for happy hour
+Supporter: That's understandable about the coworkers. Going out sounds like would be beneficial, just to at least spend some time with people who care about you.
+Seeker: yea its going to take my mind off of things
+Supporter: Have you been able to engage in any other activities that help you cope/take your mid=nd off things?
+Seeker: i've gone for long runs and swims well i'm going to go get ready thank you for all your time and advice
+Supporter: Is there anything else I can help you with?
+Seeker: if you were in my shoes, what would you do if you broke up with a serious gf/bf
+
+current_text_to_classify: if you were in my shoes, what would you do if you broke up with a serious gf/bf
+==============================================
+
+========== PROMPT FOR test_00074 ==========
+Seeker: Hello I am very sad I am more depressed than ever
+Supporter: Would you care to elaborate about what you're feeling sad about?
+Seeker: I recently broke up with my girlfriend
+Supporter: I am sorry to hear that, that sounds difficult.
+Seeker: its been very hard on me I've spent the last few years wit her
+Supporter: How have you been coping? That can be really hard, have you been able to talk to anyone about it?
+Seeker: i've been trying to talk to family mainly my mom and brother
+Supporter: Do you find that to be helpful?
+Seeker: yes family is always there for me its only hard because I've been with my gf for so long and we've spent so much time during quarantine together
+Supporter: That's good, it's great to have a good support system. I can imagine that's difficult, that would be a lot of close time together. Have you been able to socialize with friends or colleagues?
+Seeker: i try to keep my personal life away from my coworkers i've talked to a few friends i'm actually going out tonight to meet some up for happy hour
+Supporter: That's understandable about the coworkers. Going out sounds like would be beneficial, just to at least spend some time with people who care about you.
+Seeker: yea its going to take my mind off of things
+Supporter: Have you been able to engage in any other activities that help you cope/take your mid=nd off things?
+Seeker: i've gone for long runs and swims well i'm going to go get ready thank you for all your time and advice
+Supporter: Is there anything else I can help you with?
+Seeker: if you were in my shoes, what would you do if you broke up with a serious gf/bf
+Supporter: I would lean on my friends, family, and others for support such as a therapist (they're good for unbiased talking), I would also focus on hobbies and things that make me feel better. Most importantly be kind to yourself and allow your self to grieve.
+Seeker: thats great advice how long should i wait before i move onto the next potential girlfriend?
+Supporter: That would be up to you, there's no timeline it's when you feel most comforable
+Seeker: thats true i am getting old
+Supporter: There's no timeline on being able to date
+Seeker: yea, my brother and sister whom are both younger than me , are already married with kids i feel bad because I'm the oldest one and without a family
+Supporter: Everyone has their own timeline, some of my friends have married in their late 40s and older
+Seeker: yea, thats what my family is telling me to not rush into thigns
+Supporter: You have to do what's right for you
+Seeker: well tahnk you for your time. take care.
+
+current_text_to_classify: well tahnk you for your time. take care.
+==============================================
+
+========== PROMPT FOR test_00075 ==========
+Supporter: How can I help you?
+Seeker: I'm so sad all the time.
+Supporter: Is there something that you think is causing this?
+Seeker: Nothing in particular, I'm just so sad.
+Supporter: Have you any history of depression before?
+Seeker: I do have some family members with depression.
+
+current_text_to_classify: I do have some family members with depression.
+==============================================
+
+========== PROMPT FOR test_00076 ==========
+Supporter: How can I help you?
+Seeker: I'm so sad all the time.
+Supporter: Is there something that you think is causing this?
+Seeker: Nothing in particular, I'm just so sad.
+Supporter: Have you any history of depression before?
+Seeker: I do have some family members with depression.
+Supporter: Have you seen any physicians about the problem?
+Seeker: Maybe I should make an appointment.
+Supporter: Getting help from a trained professional can often help to solve problems
+Seeker: You make a good point. What type of doctor could I see?
+Supporter: You could try going to your primary care physician and ask for recommendations.
+Seeker: I can do that. Are there any doctors that deal with emotions?
+Supporter: I've help take a family member to a psychiatrist for help and it's been a tremendous support to help their lives be full again after great hardships.
+Seeker: I'm worried about the stigma of going to a shrink.
+
+current_text_to_classify: I'm worried about the stigma of going to a shrink.
+==============================================
+
+========== PROMPT FOR test_00077 ==========
+Supporter: How can I help you?
+Seeker: I'm so sad all the time.
+Supporter: Is there something that you think is causing this?
+Seeker: Nothing in particular, I'm just so sad.
+Supporter: Have you any history of depression before?
+Seeker: I do have some family members with depression.
+Supporter: Have you seen any physicians about the problem?
+Seeker: Maybe I should make an appointment.
+Supporter: Getting help from a trained professional can often help to solve problems
+Seeker: You make a good point. What type of doctor could I see?
+Supporter: You could try going to your primary care physician and ask for recommendations.
+Seeker: I can do that. Are there any doctors that deal with emotions?
+Supporter: I've help take a family member to a psychiatrist for help and it's been a tremendous support to help their lives be full again after great hardships.
+Seeker: I'm worried about the stigma of going to a shrink.
+Supporter: Under HIPPA your visit is confidential.
+Seeker: Well in that case, if it can help it may be worth a try.
+Supporter: You deserve lots of credit for taking care of yourself and seeing a doctor.
+Seeker: Thank you for the encouragement.
+Supporter: You are very welcome. Is there anything else I can help you with?
+Seeker: No thank you. I think I have some strategies to move forward.
+
+current_text_to_classify: No thank you. I think I have some strategies to move forward.
+==============================================
+
+========== PROMPT FOR test_00078 ==========
+Seeker: Hello, how are you this evening?
+Supporter: Hello Doing good How are doing?
+Seeker: I've been better. The holidays aren't helping me feel better about not bringing much money home to help pay for things.
+Supporter: Sorry to hear this,have you ever tried selling on Ebay
+Seeker: I've thought about selling stuff online, but the cost of selling things online isn't really worth it. I've been trying to use facebook marketplace, but I never have anyone who's interested.
+Supporter: Have you ever heard of QVC liquidations,its awesome with some very good returns.
+Seeker: I've heard of QVC, but I've never heard of QVC liquidations. That might be something for me to consider. Can you give me more details about it?
+Supporter: If your interested you will need to submit a sellers I.D. or tax id
+Seeker: I see. Is this something that you've done to make money?
+Supporter: Absolutely
+Seeker: If you don't mind me asking how much have you made using QVC liquidations?
+Supporter: I have made close to 12,000.00 in one year just reselling the returns.Also ESTY is also a great place.
+Seeker: Wow, what sorts of things have you sold?
+
+current_text_to_classify: Wow, what sorts of things have you sold?
+==============================================
+
+========== PROMPT FOR test_00079 ==========
+Supporter: Hello, how are you doing?
+Seeker: Hi, I'm doing alright I suppose how about yourself?
+Supporter: I am doing well. I've been handling the pandemic surprisingly well given I deal with germaphobia myself. I can't wait for this all to be over. Is there something I can help you with today?
+Seeker: Yeah, the anxiety of being trapped in my apartment has kind of gotten to me but I am doing the best I can to keep myself occupied Just really wanted somebody to talk to I suppose
+Supporter: Yeah, socially distancing is quite the isolating experience so I can relate to how you are feeling. What have you been doing to keep yourself occupied?
+Seeker: Playing video games mostly, I try to exercise everyday and cook meals at home as oppose to eating out.
+Supporter: It's good that you are doing your best to take care of yourself. Have you been able to connect with friends or loved ones?
+Seeker: Not really, but my mother and sister live close by I visit them almost every other day and I have a couple of friends who swing by now and again
+Supporter: It seems like you are doing what you can to stay connected with people. Did something happen that lead you to want to reach out for support?
+Seeker: Yeah, I dealt with my heavy drinking and drug use problems at the beginning of the pandemic
+
+current_text_to_classify: Yeah, I dealt with my heavy drinking and drug use problems at the beginning of the pandemic
+==============================================
+
+========== PROMPT FOR test_00080 ==========
+Supporter: Hi
+Seeker: hey
+Supporter: How are you friend?
+Seeker: Not so good
+Supporter: why? Any Problem?
+Seeker: I feel like everyone hates me
+Supporter: What's the reason?
+Seeker: People are so rude and mean to me. A lot of people call me annoying too
+Supporter: it's their fault , not yours. don't worry..
+Seeker: I feel bad because more than one person has said it. Maybe I am just annoying
+Supporter: Be as you always have been
+Seeker: Sometimes I'm afraid of being myself because I don't want to annoy people
+
+current_text_to_classify: Sometimes I'm afraid of being myself because I don't want to annoy people
+==============================================
+
+========== PROMPT FOR test_00081 ==========
+Seeker: Hello there
+Supporter: Hi, how are you?
+Seeker: Im okay, just a bit out of it
+Supporter: Ok, how may I help you?
+Seeker: I'm just feeling depressed with the year ending This year wasn't a great one
+Supporter: Yes, it is the same for most of the people. Any thing particular bothering you?
+Seeker: I think just general how covid hasn't been resolved yet Its sad being stuck at home
+Supporter: So, you cannot go out due to COVID and that makes you frustrated. Is that correct?
+Seeker: More sad I would say
+Supporter: Have you done anything different than usual while staying at home?
+Seeker: No not really. I just finished the semester
+
+current_text_to_classify: No not really. I just finished the semester
+==============================================
+
+========== PROMPT FOR test_00082 ==========
+Seeker: Hello.
+Supporter: Hi how are you doing today?
+Seeker: I'm alright, just feeling a bit depressed.
+
+current_text_to_classify: I'm alright, just feeling a bit depressed.
+==============================================
+
+========== PROMPT FOR test_00083 ==========
+Seeker: Hello.
+Supporter: Hi how are you doing today?
+Seeker: I'm alright, just feeling a bit depressed.
+Supporter: Im sorry you are feeling depressed. Whats making you feel that way?
+Seeker: Thanksgiving is this week and I will be spending it alone.
+Supporter: Youre spending thanksgiving alone? Do you usually spend Thanksgiving alone?
+Seeker: Yes, and no because of COVID I haven't been able to see my family.
+Supporter: I understand how you feel. COVID is causing a lot of distance between familys making relationships difficult. Have you thought about video chatting them on Thanksgiving?
+Seeker: Yes very. My family lives in another state. Yes, but it's not the same.
+Supporter: I know what you mean, in-person is always better than over the phone. I understand why you would feel this way.
+Seeker: It's made me feel very depressed and I am only feeling worse as the holiday grows closer.
+Supporter: You're not alone in feeling this way. A lot of people are missing their families during the holidays. What would help you during this difficult times? besides video chatting? Can you still cook yourself a nice meal and do any traditions you normally do?
+Seeker: Yes I could do that. I was thinking about ordering a Thanksgiving Platter for 2 people so I could have some leftovers from a restaurant that I really like in my town. They do holiday specials.
+
+current_text_to_classify: Yes I could do that. I was thinking about ordering a Thanksgiving Platter for 2 people so I could have some leftovers from a restaurant that I really like in my town. They do holiday specials.
+==============================================
+
+========== PROMPT FOR test_00084 ==========
+Seeker: Hello.
+Supporter: Hi how are you doing today?
+Seeker: I'm alright, just feeling a bit depressed.
+Supporter: Im sorry you are feeling depressed. Whats making you feel that way?
+Seeker: Thanksgiving is this week and I will be spending it alone.
+Supporter: Youre spending thanksgiving alone? Do you usually spend Thanksgiving alone?
+Seeker: Yes, and no because of COVID I haven't been able to see my family.
+Supporter: I understand how you feel. COVID is causing a lot of distance between familys making relationships difficult. Have you thought about video chatting them on Thanksgiving?
+Seeker: Yes very. My family lives in another state. Yes, but it's not the same.
+Supporter: I know what you mean, in-person is always better than over the phone. I understand why you would feel this way.
+Seeker: It's made me feel very depressed and I am only feeling worse as the holiday grows closer.
+Supporter: You're not alone in feeling this way. A lot of people are missing their families during the holidays. What would help you during this difficult times? besides video chatting? Can you still cook yourself a nice meal and do any traditions you normally do?
+Seeker: Yes I could do that. I was thinking about ordering a Thanksgiving Platter for 2 people so I could have some leftovers from a restaurant that I really like in my town. They do holiday specials.
+Supporter: thats a great idea!
+Seeker: And AMC always shows great holiday movies so I will watch a bunch.
+Supporter: dont worry, soon this pandemic will end and we can go back to the holidays we are used to. We just have to wait. I understand how hard it can make it on holidays though.
+Seeker: Yes I do hope so.
+Supporter: I love AMC/Holiday movies as well!
+Seeker: I understand the situation is dire and people are sick, but everyone is suffering, even emotionally.
+Supporter: that is very true. our world has been so different this year
+Seeker: Yes it's sad.
+Supporter: Is there any foods you are looking forward to from your favorite restraunt or movie your interested to watch this year?
+Seeker: Yes of course. Mashed potatoes and gravy and the movie Four Christmases is hysterical.
+Supporter: great choices! mashed potatoes and gravy is my favorite too! and that movie is so funny.
+Seeker: Haha thanks. Well thank you for chatting with me, I feel better.
+Supporter: You sound like you have a great plan in place as a temporary holiday until we can be with our familes again. i know its not the same but you sound like you are making the best of the situation. which is all we can really do .
+Seeker: Thank you. I'm trying. I really miss my parents.
+
+current_text_to_classify: Thank you. I'm trying. I really miss my parents.
+==============================================
+
+========== PROMPT FOR test_00085 ==========
+Supporter: hello how are you?
+Seeker: Hi, I am feeling sad. My friend's father passed away day before because of COVID-19 disease.
+Supporter: I could see how that would be very upsetting and make you sad. do you have family near by for comfort and support?
+Seeker: Yes, my friends has flown back. But I could not go because of all the restrictions. I am unable to pay last respects in person that was very close to me.
+Supporter: im so sorry to hear of this issue. do you have other outlets like getting out into nature? i find a good walk or a nice book helps with easing my mind.
+Seeker: I could try distracting myself. But my main worry is what if my parents catch corona-virus? The thought makes me very nervous and depressed.
+
+current_text_to_classify: I could try distracting myself. But my main worry is what if my parents catch corona-virus? The thought makes me very nervous and depressed.
+==============================================
+
+========== PROMPT FOR test_00086 ==========
+Supporter: hello how are you?
+Seeker: Hi, I am feeling sad. My friend's father passed away day before because of COVID-19 disease.
+Supporter: I could see how that would be very upsetting and make you sad. do you have family near by for comfort and support?
+Seeker: Yes, my friends has flown back. But I could not go because of all the restrictions. I am unable to pay last respects in person that was very close to me.
+Supporter: im so sorry to hear of this issue. do you have other outlets like getting out into nature? i find a good walk or a nice book helps with easing my mind.
+Seeker: I could try distracting myself. But my main worry is what if my parents catch corona-virus? The thought makes me very nervous and depressed.
+Supporter: i could see why that may worry you. as it would worry me also. as my parents are older in age and i have young children. i just realize that life must go on regardless of given situation. always look to the positive. it is best to find something to ease your mind rather it be facetiming family, reading, yoga, or even getting fresh air hows the weather where you are located?
+Seeker: I am in mid-west Canada and it's snowing like crazy. Winter has arrived already with full force. Going out is not an option So I am trying to watch some movies or study some research papers for my semester exams But there are many disturbances and I can't focus
+
+current_text_to_classify: I am in mid-west Canada and it's snowing like crazy. Winter has arrived already with full force. Going out is not an option So I am trying to watch some movies or study some research papers for my semester exams But there are many disturbances and I can't focus
+==============================================
+
+========== PROMPT FOR test_00087 ==========
+Supporter: hello how are you?
+Seeker: Hi, I am feeling sad. My friend's father passed away day before because of COVID-19 disease.
+Supporter: I could see how that would be very upsetting and make you sad. do you have family near by for comfort and support?
+Seeker: Yes, my friends has flown back. But I could not go because of all the restrictions. I am unable to pay last respects in person that was very close to me.
+Supporter: im so sorry to hear of this issue. do you have other outlets like getting out into nature? i find a good walk or a nice book helps with easing my mind.
+Seeker: I could try distracting myself. But my main worry is what if my parents catch corona-virus? The thought makes me very nervous and depressed.
+Supporter: i could see why that may worry you. as it would worry me also. as my parents are older in age and i have young children. i just realize that life must go on regardless of given situation. always look to the positive. it is best to find something to ease your mind rather it be facetiming family, reading, yoga, or even getting fresh air hows the weather where you are located?
+Seeker: I am in mid-west Canada and it's snowing like crazy. Winter has arrived already with full force. Going out is not an option So I am trying to watch some movies or study some research papers for my semester exams But there are many disturbances and I can't focus
+Supporter: oh goodness, im in the deep south. even tho its close to winter it definitely does not feel that way. what are some disturbances that you deal with currently?
+Seeker: As I told, the thought that my beloved parents or family members catching covid, and the thought of going back to my country in case of emergency keeps playing on my mind
+Supporter: remember as long as your parents remain safe they will be fine. you will be fine. we all will be fine. research has shown that majority of people who have caught covid have recovered with no issues. i myself have had covid and i am here.
+Seeker: Good to know about your recovery. Thanks for the information. Is COVID as bad as it sounds?
+
+current_text_to_classify: Good to know about your recovery. Thanks for the information. Is COVID as bad as it sounds?
+==============================================
+
+========== PROMPT FOR test_00088 ==========
+Supporter: Good afternoon, what can I help you with today?
+Seeker: Hi, I'm just wanting to talk about my sadness that happens every now and then. Sometimes at night, (and only at night) I get in these super depressive moods and have almost mental breakdowns about everything in my life. But it doesn't happen all the time... only sometime and I don't know why
+
+current_text_to_classify: Hi, I'm just wanting to talk about my sadness that happens every now and then. Sometimes at night, (and only at night) I get in these super depressive moods and have almost mental breakdowns about everything in my life. But it doesn't happen all the time... only sometime and I don't know why
+==============================================
+
+========== PROMPT FOR test_00089 ==========
+Supporter: Good afternoon, what can I help you with today?
+Seeker: Hi, I'm just wanting to talk about my sadness that happens every now and then. Sometimes at night, (and only at night) I get in these super depressive moods and have almost mental breakdowns about everything in my life. But it doesn't happen all the time... only sometime and I don't know why
+Supporter: That sounds like a really difficult situation to be in, I'm sorry to hear you're going through that.
+Seeker: Yeah it is, and I'm not sure why it happens
+Supporter: Especially when the sun starts going down sooner, it can seem like we have less time, and as if things are closing in upon us.
+Seeker: Yeah exactly. Where I live, we just had daylight savings so it gets dark around 5:30 PM and it feels like my days are just wasted
+
+current_text_to_classify: Yeah exactly. Where I live, we just had daylight savings so it gets dark around 5:30 PM and it feels like my days are just wasted
+==============================================
+
+========== PROMPT FOR test_00090 ==========
+Supporter: Good afternoon, what can I help you with today?
+Seeker: Hi, I'm just wanting to talk about my sadness that happens every now and then. Sometimes at night, (and only at night) I get in these super depressive moods and have almost mental breakdowns about everything in my life. But it doesn't happen all the time... only sometime and I don't know why
+Supporter: That sounds like a really difficult situation to be in, I'm sorry to hear you're going through that.
+Seeker: Yeah it is, and I'm not sure why it happens
+Supporter: Especially when the sun starts going down sooner, it can seem like we have less time, and as if things are closing in upon us.
+Seeker: Yeah exactly. Where I live, we just had daylight savings so it gets dark around 5:30 PM and it feels like my days are just wasted
+Supporter: There are a few strategies you could use to combat that. Personally, I try to soak in as much sunlight as possible before it goes down. Sometimes that will mean moving your work space, maybe getting up earlier to have a cup of coffee in the sunrise, maybe it's scheduling breaks into your day where you specifically get some vitamin D. As far as the intrusive and repetitive nature of the thoughts, have you ever consulted with a therapist or other mental health professional? Obsessive thoughts are sometimes a sign of anxiety.
+Seeker: Yeah that is good advice. I definitely need to work on getting myself up earlier in the mornings, I've just come so accustomed to my current sleep schedule. And in all honesty, I haven't tried a therapist yet... I'm scared it will be hard to open up to a stranger
+
+current_text_to_classify: Yeah that is good advice. I definitely need to work on getting myself up earlier in the mornings, I've just come so accustomed to my current sleep schedule. And in all honesty, I haven't tried a therapist yet... I'm scared it will be hard to open up to a stranger
+==============================================
+
+========== PROMPT FOR test_00091 ==========
+Supporter: Good afternoon, what can I help you with today?
+Seeker: Hi, I'm just wanting to talk about my sadness that happens every now and then. Sometimes at night, (and only at night) I get in these super depressive moods and have almost mental breakdowns about everything in my life. But it doesn't happen all the time... only sometime and I don't know why
+Supporter: That sounds like a really difficult situation to be in, I'm sorry to hear you're going through that.
+Seeker: Yeah it is, and I'm not sure why it happens
+Supporter: Especially when the sun starts going down sooner, it can seem like we have less time, and as if things are closing in upon us.
+Seeker: Yeah exactly. Where I live, we just had daylight savings so it gets dark around 5:30 PM and it feels like my days are just wasted
+Supporter: There are a few strategies you could use to combat that. Personally, I try to soak in as much sunlight as possible before it goes down. Sometimes that will mean moving your work space, maybe getting up earlier to have a cup of coffee in the sunrise, maybe it's scheduling breaks into your day where you specifically get some vitamin D. As far as the intrusive and repetitive nature of the thoughts, have you ever consulted with a therapist or other mental health professional? Obsessive thoughts are sometimes a sign of anxiety.
+Seeker: Yeah that is good advice. I definitely need to work on getting myself up earlier in the mornings, I've just come so accustomed to my current sleep schedule. And in all honesty, I haven't tried a therapist yet... I'm scared it will be hard to open up to a stranger
+Supporter: That's an understandable fear. I challenge you to think about it as not too different from this chat here; An opportunity to get some objective advice and perspective.
+Seeker: Wow yeah I didn't even really think about that... And I'm sure there are ways to get in contact with therapists without having to be face to face? I just like the anonymous aspect of it. I feel like I come across as weak if people see me for me
+Supporter: Yes, BetterHelp is one of those I believe TalkSpace is another one
+Seeker: Yeah that's true I have heard of BetterHelp. Maybe I should reach out on one of those platforms when I feel like I am going into one of my depressive episodes.
+
+current_text_to_classify: Yeah that's true I have heard of BetterHelp. Maybe I should reach out on one of those platforms when I feel like I am going into one of my depressive episodes.
+==============================================
+
+========== PROMPT FOR test_00091 ==========
+Supporter: Good afternoon, what can I help you with today?
+Seeker: Hi, I'm just wanting to talk about my sadness that happens every now and then. Sometimes at night, (and only at night) I get in these super depressive moods and have almost mental breakdowns about everything in my life. But it doesn't happen all the time... only sometime and I don't know why
+Supporter: That sounds like a really difficult situation to be in, I'm sorry to hear you're going through that.
+Seeker: Yeah it is, and I'm not sure why it happens
+Supporter: Especially when the sun starts going down sooner, it can seem like we have less time, and as if things are closing in upon us.
+Seeker: Yeah exactly. Where I live, we just had daylight savings so it gets dark around 5:30 PM and it feels like my days are just wasted
+Supporter: There are a few strategies you could use to combat that. Personally, I try to soak in as much sunlight as possible before it goes down. Sometimes that will mean moving your work space, maybe getting up earlier to have a cup of coffee in the sunrise, maybe it's scheduling breaks into your day where you specifically get some vitamin D. As far as the intrusive and repetitive nature of the thoughts, have you ever consulted with a therapist or other mental health professional? Obsessive thoughts are sometimes a sign of anxiety.
+Seeker: Yeah that is good advice. I definitely need to work on getting myself up earlier in the mornings, I've just come so accustomed to my current sleep schedule. And in all honesty, I haven't tried a therapist yet... I'm scared it will be hard to open up to a stranger
+Supporter: That's an understandable fear. I challenge you to think about it as not too different from this chat here; An opportunity to get some objective advice and perspective.
+Seeker: Wow yeah I didn't even really think about that... And I'm sure there are ways to get in contact with therapists without having to be face to face? I just like the anonymous aspect of it. I feel like I come across as weak if people see me for me
+Supporter: Yes, BetterHelp is one of those I believe TalkSpace is another one
+Seeker: Yeah that's true I have heard of BetterHelp. Maybe I should reach out on one of those platforms when I feel like I am going into one of my depressive episodes.
+
+current_text_to_classify: Yeah that's true I have heard of BetterHelp. Maybe I should reach out on one of those platforms when I feel like I am going into one of my depressive episodes.
+==============================================
+
+========== PROMPT FOR test_00092 ==========
+Seeker: Hello
+Supporter: Hi there, how are you feeling today?
+Seeker: Just a bit sad. The holidays always seem to do that.
+Supporter: Are you wanting to get back to work?
+Seeker: Work is a good distraction from life.
+
+current_text_to_classify: Work is a good distraction from life.
+==============================================
+
