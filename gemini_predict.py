@@ -87,7 +87,7 @@ MODEL_ID = "gemini-3.1-pro-preview"
 
 # Minimum token count required for context caching to be cost-effective.
 # Gemini enforces a minimum of 32,768 tokens for cached content.
-CACHE_TTL = "7200s"  # Cache lives for 2 hour; adjust as needed.
+CACHE_TTL = "7200"  # Cache lives for 2 hour; adjust as needed.
 
 
 # ==============================================================================
@@ -138,6 +138,7 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
                 system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
                 contents=[SYSTEM_INSTRUCTION],
                 display_name="dmrs-handbook-cache",
+                ttl=CACHE_TTL,
             ),
         )
         print(f"Cache created successfully: {cache.name}")
@@ -236,5 +237,4 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
 
 if __name__ == "__main__":
     # Example usage:
-    # annotate_dataset("train_data.json", "annotated_train_data.json")
-    pass
+    annotate_dataset("train_data.json", "annotated_train_data.json")
