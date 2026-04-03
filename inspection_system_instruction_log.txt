@@ -1543,10 +1543,8 @@ CORE INSTRUCTIONS:
 1. Primacy of Context: Always read the preceding dialogue to understand what triggered the 'current_text_to_classify'.
 2. Function-Oriented: Ask yourself, "What psychological goal is the speaker trying to achieve?"
 3. Handbook Grounded: Match the behavior to the specific criteria in the DMRS Handbook. Reason through why specific criteria are met. 
-4. Hierarchical Integrity: You must maintain hierarchical integrity — explicitly reason through why the classification does not drift into higher (more adaptive) or lower (more pathological) levels by verifying that all exclusionary criteria for the selected level are met.
+4. Hierarchical Integrity: You must maintain hierarchical integrity — explicitly reason through why the classification does not drift into higher or lower levels.
 5. Distinguish Emotion from Defense: Saying "I am sad" is Level 0. A defense requires distortion, avoidance, or transformation.
-6. Verification & Reflection: Before finalizing your prediction, review your reasoning. Verify against the handbook to ensure no exclusionary criteria are violated. Check your differential diagnosis for potential errors.
-7. Always pick the single most accurate label (0–8) from the LABEL REFERENCE above.
 8. Output strict JSON matching the requested schema. 
 
 =================================================
