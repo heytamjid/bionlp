@@ -29,9 +29,9 @@ def list_active_caches():
     except Exception as e:
         print(f"An error occurred while fetching caches:\n{e}")
 
-    client.caches.delete(
-        "projects/942972453935/locations/global/cachedContents/7649212818599706624"
-    )
+    # client.caches.delete(
+    #     name="projects/942972453935/locations/global/cachedContents/8949301755561115648"
+    # )
 
 
 if __name__ == "__main__":

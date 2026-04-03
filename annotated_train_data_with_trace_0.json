@@ -1,0 +1,1178 @@
+[
+    {
+        "id": "train_00001",
+        "dialogue_id": "ESConv_001",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "hi",
+        "label": 0,
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The Seeker initiates the dialogue with a standard social greeting. There is no emotional stressor, anxiety, or psychological conflict present in this exchange.",
+            "psychological_goal": "The speaker is simply acknowledging the greeting to maintain basic conversational flow and social etiquette, without any need to manage anxiety or avoid emotional pain.",
+            "handbook_alignment": "The DMRS handbook explicitly defines Level 0 (No Defense / Neutral Utterance) as utterances that serve a purely conversational or social function without engaging with emotional conflict. It specifically lists 'Greetings and Farewells' such as 'Hi' and 'Hello' as core manifestations of this level.",
+            "differential_diagnosis": "This utterance cannot be classified as any defense mechanism (Levels 1-7) because there is no underlying emotional distress, distortion of reality, or coping strategy being employed. It is a purely functional, undefended statement, firmly placing it at Level 0."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00002",
+        "dialogue_id": "ESConv_001",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her",
+        "label": 2,
+        "predicted_label": "Splitting",
+        "predicted_defense_level": 2,
+        "clinical_reasoning": {
+            "context_trigger": "The Seeker is experiencing financial stress, trying to balance the practical need to pay household bills with the emotional pressure of buying a nice surprise gift for their parents.",
+            "psychological_goal": "To manage the anxiety, guilt, and internal conflict regarding limited finances and familial obligations by polarizing the sources of parental pressure into absolute extremes.",
+            "handbook_alignment": "The utterance aligns with Level 2 (Major Image-distorting Defense), specifically Splitting. The Seeker categorizes their parents into absolute, 'black or white' terms (DMRS-Q Item 35). The father is portrayed as the 'all-good', completely understanding figure ('my father understands the situation'), while the mother is cast as the 'all-bad', entirely unreasonable and hostile figure ('my mum will fuck complain'). This demonstrates a failure to integrate both parents into a cohesive, realistic image with mixed traits.",
+            "differential_diagnosis": "This is not Level 4 (Devaluation) because it is not merely an exaggerated negative evaluation of one person; rather, it is the stark, unintegrated contrast between an 'all-good' object (the father) and an 'all-bad' object (the mother) used simultaneously to manage the stressor. It is not Level 3 (Projection) because the Seeker is not simply falsely attributing their own unacknowledged feelings to the mother, but structurally splitting the parental unit to cope with the anxiety of not meeting expectations."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00003",
+        "dialogue_id": "ESConv_001",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is pretty ridiculous how income doesn't increase along with inflation/cost of living. Very illogical and crippling to many of us financially. Of course you'll need to put your rent and utilities above all else, and since the gift you are feeling stressed out about is a parental gift,",
+                "speaker": "supporter"
+            },
+            {
+                "text": "that is the major concern, the gift is once in a year and now all my bills are needed to be paid at least before end of the week",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "that is the major concern, the gift is once in a year and now all my bills are needed to be paid at least before end of the week",
+        "label": 7,
+        "predicted_label": "Self-Observation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The Seeker is experiencing financial stress, caught between the immediate practical need to pay household bills and the emotional pressure to buy an annual gift for their parents.",
+            "psychological_goal": "To accurately assess and articulate the conflicting demands of their situation, facing the reality of their limitations to effectively manage the stress.",
+            "handbook_alignment": "The response demonstrates a Highly Adaptive Defense (Level 7), specifically Self-Observation. The Seeker accurately reflects on the core of their emotional and practical conflict ('that is the major concern'), weighing the significance of the gift ('once in a year') against the hard reality of their financial deadlines ('bills are needed to be paid at least before end of the week'). This shows an ability to explore emotional reactions and adjust to realistic limitations and compromises (DMRS-Q Item 32).",
+            "differential_diagnosis": "This is not a Level 3 Disavowal defense (like Denial or Rationalization) because the Seeker does not ignore the financial reality or make excuses for the situation; they confront the facts directly. It is not a Level 6 Obsessional defense (like Intellectualization) because the Seeker remains grounded in the practical and emotional reality of the 'major concern' without retreating into abstract generalizations or detaching from the stress."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00004",
+        "dialogue_id": "ESConv_001",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is pretty ridiculous how income doesn't increase along with inflation/cost of living. Very illogical and crippling to many of us financially. Of course you'll need to put your rent and utilities above all else, and since the gift you are feeling stressed out about is a parental gift,",
+                "speaker": "supporter"
+            },
+            {
+                "text": "that is the major concern, the gift is once in a year and now all my bills are needed to be paid at least before end of the week",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I think that you will find out that all your parents really want is for you to be happy and to get to spend some quality family time with you. They love you and want you to be happy and healthy.That is a gift a lot of parents don't get, surprisingly..",
+                "speaker": "supporter"
+            },
+            {
+                "text": "may be i should use credit card to get her new year present and use my salary to pay the bills and rent my presence is much important likewise i will need to be happy and get rid of this fucking depression, I can't kill my fucking self.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "may be i should use credit card to get her new year present and use my salary to pay the bills and rent my presence is much important likewise i will need to be happy and get rid of this fucking depression, I can't kill my fucking self.",
+        "label": 7,
+        "predicted_label": "Self-Assertion",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The Seeker is experiencing severe financial stress, caught between the immediate need to pay essential living expenses and the pressure to buy a New Year's gift to appease their demanding mother, which is exacerbating their depression.",
+            "psychological_goal": "To actively resolve the practical financial dilemma while firmly asserting their own emotional boundaries, intrinsic value, and will to survive.",
+            "handbook_alignment": "The utterance aligns with Self-Assertion (Level 7). According to the DMRS handbook, Self-Assertion involves expressing one's feelings, thoughts, and needs directly to achieve goals, and taking steps to deal with practical or emotional problems (DMRS-Q Item 90). The Seeker formulates a concrete plan to manage the stressor ('use credit card to get her new year present and use my salary to pay the bills') and directly advocates for their own mental health and survival ('my presence is much important', 'need to be happy', 'can't kill my fucking self') without inhibition (DMRS-Q Item 146).",
+            "differential_diagnosis": "This is not a Level 1 Action Defense (such as Acting Out) because the Seeker is not impulsively acting on their frustration or depression; instead, they are verbalizing a constructive plan to manage it. It is not a Level 3 Disavowal defense (like Denial) because they fully acknowledge the harsh reality of their finances and their depressive state. The response is classified at Level 7 because it demonstrates highly adaptive coping, integrating practical problem-solving with a mature, direct assertion of their own emotional needs and boundaries."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00005",
+        "dialogue_id": "ESConv_001",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is pretty ridiculous how income doesn't increase along with inflation/cost of living. Very illogical and crippling to many of us financially. Of course you'll need to put your rent and utilities above all else, and since the gift you are feeling stressed out about is a parental gift,",
+                "speaker": "supporter"
+            },
+            {
+                "text": "that is the major concern, the gift is once in a year and now all my bills are needed to be paid at least before end of the week",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I think that you will find out that all your parents really want is for you to be happy and to get to spend some quality family time with you. They love you and want you to be happy and healthy.That is a gift a lot of parents don't get, surprisingly..",
+                "speaker": "supporter"
+            },
+            {
+                "text": "may be i should use credit card to get her new year present and use my salary to pay the bills and rent my presence is much important likewise i will need to be happy and get rid of this fucking depression, I can't kill my fucking self.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It may sound cheesy to you,, but making a gift for someone is still one of the best ways to tell someone how much you really care. You were willing to give of yourself and your valuable time to actually create a gift.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "definitely , thanks for your time , bye for now",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "definitely , thanks for your time , bye for now",
+        "label": 0,
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The conversation is concluding after the Supporter provided advice on how to handle the Seeker's financial stress regarding buying a gift.",
+            "psychological_goal": "To politely acknowledge the Supporter's input, express basic gratitude, and formally end the dialogue.",
+            "handbook_alignment": "The DMRS handbook explicitly categorizes 'Greetings and Farewells' (e.g., 'bye for now') and 'Simple Social Rituals' (e.g., 'thanks for your time') as Level 0. The utterance serves a purely functional, conversational purpose without engaging in emotional conflict.",
+            "differential_diagnosis": "This is not Level 7 Affiliation because it is a brief, standard social pleasantry rather than a deep reflection on the emotional support received. It lacks any psychological distortion, evasion, or acting out, ruling out all defensive tiers (Levels 1-7)."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00006",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "when did this start?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "About eight years ago.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "About eight years ago.",
+        "label": 0,
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks a direct, factual question regarding the timeline of the seeker's symptoms ('when did this start?').",
+            "psychological_goal": "The speaker is simply providing a factual answer to the supporter's question to maintain the conversational flow and exchange logistical medical history.",
+            "handbook_alignment": "The utterance aligns perfectly with Level 0 (No Defense / Neutral Utterance). The handbook explicitly defines this level as 'purely functional utterances that serve to maintain conversational flow... or exchange non-emotional information.' Furthermore, 'Reporting factual details of an event' is explicitly listed in the handbook as a situation that is typically not a defense.",
+            "differential_diagnosis": "This is not a Level 6 (Isolation of Affect) because the brief, factual response is entirely appropriate for the specific timeline question asked, rather than an avoidance of emotion during a traumatic narrative. It is not a Level 3 (Disavowal) as there is no evasion of facts or reality. It remains at Level 0 because it completely lacks any psychological distortion, emotional avoidance, or defensive function."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00007",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "when did this start?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "About eight years ago.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i see. have you sought out any medical help with the back pain?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was supposed to have surgery for it, but it has been cancelled because the hospitals are full due to the coronavirus.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yes, I was supposed to have surgery for it, but it has been cancelled because the hospitals are full due to the coronavirus.",
+        "label": 7,
+        "predicted_label": "Self-Assertion / Suppression",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks if the seeker has sought medical help for their severe, chronic back pain that has been causing anxiety and depression for eight years.",
+            "psychological_goal": "To demonstrate active coping by explaining the steps taken to address the medical issue, while maturely accepting an uncontrollable external limitation (the pandemic) without resorting to blame or despair.",
+            "handbook_alignment": "The response aligns with Level 7 (Highly Adaptive), specifically Self-Assertion (ITEM 90: taking steps to deal with physical/emotional needs rather than ignoring them) and Suppression (ITEM 49: accepting an external demanding situation over which they have no control). The seeker actively sought surgery and objectively accepts the pandemic-related cancellation without distortion.",
+            "differential_diagnosis": "This is not Level 3 (Rationalization) because the cancellation reason (COVID-19) is an objective, external reality, not a self-serving excuse to avoid responsibility. It is not Level 1 (Help-Rejecting Complaining) because the seeker is not rejecting the supporter's help, but rather explaining a legitimate, factual barrier to their prior treatment plan. It transcends Level 0 because it reflects active, mature coping and reality acceptance in the face of a severe emotional and physical stressor."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00008",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "when did this start?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "About eight years ago.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i see. have you sought out any medical help with the back pain?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was supposed to have surgery for it, but it has been cancelled because the hospitals are full due to the coronavirus.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "yeah, this pandemic has thrown a wrench into many people's plans, but hopefully things will ease up soon.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I hope so too, but it looks like it's going to be a long time.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I hope so too, but it looks like it's going to be a long time.",
+        "label": 7,
+        "predicted_label": "Anticipation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The Seeker is suffering from chronic severe back pain and the recent cancellation of a much-needed surgery due to the COVID-19 pandemic, compounded by the Supporter's optimistic reassurance that things will ease up soon.",
+            "psychological_goal": "To protect themselves from further disappointment and manage the anxiety of their chronic pain by setting realistic expectations about the timeline for their delayed surgery.",
+            "handbook_alignment": "The response aligns with Anticipation, a Level 7 Highly Adaptive defense. The handbook defines Anticipation as 'Mitigating stressors by considering realistic outcomes and mentally rehearsing potential emotional reactions to future problems.' By stating 'it looks like it's going to be a long time,' the Seeker is actively preparing emotionally for a prolonged delay, demonstrating realistic foresight to buffer against the stress of uncertainty.",
+            "differential_diagnosis": "This is not a Level 3 Disavowal defense (such as Denial) because the Seeker fully acknowledges the painful reality of the situation rather than ignoring it. It is not Level 0 (No Defense) because it actively manages the emotional distress of a significant stressor by modulating expectations. It is not Level 6 (Obsessional) because the affect is integrated with the cognitive assessment, rather than isolated or intellectualized."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00009",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "when did this start?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "About eight years ago.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i see. have you sought out any medical help with the back pain?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was supposed to have surgery for it, but it has been cancelled because the hospitals are full due to the coronavirus.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "yeah, this pandemic has thrown a wrench into many people's plans, but hopefully things will ease up soon.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I hope so too, but it looks like it's going to be a long time.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "it is a bit daunting when we see the number of infections increasing and people getting sick, but i think it will just be a matter of time before things get better. and hopefully a vaccine will help with the hospitalizations",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hopefully, but how to deal with it in the mean time?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Hopefully, but how to deal with it in the mean time?",
+        "label": 7,
+        "predicted_label": "Affiliation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The seeker is suffering from severe, chronic back pain and their scheduled surgery was cancelled due to the pandemic. The supporter offers future-oriented reassurance, which leaves the seeker's immediate, ongoing distress unaddressed.",
+            "psychological_goal": "The seeker aims to actively cope with their current physical and emotional pain by soliciting practical advice and collaborative problem-solving from the supporter.",
+            "handbook_alignment": "The utterance aligns with Affiliation (Level 7). By asking 'how to deal with it in the mean time?', the seeker explicitly turns to the supporter for help and guidance to collaboratively find a solution to their immediate problem. This matches the core definition of Affiliation and DMRS-Q Item 22, where the subject brings a personal problem to someone for help or advice to come up with a workable solution.",
+            "differential_diagnosis": "This is not Level 1 Help-Rejecting Complaining because the seeker is genuinely asking for coping strategies rather than dismissing offered advice. It is not a Level 0 Neutral Utterance because it actively engages with the emotional stressor and seeks a practical coping mechanism. It is not Level 6 Intellectualization because the seeker is directly addressing their personal, immediate need for help rather than abstracting or generalizing the problem."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00010",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "when did this start?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "About eight years ago.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i see. have you sought out any medical help with the back pain?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was supposed to have surgery for it, but it has been cancelled because the hospitals are full due to the coronavirus.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "yeah, this pandemic has thrown a wrench into many people's plans, but hopefully things will ease up soon.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I hope so too, but it looks like it's going to be a long time.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "it is a bit daunting when we see the number of infections increasing and people getting sick, but i think it will just be a matter of time before things get better. and hopefully a vaccine will help with the hospitalizations",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hopefully, but how to deal with it in the mean time?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you're already taking a step in the right direction by talking to me about your anxiety and depression. i'm amazed that you've been able to just deal with it for 8 years i've had friends who suffered from anxiety and depression, and i've noticed that just talking things through can sometimes help a lot",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It's been very hard, I've also had to take care of my mother in that time period, but she sadly passed away last march, possibly from the virus and I've been having a hard time processing that grief.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "It's been very hard, I've also had to take care of my mother in that time period, but she sadly passed away last march, possibly from the virus and I've been having a hard time processing that grief.",
+        "label": 7,
+        "predicted_label": "Self-Observation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The Supporter acknowledges the Seeker's 8-year struggle with anxiety and depression and suggests that talking through these issues can be helpful. The underlying stressors include chronic pain, a canceled surgery, and the recent death of the Seeker's mother.",
+            "psychological_goal": "The speaker aims to actively reflect on and articulate their complex emotional state to gain insight and share their internal reality with the supporter, rather than avoiding the painful feelings.",
+            "handbook_alignment": "This utterance aligns with Self-Observation (Level 7). The handbook defines Self-Observation as reflecting on one's own thoughts, feelings, and behaviors to gain insight. The Seeker explicitly connects their past experiences (taking care of their mother, her passing) to their current emotional struggle ('having a hard time processing that grief'). This demonstrates a mature, conscious exploration of their emotional reactions to a profound loss, matching the criteria for highly adaptive coping.",
+            "differential_diagnosis": "This is not a Level 0 (No Defense) utterance because it involves the active psychological processing of deep emotional conflict and grief, rather than a simple factual or neutral exchange. It is not a Level 6 (Obsessional) defense like Isolation of Affect or Intellectualization because the Seeker remains fully in touch with the painful affect ('It's been very hard') rather than detaching from it or explaining it away abstractly. The direct, insightful acknowledgment of their emotional difficulty confirms a Level 7 Highly Adaptive defense."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00011",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "when did this start?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "About eight years ago.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i see. have you sought out any medical help with the back pain?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was supposed to have surgery for it, but it has been cancelled because the hospitals are full due to the coronavirus.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "yeah, this pandemic has thrown a wrench into many people's plans, but hopefully things will ease up soon.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I hope so too, but it looks like it's going to be a long time.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "it is a bit daunting when we see the number of infections increasing and people getting sick, but i think it will just be a matter of time before things get better. and hopefully a vaccine will help with the hospitalizations",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hopefully, but how to deal with it in the mean time?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you're already taking a step in the right direction by talking to me about your anxiety and depression. i'm amazed that you've been able to just deal with it for 8 years i've had friends who suffered from anxiety and depression, and i've noticed that just talking things through can sometimes help a lot",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It's been very hard, I've also had to take care of my mother in that time period, but she sadly passed away last march, possibly from the virus and I've been having a hard time processing that grief.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i'm very sorry to hear about your mother's passing, and a significant loss like that can take some time to process from my experience, it really helps just to open up to someone about the things that are on your mind. even a journal can help. if you have someone who can lend an ear to listen and a shoulder to cry on, spending some time with them can help you get your feelings out and might give you a sense of relief",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That's true, I know many are suffering so much right now and many people have also lost their loved ones. It makes the isolation all the harder trying to handle the grief. It does help to talk, thank you. Do you have any suggestions on how to handle the anxiety?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "That's true, I know many are suffering so much right now and many people have also lost their loved ones. It makes the isolation all the harder trying to handle the grief. It does help to talk, thank you. Do you have any suggestions on how to handle the anxiety?",
+        "label": 6,
+        "predicted_label": "Intellectualization",
+        "predicted_defense_level": 6,
+        "clinical_reasoning": {
+            "context_trigger": "The Supporter encourages the Seeker to open up and process the profound, acute grief of recently losing their mother, potentially to COVID-19.",
+            "psychological_goal": "To mitigate the overwhelming intensity of personal grief and anxiety by retreating into a cognitive, generalized, and detached perspective.",
+            "handbook_alignment": "The response illustrates Intellectualization (Level 6). According to DMRS-Q ITEM 26 and ITEM 60, the subject avoids experiencing specific personal feelings by making general statements or discussing things logically. By stating 'many are suffering so much right now and many people have also lost their loved ones,' the Seeker dilutes their personal tragedy into a global, objective phenomenon. Furthermore, referring to 'the isolation,' 'the grief,' and 'the anxiety' treats these profound emotions as detached, abstract concepts to be 'handled' rather than raw feelings to be experienced.",
+            "differential_diagnosis": "This is not Level 7 (Affiliation or Self-Observation) because, although the Seeker politely asks for advice, the emotional processing of the grief is bypassed through generalization rather than deeply felt or explored. It is not Level 5 (Displacement) because the Seeker is still talking about the actual stressor (COVID losses, grief), but doing so from a detached, intellectualized distance rather than shifting the emotion to an irrelevant target. It is not Level 3 (Rationalization) as there is no attempt to excuse or justify a fault; the focus is purely on cognitive distancing from painful affect."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00012",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "when did this start?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "About eight years ago.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i see. have you sought out any medical help with the back pain?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was supposed to have surgery for it, but it has been cancelled because the hospitals are full due to the coronavirus.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "yeah, this pandemic has thrown a wrench into many people's plans, but hopefully things will ease up soon.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I hope so too, but it looks like it's going to be a long time.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "it is a bit daunting when we see the number of infections increasing and people getting sick, but i think it will just be a matter of time before things get better. and hopefully a vaccine will help with the hospitalizations",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hopefully, but how to deal with it in the mean time?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you're already taking a step in the right direction by talking to me about your anxiety and depression. i'm amazed that you've been able to just deal with it for 8 years i've had friends who suffered from anxiety and depression, and i've noticed that just talking things through can sometimes help a lot",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It's been very hard, I've also had to take care of my mother in that time period, but she sadly passed away last march, possibly from the virus and I've been having a hard time processing that grief.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i'm very sorry to hear about your mother's passing, and a significant loss like that can take some time to process from my experience, it really helps just to open up to someone about the things that are on your mind. even a journal can help. if you have someone who can lend an ear to listen and a shoulder to cry on, spending some time with them can help you get your feelings out and might give you a sense of relief",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That's true, I know many are suffering so much right now and many people have also lost their loved ones. It makes the isolation all the harder trying to handle the grief. It does help to talk, thank you. Do you have any suggestions on how to handle the anxiety?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "personally, i find that hobbies are great for getting your mind off things and keeping yourself occupied means that your mind doesn't wander into dark thoughts",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That is good advice, I will try to stay busier. Also, do you know of any support groups online that might be helpful?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "That is good advice, I will try to stay busier. Also, do you know of any support groups online that might be helpful?",
+        "label": 7,
+        "predicted_label": "Affiliation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The Seeker is experiencing profound grief from their mother's recent passing, compounded by chronic back pain, cancelled surgery, and pandemic-induced isolation and anxiety. The Supporter has just suggested using hobbies to cope with the anxiety.",
+            "psychological_goal": "To actively manage overwhelming feelings of anxiety and grief by seeking constructive external support and collaborative problem-solving resources.",
+            "handbook_alignment": "The utterance perfectly aligns with Affiliation (Level 7). The Seeker explicitly accepts the Supporter's advice ('That is good advice') and actively seeks further collaborative help ('do you know of any support groups online'). This matches DMRS-Q Item 22, where the subject brings a problem to someone for advice to help come up with a solution they will implement, and Item 66, where confiding in someone leads to the enhancement of coping skills.",
+            "differential_diagnosis": "This is not a Level 0 (No Defense) because it is an active coping strategy deployed against significant emotional distress, not merely a functional conversational turn. It is differentiated from Level 1 Help-Rejecting Complaining because the Seeker explicitly validates and accepts the helper's input rather than dismissing it. It is not a Level 6 Obsessional defense (like Intellectualization) because the Seeker remains emotionally engaged and is seeking practical, relational support rather than abstracting the problem."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00013",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "when did this start?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "About eight years ago.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i see. have you sought out any medical help with the back pain?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was supposed to have surgery for it, but it has been cancelled because the hospitals are full due to the coronavirus.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "yeah, this pandemic has thrown a wrench into many people's plans, but hopefully things will ease up soon.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I hope so too, but it looks like it's going to be a long time.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "it is a bit daunting when we see the number of infections increasing and people getting sick, but i think it will just be a matter of time before things get better. and hopefully a vaccine will help with the hospitalizations",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hopefully, but how to deal with it in the mean time?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you're already taking a step in the right direction by talking to me about your anxiety and depression. i'm amazed that you've been able to just deal with it for 8 years i've had friends who suffered from anxiety and depression, and i've noticed that just talking things through can sometimes help a lot",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It's been very hard, I've also had to take care of my mother in that time period, but she sadly passed away last march, possibly from the virus and I've been having a hard time processing that grief.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i'm very sorry to hear about your mother's passing, and a significant loss like that can take some time to process from my experience, it really helps just to open up to someone about the things that are on your mind. even a journal can help. if you have someone who can lend an ear to listen and a shoulder to cry on, spending some time with them can help you get your feelings out and might give you a sense of relief",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That's true, I know many are suffering so much right now and many people have also lost their loved ones. It makes the isolation all the harder trying to handle the grief. It does help to talk, thank you. Do you have any suggestions on how to handle the anxiety?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "personally, i find that hobbies are great for getting your mind off things and keeping yourself occupied means that your mind doesn't wander into dark thoughts",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That is good advice, I will try to stay busier. Also, do you know of any support groups online that might be helpful?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "just from this limited conversation, it sounds like you're an amazing person and i sincerely commend you for seeking help here and pushing yourself to cope with you loss and pain. i really wish there was more i could do to help but i believe in you ;) this might sound silly, but reddit is a great resource. there are some great support groups there who help each other and lift people up",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thank you, I will look there for others going through the same things, it doesn't sound silly at all and you are an amazing person too. Thank you for listening and your thoughtful help.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Thank you, I will look there for others going through the same things, it doesn't sound silly at all and you are an amazing person too. Thank you for listening and your thoughtful help.",
+        "label": 7,
+        "predicted_label": "Affiliation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The Seeker is experiencing profound grief, isolation, and anxiety due to chronic back pain, a canceled surgery, and the recent passing of their mother during the pandemic.",
+            "psychological_goal": "To actively manage emotional distress and feelings of isolation by accepting social support and implementing constructive advice.",
+            "handbook_alignment": "The utterance aligns with Affiliation (Level 7). The Seeker actively accepts the Supporter's advice to find online communities ('I will look there for others going through the same things') and expresses genuine gratitude for the collaborative problem-solving ('Thank you for listening and your thoughtful help'). This matches DMRS-Q ITEM 22 and ITEM 44, where the individual brings a problem to someone to help come up with a solution which they then plan to implement, demonstrating a mature, adaptive reliance on others.",
+            "differential_diagnosis": "This is not a Level 0 (No Defense) because it goes beyond a simple social pleasantry; it involves actively integrating advice to cope with severe emotional distress. It is not Level 1 (Help-Rejecting Complaining) because the Seeker enthusiastically accepts rather than rejects the help. Furthermore, despite calling the supporter 'amazing', it is not Level 4 (Idealization) because the praise is a realistic, proportionate expression of gratitude for actual support received, rather than an exaggerated distortion used to avoid internal conflict."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00014",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "when did this start?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "About eight years ago.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i see. have you sought out any medical help with the back pain?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was supposed to have surgery for it, but it has been cancelled because the hospitals are full due to the coronavirus.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "yeah, this pandemic has thrown a wrench into many people's plans, but hopefully things will ease up soon.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I hope so too, but it looks like it's going to be a long time.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "it is a bit daunting when we see the number of infections increasing and people getting sick, but i think it will just be a matter of time before things get better. and hopefully a vaccine will help with the hospitalizations",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hopefully, but how to deal with it in the mean time?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you're already taking a step in the right direction by talking to me about your anxiety and depression. i'm amazed that you've been able to just deal with it for 8 years i've had friends who suffered from anxiety and depression, and i've noticed that just talking things through can sometimes help a lot",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It's been very hard, I've also had to take care of my mother in that time period, but she sadly passed away last march, possibly from the virus and I've been having a hard time processing that grief.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i'm very sorry to hear about your mother's passing, and a significant loss like that can take some time to process from my experience, it really helps just to open up to someone about the things that are on your mind. even a journal can help. if you have someone who can lend an ear to listen and a shoulder to cry on, spending some time with them can help you get your feelings out and might give you a sense of relief",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That's true, I know many are suffering so much right now and many people have also lost their loved ones. It makes the isolation all the harder trying to handle the grief. It does help to talk, thank you. Do you have any suggestions on how to handle the anxiety?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "personally, i find that hobbies are great for getting your mind off things and keeping yourself occupied means that your mind doesn't wander into dark thoughts",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That is good advice, I will try to stay busier. Also, do you know of any support groups online that might be helpful?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "just from this limited conversation, it sounds like you're an amazing person and i sincerely commend you for seeking help here and pushing yourself to cope with you loss and pain. i really wish there was more i could do to help but i believe in you ;) this might sound silly, but reddit is a great resource. there are some great support groups there who help each other and lift people up",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thank you, I will look there for others going through the same things, it doesn't sound silly at all and you are an amazing person too. Thank you for listening and your thoughtful help.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you're very welcome, and thank you for your kind words. stay strong and i know you can get through this. i don't know what the rules are on sharing personal contact info here, but i'm happy to be a friend or pen pal if you just need someone to talk to",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks, you stay strong too! I know this time isn't easy for anyone. I'm just grateful for the few minutes of help here, you really did help. No need to share too many details, I think that going to the reddit forum will lead me to other people in my area that might be able to get together and help each other. Thanks very much for your help and good advice and you have a wonderful evening!",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Thanks, you stay strong too! I know this time isn't easy for anyone. I'm just grateful for the few minutes of help here, you really did help. No need to share too many details, I think that going to the reddit forum will lead me to other people in my area that might be able to get together and help each other. Thanks very much for your help and good advice and you have a wonderful evening!",
+        "label": 7,
+        "predicted_label": "Affiliation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter offers personal contact information and suggests online support groups (Reddit) to help the seeker cope with severe anxiety, physical pain, and grief.",
+            "psychological_goal": "The seeker aims to express genuine gratitude, establish appropriate interpersonal boundaries regarding personal contact, and actively plan to seek community support to manage their distress.",
+            "handbook_alignment": "The utterance clearly demonstrates Affiliation (Level 7). The seeker explicitly plans to use the suggested resource to connect with others for mutual support ('going to the reddit forum will lead me to other people in my area that might be able to get together and help each other'). This aligns with DMRS-Q ITEM 22 and ITEM 44, where the subject seeks help, learns from the interchange, and plans to implement a collaborative solution. Additionally, politely declining the personal contact ('No need to share too many details') while maintaining warmth shows mature Self-Assertion.",
+            "differential_diagnosis": "This is not a Level 0 (No Defense) response because it goes beyond a simple social pleasantry; the seeker is actively integrating the advice to form a constructive coping strategy based on social support. It is not a Level 6 (Obsessional) defense because the emotional connection, empathy ('I know this time isn't easy for anyone'), and gratitude are genuine and integrated, rather than detached or overly intellectualized. The active, realistic approach to problem-solving places this firmly in the Highly Adaptive tier."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00015",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+        "label": 6,
+        "predicted_label": "Intellectualization",
+        "predicted_defense_level": 6,
+        "clinical_reasoning": {
+            "context_trigger": "The Seeker is experiencing acute distress, anxiety, and financial struggle due to unemployment during the COVID-19 pandemic. The Supporter asks a direct, practical question about their job search, which forces the Seeker to focus on their specific, stressful reality.",
+            "psychological_goal": "To distance themselves from the overwhelming personal pain and anxiety of their specific situation by diluting their individual struggle into a broader, universal problem.",
+            "handbook_alignment": "The utterance aligns with Level 6 Obsessional Defenses, specifically Intellectualization. The Seeker shifts from their personal emotional struggle to a global observation ('tough everywhere', 'alot of people having a hard time'). This perfectly matches DMRS-Q ITEM 26 and ITEM 60, where the subject avoids focusing on specific personal feelings or issues by making general statements that appear accurate but serve to keep their own distressing experiences at a safe, intellectual distance.",
+            "differential_diagnosis": "This is not a Level 7 Highly Adaptive defense (such as Affiliation or Altruism) because the Seeker is not actively collaborating on a solution or providing direct help; they are using the plight of others to deflect from their own pain. It is not a Level 5 Neurotic defense (like Displacement) because the emotion is not being redirected at a safer, unrelated target; rather, the emotional intensity is neutralized through abstract generalization. It is also not Level 3 Rationalization, as the Seeker is not making self-serving excuses for their unemployment, but rather using global facts to avoid personal emotional engagement."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00016",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well I applaud your efforts to seek out employment! Keep up the faith!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay",
+        "label": 7,
+        "predicted_label": "Self-Assertion",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The prolonged stress of unemployment, financial instability, and COVID-19 isolation, brought to the forefront by the Supporter's encouragement to 'keep up the faith'.",
+            "psychological_goal": "To manage feelings of helplessness and isolation by directly acknowledging their emotional distress while actively taking practical steps to cope.",
+            "handbook_alignment": "The utterance demonstrates Self-Assertion, specifically aligning with ITEM 90 and ITEM 146 of the DMRS handbook. The Seeker directly and clearly expresses their emotional state ('stir crazy') and reality ('hasnt been greay') without inhibition or excess. Furthermore, they take practical steps to deal with their needs ('do the mturk here and there') rather than passively hoping the problem resolves itself or ignoring it.",
+            "differential_diagnosis": "This is not Help-Rejecting Complaining (Level 1) because the Seeker is not rejecting advice or wallowing in insoluble complaints; they are actively trying to improve their situation. It is not a Disavowal defense like Denial (Level 3) because the harsh reality is fully acknowledged. The presence of direct emotional expression combined with constructive, reality-based action elevates this to a Highly Adaptive (Level 7) defense."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00017",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well I applaud your efforts to seek out employment! Keep up the faith!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ill check it out",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "ill check it out",
+        "label": 7,
+        "predicted_label": "Affiliation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The Seeker is experiencing severe financial and emotional stress due to unemployment during the COVID-19 pandemic. The Supporter has just provided a link to a government resource for assistance.",
+            "psychological_goal": "To actively cope with the stress of financial instability by accepting the support and practical resources offered by the Supporter.",
+            "handbook_alignment": "The utterance aligns with Affiliation (Level 7). The handbook defines Affiliation as turning to others for help and support to collaboratively find solutions. By stating 'ill check it out' in response to the provided resource, the Seeker demonstrates a willingness to utilize the help received to address their real-world problem, matching the criteria for adaptive help-seeking.",
+            "differential_diagnosis": "This is not a Level 1 Action Defense (Help-Rejecting Complaining) because the Seeker accepts the advice rather than dismissing it with a 'yes, but...' attitude. It is not a Level 0 Neutral Utterance because, in the context of the ongoing stressor, accepting a resource represents an active, adaptive coping mechanism rather than just a conversational pleasantry. It also avoids Level 3 Disavowal defenses, as the Seeker is directly engaging with reality and taking practical steps rather than denying or rationalizing the problem."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00018",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well I applaud your efforts to seek out employment! Keep up the faith!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ill check it out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes I understand, I live in Iowa- a bigger town but the struggles are still very real",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks ah word i hear ya i was in des moises once zombie burher lol burger",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "thanks ah word i hear ya i was in des moises once zombie burher lol burger",
+        "label": 7,
+        "predicted_label": "Humor",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter validates the seeker's difficulties by sharing their own experience of living in Iowa where 'the struggles are still very real,' maintaining the heavy, stressful focus on pandemic-related hardships.",
+            "psychological_goal": "The seeker is trying to relieve the accumulated emotional tension and heaviness of the conversation by introducing a lighthearted, amusing connection.",
+            "handbook_alignment": "The seeker's playful reference to a local restaurant ('zombie burher') and the use of 'lol' aligns with the DMRS definition of Humor (Level 7). The subject makes an amusing comment to diffuse tension and mitigate the negative feelings associated with a difficult, unchangeable situation (unemployment and COVID-19 struggles).",
+            "differential_diagnosis": "This is not a Level 0 Neutral Utterance because it actively serves an emotional regulatory function to lighten the mood. It is not a Level 3 Disavowal defense (such as Denial) because the seeker is not rejecting or ignoring the reality of their severe financial struggles; rather, they are using a mature, adaptive coping mechanism to momentarily manage the emotional weight of the shared distress. It is not Level 6 Intellectualization as it relies on shared amusement and connection rather than abstract, detached logic."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00019",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well I applaud your efforts to seek out employment! Keep up the faith!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ill check it out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes I understand, I live in Iowa- a bigger town but the struggles are still very real",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks ah word i hear ya i was in des moises once zombie burher lol burger",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks yea i hope they open and stay open i guess we will see sooo goood",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "thanks yea i hope they open and stay open i guess we will see sooo goood",
+        "label": 7,
+        "predicted_label": "Anticipation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The ongoing stress and uncertainty of finding employment during the COVID-19 pandemic, specifically waiting to hear back from a potential job at a ski resort.",
+            "psychological_goal": "To manage anxiety about the unpredictable future by realistically acknowledging the uncertainty while maintaining a hopeful and balanced emotional state.",
+            "handbook_alignment": "The seeker's response, 'i hope they open and stay open i guess we will see,' demonstrates Anticipation. According to the handbook, Anticipation involves mitigating stressors by considering realistic outcomes and emotionally preparing for them. The seeker acknowledges the reality that the outcome is out of their control ('i guess we will see') but remains realistically hopeful, effectively modulating their anxiety.",
+            "differential_diagnosis": "This is not a Level 3 Disavowal defense (such as Autistic Fantasy or Denial) because the seeker is not retreating into unrealistic daydreams or ignoring the reality of the pandemic's impact; they are fully grounded in the real-world constraints. It is not a Level 6 Obsessional defense because there is no detachment of affect\u2014the seeker expresses genuine hope and positive emotion (also connecting over the shared joke 'sooo goood'). It elevates to a Level 7 Highly Adaptive defense because the seeker actively and maturely copes with the stressor by integrating realistic expectations with emotional regulation."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "train_00020",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well I applaud your efforts to seek out employment! Keep up the faith!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ill check it out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes I understand, I live in Iowa- a bigger town but the struggles are still very real",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks ah word i hear ya i was in des moises once zombie burher lol burger",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks yea i hope they open and stay open i guess we will see sooo goood",
+                "speaker": "seeker"
+            },
+            {
+                "text": "anything else I can help with? truth!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "not sure haha just figured try this out",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "not sure haha just figured try this out",
+        "label": 7,
+        "predicted_label": "Self-Assertion",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The Supporter asks if there is anything else they can help with after a conversation discussing the Seeker's COVID-related stress, unemployment, and financial struggles.",
+            "psychological_goal": "The Seeker aims to acknowledge their proactive coping strategy of seeking support, gracefully concluding the interaction while managing the vulnerability of asking for help.",
+            "handbook_alignment": "The response demonstrates Self-Assertion (Item 90), as the Seeker acknowledges taking steps to deal with their emotional and practical problems by 'trying out' the support platform (initiating getting help). They express their motive directly and clearly, using a lighthearted 'haha' to maturely modulate the vulnerability of the disclosure.",
+            "differential_diagnosis": "This is not a Level 0 Neutral Utterance because it involves a reflection on the Seeker's active psychological coping strategy for their distress. It is not a Level 1 Action Defense (like Help-Rejecting Complaining) because the Seeker is not rejecting the help offered, but rather constructively acknowledging their attempt to utilize it. It lacks the reality distortion, avoidance, or emotional suppression characteristic of lower-level defenses."
+        },
+        "model_thinking_dump": []
+    }
+]

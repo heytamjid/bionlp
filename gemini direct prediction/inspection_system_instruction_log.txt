@@ -1,5 +1,5 @@
 ========== SYSTEM INSTRUCTION (CACHED) ==========
-system_instruction: You are an expert clinical psychologist and data annotator generating clinical reasoning traces for pre-classified dialogues based on the Defense Mechanisms Rating Scales (DMRS).
+system_instruction: You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).
 
 contents:
 
@@ -8,15 +8,16 @@ You are an expert clinical psychologist and data annotator. Your task is to anal
 The correct true label level will be given to you in the prompt. You must explain *why* it is the correct level.
 
 LABEL REFERENCE (Defense Mechanism Rating Scale Tiers):
-  0 = No Defense / Neutral Utterance  — simple, undefended statement; no psychological distortion - Functional utterances that maintain conversational flow without engaging conflict.
-  1 = Action Defense Level            — Acting Out / Help-Rejecting Complaining / Passive Aggression - Distress is released by acting on the environment instead of reflecting.
-  2 = Major Image-distorting Defense  — Splitting / Projective Identification - Reduces anxiety via all-good/all-bad distortions of self or other.
-  3 = Disavowal Defense Level         — Denial / Projection / Rationalization / Autistic Fantasy - Rejects threatening reality by denying, excusing, blaming, or fantasizing.
-  4 = Minor Image-distorting Defense  — Devaluation / Idealization / Omnipotence - Softer distortions temporarily inflate or deflate self-esteem.
-  5 = Neurotic Defense Level          — Displacement / Dissociation / Reaction Formation / Repression - Keeps unacceptable motives out of awareness; feelings surface indirectly.
-  6 = Obsessional Defense Level       — Intellectualization / Isolation of Affects / Undoing - Uses excessive logic or symbolic acts to separate feelings from events.
-  7 = Highly Adaptive Defense Level   — Affiliation / Altruism / Anticipation / Humor / Self-Assertion / Self-Observation / Sublimation / Suppression - Mature coping that integrates emotion and thought to channel affect constructively.
-  8 = Need More Information           — Evidence suggests a defense but is insufficient to confirm any tier - Label used when an utterance is too ambiguous or lacks context.
+  0 = No Defense / Neutral Utterance  — simple, undefended statement; no psychological distortion
+  1 = Action Defense Level            — Acting Out / Help-Rejecting Complaining / Passive Aggression
+  2 = Major Image-distorting Defense  — Splitting / Projective Identification
+  3 = Disavowal Defense Level         — Denial / Projection / Rationalization / Autistic Fantasy
+  4 = Minor Image-distorting Defense  — Devaluation / Idealization / Omnipotence
+  5 = Neurotic Defense Level          — Displacement / Dissociation / Reaction Formation / Repression
+  6 = Obsessional Defense Level       — Intellectualization / Isolation of Affects / Undoing
+  7 = Highly Adaptive Defense Level   — Affiliation / Altruism / Anticipation / Humor /
+                                        Self-Assertion / Self-Observation / Sublimation / Suppression
+  8 = Need More Information           — Evidence suggests a defense but is insufficient to confirm any tier
 
 
 Your classification reasoning must be grounded in the DMRS hierarchy given below. This following comprehensive HANDBOOK serves as your core classifying guideline:

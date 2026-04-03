@@ -12,16 +12,15 @@ from pydantic import BaseModel, Field
 
 LABEL_DESCRIPTIONS = """
 LABEL REFERENCE (Defense Mechanism Rating Scale Tiers):
-  0 = No Defense / Neutral Utterance  — simple, undefended statement; no psychological distortion
-  1 = Action Defense Level            — Acting Out / Help-Rejecting Complaining / Passive Aggression
-  2 = Major Image-distorting Defense  — Splitting / Projective Identification
-  3 = Disavowal Defense Level         — Denial / Projection / Rationalization / Autistic Fantasy
-  4 = Minor Image-distorting Defense  — Devaluation / Idealization / Omnipotence
-  5 = Neurotic Defense Level          — Displacement / Dissociation / Reaction Formation / Repression
-  6 = Obsessional Defense Level       — Intellectualization / Isolation of Affects / Undoing
-  7 = Highly Adaptive Defense Level   — Affiliation / Altruism / Anticipation / Humor /
-                                        Self-Assertion / Self-Observation / Sublimation / Suppression
-  8 = Need More Information           — Evidence suggests a defense but is insufficient to confirm any tier
+  0 = No Defense / Neutral Utterance  — simple, undefended statement; no psychological distortion - Functional utterances that maintain conversational flow without engaging conflict.
+  1 = Action Defense Level            — Acting Out / Help-Rejecting Complaining / Passive Aggression - Distress is released by acting on the environment instead of reflecting.
+  2 = Major Image-distorting Defense  — Splitting / Projective Identification - Reduces anxiety via all-good/all-bad distortions of self or other.
+  3 = Disavowal Defense Level         — Denial / Projection / Rationalization / Autistic Fantasy - Rejects threatening reality by denying, excusing, blaming, or fantasizing.
+  4 = Minor Image-distorting Defense  — Devaluation / Idealization / Omnipotence - Softer distortions temporarily inflate or deflate self-esteem.
+  5 = Neurotic Defense Level          — Displacement / Dissociation / Reaction Formation / Repression - Keeps unacceptable motives out of awareness; feelings surface indirectly.
+  6 = Obsessional Defense Level       — Intellectualization / Isolation of Affects / Undoing - Uses excessive logic or symbolic acts to separate feelings from events.
+  7 = Highly Adaptive Defense Level   — Affiliation / Altruism / Anticipation / Humor / Self-Assertion / Self-Observation / Sublimation / Suppression - Mature coping that integrates emotion and thought to channel affect constructively.
+  8 = Need More Information           — Evidence suggests a defense but is insufficient to confirm any tier - Label used when an utterance is too ambiguous or lacks context.
 """
 
 
@@ -33,7 +32,7 @@ class ClinicalReasoning(BaseModel):
         description="What the speaker is trying to achieve/avoid."
     )
     handbook_alignment: str = Field(
-        description="Specific evidence from the handbook that justifies the label."
+        description="Specific evidence from the handbook that justifies the defense level (0-8)."
     )
     differential_diagnosis: str = Field(
         description="Why this isn't a higher or lower-level defense."
@@ -55,8 +54,8 @@ with open(
     HANDBOOK_TEXT = f.read()
 
 # Few-shot examples guide the model's reasoning style.
-with open("few_shot_examples.txt", "r", encoding="utf-8") as f:
-    FEW_SHOT_EXAMPLES = f.read()
+# with open("few_shot_examples.txt", "r", encoding="utf-8") as f:
+#     FEW_SHOT_EXAMPLES = f.read()
 
 SYSTEM_INSTRUCTION = f"""
 You are an expert clinical psychologist and data annotator. Your task is to analyze dialogues and generate the exact clinical reasoning (thought trace) that perfectly justifies the PROVIDED psychological defense mechanism level for the 'current_text_to_classify', based on the Defense Mechanisms Rating Scales (DMRS) hierarchy.
@@ -82,7 +81,7 @@ MODEL_ID = "gemini-3.1-pro-preview"
 
 # Minimum token count required for context caching to be cost-effective.
 # Gemini enforces a minimum of 32,768 tokens for cached content.
-CACHE_TTL = "10800s"  # Cache lives for 2 hour; adjust as needed.
+CACHE_TTL = "25800s"  # Cache lives for 2 hour; adjust as needed.
 
 
 # ==============================================================================
@@ -121,36 +120,51 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
     ) as log_file:
         log_file.write("========== SYSTEM INSTRUCTION (CACHED) ==========\n")
         log_file.write(
-            "system_instruction: You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).\n\n"
+            "system_instruction: You are an expert clinical psychologist and data annotator generating clinical reasoning traces for pre-classified dialogues based on the Defense Mechanisms Rating Scales (DMRS).\n\n"
         )
         log_file.write("contents:\n")
         log_file.write(SYSTEM_INSTRUCTION + "\n")
         log_file.write("=================================================\n")
 
-    # AS ALREADY CREATED, USING VIA cacheRef
-    try:
-        # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
-        # and set a concise system_instruction for the model's persona.
-        cache = client.caches.create(
-            model=MODEL_ID,
-            config=types.CreateCachedContentConfig(
-                system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
-                contents=[SYSTEM_INSTRUCTION],
-                display_name="dmrs-handbook-cache",
-                ttl=CACHE_TTL,
-            ),
-        )
-        print(f"Cache created successfully: {cache.name}")
-    except Exception as e:
-        print(f"Failed to create cache: {e}")
-        return
+    # # AS ALREADY CREATED, USING VIA cacheRef
+    # try:
+    #     # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
+    #     # and set a concise system_instruction for the model's persona.
+    #     cache = client.caches.create(
+    #         model=MODEL_ID,
+    #         config=types.CreateCachedContentConfig(
+    #             system_instruction="You are an expert clinical psychologist and data annotator generating clinical reasoning traces for pre-classified dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
+    #             contents=[SYSTEM_INSTRUCTION],
+    #             display_name="dmrs-handbook-cache",
+    #             ttl=CACHE_TTL,
+    #         ),
+    #     )
+    #     print(f"Cache created successfully: {cache.name}")
+    # except Exception as e:
+    #     print(f"Failed to create cache: {e}")
+    #     return
 
     # or if alrady has
     cacheRef = (
-        cache.name
-    )  # "projects/942972453935/locations/global/cachedContents/5700403225157435392"  # cache.name
+        "projects/942972453935/locations/global/cachedContents/6181276834588524544"
+    )
+    # (
+    # cache.name
+    # )  # "projects/942972453935/locations/global/cachedContents/5700403225157435392"  # cache.name
     print("\n Your Cache REF ISSSSS \n")
     print(cacheRef)
+
+    LEVEL_TO_NAME = {
+        0: "0 (No Defense / Neutral Utterance)",
+        1: "1 (Action Defense Level)",
+        2: "2 (Major Image-distorting Defense)",
+        3: "3 (Disavowal Defense Level)",
+        4: "4 (Minor Image-distorting Defense)",
+        5: "5 (Neurotic Defense Level)",
+        6: "6 (Obsessional Defense Level)",
+        7: "7 (Highly Adaptive Defense Level)",
+        8: "8 (Need More Information)",
+    }
 
     # Process the dataset
     new_items_processed = 0
@@ -170,11 +184,14 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
 
         formatted_dialogue = "\n".join(dialogue_lines)
 
+        label_num = item.get("label")
+        label_text = LEVEL_TO_NAME.get(label_num, str(label_num))
+
         user_prompt = (
             f"{formatted_dialogue}\n\n"
             f"current_text_to_classify: {item.get('current_text', '')}\n\n"
-            f"CORRECT_DEFENSE_LEVEL: {item.get('label')}\n"
-            f"Your task is to generate the ClinicalReasoning (thinking trace) that correctly concludes that the defense level is {item.get('label')}."
+            f"CORRECT_DEFENSE_LEVEL: {label_text}\n"
+            f"Your task is to generate the ClinicalReasoning (thinking trace) that correctly concludes that the defense level is {label_text}."
         )
 
         # Log the exact prompt being sent to the model for inspection
