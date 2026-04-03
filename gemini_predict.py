@@ -56,11 +56,11 @@ class ClinicalReasoning(BaseModel):
     handbook_evidence: str = Field(
         description="Quote the specific DMRS handbook rule or DMRS-Q Item that matches the distortion analysis."
     )
-    differential_diagnosis: str = (
-        Field(description="Why this isn't a higher or lower-level defense."),
+    differential_diagnosis: str = Field(
+        description="Why this isn't a higher or lower-level defense."
     )
     is_it_a_minority_class: str = Field(
-        description="Why this is might NOT a Level 0 (Neutral) or NOT a Level 7 (Adaptive). Rule out the most likely incorrect extremes first."
+        description="LLMs are often biased towards the majority classes. Here, you reconsider, is this level really either level 0 or level 7? Why this is MIGHT NOT a Level 0 (Neutral) AND NOT a Level 7 (Adaptive). Rule out the most likely extremes first."
     )
 
 
@@ -156,26 +156,26 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
         log_file.write("=================================================\n")
 
     # AS ALREADY CREATED, USING VIA cacheRef
-    try:
-        # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
-        # and set a concise system_instruction for the model's persona.
-        cache = client.caches.create(
-            model=MODEL_ID,
-            config=types.CreateCachedContentConfig(
-                system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
-                contents=[SYSTEM_INSTRUCTION],
-                display_name="dmrs-handbook-cache",
-                ttl=CACHE_TTL,
-            ),
-        )
-        print(f"Cache created successfully: {cache.name}")
-    except Exception as e:
-        print(f"Failed to create cache: {e}")
-        return
-    cacheRef = cache.name
+    # try:
+    #     # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
+    #     # and set a concise system_instruction for the model's persona.
+    #     cache = client.caches.create(
+    #         model=MODEL_ID,
+    #         config=types.CreateCachedContentConfig(
+    #             system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
+    #             contents=[SYSTEM_INSTRUCTION],
+    #             display_name="dmrs-handbook-cache",
+    #             ttl=CACHE_TTL,
+    #         ),
+    #     )
+    #     print(f"Cache created successfully: {cache.name}")
+    # except Exception as e:
+    #     print(f"Failed to create cache: {e}")
+    #     return
+    # cacheRef = cache.name
 
     # or if alrady has
-    # cacheRef = "projects/942972453935/locations/global/cachedContents/5700403225157435392"  # cache.name
+    cacheRef = "projects/942972453935/locations/global/cachedContents/6883600881946722304"  # cache.name
     print("\n Your Cache REF ISSSSS \n")
     print(cacheRef)
 

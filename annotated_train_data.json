@@ -29062,5 +29062,2995 @@
             "differential_diagnosis": "This is not Help-Rejecting Complaining (Level 1) because the seeker is not repetitively rejecting advice while complaining; they are simply correcting a mathematical assumption with missing facts. It is not Rationalization (Level 3) because the seeker is not making excuses for their poor performance, but rather objectively assessing their chances of passing the class."
         },
         "model_thinking_dump": []
+    },
+    {
+        "id": "test_00431",
+        "dialogue_id": "ESConv_180",
+        "dialogue": [
+            {
+                "text": "Good Evening",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "How are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm pretty stressed out actually",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. It's rough to get stressed Would you like to tell me what's going on?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Sure. I just failed a huge test in my college class, and I'm worried it will fail me the entire class, and then I won't be able to get my associates",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh no! I can totally understand why you're stressing over that! Absolutely valid reason for anxiety. May I ask how much of the whole grade was the test's percentage?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah it's really weighing down on me. It's the only thing I can think about. The test was worth 75%",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What was you're score?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I got a 62% on the test.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That isn't TECHNICALLY a failed grade by the standards of most professors. Albeit a low grade, it's a D. Anything below 59% would qualify as failed.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, but taking into account my scores on homework, I don't think it's enought to pass the class",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you done fairly well in other classes? How have your grades been prior to this test in that class?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Honestly it's just kind of all over the place. I am surviving in other classes, but with all this online stuff with the pandemic I barely learn anything. I'm basically faking it til I make it. Which I hate. But I can't learn in these conditions.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hate that you feel that way about yourself, but I can also relate to having a rough time learning via online classes. I'm the same way. However, that does not disable you from being able to learn. It impedes your quality of learning, no doubt. But it isn't something that YOU can help. By having an attitude of being unable to learn, you automatically lower your expectations for the success you would potentially have otherwise...",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah that's true, I just think it's not my learning style so it's a lot harder for me. I thought about waiting until things are normal enough to physically be able to go back to class before I try and finish my bachelors, but who knows when that will be",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yeah that's true, I just think it's not my learning style so it's a lot harder for me. I thought about waiting until things are normal enough to physically be able to go back to class before I try and finish my bachelors, but who knows when that will be",
+        "predicted_label": "Disavowal Defense Level",
+        "predicted_defense_level": 3,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker failed a major test, is struggling with online classes, and was just gently confronted by the supporter about having a self-defeating attitude.",
+            "expected_normative_emotion": "Shame, guilt, or anxiety regarding the poor academic performance and the need to take personal responsibility to improve.",
+            "actual_expressed_emotion": "Resigned, explanatory, and somewhat detached from personal accountability.",
+            "distortion_analysis": "The speaker minimizes their personal responsibility for the failing grade and poor performance by attributing it to an external, fixed factor ('not my learning style'). They use this self-serving explanation to justify a plan to avoid the stressor altogether (waiting to finish their degree until classes are in-person again), thereby protecting their self-esteem from the shame of failure.",
+            "handbook_evidence": "Rationalization - ITEM 19: 'To avoid taking responsibility for one's actions or misdeeds, the subject makes excuses or points out others' contributions to the problem, thereby minimizing his or her own role.' and ITEM 42: 'The subject avoids feelings of guilt or shame by justifying his actions or by referring to external reasons...'",
+            "differential_diagnosis": "This is not Intellectualization (Level 6) because the speaker is not just using abstract concepts to distance themselves from emotion; they are specifically providing a plausible but self-serving excuse for a personal failure. It is not Anticipation (Level 7) because 'waiting until things are normal' is an avoidance strategy rather than actively preparing for a future challenge.",
+            "is_it_a_minority_class": "It is not Level 0 because the statement is not merely factual; it serves the psychological function of deflecting blame for a failure. It is not Level 7 because the coping mechanism relies on avoidance and externalizing blame rather than adaptive problem-solving."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00432",
+        "dialogue_id": "ESConv_181",
+        "dialogue": [
+            {
+                "text": "Hi there! How can I help you today",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i cant keep up in class",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm so sorry to hear that. How does that make you feel?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "like crap, it makes me not wanna do anything",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand completely, it can be hard to keep up in class especially if you're feeling down To be clear, you're feeling bad about not being able to keep up in class and that's making you feel even worse about it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah, like I want to start doing better but then i realize theres just no point im already behind",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Don't worry, that's totally normal, especially since a lot of things are online these days. I personally struggled with keeping up with courses, but I found a way to make it work by pushing to the limits",
+                "speaker": "supporter"
+            },
+            {
+                "text": "okay, i guess its good to know im not the only one how did you get thru it?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "okay, i guess its good to know im not the only one how did you get thru it?",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is falling behind in their classes, feeling overwhelmed, unmotivated, and hopeless about catching up.",
+            "expected_normative_emotion": "Helplessness, despair, anxiety, or frustration.",
+            "actual_expressed_emotion": "Relief, curiosity, and a willingness to learn and cope.",
+            "distortion_analysis": "The speaker is not avoiding or distorting the stressor. Instead, they are actively engaging with the supporter, finding comfort in shared experience, and constructively asking for advice on how to overcome their academic difficulties.",
+            "handbook_evidence": "Level 7: Affiliation - 'Turning to others for help and support to collaboratively find solutions.' This aligns with DMRS-Q ITEM 22, where the subject brings a problem to someone for advice to help come up with a solution.",
+            "differential_diagnosis": "This is not Help-Rejecting Complaining (Level 1) because the seeker is genuinely asking for the supporter's coping strategies rather than dismissing them. It is not Intellectualization (Level 6) because the seeker is not speaking in abstract terms to avoid feelings, but rather seeking practical, interpersonal support.",
+            "is_it_a_minority_class": "This is not a Level 0 (Neutral Utterance) because it is an active, psychological coping strategy aimed at managing the distress of falling behind in school. It is a clear example of a Level 7 (Highly Adaptive) defense."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00433",
+        "dialogue_id": "ESConv_181",
+        "dialogue": [
+            {
+                "text": "Hi there! How can I help you today",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i cant keep up in class",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm so sorry to hear that. How does that make you feel?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "like crap, it makes me not wanna do anything",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand completely, it can be hard to keep up in class especially if you're feeling down To be clear, you're feeling bad about not being able to keep up in class and that's making you feel even worse about it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah, like I want to start doing better but then i realize theres just no point im already behind",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Don't worry, that's totally normal, especially since a lot of things are online these days. I personally struggled with keeping up with courses, but I found a way to make it work by pushing to the limits",
+                "speaker": "supporter"
+            },
+            {
+                "text": "okay, i guess its good to know im not the only one how did you get thru it?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I suggest starting with what you missed first instead of worrying what you're getting now Maybe let your teacher/professor know how you're doing in class and you may be able to ask for extensions on deadlines",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thats helpful, thanks i am a little scared to ask my teacher though shes really mean and what if she fails me?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Don't be afraid! Remember a teacher's job is to teach and help you, she may look a little mean but it doesn't hurt to try and ask, she can't fail you for being confused :)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah i guess your right",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yeah i guess your right",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Seeker is anxious about falling behind in class and is specifically afraid of asking their 'mean' teacher for help, fearing they might be failed.",
+            "expected_normative_emotion": "Relief, lingering anxiety, or tentative acceptance of the reassurance.",
+            "actual_expressed_emotion": "Mild agreement and tentative acceptance.",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of the underlying emotion. The Seeker is simply acknowledging and agreeing with the Supporter's logical reassurance in a straightforward manner.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Manifestations include 'Simple Affirmations/Negations: Short, non-elaborated responses like Okay, Yes, No, or Right.'",
+            "differential_diagnosis": "This is not Affiliation (Level 7) because the utterance is too brief and lacks the elaboration of actively collaborating or expressing how the support specifically helped them cope. It is not Reaction Formation (Level 5) because the agreement is not exaggerated or masking an opposite, unacceptable impulse.",
+            "is_it_a_minority_class": "This is a Level 0 (Neutral Utterance) because it serves a purely conversational function of acknowledging the Supporter's point without introducing new psychological content or defensive distortion."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00434",
+        "dialogue_id": "ESConv_181",
+        "dialogue": [
+            {
+                "text": "Hi there! How can I help you today",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i cant keep up in class",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm so sorry to hear that. How does that make you feel?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "like crap, it makes me not wanna do anything",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand completely, it can be hard to keep up in class especially if you're feeling down To be clear, you're feeling bad about not being able to keep up in class and that's making you feel even worse about it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah, like I want to start doing better but then i realize theres just no point im already behind",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Don't worry, that's totally normal, especially since a lot of things are online these days. I personally struggled with keeping up with courses, but I found a way to make it work by pushing to the limits",
+                "speaker": "supporter"
+            },
+            {
+                "text": "okay, i guess its good to know im not the only one how did you get thru it?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I suggest starting with what you missed first instead of worrying what you're getting now Maybe let your teacher/professor know how you're doing in class and you may be able to ask for extensions on deadlines",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thats helpful, thanks i am a little scared to ask my teacher though shes really mean and what if she fails me?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Don't be afraid! Remember a teacher's job is to teach and help you, she may look a little mean but it doesn't hurt to try and ask, she can't fail you for being confused :)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah i guess your right",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Does that make you feel a little better about it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea, a lot better actually, thanks",
+                "speaker": "seeker"
+            },
+            {
+                "text": "You're welcome! Anything else I can help out with?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "what should i do about the work i missed?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hmm, i suggest you should ask your teacher if its still alright to submit it. If you decide to do them, make sure its ok with her first",
+                "speaker": "supporter"
+            },
+            {
+                "text": "okay, thanks, i will do that",
+                "speaker": "seeker"
+            },
+            {
+                "text": "No problem! Glad I was able to help! Is there anything else?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "no thats all, thanks again for helping me",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "no thats all, thanks again for helping me",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker was initially stressed about falling behind in class and confronting an intimidating teacher, but the supporter has provided actionable advice and the conversation is now concluding.",
+            "expected_normative_emotion": "Relief, gratitude, and a sense of conversational closure.",
+            "actual_expressed_emotion": "Polite gratitude and neutral closure.",
+            "distortion_analysis": "There is no gap between the expected emotion and the expressed emotion. The seeker is directly and appropriately thanking the supporter and signaling the end of the conversation without any psychological distortion, avoidance, or transformation of underlying conflict.",
+            "handbook_evidence": "Situations That Are Typically NOT Defenses (Level 0): Simple expressions of thanks. Greetings and Farewells.",
+            "differential_diagnosis": "This is not Affiliation (Level 7) because, although the seeker is thanking the supporter, it is a standard, brief social pleasantry to close the dialogue rather than a detailed reflection on how the emotional sharing enhanced their coping skills. It lacks the depth required for a Level 7 defense.",
+            "is_it_a_minority_class": "This is a classic Level 0 utterance. It serves a purely functional and social purpose to maintain conversational flow and exchange social niceties, ruling out any higher-level defensive mechanisms."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00435",
+        "dialogue_id": "ESConv_182",
+        "dialogue": [
+            {
+                "text": "Hello! I am here to listen! How are you feeling? Hello! I am here to listen! How are you feeling? *you",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm very stressed. Virtual school is so hard. I've never gotten bad grades before this year.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you are having trouble with Virtual school being so hard and it's causing you stress, am I understanding correctly?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, that is correct. I need to be in a classroom to really grasp the material, I think.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I remember being in your position I know it's very hard and I am so sorry that you are stressed.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I just want to quit school because I can't seem to do better.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I know you said you want to quit, but hang in there!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I wish I knew how long we would have to be virtual. I don't think I can last another semester teaching myself from home.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you have always done well with school, this virus has made it to where so many people are struggling. Just chatting with you, I can feel how stressed and anxious about it you are!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was always an honors student so this is a huge change for me. I'm afraid it will reflect on my GPA forever.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I know that the situation with virtual learning is out of your control when it comes to how long it will last but is there anything you could do to relieve your stress while you are trying to learn things yourself?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The supporter asks an open-ended question about what the seeker could do to relieve their severe academic stress and anxiety.",
+            "expected_normative_emotion": "Frustration, anxiety, or resignation regarding their overwhelming stress levels.",
+            "actual_expressed_emotion": "Honest frustration and anxiety about their inability to relax and disconnect from schoolwork.",
+            "distortion_analysis": "The seeker provides a direct, undefended answer to the supporter's question. They report a factual attempt at a coping mechanism (exercise) and accurately describe their conscious internal state (intrusive anxious thoughts about studying) that caused the attempt to fail. There is no avoidance, distortion, or transformation of the underlying anxiety; the emotion is fully acknowledged and clearly expressed.",
+            "handbook_evidence": "Matches Level 0 criteria: 'Reporting factual details of an event' and 'Describing objective personal information' without psychological distortion.",
+            "differential_diagnosis": "It is not Help-Rejecting Complaining (Level 1) because the seeker is not shooting down a suggestion offered by the supporter, but rather volunteering their own past attempt to answer an open question. It is not Rationalization (Level 3) because they are not making excuses to avoid blame, but simply explaining the reality of their intrusive anxiety.",
+            "is_it_a_minority_class": "It is not a Level 7 (Highly Adaptive) defense like Self-Observation because, while the seeker is aware of their thoughts, the utterance merely reports a failed coping attempt without leading to a constructive resolution or deeper psychological insight in the moment. It remains a straightforward, undefended statement of fact."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00436",
+        "dialogue_id": "ESConv_182",
+        "dialogue": [
+            {
+                "text": "Hello! I am here to listen! How are you feeling? Hello! I am here to listen! How are you feeling? *you",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm very stressed. Virtual school is so hard. I've never gotten bad grades before this year.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you are having trouble with Virtual school being so hard and it's causing you stress, am I understanding correctly?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, that is correct. I need to be in a classroom to really grasp the material, I think.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I remember being in your position I know it's very hard and I am so sorry that you are stressed.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I just want to quit school because I can't seem to do better.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I know you said you want to quit, but hang in there!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I wish I knew how long we would have to be virtual. I don't think I can last another semester teaching myself from home.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you have always done well with school, this virus has made it to where so many people are struggling. Just chatting with you, I can feel how stressed and anxious about it you are!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was always an honors student so this is a huge change for me. I'm afraid it will reflect on my GPA forever.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I know that the situation with virtual learning is out of your control when it comes to how long it will last but is there anything you could do to relieve your stress while you are trying to learn things yourself?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "When you start feeling stressed maybe you could try deep breathing for a few minutes to relax again. Or take a quick break and get some fresh air? Is there anything else that you do in any other situation that would normally help you relax?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I could try deep breathing. Fresh air is hard because we're in the middle of a snow storm! I like to go to a spa when I'm really stressed.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh wow that would make things complicated! But yes the deep breathing would definitely help, I'm sure!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I will try the deep breathing more often.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Maybe you could reward yourself with a spa trip ever so often, since you enjoy it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That's a good idea. Maybe I could make it a reward for a good grade on a test.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "That's a good idea. Maybe I could make it a reward for a good grade on a test.",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is experiencing significant stress and anxiety due to struggling with virtual school, getting bad grades for the first time, and worrying about the long-term impact on their GPA.",
+            "expected_normative_emotion": "Anxiety, frustration, helplessness, or feeling overwhelmed.",
+            "actual_expressed_emotion": "Proactive, motivated, and constructive.",
+            "distortion_analysis": "There is no psychological distortion or avoidance of the stressor. Instead of succumbing to helplessness or avoiding the academic pressure, the seeker actively integrates the supporter's suggestion into a realistic, constructive plan. They are setting up a positive reinforcement system to motivate themselves and manage their stress regarding future tests.",
+            "handbook_evidence": "This aligns with the Highly Adaptive Defense Level (Level 7), specifically Affiliation (ITEM 22: '...help come up with a solution which the subject will then implement') and Anticipation (ITEM 62: '...plan for whatever resources that will aid and comfort the subject in the new situation'). The seeker is using the collaborative dialogue to formulate an adaptive coping strategy.",
+            "differential_diagnosis": "This is not a Level 0 (Neutral Utterance) because it is not merely a conversational pleasantry or simple agreement; it is an active formulation of a psychological coping mechanism. It is not a lower-level defense (e.g., Level 3 Disavowal or Level 6 Obsessional) because the seeker is not avoiding the reality of the tests or intellectualizing their stress; they are directly and practically addressing it.",
+            "is_it_a_minority_class": "This is a clear Level 7. The seeker demonstrates mature emotional regulation and problem-solving by transforming their anxiety into a structured, goal-oriented plan that acknowledges the difficulty of the situation while providing a healthy outlet for relief."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00437",
+        "dialogue_id": "ESConv_182",
+        "dialogue": [
+            {
+                "text": "Hello! I am here to listen! How are you feeling? Hello! I am here to listen! How are you feeling? *you",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm very stressed. Virtual school is so hard. I've never gotten bad grades before this year.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you are having trouble with Virtual school being so hard and it's causing you stress, am I understanding correctly?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, that is correct. I need to be in a classroom to really grasp the material, I think.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I remember being in your position I know it's very hard and I am so sorry that you are stressed.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I just want to quit school because I can't seem to do better.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I know you said you want to quit, but hang in there!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I wish I knew how long we would have to be virtual. I don't think I can last another semester teaching myself from home.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you have always done well with school, this virus has made it to where so many people are struggling. Just chatting with you, I can feel how stressed and anxious about it you are!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I was always an honors student so this is a huge change for me. I'm afraid it will reflect on my GPA forever.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I know that the situation with virtual learning is out of your control when it comes to how long it will last but is there anything you could do to relieve your stress while you are trying to learn things yourself?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "When you start feeling stressed maybe you could try deep breathing for a few minutes to relax again. Or take a quick break and get some fresh air? Is there anything else that you do in any other situation that would normally help you relax?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I could try deep breathing. Fresh air is hard because we're in the middle of a snow storm! I like to go to a spa when I'm really stressed.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh wow that would make things complicated! But yes the deep breathing would definitely help, I'm sure!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I will try the deep breathing more often.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Maybe you could reward yourself with a spa trip ever so often, since you enjoy it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That's a good idea. Maybe I could make it a reward for a good grade on a test.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, please do! I am almost certain that could help you!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I think it might too!",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I think it might too!",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is experiencing significant stress and anxiety due to struggling with virtual school and receiving poor grades for the first time.",
+            "expected_normative_emotion": "Hopefulness, relief, or mild optimism after coming up with a coping strategy.",
+            "actual_expressed_emotion": "Agreement and mild optimism.",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of emotion in this utterance. The seeker is simply agreeing with the supporter's encouraging statement that the proposed reward system (a spa trip) will be helpful.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Manifestations include 'Simple Affirmations/Negations: Short, non-elaborated responses like \"Okay,\" \"Yes,\" \"No,\" or \"Right.\"'",
+            "differential_diagnosis": "This is not a Level 7 (Anticipation) defense because the utterance itself does not involve actively planning or emotionally rehearsing for a future stressor; rather, it is a simple, brief conversational agreement to the supporter's previous comment. It does not serve to ward off anxiety through psychological mechanisms.",
+            "is_it_a_minority_class": "This is a clear Level 0. It is a purely functional, undefended statement used to maintain the conversational flow and express agreement, lacking any complex psychological maneuvering."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00438",
+        "dialogue_id": "ESConv_183",
+        "dialogue": [
+            {
+                "text": "Good evening :-) What can I help with you with tonight?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "just graduated university and my parents are pressuring me to pursue becoming a doctor",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "just graduated university and my parents are pressuring me to pursue becoming a doctor",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The supporter asks the seeker what they need help with, prompting the seeker to share their current life stressor.",
+            "expected_normative_emotion": "Anxiety, frustration, or feeling overwhelmed by parental expectations.",
+            "actual_expressed_emotion": "Neutral and factual. The seeker is directly stating the objective situation without overt emotional display.",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of reality here. The seeker is simply answering the supporter's opening question by reporting the factual details of the problem they want to discuss.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Manifestations include 'Reporting factual details of an event' and 'Describing objective personal information'.",
+            "differential_diagnosis": "This is not Level 3 (Projection) because there is no evidence that the seeker is falsely attributing their own feelings to their parents; parental pressure is a common reality. It is not Level 6 (Intellectualization) because the statement is a simple, direct report of facts rather than an abstract, generalized evasion of feelings.",
+            "is_it_a_minority_class": "This is a clear Level 0. The utterance serves a purely functional, conversational purpose: to establish the topic of the support session by stating the presenting problem."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00439",
+        "dialogue_id": "ESConv_183",
+        "dialogue": [
+            {
+                "text": "Good evening :-) What can I help with you with tonight?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "just graduated university and my parents are pressuring me to pursue becoming a doctor",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oof, that is a very difficult situation. I'm sorry you're going through that. How do you feel about it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm angry. I just want to be done school. but parents are on my butt about it.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What do your parents say when/if you tell them you want to be done with school?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "they get mad at me and say they are dissapointed. I want to travel and see the world. not more schooling.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's not a fair thing for them to say to their child. I will say that there are academic programs that combine travel and credits, but you probably know that already. And I don't think you should have to compromise anyway.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "They won't take a compromise. parents are stubborn. What should i do? please parents or pursue my passion?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I cannot tell you what to do exactly, but I would encourage you to fulfill yourself before anyone else's dictation of your life.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah i'm leaning that. i already graduated university. i fulfilled half of their dream. you think telling them my honest opinion will be a good idea?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I think you need to be prepared for them to not be happy with your honest opinion, but that just because they aren't happy with it doesn't mean it's wrong.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks great advise. i will definitely be prepapred. i don't care if i dissapoint them. it's my life not theres. i'll live with the consequences",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Keep in mind that from their point of view, they want the best for you because they love you, so try not to burn the bridge or salt the earth. I had a rocky relationship with my dad after college too, but it's better now. They will survive, and you will thrive.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thank you. yeah i get that. but they should be happy for me. They cant make decisions for me all the time. let me free!!!",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Thank you. yeah i get that. but they should be happy for me. They cant make decisions for me all the time. let me free!!!",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "Parental pressure to pursue a medical degree and the emotional conflict of disappointing them versus pursuing personal passions.",
+            "expected_normative_emotion": "Frustration, anger, feeling trapped, or anxiety about the future.",
+            "actual_expressed_emotion": "Assertive, determined, slightly exasperated but clear in their desire for independence.",
+            "distortion_analysis": "There is no distortion or avoidance. The speaker is directly acknowledging the situation, setting a clear boundary ('They cant make decisions for me all the time'), and expressing their core emotional need ('let me free!!!') without masking or avoiding the conflict.",
+            "handbook_evidence": "Self-Assertion: ITEM 146: When confronted with emotionally difficult situations, the subject expresses his or her thoughts, wishes, or feelings clearly and directly without inhibition or excess.",
+            "differential_diagnosis": "This is not Level 1 (Acting Out) because the speaker is using words to express their feelings and set boundaries rather than engaging in impulsive, destructive actions. It is not Level 3 (Rationalization) because they are not making excuses for their behavior.",
+            "is_it_a_minority_class": "This is not Level 0 because it is not a neutral or purely functional utterance; it actively addresses a psychological conflict. It is a Level 7 because the speaker is using a highly adaptive defense (Self-Assertion) to manage the stressor constructively."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00440",
+        "dialogue_id": "ESConv_184",
+        "dialogue": [
+            {
+                "text": "Hi there, could you please give me some advice?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello, would you like to explain your situation and we can go through it together",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is experiencing poor academic performance on tests and a lack of motivation, which they fear will negatively impact their future.",
+            "expected_normative_emotion": "Anxiety, worry, frustration, or guilt regarding their academic standing and future.",
+            "actual_expressed_emotion": "Direct, undistorted anxiety and concern about their future, along with a frank admission of their lack of motivation.",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of the emotion. The seeker is directly stating their presenting problem, acknowledging their own feelings, and taking responsibility for their lack of effort without making excuses or blaming external factors.",
+            "handbook_evidence": "Core Annotation Principles: 'The direct expression of an emotion (e.g., \"I am very sad\") is not classified as a defense mechanism. A defense is only present when an emotional expression is clearly distorted, avoided, or transformed.'",
+            "differential_diagnosis": "This is not Rationalization (Level 3) because the seeker makes no excuses for their poor performance; they openly admit they aren't working as hard as they should. It is not Devaluation (Level 4) because they are not attacking their own character (e.g., 'I'm stupid'), but rather stating a realistic consequence of their actions. It is not Self-Observation (Level 7) because they are simply reporting their baseline problem to initiate the conversation, rather than using reflection as an active coping mechanism to modulate an immediate emotional conflict.",
+            "is_it_a_minority_class": "This is a classic Level 0. The utterance is a straightforward, undefended self-disclosure of a problem and the associated feelings, serving the functional purpose of explaining why they need advice."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00441",
+        "dialogue_id": "ESConv_184",
+        "dialogue": [
+            {
+                "text": "Hi there, could you please give me some advice?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello, would you like to explain your situation and we can go through it together",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you don't feel motivated and you are not scoring well, have I understood that correctly?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes. I know that the two things are probably related but I just do not know what to do about them.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What are you currently studying?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am studying microbiology. I do not know that I have the passion for it that I once did though.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is struggling academically, lacks motivation, and is anxious about seeking help from tutors due to a fear of being judged as a slacker.",
+            "expected_normative_emotion": "Anxiety, shame, vulnerability, or defensiveness regarding their academic struggles and fear of judgment.",
+            "actual_expressed_emotion": "Vulnerability, relief, and self-awareness.",
+            "distortion_analysis": "There is no psychological distortion or avoidance here. Instead of hiding behind excuses (Rationalization) or acting out, the seeker actively engages with their internal emotional state. They demonstrate insight by identifying their own psychological barrier ('afraid to really open up') and utilize the current interpersonal connection to process this fear constructively.",
+            "handbook_evidence": "Self-Observation (Level 7): 'Reflecting on one's own thoughts, feelings, motivation, and behavior to gain insight.' Affiliation (Level 7): 'Turning to others for help and support to collaboratively find solutions.'",
+            "differential_diagnosis": "This is not a Level 3 (Disavowal) or Level 5 (Neurotic) defense because the seeker is not avoiding, repressing, or making excuses for their fear; they are directly confronting and articulating it. It is not Level 0 because it is not a mere factual exchange; it is an active, introspective psychological coping strategy to manage their anxiety.",
+            "is_it_a_minority_class": "This is a clear Level 7 (Highly Adaptive). It is not a Level 0 neutral utterance because the seeker is actively employing mature coping mechanisms (Self-Observation and Affiliation) to navigate their emotional block and seek support."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00442",
+        "dialogue_id": "ESConv_184",
+        "dialogue": [
+            {
+                "text": "Hi there, could you please give me some advice?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello, would you like to explain your situation and we can go through it together",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you don't feel motivated and you are not scoring well, have I understood that correctly?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes. I know that the two things are probably related but I just do not know what to do about them.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What are you currently studying?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am studying microbiology. I do not know that I have the passion for it that I once did though.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am pleased that you have been able to open up to me, it is the first step towards you finding your path. Do you find it easy to write things down?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is struggling with poor academic performance, a lack of motivation, and anxiety about discussing these issues face-to-face with their tutors.",
+            "expected_normative_emotion": "Relief at finding a safe space to communicate, or lingering anxiety about their vulnerability.",
+            "actual_expressed_emotion": "Calm, agreeable, and reflective.",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of emotion in this utterance. The seeker is directly and honestly answering the supporter's practical question about their communication preferences. They are simply stating a factual observation about their own comfort levels without attempting to mask or defend against an underlying conflict.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. The utterance falls under 'Describing objective personal information' and 'Simple Affirmations', serving a purely conversational function to exchange non-emotional information about their communication style.",
+            "differential_diagnosis": "This is not Level 7 (Self-Observation) because, while it demonstrates some self-awareness, it is primarily a direct, factual response to a specific question rather than a spontaneous, deep reflection aimed at gaining psychological insight into a conflict. It is not Level 3 (Rationalization) because the seeker is not making excuses for their fear, but rather confirming a logistical preference.",
+            "is_it_a_minority_class": "This is a classic Level 0. The text is a straightforward, undefended statement that maintains the conversational flow and answers a direct question without any defensive maneuvering."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00443",
+        "dialogue_id": "ESConv_184",
+        "dialogue": [
+            {
+                "text": "Hi there, could you please give me some advice?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello, would you like to explain your situation and we can go through it together",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you don't feel motivated and you are not scoring well, have I understood that correctly?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes. I know that the two things are probably related but I just do not know what to do about them.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What are you currently studying?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am studying microbiology. I do not know that I have the passion for it that I once did though.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am pleased that you have been able to open up to me, it is the first step towards you finding your path. Do you find it easy to write things down?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "One suggestion is for you to write down all the reasons that you love microbiology. It can be any format, I love a bubble chart (mind map), it could be in list form or just doodles, would this be something you would find useful?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, that is a fantastic idea! Maybe I can find a renewed interest in the subject. I hope that I can because I really do not want my time studying to have been wasted.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yes, that is a fantastic idea! Maybe I can find a renewed interest in the subject. I hope that I can because I really do not want my time studying to have been wasted.",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is struggling with low motivation, poor grades in their microbiology studies, and the anxiety of potentially having wasted years of effort.",
+            "expected_normative_emotion": "Anxiety, regret, hopelessness, or feeling overwhelmed.",
+            "actual_expressed_emotion": "Hopeful, motivated, appreciative, and realistic.",
+            "distortion_analysis": "The seeker does not distort, avoid, or intellectualize the stressor. Instead, they actively accept the supporter's constructive advice and integrate it into a realistic plan to address their lack of motivation. They acknowledge their underlying fear (wasting time) but use it as a driving force to try the new strategy rather than being paralyzed by it.",
+            "handbook_evidence": "DMRS-Q ITEM 22 (Affiliation): 'Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.' and ITEM 44: 'When the subject describes seeking help from others, there is a sense of having learned something from the interchange.'",
+            "differential_diagnosis": "This is not a Level 0 neutral utterance because the seeker is actively managing an emotional conflict (fear of failure/wasted time) through a psychological coping strategy. It is not a lower-level defense (like Rationalization or Displacement) because there is no avoidance or distortion of reality; the seeker is facing the problem head-on with a constructive, collaborative plan.",
+            "is_it_a_minority_class": "This is a clear Level 7 (Highly Adaptive) because the seeker successfully uses the interpersonal interaction to find a mature, reality-based solution to their emotional distress, demonstrating Affiliation and Anticipation."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00444",
+        "dialogue_id": "ESConv_186",
+        "dialogue": [
+            {
+                "text": "Hi, how are you today?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am okay. What is going on with you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "School's going badly. I really wish I had chosen a different major.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like it must be overwhelming to keep up with all of your school work.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I\u2019m majoring in computer engineering. It\u2019s really #%$& hard! Everyone else is way smarter than I am.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That does sound very difficult, but I think you can do it! Just getting into a program like that shows how smart you are!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It's kinda late to switch. I'm at the end of my third year. My parents keep bugging me about getting a job.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "To be honest with you, I switched majors a lot in college. I eventually let go of what my family thought and pursued a career I would truly enjoy for myself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I wish I were in your shoes! If I change majors now, I have to redo at least a year of school, maybe more. I don't think my parents want to pay for that.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I wish I were in your shoes! If I change majors now, I have to redo at least a year of school, maybe more. I don't think my parents want to pay for that.",
+        "predicted_label": "Action Defense Level",
+        "predicted_defense_level": 1,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is struggling academically in a difficult major, feeling inferior to peers, and facing parental pressure. The supporter suggests changing majors and ignoring family expectations, sharing their own success story.",
+            "expected_normative_emotion": "Hopefulness, curiosity about the supporter's experience, or genuine distress about feeling trapped.",
+            "actual_expressed_emotion": "Defeatist, envious, and dismissive.",
+            "distortion_analysis": "The seeker engages in a classic 'Yes, but...' dynamic. They initially complain about wishing they had chosen a different major, but when the supporter validates this and shares a success story of doing exactly that, the seeker immediately rejects the implicit advice by presenting logistical and financial barriers, treating their problem as insoluble.",
+            "handbook_evidence": "Help-Rejecting Complaining: 'The repetitious use of complaints to ostensibly seek help, while simultaneously rejecting any advice or support that is offered.' DMRS-Q ITEM 130: 'The subject complains about life issues or problems as if each were insoluble, and systematically rejects others' suggestions about ways of handling them.'",
+            "differential_diagnosis": "It is not Rationalization (Level 3) because the primary function is interpersonal\u2014rejecting the supporter's encouragement to maintain a helpless stance, rather than justifying a past misdeed to avoid guilt. It is not Anticipation (Level 7) because the realistic constraints are used to shut down problem-solving rather than to prepare for it.",
+            "is_it_a_minority_class": "This might initially appear to be a Level 0 factual statement about the realistic consequences of changing majors. However, the sequential pattern of complaining followed by immediately shooting down the exact solution they claimed to desire reveals the defensive function of Help-Rejecting Complaining."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00445",
+        "dialogue_id": "ESConv_187",
+        "dialogue": [
+            {
+                "text": "Hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hello how are you ?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm in depression because my exam is near and I can't finsh my studies.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "can i ask you ,why you can't finish",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is because i'm very behind in my work.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "try to catch up with your studies give more time then you feel better",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How am I going to catch up on my work?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "How am I going to catch up on my work?",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is overwhelmed by being behind on their studies, and the supporter offers a somewhat vague and platitudinous suggestion to simply 'catch up'.",
+            "expected_normative_emotion": "Anxiety, overwhelm, or frustration at the lack of concrete advice.",
+            "actual_expressed_emotion": "Mild overwhelm combined with an earnest, open desire for guidance.",
+            "distortion_analysis": "The seeker does not distort, avoid, or act out their anxiety. Instead, they actively engage the supporter to collaboratively brainstorm a realistic solution, translating their overwhelm into a constructive request for help.",
+            "handbook_evidence": "Affiliation. DMRS-Q ITEM 22: 'Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.'",
+            "differential_diagnosis": "This is not Level 1 Help-Rejecting Complaining because the seeker is genuinely asking for actionable steps rather than rhetorically dismissing the supporter's input as impossible. It is not Level 0 because it represents an active, mature coping strategy (seeking social support) to manage a psychological stressor, rather than a simple factual inquiry.",
+            "is_it_a_minority_class": "Yes, this is a Level 7 (Highly Adaptive) defense. The seeker is actively utilizing the interpersonal relationship to manage their anxiety and find a constructive solution, which is the hallmark of Affiliation."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00446",
+        "dialogue_id": "ESConv_187",
+        "dialogue": [
+            {
+                "text": "Hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hello how are you ?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm in depression because my exam is near and I can't finsh my studies.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "can i ask you ,why you can't finish",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is because i'm very behind in my work.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "try to catch up with your studies give more time then you feel better",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How am I going to catch up on my work?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you need to be confident about your studies then you fell better",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How can I be confident?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you need to take more online classes those can help you",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ok I will try to get in an online class if I can.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "because same think happen with me and i took online classes those help me a lot *thing",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ok how much time do you spend on online classes?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i spend like 3 hours a day on online class",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks for the idea do you have any more tips?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Thanks for the idea do you have any more tips?",
+        "predicted_label": "Affiliation",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is feeling depressed and overwhelmed because they are behind in their studies and have an upcoming exam.",
+            "expected_normative_emotion": "Anxiety, stress, helplessness, or feeling overwhelmed.",
+            "actual_expressed_emotion": "Proactive, appreciative, and engaged.",
+            "distortion_analysis": "The seeker does not avoid, distort, or act out their anxiety. Instead, they acknowledge the stressor and actively engage with the supporter to gather actionable advice and strategies to manage their academic problem.",
+            "handbook_evidence": "Affiliation (ITEM 22): 'Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.'",
+            "differential_diagnosis": "This is not a Level 0 (Neutral Utterance) because the seeker is actively utilizing the interpersonal connection to manage their anxiety and find constructive solutions. It is not Level 1 (Help-Rejecting Complaining) because the seeker is accepting the advice ('Thanks for the idea') and actively soliciting more ('do you have any more tips?'), rather than dismissing the supporter's input.",
+            "is_it_a_minority_class": "This is a clear Level 7 (Highly Adaptive Defense) because the seeker is demonstrating mature, constructive coping by turning to another person for support and collaborative problem-solving."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00447",
+        "dialogue_id": "ESConv_187",
+        "dialogue": [
+            {
+                "text": "Hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hello how are you ?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm in depression because my exam is near and I can't finsh my studies.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "can i ask you ,why you can't finish",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is because i'm very behind in my work.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "try to catch up with your studies give more time then you feel better",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How am I going to catch up on my work?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you need to be confident about your studies then you fell better",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How can I be confident?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you need to take more online classes those can help you",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ok I will try to get in an online class if I can.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "because same think happen with me and i took online classes those help me a lot *thing",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ok how much time do you spend on online classes?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i spend like 3 hours a day on online class",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks for the idea do you have any more tips?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i think you need to take help from your family or friend those who know all about your studies",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks for helping me I might pass the exam after all.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "your welcome , thanks for sharing your problem",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Your welcome!",
+                "speaker": "seeker"
+            },
+            {
+                "text": "any time",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Bye!",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Bye!",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The conversation regarding the seeker's academic stress and depression has naturally concluded, and the interaction is ending.",
+            "expected_normative_emotion": "Neutral closure, polite acknowledgment, or mild relief.",
+            "actual_expressed_emotion": "Neutral and polite.",
+            "distortion_analysis": "There is no gap between the expected emotion and the expressed emotion. The speaker is simply performing a standard social ritual to end the conversation without any psychological distortion or avoidance.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Manifestations: Greetings and Farewells: 'Hello,' 'Hi,' 'Bye,' 'See you later.'",
+            "differential_diagnosis": "This is not a defense mechanism (Levels 1-7) because it does not serve to manage anxiety, distort reality, or avoid emotional conflict. It is a purely functional utterance.",
+            "is_it_a_minority_class": "This is definitively a Level 0 (Neutral Utterance) because it is a simple, undefended farewell that maintains conversational flow and social niceties."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00448",
+        "dialogue_id": "ESConv_188",
+        "dialogue": [
+            {
+                "text": "Hello what's going on?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hello.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hey :)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I just found out that I will be losing my job. I have no clue what to do.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I was in a similar situation a short while back I can understand if you feel anxious and stressed. Was it due to the pandemic?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes it is. We haven't gotten the funding form the government and we are a small business. I am not sure how to tell my wife.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So if I understand the anxiety of you losing your job is increased because you also have to give your wife the news?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes and I also have to find some place else to work at.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "If where you live has some form of unemployment insurance it may be a good time to apply for it if your comfortable with that since you are aware your job is coming to an end",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Not a bad idea. I will look into that for sure. I am not sure how long it will take to get it. I'm not to bad off because I do have savings but I am just worried that I will not be able to find any work around where I live and I don't want to move.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It's completly understandable that telling your wife is additionally difficult since it's life effecting news and you are probably worried about the effect the news will have on your wife",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes for sure. She has her job so it just would feel weird for me to be at home while she works.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "In my case I am still currently in school and lack credentials but I've managed to find some online work that is getting me by",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I never have thought about online work. That might be a good idea.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "You may want to budget relevant areas of yur spending ahead of time so your savings will go longer but Isuggest not to the point that it effects your mental well being Also if your on good terms maybe get references",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That is a great idea. I am sure I can get references. My boss loves me. He said he is looking to help me any way he can.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "That is a great idea. I am sure I can get references. My boss loves me. He said he is looking to help me any way he can.",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker recently found out they are losing their job due to the pandemic and is anxious about finding new work and breaking the news to their wife.",
+            "expected_normative_emotion": "Anxiety, worry, stress, or despair.",
+            "actual_expressed_emotion": "Appreciative, proactive, and hopeful.",
+            "distortion_analysis": "The seeker does not distort reality or avoid the negative emotions associated with the job loss. Instead, they actively engage with the supporter's advice, find it valuable, and plan to utilize their social and professional network (their boss) to collaboratively solve the problem of finding a new job.",
+            "handbook_evidence": "Affiliation: DMRS-Q ITEM 44 ('When the subject describes seeking help from others, there is a sense of having learned something from the interchange.') and ITEM 22 ('...help come up with a solution which the subject will then implement.').",
+            "differential_diagnosis": "This is not Level 0 because the seeker is actively utilizing the interaction to formulate a concrete coping strategy for a severe stressor. It is not Level 4 (Idealization) despite the phrase 'My boss loves me', because this statement is grounded in the realistic context of obtaining a professional reference and the boss's explicit offer to help.",
+            "is_it_a_minority_class": "This is a Level 7 (Highly Adaptive) defense because the seeker is demonstrating mature coping by turning to others (both the supporter and their boss) for practical help and support to resolve their crisis."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00449",
+        "dialogue_id": "ESConv_188",
+        "dialogue": [
+            {
+                "text": "Hello what's going on?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hello.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hey :)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I just found out that I will be losing my job. I have no clue what to do.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I was in a similar situation a short while back I can understand if you feel anxious and stressed. Was it due to the pandemic?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes it is. We haven't gotten the funding form the government and we are a small business. I am not sure how to tell my wife.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So if I understand the anxiety of you losing your job is increased because you also have to give your wife the news?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes and I also have to find some place else to work at.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "If where you live has some form of unemployment insurance it may be a good time to apply for it if your comfortable with that since you are aware your job is coming to an end",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Not a bad idea. I will look into that for sure. I am not sure how long it will take to get it. I'm not to bad off because I do have savings but I am just worried that I will not be able to find any work around where I live and I don't want to move.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It's completly understandable that telling your wife is additionally difficult since it's life effecting news and you are probably worried about the effect the news will have on your wife",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes for sure. She has her job so it just would feel weird for me to be at home while she works.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "In my case I am still currently in school and lack credentials but I've managed to find some online work that is getting me by",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I never have thought about online work. That might be a good idea.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "You may want to budget relevant areas of yur spending ahead of time so your savings will go longer but Isuggest not to the point that it effects your mental well being Also if your on good terms maybe get references",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That is a great idea. I am sure I can get references. My boss loves me. He said he is looking to help me any way he can.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I don't drive so my options were limited to avoid riding the bus I do recommend getting out of you living space other ways if you work online but its all right I think with that kind of connection with your boss especially with your job loss being circumstantial you should have a really good starting point",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am going to look online for sure. I would like to work form home. I am sure with my IT degree I can find some online jobs.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It does have benefits you save money on transportation costs for example :) That is actually along the lines of what I'm doing on the low end of the totem pole Not the high paying jobs but the basic and intermediate seems to be a fair bit available I don't male much but Ihave flexible hours and still finishing my degree How are you currently feeling about your situation with a little bit of a plan in place?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "that's awesome. I'm feeling a little better. Just so much to do now but at least I have an idea of what to do. I feel like with this plan my wife will not be so worried.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Maybe if you get your basic ideas together where your satisfied with it it will ease some of the difficulty of talking to your wife. I apologise we had the same idea",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes. i plan on doing that this afternoon. Thank you so much. I am feeling way more at ease. I hope you have a wonderful day.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yes. i plan on doing that this afternoon. Thank you so much. I am feeling way more at ease. I hope you have a wonderful day.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is facing imminent job loss due to the pandemic and the associated anxiety of having to tell their wife and find new employment.",
+            "expected_normative_emotion": "Relief and gratitude after successfully brainstorming a concrete action plan with the supporter.",
+            "actual_expressed_emotion": "The seeker explicitly expresses relief ('feeling way more at ease') and gratitude ('Thank you so much').",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of emotion in this utterance. The seeker is directly reporting their conscious emotional state, confirming their intent to execute the agreed-upon plan, and using standard social pleasantries to close the conversation.",
+            "handbook_evidence": "The handbook states under Level 0: 'The direct expression of an emotion (e.g., \"I am very sad\") is not classified as a defense mechanism. A defense is only present when an emotional expression is clearly distorted, avoided, or transformed.' It also lists 'Greetings and social pleasantries' and 'Simple expressions of thanks' as typical Level 0 utterances.",
+            "differential_diagnosis": "While the broader conversation involved Affiliation (Level 7) by seeking help and collaborating on a solution, this specific utterance functions purely as a conversational closing. It is not Anticipation (Level 7) because the seeker is simply stating a factual intent to do a task ('plan on doing that this afternoon') rather than mentally rehearsing emotional reactions to future stressors. It is not a Disavowal defense (Level 3) because the seeker is fully acknowledging the reality of the situation and taking steps to address it.",
+            "is_it_a_minority_class": "This is a classic Level 0. It might be tempting to label it as Level 7 (Affiliation) because the seeker feels better after talking, but the text itself is a straightforward expression of thanks, a direct report of feeling at ease, and a farewell, which are functionally neutral and undefended."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00450",
+        "dialogue_id": "ESConv_190",
+        "dialogue": [
+            {
+                "text": "Hello",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hello :) how are you",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm good. How can I help you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Im feeling very scared regarding my schooling Im close to failing out and Im not sure what to do",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you are afraid you will fail your classes?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah Im getting pretty close and I can't afford to fail my courses",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you tried tutor service at school? They usually provide free of charge or very cheap",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I've looked around and there arn't any good tutoring services for my field of study I've tried reaching out for help but Im still doing poorly",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It must be frustrated for you.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yea im very frustrated at myself. I just can't seem to do well no matter how hard I try",
+                "speaker": "seeker"
+            },
+            {
+                "text": "How about talking to your professors about that you don't understand and how they can help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Maybe. I haven't tried that yet do you think they would help me?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "don't be too harsh on yourself. We all struggle in life. As long as we find an appropriate solution, I believe you will get better Of course, it's their job after all",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Im trying not to be too hard on myself but it's really scary not knowing if i'll pass the next wave of exams Ill try asking my profs thats a good idea, they can probably give me some good guidance",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Im trying not to be too hard on myself but it's really scary not knowing if i'll pass the next wave of exams Ill try asking my profs thats a good idea, they can probably give me some good guidance",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is on the verge of failing their academic courses, cannot afford to fail, and feels stuck after previous attempts to find tutoring were unsuccessful.",
+            "expected_normative_emotion": "Anxiety, fear, and frustration regarding their academic standing.",
+            "actual_expressed_emotion": "The seeker expresses genuine vulnerability and fear ('really scary'), balanced with a motivated and constructive tone.",
+            "distortion_analysis": "There is no emotional or cognitive distortion present. Instead of avoiding the problem or wallowing in despair, the seeker directly acknowledges their fear and actively uses the supporter's advice to formulate a realistic, actionable plan (talking to professors) to manage the stressor.",
+            "handbook_evidence": "Affiliation - ITEM 22: 'Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.'",
+            "differential_diagnosis": "This is not a Level 0 (Neutral Utterance) because the seeker is actively utilizing the interpersonal relationship to mitigate their anxiety and solve a psychological/practical problem. It is not Level 1 (Help-Rejecting Complaining) because the seeker readily accepts the supporter's suggestion rather than finding reasons why it won't work.",
+            "is_it_a_minority_class": "This is a clear Level 7. The seeker is demonstrating highly adaptive coping by reaching out for support, processing the advice collaboratively, and planning to implement the solution to resolve their academic crisis."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00451",
+        "dialogue_id": "ESConv_191",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hello.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "how are you doing. What is troubling you dear",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I lost my job because my employer wouldn't make an exemption for my medical condition. I'm out of work. I don't know how I'm going to pay my bills.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "if i get you right, you are fired because of your health condition",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No, I quit because they refused to make an exemption. I physically couldn't fulfill the requirements that they put on me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "that's really hard, i can feel your fear i lost my job also because of covid economy inpact",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, I just don't know what to do now. My wife works part-time but I need a little more cash.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "have you try looking another job from nearby",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I have. I think I am getting closer to finding something.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "that's a good news",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, thanks. I just hope it works out...",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you can also go online",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, I'm using Indeed.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you are welcome. you have to keep it together for a while before you get one. But i believe it will be soon",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks, have you found a job?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Thanks, have you found a job?",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Seeker is dealing with the stress of unemployment and financial insecurity, and the Supporter has just offered words of encouragement while previously mentioning their own job loss.",
+            "expected_normative_emotion": "Gratitude for the support and perhaps mild curiosity or empathy regarding the Supporter's similar situation.",
+            "actual_expressed_emotion": "Polite, appreciative, and conversational.",
+            "distortion_analysis": "There is no psychological distortion or avoidance here. The Seeker is simply engaging in a standard social ritual (saying thanks) and asking a direct, factual question based on a piece of information the Supporter shared earlier in the dialogue.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Manifestations include 'Simple Social Rituals: Thank you' and 'Asking factual questions'.",
+            "differential_diagnosis": "This is not Affiliation (Level 7) because the Seeker is not actively using the interaction to collaboratively solve their own problem in this specific utterance; rather, they are just being polite. It is not Displacement (Level 5) because asking about the Supporter's job search is a natural, reciprocal conversational turn, not an unconscious attempt to distract from their own anxiety.",
+            "is_it_a_minority_class": "This is a clear Level 0. The utterance serves a purely functional, conversational purpose to maintain the social flow and acknowledge the other person, without engaging in defensive psychological maneuvers."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00452",
+        "dialogue_id": "ESConv_192",
+        "dialogue": [
+            {
+                "text": "Hello. How are you?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Hello. How are you?",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "There is no preceding context or stressor, as this is the opening statement of the dialogue.",
+            "expected_normative_emotion": "Neutral, polite anticipation of social interaction.",
+            "actual_expressed_emotion": "Neutral and polite.",
+            "distortion_analysis": "There is no gap or distortion. The speaker is simply initiating a conversation using standard social pleasantries.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Manifestations include 'Greetings and Farewells: Hello, Hi, Bye, See you later.'",
+            "differential_diagnosis": "This is not a defense mechanism (Levels 1-7) because there is no psychological conflict, anxiety, or stressor being managed. It is a purely functional utterance to establish contact.",
+            "is_it_a_minority_class": "This is definitively a Level 0. It is a textbook example of a simple social ritual with no defensive function."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00453",
+        "dialogue_id": "ESConv_193",
+        "dialogue": [
+            {
+                "text": "Good evening.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "How are you this evening?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Things are always crazy, and of course with the pandemic my anxiety is even more through the roof. It's not a good time to have immune issues",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Are you someone who has immune issues?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am also facing the real possibility of surgery which scares the heck out of me. I am! I have a severe auto immune disease called Ulcerative Colitis, and I am on immuno suppresant meds on top of that",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I am also facing the real possibility of surgery which scares the heck out of me. I am! I have a severe auto immune disease called Ulcerative Colitis, and I am on immuno suppresant meds on top of that",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The speaker is facing a severe autoimmune disease during a pandemic and the looming possibility of surgery.",
+            "expected_normative_emotion": "Fear, anxiety, and vulnerability.",
+            "actual_expressed_emotion": "Direct, congruent fear and anxiety (\"scares the heck out of me\").",
+            "distortion_analysis": "There is no gap between the expected emotion and the expressed emotion. The speaker is directly acknowledging their reality (having Ulcerative Colitis and taking immunosuppressants) and explicitly stating the fear associated with the possibility of surgery. There is no avoidance, minimization, or transformation of the emotional distress.",
+            "handbook_evidence": "Core Annotation Principles: \"The direct expression of an emotion (e.g., 'I am very sad') is not classified as a defense mechanism. A defense is only present when an emotional expression is clearly distorted, avoided, or transformed.\"",
+            "differential_diagnosis": "This is not Isolation of Affect (Level 6) because the speaker explicitly connects their fear to the stressor. It is not Self-Assertion (Level 7) because there is no interpersonal conflict or boundary being navigated; it is simply a direct self-disclosure of facts and feelings in response to the Supporter's question.",
+            "is_it_a_minority_class": "This is a clear Level 0. The utterance is a straightforward, undefended statement of medical facts and the genuine, undistorted emotional reaction to those facts."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00454",
+        "dialogue_id": "ESConv_193",
+        "dialogue": [
+            {
+                "text": "Good evening.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "How are you this evening?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Things are always crazy, and of course with the pandemic my anxiety is even more through the roof. It's not a good time to have immune issues",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Are you someone who has immune issues?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am also facing the real possibility of surgery which scares the heck out of me. I am! I have a severe auto immune disease called Ulcerative Colitis, and I am on immuno suppresant meds on top of that",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Just to clarify, you are extremely anxious about the pandemic and the affect it may have on you because of your weakened immune system.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Well kind of yes. I am going crazy because I've had this for 8 years now and it's forever changing. I've been hospitalized so many times its crazy. This pandemic has made things worse because stress makes it all worse",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Just from the few messages we have exchanged, I can tell it makes you very anxious",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Its just really depressing not knowing what to expect next. Its hard to trust the good days sometimes because you can have a wonderful day and wake up really sick the next. Its very unpredictable and I think whats worse is that people really don't understand.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you reached out to support groups for people with auto-immune issues? it is often helpful to speak with people who are experiencing the same issues you are.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes I am part of many on facebook, and yes it does help a lot. I just wish my husband would be able to understand. He says and does some things that make me feel even worse. Almost like he thinks I'm making it up at times. Like, dear goodness no.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you talked to him about the way he reacts to your immune issues? Sometimes people don't realize they are not being helpful and they think they are doing good when they aren't.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have tried to talk to him but he seems very uninterested at times. I even tried going to counseling with him and that didn't work. It's just frustrating. He was with me when the one doctor had said just how bad it was and he didn't seem to really pay attention. He was also there when I had to have an emergancy blood transfusion and it was really hard to read him. He just doesnt say or so much",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you asked what his feelings are towards it? Maybe he is afraid and worried about your health and he isn't sure how to express it and sometimes it comes off as uninterested.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah whenever I try it's like pulling teeth. I know some of it is how he was brought up. I don't think his dad ever showed much emotion/ so yes I'm sure that has something to do with it. I also feel bad a lot of the time because I have two kids. I feel like I fail them a lot our oldest was born before I got sick. Our youngest was a miracle baby. I was on birth control and he was determained anyway :) He is definatly a gift but I feel bad often",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you been able to talk to your kids about this as well?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My oldest yes, he seems to understand, he is 8.5 years old. Our youngest is only one so he doesn't understand any of this yet. He says he understands, but I'm not sure on just what level.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "My oldest yes, he seems to understand, he is 8.5 years old. Our youngest is only one so he doesn't understand any of this yet. He says he understands, but I'm not sure on just what level.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Seeker is discussing the heavy emotional burden of her chronic illness, her husband's lack of support, and her feelings of guilt regarding how her illness impacts her children. The Supporter asks a direct question about whether she has spoken to her kids about her health.",
+            "expected_normative_emotion": "Concern, sadness, or guilt regarding her children's exposure to her illness.",
+            "actual_expressed_emotion": "Factual, reflective, and straightforward.",
+            "distortion_analysis": "There is no psychological distortion present in this utterance. The Seeker is directly and honestly answering the Supporter's question by providing factual information about her children's ages and her realistic assessment of their capacity to comprehend her complex health situation.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Situations That Are Typically NOT Defenses (Level 0) include 'Reporting factual details of an event' and answering direct questions without emotional evasion.",
+            "differential_diagnosis": "This is not Isolation of Affect (Level 6) because the Seeker is not stripping away emotion from a traumatic narrative; she is simply answering a logistical question posed by the Supporter. It is not Rationalization (Level 3) because she is not making excuses for her children or herself; she is stating developmental facts (an 8.5-year-old understands somewhat, a 1-year-old does not).",
+            "is_it_a_minority_class": "This is a classic Level 0. The utterance serves a purely conversational function to exchange information in response to a direct prompt, with no underlying defensive maneuver to manage anxiety or conflict."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00455",
+        "dialogue_id": "ESConv_194",
+        "dialogue": [
+            {
+                "text": "Hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi, how are you doing?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am doing alright. How are you?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I am doing alright. How are you?",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "There is no contextual stressor present; this is the very beginning of the conversation.",
+            "expected_normative_emotion": "Neutral, polite, or welcoming.",
+            "actual_expressed_emotion": "Neutral and polite.",
+            "distortion_analysis": "There is no gap between the expected and expressed emotion. The speaker is engaging in standard social pleasantries and maintaining conversational flow without any psychological distortion or avoidance.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Core Function: To maintain conversational flow, perform social niceties, or exchange logistical information without psychological self-revelation. Manifestations: Greetings and Farewells.",
+            "differential_diagnosis": "This is not a defense mechanism (Levels 1-7) because there is no underlying emotional conflict, anxiety, or stressor being managed. It is a simple, undefended statement.",
+            "is_it_a_minority_class": "This is a clear Level 0 (Neutral Utterance) as it serves a purely social and conversational function."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00456",
+        "dialogue_id": "ESConv_194",
+        "dialogue": [
+            {
+                "text": "Hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi, how are you doing?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am doing alright. How are you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm doing ok, thanks for asking. Is there anything that's bothering you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I broke up with my partner...",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh no I'm sorry to hear that. do you want to talk about what happened?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am very depressed... cannot go on with my daily life.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like this is really affecting you, that must be hard How long were you and your partner together?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, it is hard.. we have been together for last 6 months..",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I've been through break ups as well where things can seem pointless afterwards. It took me some time but I eventually got through it Were you happy in the relationship?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How did you cope up with the situation?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I talked to my friends about it a lot, and tried to keep myself occupied with lots of activities I also deleted old messages from my partner so I didn't dwell on the past as much",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How does talking to friends help?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It depends on the situation, but for me I had a lot of unresolved feelings from not getting proper closure, so ranting to my friends about how my partner hurt me helped satisfy that Do you have friends you feel comfortable talking to about this?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have couple of close friends I can talk to.. but have not thought about doing so..",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I have couple of close friends I can talk to.. but have not thought about doing so..",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is experiencing severe depression and difficulty functioning after a recent breakup with their partner of six months.",
+            "expected_normative_emotion": "Sadness, grief, loneliness, or a sense of being overwhelmed.",
+            "actual_expressed_emotion": "Neutral, factual, and reflective.",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of emotion in this utterance. The seeker is directly and honestly answering the supporter's question about their social support system. They acknowledge having friends but factually state that they simply hadn't considered reaching out to them yet. This is a straightforward exchange of information.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. 'Purely functional utterances that serve to maintain conversational flow, express social niceties, or exchange non-emotional information.'",
+            "differential_diagnosis": "This is not Help-Rejecting Complaining (Level 1) because the seeker is not dismissing the supporter's suggestion or arguing that talking to friends won't work; they are merely stating they haven't thought of it. It is not Affiliation (Level 7) because the seeker has not actually turned to their friends for help yet, they are only acknowledging the possibility.",
+            "is_it_a_minority_class": "This is a Level 0. While the context is highly emotional (a painful breakup), this specific utterance is a functional, undefended response to a direct question about the seeker's available resources."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00457",
+        "dialogue_id": "ESConv_194",
+        "dialogue": [
+            {
+                "text": "Hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi, how are you doing?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am doing alright. How are you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm doing ok, thanks for asking. Is there anything that's bothering you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I broke up with my partner...",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh no I'm sorry to hear that. do you want to talk about what happened?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am very depressed... cannot go on with my daily life.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like this is really affecting you, that must be hard How long were you and your partner together?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, it is hard.. we have been together for last 6 months..",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I've been through break ups as well where things can seem pointless afterwards. It took me some time but I eventually got through it Were you happy in the relationship?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How did you cope up with the situation?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I talked to my friends about it a lot, and tried to keep myself occupied with lots of activities I also deleted old messages from my partner so I didn't dwell on the past as much",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How does talking to friends help?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It depends on the situation, but for me I had a lot of unresolved feelings from not getting proper closure, so ranting to my friends about how my partner hurt me helped satisfy that Do you have friends you feel comfortable talking to about this?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have couple of close friends I can talk to.. but have not thought about doing so..",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I think it could be helpful, friends can be really supportive",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I will give it a try...",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yes, I will give it a try...",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Seeker is experiencing depression and difficulty coping with daily life following a recent breakup. The Supporter suggests reaching out to close friends for support.",
+            "expected_normative_emotion": "A sense of openness, mild relief, or willingness to accept help.",
+            "actual_expressed_emotion": "Neutral, compliant, and agreeable.",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of emotion in this utterance. The Seeker is simply providing a direct, functional agreement to the Supporter's practical advice to talk to friends.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Manifestations include 'Simple Affirmations/Negations: Short, non-elaborated responses like \"Okay,\" \"Yes,\" \"No,\" or \"Right.\"'",
+            "differential_diagnosis": "While the action being agreed to (talking to friends) represents Affiliation (Level 7), the utterance itself ('Yes, I will give it a try...') is merely a simple affirmation of the Supporter's suggestion. It does not actively demonstrate the psychological process of Affiliation within the text, nor does it distort reality to protect the ego.",
+            "is_it_a_minority_class": "This is a classic Level 0 utterance. It is a straightforward conversational response acknowledging and agreeing to advice, devoid of any defensive maneuvers or complex emotional processing."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00458",
+        "dialogue_id": "ESConv_194",
+        "dialogue": [
+            {
+                "text": "Hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi, how are you doing?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am doing alright. How are you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm doing ok, thanks for asking. Is there anything that's bothering you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I broke up with my partner...",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh no I'm sorry to hear that. do you want to talk about what happened?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am very depressed... cannot go on with my daily life.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like this is really affecting you, that must be hard How long were you and your partner together?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, it is hard.. we have been together for last 6 months..",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I've been through break ups as well where things can seem pointless afterwards. It took me some time but I eventually got through it Were you happy in the relationship?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How did you cope up with the situation?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I talked to my friends about it a lot, and tried to keep myself occupied with lots of activities I also deleted old messages from my partner so I didn't dwell on the past as much",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How does talking to friends help?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It depends on the situation, but for me I had a lot of unresolved feelings from not getting proper closure, so ranting to my friends about how my partner hurt me helped satisfy that Do you have friends you feel comfortable talking to about this?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have couple of close friends I can talk to.. but have not thought about doing so..",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I think it could be helpful, friends can be really supportive",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I will give it a try...",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It's awesome that even though you're feeling so depressed, you're willing to give something a try to help you out of it",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Any other suggestion you might have?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Any other suggestion you might have?",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Seeker is experiencing severe depression and an inability to function normally following a recent breakup.",
+            "expected_normative_emotion": "Despair, sadness, and helplessness.",
+            "actual_expressed_emotion": "Proactive, engaged, and open to guidance.",
+            "distortion_analysis": "Instead of succumbing to helplessness, isolating themselves, or rejecting help, the Seeker actively turns to the Supporter for constructive advice and coping strategies. They are using the interpersonal connection to collaboratively build a toolkit for managing their emotional distress.",
+            "handbook_evidence": "Level 7 - Affiliation. DMRS-Q ITEM 22: 'Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.'",
+            "differential_diagnosis": "This is not a Level 0 (Neutral Utterance) because it is an active, psychological coping strategy directed at managing a significant emotional stressor, rather than a simple factual inquiry. It is not Help-Rejecting Complaining (Level 1) because the Seeker has just accepted previous advice ('I will give it a try') and is genuinely soliciting more, showing a willingness to implement solutions.",
+            "is_it_a_minority_class": "This is a genuine Level 7 (Adaptive) because the Seeker is explicitly using the interpersonal interaction to gather actionable tools for emotional regulation and problem-solving, which is the hallmark of mature Affiliation."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00459",
+        "dialogue_id": "ESConv_194",
+        "dialogue": [
+            {
+                "text": "Hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi, how are you doing?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am doing alright. How are you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm doing ok, thanks for asking. Is there anything that's bothering you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I broke up with my partner...",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh no I'm sorry to hear that. do you want to talk about what happened?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am very depressed... cannot go on with my daily life.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like this is really affecting you, that must be hard How long were you and your partner together?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, it is hard.. we have been together for last 6 months..",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I've been through break ups as well where things can seem pointless afterwards. It took me some time but I eventually got through it Were you happy in the relationship?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How did you cope up with the situation?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I talked to my friends about it a lot, and tried to keep myself occupied with lots of activities I also deleted old messages from my partner so I didn't dwell on the past as much",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How does talking to friends help?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It depends on the situation, but for me I had a lot of unresolved feelings from not getting proper closure, so ranting to my friends about how my partner hurt me helped satisfy that Do you have friends you feel comfortable talking to about this?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have couple of close friends I can talk to.. but have not thought about doing so..",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I think it could be helpful, friends can be really supportive",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I will give it a try...",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It's awesome that even though you're feeling so depressed, you're willing to give something a try to help you out of it",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Any other suggestion you might have?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Getting involved in a new hobby, or something you used to enjoy, can be helpful",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't have any hobby per say.. but I would like to travel new places..",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I don't have any hobby per say.. but I would like to travel new places..",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Seeker is experiencing depression following a recent breakup and is discussing potential coping strategies with the Supporter, who just suggested picking up a new hobby.",
+            "expected_normative_emotion": "Sadness regarding the breakup, but potentially mild interest or openness to finding a distraction.",
+            "actual_expressed_emotion": "Neutral, factual, and mildly interested.",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of emotion in this utterance. The Seeker is directly and factually responding to the Supporter's suggestion. They clarify that they do not have a traditional hobby but offer an alternative activity (traveling) that fits the Supporter's premise of finding a distraction. This is a straightforward exchange of personal information.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Core Function: To maintain conversational flow... or exchange logistical information without psychological self-revelation. Describing objective personal information.",
+            "differential_diagnosis": "This is not Help-Rejecting Complaining (Level 1) because the Seeker is not rejecting the underlying advice to find an activity; they are simply clarifying their specific interests. It is not Sublimation (Level 7) because the Seeker is merely stating a preference for travel, not actively describing the process of channeling their emotional pain into a creative or physical outlet.",
+            "is_it_a_minority_class": "This is a Level 0 (Neutral) utterance. It lacks the defensive distortion required for Levels 1-6 and does not demonstrate the active, mature emotional modulation required for Level 7. It is a simple, undefended statement of fact."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00460",
+        "dialogue_id": "ESConv_195",
+        "dialogue": [
+            {
+                "text": "Hello, how are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am ok. How do you do Can you help out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Great, I am happy to lend a listening ear.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thank you for your concern.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Of course, what is bothering you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am worry about my job. Because of pandemic",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Are you worried of losing your job due to COVID-19?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes. absolutely",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand your concern about losing your job during these times. So many people are worried and it doesn't seem to be getting better.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ya. I am feeling the same.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you tried speaking to your employer about how you can secure your job? Many people have been trying to see if they can get unemployment just in case they do lose their income.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Not yet speak. I will try my best to solve this problem",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is always good to know all your options during the pandemic. I hope you feel better assured knowing that you can try and qualify for unemployment benefits just in case you do lose your job.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ok thank you so much for your best time which is spend with me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Is there anything else you would like to share with me?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No. thanks",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "No. thanks",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The supporter asks a direct, closing question ('Is there anything else you would like to share with me?') after a brief discussion about the seeker's job insecurity.",
+            "expected_normative_emotion": "Neutrality or mild gratitude as the conversation naturally concludes.",
+            "actual_expressed_emotion": "Neutral and polite.",
+            "distortion_analysis": "There is no distortion, avoidance, or transformation of emotion. The seeker is simply providing a direct, functional answer to a closed question to end the interaction.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance. Manifestations include 'Simple Affirmations/Negations: Short, non-elaborated responses like \"Okay,\" \"Yes,\" \"No,\" or \"Right.\"'",
+            "differential_diagnosis": "This is not a defense mechanism (Levels 1-7) because it does not serve to protect the psyche from overwhelming emotions or manage internal conflict. It is a purely conversational utterance.",
+            "is_it_a_minority_class": "This is definitively a Level 0. It is not a Level 7 (Highly Adaptive) because it does not demonstrate active, mature coping (like Self-Assertion or Anticipation); it is merely a standard social pleasantry used to close a dialogue."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00461",
+        "dialogue_id": "ESConv_195",
+        "dialogue": [
+            {
+                "text": "Hello, how are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am ok. How do you do Can you help out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Great, I am happy to lend a listening ear.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thank you for your concern.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Of course, what is bothering you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am worry about my job. Because of pandemic",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Are you worried of losing your job due to COVID-19?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes. absolutely",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand your concern about losing your job during these times. So many people are worried and it doesn't seem to be getting better.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ya. I am feeling the same.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you tried speaking to your employer about how you can secure your job? Many people have been trying to see if they can get unemployment just in case they do lose their income.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Not yet speak. I will try my best to solve this problem",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is always good to know all your options during the pandemic. I hope you feel better assured knowing that you can try and qualify for unemployment benefits just in case you do lose your job.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ok thank you so much for your best time which is spend with me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Is there anything else you would like to share with me?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No. thanks",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Please end the conversation if there is nothing left for me to help you with :)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ok.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Happy to work with you :)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Happy to chat with you again in future",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Happy to chat with you again in future",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker was previously discussing anxiety regarding potential job loss due to the COVID-19 pandemic, but the conversation has naturally reached its conclusion and the supporter has prompted the end of the chat.",
+            "expected_normative_emotion": "Neutrality, mild gratitude, or polite closure.",
+            "actual_expressed_emotion": "Polite, socially appropriate farewell.",
+            "distortion_analysis": "There is no psychological distortion or avoidance present. The speaker is simply engaging in a standard social ritual to close the conversation after the substantive discussion has ended.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance - Core Function: To maintain conversational flow, perform social niceties, or exchange logistical information without psychological self-revelation. Manifestations: Greetings and Farewells.",
+            "differential_diagnosis": "This is not a defense mechanism (Levels 1-7) because it does not serve to manage anxiety, distort reality, or cope with an internal conflict. It is a purely functional, undefended statement used to end the interaction.",
+            "is_it_a_minority_class": "This is a clear Level 0. It is not a Level 7 (Highly Adaptive) because it does not demonstrate active, mature coping with the stressor (like Affiliation or Anticipation), but rather just a basic social pleasantry."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00462",
+        "dialogue_id": "ESConv_196",
+        "dialogue": [
+            {
+                "text": "Hello there and Happy Holidays! I hope you are feeling okay at the moment?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am not, this is a very hard time of the year for me.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I am not, this is a very hard time of the year for me.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The holiday season and the supporter's inquiry about the seeker's well-being.",
+            "expected_normative_emotion": "Sadness, distress, or grief associated with the holidays.",
+            "actual_expressed_emotion": "Direct expression of distress and not feeling okay.",
+            "distortion_analysis": "There is no gap between the expected emotion and the expressed emotion. The seeker directly and honestly answers the question without minimizing, avoiding, or distorting their feelings.",
+            "handbook_evidence": "The direct expression of an emotion (e.g., 'I am very sad') is not classified as a defense mechanism. A defense is only present when an emotional expression is clearly distorted, avoided, or transformed.",
+            "differential_diagnosis": "This is not a defense mechanism (Levels 1-6) because there is no distortion of reality or avoidance of affect. It is not a highly adaptive defense (Level 7) like Self-Observation because it is a simple statement of current feeling rather than a deeper reflection on internal motives.",
+            "is_it_a_minority_class": "This is a clear Level 0 (No Defense) because it is a straightforward, undefended disclosure of the speaker's emotional state."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00463",
+        "dialogue_id": "ESConv_196",
+        "dialogue": [
+            {
+                "text": "Hello there and Happy Holidays! I hope you are feeling okay at the moment?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am not, this is a very hard time of the year for me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am really sorry to hear that. Please know that I am happy to listen and to help you if I can!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thank you for that. I really miss my girlfriend.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that. Have you separated or can you just not be together at Christmas?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "We are separated. She said I was watching too much Buzzr and didn't pay enough attention to her, so she dumped me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That is not good. But relationships can be reestablished if you talk. Have you considered seeing a third party to help you both talk this out?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "We tried to see a counselor. It did go too well, the counselor took her side on everything, it was very unprofessional.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I seem, so do I hear you saying that you feel that everyone is against you on this and that you feel powerless?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It feels like that way. Even my parents seem to support her more than me. I am all alone now watching a Buzzr marathon with no one to truly support me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry that your parents are not being more supportive. I understand how hard it is when you have a break up and loved ones seem to support your ex!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Has this happened to you before?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Please know that you are not alone in this situation and that there will be light at the end of the tunnel. Yes it has .. my boyfriend left me for someone else and most of our mutual friends took his side!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am sorry to hear that, I think your boyfriend made a big mistake leaving you, you seem like a very nice and sweet person.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I am sorry to hear that, I think your boyfriend made a big mistake leaving you, you seem like a very nice and sweet person.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Supporter sharing a personal, painful story about her own past breakup and losing friends, which mirrors the Seeker's current situation.",
+            "expected_normative_emotion": "Empathy, sympathy, and a sense of shared understanding.",
+            "actual_expressed_emotion": "Sympathy and validation, expressed through a polite compliment.",
+            "distortion_analysis": "There is no psychological distortion or avoidance here. The Seeker is providing a normative, socially appropriate response to the Supporter's self-disclosure. The utterance serves to maintain the conversational flow, express a social nicety, and reciprocate the empathy the Supporter has been showing.",
+            "handbook_evidence": "Label 0: No Defense / Neutral Utterance - 'Purely functional utterances that serve to maintain conversational flow, express social niceties...'",
+            "differential_diagnosis": "It is not Idealization (Level 4) as the compliment ('you seem like a very nice and sweet person') is a standard social nicety rather than an exaggerated, reality-distorting attribution of perfection. It is not Displacement (Level 5) because the Seeker is appropriately responding to the Supporter's direct disclosure rather than wandering off-topic to avoid his own feelings.",
+            "is_it_a_minority_class": "This is a Level 0. It is a straightforward, undefended expression of sympathy and a social pleasantry in response to the interlocutor's shared experience, lacking any defensive distortion."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00464",
+        "dialogue_id": "ESConv_196",
+        "dialogue": [
+            {
+                "text": "Hello there and Happy Holidays! I hope you are feeling okay at the moment?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am not, this is a very hard time of the year for me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am really sorry to hear that. Please know that I am happy to listen and to help you if I can!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thank you for that. I really miss my girlfriend.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that. Have you separated or can you just not be together at Christmas?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "We are separated. She said I was watching too much Buzzr and didn't pay enough attention to her, so she dumped me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That is not good. But relationships can be reestablished if you talk. Have you considered seeing a third party to help you both talk this out?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "We tried to see a counselor. It did go too well, the counselor took her side on everything, it was very unprofessional.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I seem, so do I hear you saying that you feel that everyone is against you on this and that you feel powerless?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It feels like that way. Even my parents seem to support her more than me. I am all alone now watching a Buzzr marathon with no one to truly support me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry that your parents are not being more supportive. I understand how hard it is when you have a break up and loved ones seem to support your ex!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Has this happened to you before?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Please know that you are not alone in this situation and that there will be light at the end of the tunnel. Yes it has .. my boyfriend left me for someone else and most of our mutual friends took his side!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am sorry to hear that, I think your boyfriend made a big mistake leaving you, you seem like a very nice and sweet person.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Thank you :) I am sure that there is someone else out there for you too if you cannot reconcile with your ex. The question is, how much do you really want to? You might be better off without her",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That might be true, she really blew it with me, I am a good catch.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "That might be true, she really blew it with me, I am a good catch.",
+        "predicted_label": "Minor Image-distorting Defense Level",
+        "predicted_defense_level": 4,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Seeker is dealing with the painful reality of being dumped by his girlfriend, feeling isolated during the holidays, and facing the fact that even his parents and counselor took his ex's side.",
+            "expected_normative_emotion": "Sadness, grief, vulnerability, or feelings of shame and inadequacy regarding his role in the breakup.",
+            "actual_expressed_emotion": "Exaggerated self-confidence, bravado, and dismissiveness.",
+            "distortion_analysis": "To protect himself from the painful feelings of rejection and the narcissistic injury of being at fault for the breakup, the Seeker artificially inflates his own self-worth ('I am a good catch') and devalues his ex's decision ('she really blew it'). This minor image distortion props up his fragile self-esteem and wards off the underlying sadness.",
+            "handbook_evidence": "DMRS-Q ITEM 38 (Idealization of self-image): 'When confronted with any negative aspects of him or herself, the subject appears to downplay or ignore them by substituting talk about positive self-attributes instead.' Also aligns with ITEM 135: 'When confronted with problems, the subject prefers to dwell on his or her own positive qualities...'",
+            "differential_diagnosis": "This is not Level 3 Rationalization because he isn't making up a logical excuse for why the breakup happened; rather, he is directly distorting his self-image to be overly positive. It is not Level 2 Splitting because the distortion is localized to propping up his ego in this specific context, rather than a severe, absolute all-good/all-bad break from reality.",
+            "is_it_a_minority_class": "This is not Level 0 because the statement is not a neutral fact; it is a clear psychological maneuver to defend against the pain of rejection. It is not Level 7 because it relies on distorting reality (exaggerating his own perfection and ignoring his faults) rather than adaptively processing the loss."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00465",
+        "dialogue_id": "ESConv_197",
+        "dialogue": [
+            {
+                "text": "Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.",
+        "predicted_label": "Action Defense Level",
+        "predicted_defense_level": 1,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker is distressed by negative events happening to people around them and is experiencing a perceived delay or absence of the supporter at the very beginning of the conversation.",
+            "expected_normative_emotion": "Sadness, anxiety, or a direct and polite request for support.",
+            "actual_expressed_emotion": "Irritation, impatience, and a passive-aggressive tone.",
+            "distortion_analysis": "Instead of simply stating their need for help or waiting for a response, the seeker discharges their internal distress and frustration through a passive-aggressive complaint ('I suppose my supporter is not here'). This indirect expression of annoyance serves to release emotional tension through behavior/complaining rather than processing the feeling.",
+            "handbook_evidence": "Level 1: Action Defenses (Passive Aggression). The seeker expresses aggression or annoyance toward the supporter in an indirect manner, masking their frustration behind a supposed observation of the supporter's absence.",
+            "differential_diagnosis": "This is not Level 0 because the statement goes beyond a simple, undefended expression of feeling upset; it includes a passive-aggressive jab at the supporter. It is not Level 3 (Disavowal) because the seeker is not denying or projecting their feelings, but rather acting them out through indirect complaining.",
+            "is_it_a_minority_class": "This is not Level 0 (Neutral) because the utterance contains a clear passive-aggressive distortion aimed at the listener. It is not Level 7 (Adaptive) because the coping mechanism (complaining/passive aggression) is immature and not a constructive way to build affiliation."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00466",
+        "dialogue_id": "ESConv_197",
+        "dialogue": [
+            {
+                "text": "Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hello how may I assist you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am just so upset It's like things never get better",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that. I know how you feel.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah... My mom is in Mexico right now for some ex who got deported. Like come on. It's bad enough she sent money to him.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What have you tried in the past to turn things around?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hm. I tried moving on. And it just appears she gets worst",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you are missing your mom?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Not really... She just keeps asking me for mone I gave her like 10k for the house she bought and she hasn't done anything back.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh I see my mom has also done this in the past. Sometimes I wonder who raised who?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah. I get that She rented it to some guy and left before even getting some decent money so now she is stranded in Mexico with some guy who can't even afford to get her back",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yeah. I get that She rented it to some guy and left before even getting some decent money so now she is stranded in Mexico with some guy who can't even afford to get her back",
+        "predicted_label": "Minor Image-distorting Defense Level",
+        "predicted_defense_level": 4,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Seeker's mother exploited them for $10k, abandoned them for a deported ex, and is now stranded and asking for more money.",
+            "expected_normative_emotion": "Deep betrayal, grief, intense anger, and feelings of being unloved or used.",
+            "actual_expressed_emotion": "Contemptuous, dismissive, and critical.",
+            "distortion_analysis": "To cope with the profound disappointment and ego threat of the mother's rejection, the Seeker devalues the mother and her new partner. By highlighting their incompetence and pathetic situation ('stranded', 'some guy who can't even afford...'), the Seeker minimizes their importance. This defensive minimization protects the Seeker's own self-esteem from the acute pain of being abandoned and used.",
+            "handbook_evidence": "DMRS-Q Item 54: 'When a topic brings with it feelings of disappointment, shame or loss of self-esteem, the subject dismisses the issue by finding some fault or criticism elsewhere...' and Item 143: 'The subject makes sarcastic or biting statements about others to minimize their positive qualities and dismiss any competition or threat they may pose.'",
+            "differential_diagnosis": "This is not Isolation of Affect (Level 6) because the tone is not purely sterile or detached; it contains active contempt and dismissiveness (repeatedly referring to the partner as 'some guy'). It is not Displacement (Level 5) because the anger isn't just redirected at a safe target; it is specifically used to degrade and minimize the people who caused the pain.",
+            "is_it_a_minority_class": "This is NOT Level 0. While it contains factual details of the mother's situation, the Subtext Protocol applies: the text is tangentially factual and laced with devaluing language designed to manage the emotional pain of a severe betrayal. It is NOT Level 7 because it relies on putting others down rather than constructively processing the internal pain."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00467",
+        "dialogue_id": "ESConv_197",
+        "dialogue": [
+            {
+                "text": "Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hello how may I assist you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am just so upset It's like things never get better",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that. I know how you feel.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah... My mom is in Mexico right now for some ex who got deported. Like come on. It's bad enough she sent money to him.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What have you tried in the past to turn things around?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hm. I tried moving on. And it just appears she gets worst",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you are missing your mom?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Not really... She just keeps asking me for mone I gave her like 10k for the house she bought and she hasn't done anything back.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh I see my mom has also done this in the past. Sometimes I wonder who raised who?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah. I get that She rented it to some guy and left before even getting some decent money so now she is stranded in Mexico with some guy who can't even afford to get her back",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That is the worst. I ended up having to cut my mom out of my life.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I wonder if I should do the same... My grand mother basically gave me a whole speech about how ashamed she is.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Sometimes it is for the best to set clear boundries.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "But who knows. Apparently my mom said she'll put the house in my name for all these things I did for her. Kind of annoying to be frank.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Is Grand mother ashamed of you or her daughter? I feel it should be her ashamed of her daughter.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My grand mother is ashamed of her daughter I am kind of left with a weird circumstance.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "My grand mother is ashamed of her daughter I am kind of left with a weird circumstance.",
+        "predicted_label": "Obsessional Defense Level",
+        "predicted_defense_level": 6,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker's mother has exploited them financially for $10,000, abandoned her responsibilities to get stranded in Mexico with a deported ex, and the grandmother is expressing deep shame over the mother's actions.",
+            "expected_normative_emotion": "Intense anger, profound betrayal, grief, or overwhelming distress.",
+            "actual_expressed_emotion": "Flat, detached, and mildly perplexed.",
+            "distortion_analysis": "The seeker strips a highly chaotic, financially damaging, and emotionally devastating family betrayal of its emotional weight. By summarizing the severe dysfunction as merely a 'weird circumstance,' the seeker separates their cognitive awareness of the facts from the painful feelings that would normally accompany them.",
+            "handbook_evidence": "Level 6 - Isolation of Affects. ITEM 31: 'In talking about a meaningful, emotionally charged experience, the subject talks in a detached way, as if he or she is not in touch with the feelings that should surround it.' ITEM 107: 'The subject talks as if emotionally detached from whatever he says about himself or his experiences.'",
+            "differential_diagnosis": "This is not Level 3 (Denial) because the seeker fully acknowledges the objective facts of the mother's behavior. It is not Level 5 (Repression) because the cognitive memory of the event is fully present. It is not Level 7 (Suppression) because there is no conscious, deliberate choice to postpone the emotion to focus on a pressing task; the emotion is simply missing from the description.",
+            "is_it_a_minority_class": "This is definitely not Level 0. While the statement is grammatically simple, describing the loss of $10k and severe family abandonment as a 'weird circumstance' is a massive understatement that indicates a defensive muting of affect. It is not Level 7 because it lacks active, mature problem-solving or emotional integration."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00468",
+        "dialogue_id": "ESConv_197",
+        "dialogue": [
+            {
+                "text": "Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hello how may I assist you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am just so upset It's like things never get better",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that. I know how you feel.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah... My mom is in Mexico right now for some ex who got deported. Like come on. It's bad enough she sent money to him.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What have you tried in the past to turn things around?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hm. I tried moving on. And it just appears she gets worst",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you are missing your mom?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Not really... She just keeps asking me for mone I gave her like 10k for the house she bought and she hasn't done anything back.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh I see my mom has also done this in the past. Sometimes I wonder who raised who?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah. I get that She rented it to some guy and left before even getting some decent money so now she is stranded in Mexico with some guy who can't even afford to get her back",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That is the worst. I ended up having to cut my mom out of my life.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I wonder if I should do the same... My grand mother basically gave me a whole speech about how ashamed she is.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Sometimes it is for the best to set clear boundries.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "But who knows. Apparently my mom said she'll put the house in my name for all these things I did for her. Kind of annoying to be frank.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Is Grand mother ashamed of you or her daughter? I feel it should be her ashamed of her daughter.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My grand mother is ashamed of her daughter I am kind of left with a weird circumstance.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "At least that is a good thing to come out of a bad situation.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Only reason she has a house is because I helped. And if I leave it. Everyone in my family said I would be irresponsible to let my mom lose it.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Only reason she has a house is because I helped. And if I leave it. Everyone in my family said I would be irresponsible to let my mom lose it.",
+        "predicted_label": "Disavowal Defense Level",
+        "predicted_defense_level": 3,
+        "clinical_reasoning": {
+            "contextual_stressor": "The Seeker is dealing with an irresponsible mother who drains them financially and emotionally, and the Supporter has just tried to reframe the situation positively by pointing out the Seeker might get the house.",
+            "expected_normative_emotion": "Frustration, anger, or a clear desire to assert boundaries and protect themselves.",
+            "actual_expressed_emotion": "Defensive, resentful, and feeling helplessly trapped.",
+            "distortion_analysis": "The Seeker avoids taking ownership of their choice to remain enmeshed in this toxic dynamic. Instead of acknowledging their own internal conflict, guilt, or difficulty in setting boundaries, they rationalize their continued involvement by pointing to external pressure ('Everyone in my family said I would be irresponsible'). This externalizes the locus of control and justifies their inability to walk away.",
+            "handbook_evidence": "DMRS-Q ITEM 42: 'The subject avoids feelings of guilt or shame by justifying his actions or by referring to external reasons that impelled him to act.' This is the core mechanism of Rationalization.",
+            "differential_diagnosis": "This is not Help-Rejecting Complaining (Level 1) because the Seeker is not systematically rejecting direct advice in this turn; rather, they are providing an excuse for their own inaction. It is not Intellectualization (Level 6) because the reasoning is not abstract or generalized, but a specific, personal excuse.",
+            "is_it_a_minority_class": "This is not Level 0 because the utterance is heavily laden with psychological conflict and defensive justification. It is not Level 7 because the Seeker is not actively coping or asserting themselves, but rather making excuses for remaining in a distressing situation."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00469",
+        "dialogue_id": "ESConv_198",
+        "dialogue": [
+            {
+                "text": "Hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How are you doing?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am pretty good. How are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm pretty miserable. It's been a rough week",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What is going on?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I ended things with my girlfriend last week.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that, what caused you to wan to end things?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Things have been pretty rough for the last few years. I found out she was hanging out with her ex and she lied about it The kicker is that we live together and her family is planning on coming to stay with us for xmas. they already have their flights booked and now are trying to cancel",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So from what I am hearing, you ended things with your girlfriend because she was talking to her ex and lying to you about it and you are feeling upset about it.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah, plus our relationship has been rocky for the past year. I think we are just loosing interest in eachother",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yeah, plus our relationship has been rocky for the past year. I think we are just loosing interest in eachother",
+        "predicted_label": "Disavowal Defense Level",
+        "predicted_defense_level": 3,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker recently broke up with his girlfriend after discovering she was lying and hanging out with her ex, causing significant disruption to their lives and holiday plans.",
+            "expected_normative_emotion": "Intense anger, feelings of betrayal, humiliation, and acute grief over the deception and sudden loss.",
+            "actual_expressed_emotion": "A detached, resigned tone that minimizes the acute pain of the betrayal.",
+            "distortion_analysis": "The seeker shifts the narrative from a painful betrayal (she lied and saw her ex) to a mutual, gradual decline ('rocky for the past year', 'just loosing interest'). This explanation serves to soothe the ego and reduce the acute sting of rejection by making the breakup seem like an inevitable, mutual fading of feelings rather than a direct consequence of her deception.",
+            "handbook_evidence": "Rationalization (Disavowal Defense Level): Devising reassuring or self-serving but incorrect explanations for one's own or others' behavior. This aligns with DMRS-Q ITEM 86, where the subject avoids acknowledging painful feelings by giving a plausible explanation that covers up the real subjective reasons.",
+            "differential_diagnosis": "This is not Intellectualization (Level 6) because the seeker is not using abstract, generalized theories, but rather providing a specific, self-serving excuse for their own relationship. It is not Devaluation (Level 4) because the focus is on explaining the situation logically rather than aggressively attacking the ex's character.",
+            "is_it_a_minority_class": "This is not Level 0 because the statement actively distorts the emotional reality of the betrayal to protect the seeker's self-esteem. It is not Level 7 because it relies on self-deception (minimizing the betrayal) rather than maturely processing the pain."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00470",
+        "dialogue_id": "ESConv_198",
+        "dialogue": [
+            {
+                "text": "Hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How are you doing?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am pretty good. How are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm pretty miserable. It's been a rough week",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What is going on?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I ended things with my girlfriend last week.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that, what caused you to wan to end things?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Things have been pretty rough for the last few years. I found out she was hanging out with her ex and she lied about it The kicker is that we live together and her family is planning on coming to stay with us for xmas. they already have their flights booked and now are trying to cancel",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So from what I am hearing, you ended things with your girlfriend because she was talking to her ex and lying to you about it and you are feeling upset about it.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah, plus our relationship has been rocky for the past year. I think we are just loosing interest in eachother",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand your situation completely. I had a recent ex that I lived with who also was talking to her ex and hanging out with him and lying to me about it.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "what did you do about it?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "The first thing I did was had a conversation to try and see why she was talking to her ex and lying to me about it. Trying to get closure is very helpful.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes, i could see that. We have discussed and decided to end things. Like I said, her family was planning on staying with us for xmas, so now it feels like we ruined xmas for everyone",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yes, i could see that. We have discussed and decided to end things. Like I said, her family was planning on staying with us for xmas, so now it feels like we ruined xmas for everyone",
+        "predicted_label": "Displacement",
+        "predicted_defense_level": 5,
+        "clinical_reasoning": {
+            "contextual_stressor": "The painful realization of his girlfriend's betrayal (lying and hanging out with her ex) and the subsequent breakup, which the Supporter just prompted him to explore for closure.",
+            "expected_normative_emotion": "Anger, deep sadness, or hurt regarding the intimate betrayal and the loss of the relationship.",
+            "actual_expressed_emotion": "Guilt and distress directed towards a secondary, logistical issue (ruining the family's Christmas plans).",
+            "distortion_analysis": "The speaker briefly acknowledges the core emotional issue (the breakup) but actively avoids the Supporter's prompt to discuss the painful details of the betrayal. Instead, he immediately pivots to focus heavily on a tangential, less threatening issue (the family's Christmas plans). This shifts the emotional weight from the painful intimate betrayal to a more manageable, externalized problem of holiday logistics and family disappointment.",
+            "handbook_evidence": "Displacement. DMRS-Q ITEM 69: 'When confronting emotionally charged topics, the subject tends not to address concerns directly and fully but wanders off to tangentially related topics that are emotionally easier for the subject to discuss...' and ITEM 122: 'When discussing an affect-laden event, the subject expresses more feelings directed toward incidental details or issues than about the major point or effect of the event...'",
+            "differential_diagnosis": "This is not Rationalization (Level 3) because he is not making excuses for the breakup itself. It is not Devaluation (Level 4) because he is not primarily attacking his own or her character, but rather shifting the topic of distress. It is not Isolation of Affect (Level 6) because he is expressing clear emotion (guilt/distress), but it is directed at a displaced target.",
+            "is_it_a_minority_class": "This is not Level 0 (Neutral) because the speaker is actively deflecting from a highly charged emotional prompt to a safer topic, indicating a defensive maneuver. It is not Level 7 (Adaptive) because this deflection prevents him from processing the core emotional pain of the betrayal and achieving true closure."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00471",
+        "dialogue_id": "ESConv_199",
+        "dialogue": [
+            {
+                "text": "Hello, what can I help you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I really sad as my partner walked out on me. Any thoughts what could cheer me up?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I really sad as my partner walked out on me. Any thoughts what could cheer me up?",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker's partner recently walked out on them, ending their relationship.",
+            "expected_normative_emotion": "Sadness, grief, or distress.",
+            "actual_expressed_emotion": "The seeker explicitly and directly expresses sadness ('I really sad').",
+            "distortion_analysis": "There is no psychological distortion, avoidance, or transformation of the emotion. The seeker directly acknowledges the painful reality of the breakup and their resulting sadness, followed by a straightforward, undefended request for advice.",
+            "handbook_evidence": "Core Annotation Principles: 'Distinguishing Emotion from Defense: The direct expression of an emotion (e.g., \"I am very sad\") is not classified as a defense mechanism. A defense is only present when an emotional expression is clearly distorted, avoided, or transformed.'",
+            "differential_diagnosis": "This is not Affiliation (Level 7) because, although the seeker is asking for help, the utterance is primarily a direct, undefended disclosure of emotion and a functional conversational opening for a support chat, rather than a demonstrated collaborative problem-solving process. It is not a lower-level defense because there is no avoidance, minimization, or distortion of the negative affect.",
+            "is_it_a_minority_class": "This is a clear Level 0. It is not a Level 7 because the request for help is a basic functional question to initiate the dialogue rather than a developed mature coping mechanism, and the primary function is the direct expression of an undistorted emotion."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00472",
+        "dialogue_id": "ESConv_199",
+        "dialogue": [
+            {
+                "text": "Hello, what can I help you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I really sad as my partner walked out on me. Any thoughts what could cheer me up?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Was there anything that leads to this?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Not really. I thought everything was ok between us. That is why it kind of struck me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's terrible and unacceptable behavior. How long have you been together?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have to agree with you-it is unacceptable, considering that he didn't give me any reasons as to why he did it. We have been together for 5 years.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That sucks. I wouldn't be able to accept either. Have you talked to your friends about this?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is still rather raw,I have mentioned to it to a few of my friends and they deeply symphatise with me but I feel there is nothing much they can do to help me.They are as shocked as me to be honest.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "It is still rather raw,I have mentioned to it to a few of my friends and they deeply symphatise with me but I feel there is nothing much they can do to help me.They are as shocked as me to be honest.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "contextual_stressor": "The seeker's partner of 5 years unexpectedly walked out on them without giving a reason, and the supporter just asked if the seeker has talked to their friends about it.",
+            "expected_normative_emotion": "Sadness, shock, grief, and feeling overwhelmed or vulnerable.",
+            "actual_expressed_emotion": "The seeker expresses feeling that the situation is \"raw\" and that they are \"shocked,\" which perfectly matches the expected normative emotions.",
+            "distortion_analysis": "There is no gap between the expected and expressed emotion. The seeker directly answers the supporter's question, openly acknowledges their vulnerable emotional state, and realistically appraises the situation (friends sympathize but cannot fix the breakup). There is no avoidance, minimization, blame-shifting, or intellectualization.",
+            "handbook_evidence": "The handbook states: \"The direct expression of an emotion (e.g., 'I am very sad') is not classified as a defense mechanism. A defense is only present when an emotional expression is clearly distorted, avoided, or transformed.\"",
+            "differential_diagnosis": "This is not Affiliation (Level 7) because, although the seeker confided in friends, they explicitly note that the friends cannot do much to help, meaning the collaborative problem-solving or enhanced coping aspect of Affiliation is not fully realized. It is not Help-Rejecting Complaining (Level 1) because the seeker acknowledges the friends' deep sympathy and is not rejecting advice, but rather stating a realistic limitation of what friends can do to reverse a sudden breakup.",
+            "is_it_a_minority_class": "This is a Level 0 (Neutral Utterance) because it is a straightforward, undefended disclosure of feelings and facts in response to a direct question. The seeker is actively engaging with their painful reality without psychological distortion."
+        },
+        "model_thinking_dump": []
     }
 ]

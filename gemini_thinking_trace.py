@@ -67,15 +67,13 @@ The correct true label level will be given to you in the prompt. You must explai
 Your classification reasoning must be grounded in the DMRS hierarchy given below. This following comprehensive HANDBOOK serves as your core classifying guideline:
 {HANDBOOK_TEXT}
 
-Here are some examples of how to reason through the task:
-{FEW_SHOT_EXAMPLES}
 
 CORE INSTRUCTIONS:
 1. Primacy of Context: Always read the preceding dialogue to understand what triggered the 'current_text_to_classify'.
-2. Function-Oriented: Ask yourself, "What psychological goal is the speaker trying to achieve?"
+2. Function-Oriented: Ask yourself, "What psychological goal is the speaker trying to achieve or avoid?"
 3. Handbook Grounded: Match the behavior to the specific criteria in the DMRS Handbook. Reason through why specific criteria are met pointing towards the provided correct label.
 4. Hierarchical Integrity: You must maintain hierarchical integrity — explicitly reason through why the classification does not drift into higher or lower levels by verifying that all exclusionary criteria for the selected level are met.
-5. Emulate the Correct Path: Provide the thought process as if you independently arrived at the provided correct label.
+5. Emulate the Correct Path (CRITICAL): Provide the thought process as if you independently arrived at the provided correct label.
 8. Output strict JSON matching the requested schema, ensuring your output 'defense_level' matches the provided correct level.
 """
 
@@ -84,7 +82,7 @@ MODEL_ID = "gemini-3.1-pro-preview"
 
 # Minimum token count required for context caching to be cost-effective.
 # Gemini enforces a minimum of 32,768 tokens for cached content.
-CACHE_TTL = "7200s"  # Cache lives for 2 hour; adjust as needed.
+CACHE_TTL = "10800s"  # Cache lives for 2 hour; adjust as needed.
 
 
 # ==============================================================================
@@ -130,25 +128,27 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
         log_file.write("=================================================\n")
 
     # AS ALREADY CREATED, USING VIA cacheRef
-    # try:
-    #     # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
-    #     # and set a concise system_instruction for the model's persona.
-    #     cache = client.caches.create(
-    #         model=MODEL_ID,
-    #         config=types.CreateCachedContentConfig(
-    #             system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
-    #             contents=[SYSTEM_INSTRUCTION],
-    #             display_name="dmrs-handbook-cache",
-    #             ttl=CACHE_TTL,
-    #         ),
-    #     )
-    #     print(f"Cache created successfully: {cache.name}")
-    # except Exception as e:
-    #     print(f"Failed to create cache: {e}")
-    #     return
+    try:
+        # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
+        # and set a concise system_instruction for the model's persona.
+        cache = client.caches.create(
+            model=MODEL_ID,
+            config=types.CreateCachedContentConfig(
+                system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
+                contents=[SYSTEM_INSTRUCTION],
+                display_name="dmrs-handbook-cache",
+                ttl=CACHE_TTL,
+            ),
+        )
+        print(f"Cache created successfully: {cache.name}")
+    except Exception as e:
+        print(f"Failed to create cache: {e}")
+        return
 
     # or if alrady has
-    cacheRef = "projects/942972453935/locations/global/cachedContents/5700403225157435392"  # cache.name
+    cacheRef = (
+        cache.name
+    )  # "projects/942972453935/locations/global/cachedContents/5700403225157435392"  # cache.name
     print("\n Your Cache REF ISSSSS \n")
     print(cacheRef)
 
@@ -269,4 +269,4 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
 
 if __name__ == "__main__":
     # Example usage:
-    annotate_dataset("input_data/train.json", "annotated_train_data.json")
+    annotate_dataset("input_data/train.json", "annotated_train_data_with_trace.json")

@@ -8854,3 +8854,965 @@ Seeker: okay, i guess its good to know im not the only one how did you get thru 
 current_text_to_classify: okay, i guess its good to know im not the only one how did you get thru it?
 ==============================================
 
+========== PROMPT FOR test_00431 ==========
+Supporter: Good Evening
+Seeker: Hello
+Supporter: How are you?
+Seeker: I'm pretty stressed out actually
+Supporter: I'm sorry to hear that. It's rough to get stressed Would you like to tell me what's going on?
+Seeker: Sure. I just failed a huge test in my college class, and I'm worried it will fail me the entire class, and then I won't be able to get my associates
+Supporter: Oh no! I can totally understand why you're stressing over that! Absolutely valid reason for anxiety. May I ask how much of the whole grade was the test's percentage?
+Seeker: Yeah it's really weighing down on me. It's the only thing I can think about. The test was worth 75%
+Supporter: What was you're score?
+Seeker: I got a 62% on the test.
+Supporter: That isn't TECHNICALLY a failed grade by the standards of most professors. Albeit a low grade, it's a D. Anything below 59% would qualify as failed.
+Seeker: Yeah, but taking into account my scores on homework, I don't think it's enought to pass the class
+Supporter: Have you done fairly well in other classes? How have your grades been prior to this test in that class?
+Seeker: Honestly it's just kind of all over the place. I am surviving in other classes, but with all this online stuff with the pandemic I barely learn anything. I'm basically faking it til I make it. Which I hate. But I can't learn in these conditions.
+Supporter: I hate that you feel that way about yourself, but I can also relate to having a rough time learning via online classes. I'm the same way. However, that does not disable you from being able to learn. It impedes your quality of learning, no doubt. But it isn't something that YOU can help. By having an attitude of being unable to learn, you automatically lower your expectations for the success you would potentially have otherwise...
+Seeker: Yeah that's true, I just think it's not my learning style so it's a lot harder for me. I thought about waiting until things are normal enough to physically be able to go back to class before I try and finish my bachelors, but who knows when that will be
+
+current_text_to_classify: Yeah that's true, I just think it's not my learning style so it's a lot harder for me. I thought about waiting until things are normal enough to physically be able to go back to class before I try and finish my bachelors, but who knows when that will be
+==============================================
+
+========== PROMPT FOR test_00431 ==========
+Supporter: Good Evening
+Seeker: Hello
+Supporter: How are you?
+Seeker: I'm pretty stressed out actually
+Supporter: I'm sorry to hear that. It's rough to get stressed Would you like to tell me what's going on?
+Seeker: Sure. I just failed a huge test in my college class, and I'm worried it will fail me the entire class, and then I won't be able to get my associates
+Supporter: Oh no! I can totally understand why you're stressing over that! Absolutely valid reason for anxiety. May I ask how much of the whole grade was the test's percentage?
+Seeker: Yeah it's really weighing down on me. It's the only thing I can think about. The test was worth 75%
+Supporter: What was you're score?
+Seeker: I got a 62% on the test.
+Supporter: That isn't TECHNICALLY a failed grade by the standards of most professors. Albeit a low grade, it's a D. Anything below 59% would qualify as failed.
+Seeker: Yeah, but taking into account my scores on homework, I don't think it's enought to pass the class
+Supporter: Have you done fairly well in other classes? How have your grades been prior to this test in that class?
+Seeker: Honestly it's just kind of all over the place. I am surviving in other classes, but with all this online stuff with the pandemic I barely learn anything. I'm basically faking it til I make it. Which I hate. But I can't learn in these conditions.
+Supporter: I hate that you feel that way about yourself, but I can also relate to having a rough time learning via online classes. I'm the same way. However, that does not disable you from being able to learn. It impedes your quality of learning, no doubt. But it isn't something that YOU can help. By having an attitude of being unable to learn, you automatically lower your expectations for the success you would potentially have otherwise...
+Seeker: Yeah that's true, I just think it's not my learning style so it's a lot harder for me. I thought about waiting until things are normal enough to physically be able to go back to class before I try and finish my bachelors, but who knows when that will be
+
+current_text_to_classify: Yeah that's true, I just think it's not my learning style so it's a lot harder for me. I thought about waiting until things are normal enough to physically be able to go back to class before I try and finish my bachelors, but who knows when that will be
+==============================================
+
+========== PROMPT FOR test_00432 ==========
+Supporter: Hi there! How can I help you today
+Seeker: i cant keep up in class
+Supporter: I'm so sorry to hear that. How does that make you feel?
+Seeker: like crap, it makes me not wanna do anything
+Supporter: I understand completely, it can be hard to keep up in class especially if you're feeling down To be clear, you're feeling bad about not being able to keep up in class and that's making you feel even worse about it?
+Seeker: yeah, like I want to start doing better but then i realize theres just no point im already behind
+Supporter: Don't worry, that's totally normal, especially since a lot of things are online these days. I personally struggled with keeping up with courses, but I found a way to make it work by pushing to the limits
+Seeker: okay, i guess its good to know im not the only one how did you get thru it?
+
+current_text_to_classify: okay, i guess its good to know im not the only one how did you get thru it?
+==============================================
+
+========== PROMPT FOR test_00433 ==========
+Supporter: Hi there! How can I help you today
+Seeker: i cant keep up in class
+Supporter: I'm so sorry to hear that. How does that make you feel?
+Seeker: like crap, it makes me not wanna do anything
+Supporter: I understand completely, it can be hard to keep up in class especially if you're feeling down To be clear, you're feeling bad about not being able to keep up in class and that's making you feel even worse about it?
+Seeker: yeah, like I want to start doing better but then i realize theres just no point im already behind
+Supporter: Don't worry, that's totally normal, especially since a lot of things are online these days. I personally struggled with keeping up with courses, but I found a way to make it work by pushing to the limits
+Seeker: okay, i guess its good to know im not the only one how did you get thru it?
+Supporter: I suggest starting with what you missed first instead of worrying what you're getting now Maybe let your teacher/professor know how you're doing in class and you may be able to ask for extensions on deadlines
+Seeker: Thats helpful, thanks i am a little scared to ask my teacher though shes really mean and what if she fails me?
+Supporter: Don't be afraid! Remember a teacher's job is to teach and help you, she may look a little mean but it doesn't hurt to try and ask, she can't fail you for being confused :)
+Seeker: yeah i guess your right
+
+current_text_to_classify: yeah i guess your right
+==============================================
+
+========== PROMPT FOR test_00434 ==========
+Supporter: Hi there! How can I help you today
+Seeker: i cant keep up in class
+Supporter: I'm so sorry to hear that. How does that make you feel?
+Seeker: like crap, it makes me not wanna do anything
+Supporter: I understand completely, it can be hard to keep up in class especially if you're feeling down To be clear, you're feeling bad about not being able to keep up in class and that's making you feel even worse about it?
+Seeker: yeah, like I want to start doing better but then i realize theres just no point im already behind
+Supporter: Don't worry, that's totally normal, especially since a lot of things are online these days. I personally struggled with keeping up with courses, but I found a way to make it work by pushing to the limits
+Seeker: okay, i guess its good to know im not the only one how did you get thru it?
+Supporter: I suggest starting with what you missed first instead of worrying what you're getting now Maybe let your teacher/professor know how you're doing in class and you may be able to ask for extensions on deadlines
+Seeker: Thats helpful, thanks i am a little scared to ask my teacher though shes really mean and what if she fails me?
+Supporter: Don't be afraid! Remember a teacher's job is to teach and help you, she may look a little mean but it doesn't hurt to try and ask, she can't fail you for being confused :)
+Seeker: yeah i guess your right
+Supporter: Does that make you feel a little better about it?
+Seeker: yea, a lot better actually, thanks
+Supporter: You're welcome! Anything else I can help out with?
+Seeker: what should i do about the work i missed?
+Supporter: hmm, i suggest you should ask your teacher if its still alright to submit it. If you decide to do them, make sure its ok with her first
+Seeker: okay, thanks, i will do that
+Supporter: No problem! Glad I was able to help! Is there anything else?
+Seeker: no thats all, thanks again for helping me
+
+current_text_to_classify: no thats all, thanks again for helping me
+==============================================
+
+========== PROMPT FOR test_00435 ==========
+Supporter: Hello! I am here to listen! How are you feeling? Hello! I am here to listen! How are you feeling? *you
+Seeker: I'm very stressed. Virtual school is so hard. I've never gotten bad grades before this year.
+Supporter: So you are having trouble with Virtual school being so hard and it's causing you stress, am I understanding correctly?
+Seeker: Yes, that is correct. I need to be in a classroom to really grasp the material, I think.
+Supporter: I remember being in your position I know it's very hard and I am so sorry that you are stressed.
+Seeker: I just want to quit school because I can't seem to do better.
+Supporter: I know you said you want to quit, but hang in there!
+Seeker: I wish I knew how long we would have to be virtual. I don't think I can last another semester teaching myself from home.
+Supporter: It sounds like you have always done well with school, this virus has made it to where so many people are struggling. Just chatting with you, I can feel how stressed and anxious about it you are!
+Seeker: Yes, I was always an honors student so this is a huge change for me. I'm afraid it will reflect on my GPA forever.
+Supporter: I know that the situation with virtual learning is out of your control when it comes to how long it will last but is there anything you could do to relieve your stress while you are trying to learn things yourself?
+Seeker: I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.
+
+current_text_to_classify: I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.
+==============================================
+
+========== PROMPT FOR test_00436 ==========
+Supporter: Hello! I am here to listen! How are you feeling? Hello! I am here to listen! How are you feeling? *you
+Seeker: I'm very stressed. Virtual school is so hard. I've never gotten bad grades before this year.
+Supporter: So you are having trouble with Virtual school being so hard and it's causing you stress, am I understanding correctly?
+Seeker: Yes, that is correct. I need to be in a classroom to really grasp the material, I think.
+Supporter: I remember being in your position I know it's very hard and I am so sorry that you are stressed.
+Seeker: I just want to quit school because I can't seem to do better.
+Supporter: I know you said you want to quit, but hang in there!
+Seeker: I wish I knew how long we would have to be virtual. I don't think I can last another semester teaching myself from home.
+Supporter: It sounds like you have always done well with school, this virus has made it to where so many people are struggling. Just chatting with you, I can feel how stressed and anxious about it you are!
+Seeker: Yes, I was always an honors student so this is a huge change for me. I'm afraid it will reflect on my GPA forever.
+Supporter: I know that the situation with virtual learning is out of your control when it comes to how long it will last but is there anything you could do to relieve your stress while you are trying to learn things yourself?
+Seeker: I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.
+Supporter: When you start feeling stressed maybe you could try deep breathing for a few minutes to relax again. Or take a quick break and get some fresh air? Is there anything else that you do in any other situation that would normally help you relax?
+Seeker: I could try deep breathing. Fresh air is hard because we're in the middle of a snow storm! I like to go to a spa when I'm really stressed.
+Supporter: Oh wow that would make things complicated! But yes the deep breathing would definitely help, I'm sure!
+Seeker: I will try the deep breathing more often.
+Supporter: Maybe you could reward yourself with a spa trip ever so often, since you enjoy it?
+Seeker: That's a good idea. Maybe I could make it a reward for a good grade on a test.
+
+current_text_to_classify: That's a good idea. Maybe I could make it a reward for a good grade on a test.
+==============================================
+
+========== PROMPT FOR test_00437 ==========
+Supporter: Hello! I am here to listen! How are you feeling? Hello! I am here to listen! How are you feeling? *you
+Seeker: I'm very stressed. Virtual school is so hard. I've never gotten bad grades before this year.
+Supporter: So you are having trouble with Virtual school being so hard and it's causing you stress, am I understanding correctly?
+Seeker: Yes, that is correct. I need to be in a classroom to really grasp the material, I think.
+Supporter: I remember being in your position I know it's very hard and I am so sorry that you are stressed.
+Seeker: I just want to quit school because I can't seem to do better.
+Supporter: I know you said you want to quit, but hang in there!
+Seeker: I wish I knew how long we would have to be virtual. I don't think I can last another semester teaching myself from home.
+Supporter: It sounds like you have always done well with school, this virus has made it to where so many people are struggling. Just chatting with you, I can feel how stressed and anxious about it you are!
+Seeker: Yes, I was always an honors student so this is a huge change for me. I'm afraid it will reflect on my GPA forever.
+Supporter: I know that the situation with virtual learning is out of your control when it comes to how long it will last but is there anything you could do to relieve your stress while you are trying to learn things yourself?
+Seeker: I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.
+Supporter: When you start feeling stressed maybe you could try deep breathing for a few minutes to relax again. Or take a quick break and get some fresh air? Is there anything else that you do in any other situation that would normally help you relax?
+Seeker: I could try deep breathing. Fresh air is hard because we're in the middle of a snow storm! I like to go to a spa when I'm really stressed.
+Supporter: Oh wow that would make things complicated! But yes the deep breathing would definitely help, I'm sure!
+Seeker: I will try the deep breathing more often.
+Supporter: Maybe you could reward yourself with a spa trip ever so often, since you enjoy it?
+Seeker: That's a good idea. Maybe I could make it a reward for a good grade on a test.
+Supporter: Yes, please do! I am almost certain that could help you!
+Seeker: I think it might too!
+
+current_text_to_classify: I think it might too!
+==============================================
+
+========== PROMPT FOR test_00438 ==========
+Supporter: Good evening :-) What can I help with you with tonight?
+Seeker: just graduated university and my parents are pressuring me to pursue becoming a doctor
+
+current_text_to_classify: just graduated university and my parents are pressuring me to pursue becoming a doctor
+==============================================
+
+========== PROMPT FOR test_00439 ==========
+Supporter: Good evening :-) What can I help with you with tonight?
+Seeker: just graduated university and my parents are pressuring me to pursue becoming a doctor
+Supporter: Oof, that is a very difficult situation. I'm sorry you're going through that. How do you feel about it?
+Seeker: I'm angry. I just want to be done school. but parents are on my butt about it.
+Supporter: What do your parents say when/if you tell them you want to be done with school?
+Seeker: they get mad at me and say they are dissapointed. I want to travel and see the world. not more schooling.
+Supporter: That's not a fair thing for them to say to their child. I will say that there are academic programs that combine travel and credits, but you probably know that already. And I don't think you should have to compromise anyway.
+Seeker: They won't take a compromise. parents are stubborn. What should i do? please parents or pursue my passion?
+Supporter: I cannot tell you what to do exactly, but I would encourage you to fulfill yourself before anyone else's dictation of your life.
+Seeker: Yeah i'm leaning that. i already graduated university. i fulfilled half of their dream. you think telling them my honest opinion will be a good idea?
+Supporter: I think you need to be prepared for them to not be happy with your honest opinion, but that just because they aren't happy with it doesn't mean it's wrong.
+Seeker: thanks great advise. i will definitely be prepapred. i don't care if i dissapoint them. it's my life not theres. i'll live with the consequences
+Supporter: Keep in mind that from their point of view, they want the best for you because they love you, so try not to burn the bridge or salt the earth. I had a rocky relationship with my dad after college too, but it's better now. They will survive, and you will thrive.
+Seeker: Thank you. yeah i get that. but they should be happy for me. They cant make decisions for me all the time. let me free!!!
+
+current_text_to_classify: Thank you. yeah i get that. but they should be happy for me. They cant make decisions for me all the time. let me free!!!
+==============================================
+
+========== PROMPT FOR test_00440 ==========
+Seeker: Hi there, could you please give me some advice?
+Supporter: Hello, would you like to explain your situation and we can go through it together
+Seeker: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+
+current_text_to_classify: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+==============================================
+
+========== PROMPT FOR test_00436 ==========
+Supporter: Hello! I am here to listen! How are you feeling? Hello! I am here to listen! How are you feeling? *you
+Seeker: I'm very stressed. Virtual school is so hard. I've never gotten bad grades before this year.
+Supporter: So you are having trouble with Virtual school being so hard and it's causing you stress, am I understanding correctly?
+Seeker: Yes, that is correct. I need to be in a classroom to really grasp the material, I think.
+Supporter: I remember being in your position I know it's very hard and I am so sorry that you are stressed.
+Seeker: I just want to quit school because I can't seem to do better.
+Supporter: I know you said you want to quit, but hang in there!
+Seeker: I wish I knew how long we would have to be virtual. I don't think I can last another semester teaching myself from home.
+Supporter: It sounds like you have always done well with school, this virus has made it to where so many people are struggling. Just chatting with you, I can feel how stressed and anxious about it you are!
+Seeker: Yes, I was always an honors student so this is a huge change for me. I'm afraid it will reflect on my GPA forever.
+Supporter: I know that the situation with virtual learning is out of your control when it comes to how long it will last but is there anything you could do to relieve your stress while you are trying to learn things yourself?
+Seeker: I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.
+Supporter: When you start feeling stressed maybe you could try deep breathing for a few minutes to relax again. Or take a quick break and get some fresh air? Is there anything else that you do in any other situation that would normally help you relax?
+Seeker: I could try deep breathing. Fresh air is hard because we're in the middle of a snow storm! I like to go to a spa when I'm really stressed.
+Supporter: Oh wow that would make things complicated! But yes the deep breathing would definitely help, I'm sure!
+Seeker: I will try the deep breathing more often.
+Supporter: Maybe you could reward yourself with a spa trip ever so often, since you enjoy it?
+Seeker: That's a good idea. Maybe I could make it a reward for a good grade on a test.
+
+current_text_to_classify: That's a good idea. Maybe I could make it a reward for a good grade on a test.
+==============================================
+
+========== PROMPT FOR test_00437 ==========
+Supporter: Hello! I am here to listen! How are you feeling? Hello! I am here to listen! How are you feeling? *you
+Seeker: I'm very stressed. Virtual school is so hard. I've never gotten bad grades before this year.
+Supporter: So you are having trouble with Virtual school being so hard and it's causing you stress, am I understanding correctly?
+Seeker: Yes, that is correct. I need to be in a classroom to really grasp the material, I think.
+Supporter: I remember being in your position I know it's very hard and I am so sorry that you are stressed.
+Seeker: I just want to quit school because I can't seem to do better.
+Supporter: I know you said you want to quit, but hang in there!
+Seeker: I wish I knew how long we would have to be virtual. I don't think I can last another semester teaching myself from home.
+Supporter: It sounds like you have always done well with school, this virus has made it to where so many people are struggling. Just chatting with you, I can feel how stressed and anxious about it you are!
+Seeker: Yes, I was always an honors student so this is a huge change for me. I'm afraid it will reflect on my GPA forever.
+Supporter: I know that the situation with virtual learning is out of your control when it comes to how long it will last but is there anything you could do to relieve your stress while you are trying to learn things yourself?
+Seeker: I tried exercise to see if that would help. It hasn't really helped because the time I spend exercising I just think I could be studying.
+Supporter: When you start feeling stressed maybe you could try deep breathing for a few minutes to relax again. Or take a quick break and get some fresh air? Is there anything else that you do in any other situation that would normally help you relax?
+Seeker: I could try deep breathing. Fresh air is hard because we're in the middle of a snow storm! I like to go to a spa when I'm really stressed.
+Supporter: Oh wow that would make things complicated! But yes the deep breathing would definitely help, I'm sure!
+Seeker: I will try the deep breathing more often.
+Supporter: Maybe you could reward yourself with a spa trip ever so often, since you enjoy it?
+Seeker: That's a good idea. Maybe I could make it a reward for a good grade on a test.
+Supporter: Yes, please do! I am almost certain that could help you!
+Seeker: I think it might too!
+
+current_text_to_classify: I think it might too!
+==============================================
+
+========== PROMPT FOR test_00438 ==========
+Supporter: Good evening :-) What can I help with you with tonight?
+Seeker: just graduated university and my parents are pressuring me to pursue becoming a doctor
+
+current_text_to_classify: just graduated university and my parents are pressuring me to pursue becoming a doctor
+==============================================
+
+========== PROMPT FOR test_00439 ==========
+Supporter: Good evening :-) What can I help with you with tonight?
+Seeker: just graduated university and my parents are pressuring me to pursue becoming a doctor
+Supporter: Oof, that is a very difficult situation. I'm sorry you're going through that. How do you feel about it?
+Seeker: I'm angry. I just want to be done school. but parents are on my butt about it.
+Supporter: What do your parents say when/if you tell them you want to be done with school?
+Seeker: they get mad at me and say they are dissapointed. I want to travel and see the world. not more schooling.
+Supporter: That's not a fair thing for them to say to their child. I will say that there are academic programs that combine travel and credits, but you probably know that already. And I don't think you should have to compromise anyway.
+Seeker: They won't take a compromise. parents are stubborn. What should i do? please parents or pursue my passion?
+Supporter: I cannot tell you what to do exactly, but I would encourage you to fulfill yourself before anyone else's dictation of your life.
+Seeker: Yeah i'm leaning that. i already graduated university. i fulfilled half of their dream. you think telling them my honest opinion will be a good idea?
+Supporter: I think you need to be prepared for them to not be happy with your honest opinion, but that just because they aren't happy with it doesn't mean it's wrong.
+Seeker: thanks great advise. i will definitely be prepapred. i don't care if i dissapoint them. it's my life not theres. i'll live with the consequences
+Supporter: Keep in mind that from their point of view, they want the best for you because they love you, so try not to burn the bridge or salt the earth. I had a rocky relationship with my dad after college too, but it's better now. They will survive, and you will thrive.
+Seeker: Thank you. yeah i get that. but they should be happy for me. They cant make decisions for me all the time. let me free!!!
+
+current_text_to_classify: Thank you. yeah i get that. but they should be happy for me. They cant make decisions for me all the time. let me free!!!
+==============================================
+
+========== PROMPT FOR test_00440 ==========
+Seeker: Hi there, could you please give me some advice?
+Supporter: Hello, would you like to explain your situation and we can go through it together
+Seeker: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+
+current_text_to_classify: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+==============================================
+
+========== PROMPT FOR test_00441 ==========
+Seeker: Hi there, could you please give me some advice?
+Supporter: Hello, would you like to explain your situation and we can go through it together
+Seeker: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+Supporter: So you don't feel motivated and you are not scoring well, have I understood that correctly?
+Seeker: Yes. I know that the two things are probably related but I just do not know what to do about them.
+Supporter: What are you currently studying?
+Seeker: I am studying microbiology. I do not know that I have the passion for it that I once did though.
+Supporter: Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?
+Seeker: I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?
+Supporter: It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?
+Seeker: Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.
+Supporter: Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?
+Seeker: To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.
+Supporter: Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.
+Seeker: I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.
+
+current_text_to_classify: I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.
+==============================================
+
+========== PROMPT FOR test_00442 ==========
+Seeker: Hi there, could you please give me some advice?
+Supporter: Hello, would you like to explain your situation and we can go through it together
+Seeker: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+Supporter: So you don't feel motivated and you are not scoring well, have I understood that correctly?
+Seeker: Yes. I know that the two things are probably related but I just do not know what to do about them.
+Supporter: What are you currently studying?
+Seeker: I am studying microbiology. I do not know that I have the passion for it that I once did though.
+Supporter: Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?
+Seeker: I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?
+Supporter: It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?
+Seeker: Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.
+Supporter: Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?
+Seeker: To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.
+Supporter: Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.
+Seeker: I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.
+Supporter: I am pleased that you have been able to open up to me, it is the first step towards you finding your path. Do you find it easy to write things down?
+Seeker: Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.
+
+current_text_to_classify: Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.
+==============================================
+
+========== PROMPT FOR test_00443 ==========
+Seeker: Hi there, could you please give me some advice?
+Supporter: Hello, would you like to explain your situation and we can go through it together
+Seeker: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+Supporter: So you don't feel motivated and you are not scoring well, have I understood that correctly?
+Seeker: Yes. I know that the two things are probably related but I just do not know what to do about them.
+Supporter: What are you currently studying?
+Seeker: I am studying microbiology. I do not know that I have the passion for it that I once did though.
+Supporter: Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?
+Seeker: I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?
+Supporter: It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?
+Seeker: Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.
+Supporter: Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?
+Seeker: To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.
+Supporter: Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.
+Seeker: I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.
+Supporter: I am pleased that you have been able to open up to me, it is the first step towards you finding your path. Do you find it easy to write things down?
+Seeker: Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.
+Supporter: One suggestion is for you to write down all the reasons that you love microbiology. It can be any format, I love a bubble chart (mind map), it could be in list form or just doodles, would this be something you would find useful?
+Seeker: Yes, that is a fantastic idea! Maybe I can find a renewed interest in the subject. I hope that I can because I really do not want my time studying to have been wasted.
+
+current_text_to_classify: Yes, that is a fantastic idea! Maybe I can find a renewed interest in the subject. I hope that I can because I really do not want my time studying to have been wasted.
+==============================================
+
+========== PROMPT FOR test_00444 ==========
+Seeker: Hi, how are you today?
+Supporter: I am okay. What is going on with you?
+Seeker: School's going badly. I really wish I had chosen a different major.
+Supporter: It sounds like it must be overwhelming to keep up with all of your school work.
+Seeker: I’m majoring in computer engineering. It’s really #%$& hard! Everyone else is way smarter than I am.
+Supporter: That does sound very difficult, but I think you can do it! Just getting into a program like that shows how smart you are!
+Seeker: It's kinda late to switch. I'm at the end of my third year. My parents keep bugging me about getting a job.
+Supporter: To be honest with you, I switched majors a lot in college. I eventually let go of what my family thought and pursued a career I would truly enjoy for myself.
+Seeker: I wish I were in your shoes! If I change majors now, I have to redo at least a year of school, maybe more. I don't think my parents want to pay for that.
+
+current_text_to_classify: I wish I were in your shoes! If I change majors now, I have to redo at least a year of school, maybe more. I don't think my parents want to pay for that.
+==============================================
+
+========== PROMPT FOR test_00445 ==========
+Seeker: Hi
+Supporter: hello how are you ?
+Seeker: I'm in depression because my exam is near and I can't finsh my studies.
+Supporter: can i ask you ,why you can't finish
+Seeker: It is because i'm very behind in my work.
+Supporter: try to catch up with your studies give more time then you feel better
+Seeker: How am I going to catch up on my work?
+
+current_text_to_classify: How am I going to catch up on my work?
+==============================================
+
+========== PROMPT FOR test_00441 ==========
+Seeker: Hi there, could you please give me some advice?
+Supporter: Hello, would you like to explain your situation and we can go through it together
+Seeker: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+Supporter: So you don't feel motivated and you are not scoring well, have I understood that correctly?
+Seeker: Yes. I know that the two things are probably related but I just do not know what to do about them.
+Supporter: What are you currently studying?
+Seeker: I am studying microbiology. I do not know that I have the passion for it that I once did though.
+Supporter: Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?
+Seeker: I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?
+Supporter: It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?
+Seeker: Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.
+Supporter: Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?
+Seeker: To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.
+Supporter: Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.
+Seeker: I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.
+
+current_text_to_classify: I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.
+==============================================
+
+========== PROMPT FOR test_00442 ==========
+Seeker: Hi there, could you please give me some advice?
+Supporter: Hello, would you like to explain your situation and we can go through it together
+Seeker: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+Supporter: So you don't feel motivated and you are not scoring well, have I understood that correctly?
+Seeker: Yes. I know that the two things are probably related but I just do not know what to do about them.
+Supporter: What are you currently studying?
+Seeker: I am studying microbiology. I do not know that I have the passion for it that I once did though.
+Supporter: Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?
+Seeker: I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?
+Supporter: It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?
+Seeker: Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.
+Supporter: Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?
+Seeker: To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.
+Supporter: Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.
+Seeker: I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.
+Supporter: I am pleased that you have been able to open up to me, it is the first step towards you finding your path. Do you find it easy to write things down?
+Seeker: Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.
+
+current_text_to_classify: Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.
+==============================================
+
+========== PROMPT FOR test_00443 ==========
+Seeker: Hi there, could you please give me some advice?
+Supporter: Hello, would you like to explain your situation and we can go through it together
+Seeker: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+Supporter: So you don't feel motivated and you are not scoring well, have I understood that correctly?
+Seeker: Yes. I know that the two things are probably related but I just do not know what to do about them.
+Supporter: What are you currently studying?
+Seeker: I am studying microbiology. I do not know that I have the passion for it that I once did though.
+Supporter: Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?
+Seeker: I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?
+Supporter: It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?
+Seeker: Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.
+Supporter: Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?
+Seeker: To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.
+Supporter: Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.
+Seeker: I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.
+Supporter: I am pleased that you have been able to open up to me, it is the first step towards you finding your path. Do you find it easy to write things down?
+Seeker: Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.
+Supporter: One suggestion is for you to write down all the reasons that you love microbiology. It can be any format, I love a bubble chart (mind map), it could be in list form or just doodles, would this be something you would find useful?
+Seeker: Yes, that is a fantastic idea! Maybe I can find a renewed interest in the subject. I hope that I can because I really do not want my time studying to have been wasted.
+
+current_text_to_classify: Yes, that is a fantastic idea! Maybe I can find a renewed interest in the subject. I hope that I can because I really do not want my time studying to have been wasted.
+==============================================
+
+========== PROMPT FOR test_00444 ==========
+Seeker: Hi, how are you today?
+Supporter: I am okay. What is going on with you?
+Seeker: School's going badly. I really wish I had chosen a different major.
+Supporter: It sounds like it must be overwhelming to keep up with all of your school work.
+Seeker: I’m majoring in computer engineering. It’s really #%$& hard! Everyone else is way smarter than I am.
+Supporter: That does sound very difficult, but I think you can do it! Just getting into a program like that shows how smart you are!
+Seeker: It's kinda late to switch. I'm at the end of my third year. My parents keep bugging me about getting a job.
+Supporter: To be honest with you, I switched majors a lot in college. I eventually let go of what my family thought and pursued a career I would truly enjoy for myself.
+Seeker: I wish I were in your shoes! If I change majors now, I have to redo at least a year of school, maybe more. I don't think my parents want to pay for that.
+
+current_text_to_classify: I wish I were in your shoes! If I change majors now, I have to redo at least a year of school, maybe more. I don't think my parents want to pay for that.
+==============================================
+
+========== PROMPT FOR test_00445 ==========
+Seeker: Hi
+Supporter: hello how are you ?
+Seeker: I'm in depression because my exam is near and I can't finsh my studies.
+Supporter: can i ask you ,why you can't finish
+Seeker: It is because i'm very behind in my work.
+Supporter: try to catch up with your studies give more time then you feel better
+Seeker: How am I going to catch up on my work?
+
+current_text_to_classify: How am I going to catch up on my work?
+==============================================
+
+========== PROMPT FOR test_00446 ==========
+Seeker: Hi
+Supporter: hello how are you ?
+Seeker: I'm in depression because my exam is near and I can't finsh my studies.
+Supporter: can i ask you ,why you can't finish
+Seeker: It is because i'm very behind in my work.
+Supporter: try to catch up with your studies give more time then you feel better
+Seeker: How am I going to catch up on my work?
+Supporter: i think you need to be confident about your studies then you fell better
+Seeker: How can I be confident?
+Supporter: i think you need to take more online classes those can help you
+Seeker: Ok I will try to get in an online class if I can.
+Supporter: because same think happen with me and i took online classes those help me a lot *thing
+Seeker: Ok how much time do you spend on online classes?
+Supporter: i spend like 3 hours a day on online class
+Seeker: Thanks for the idea do you have any more tips?
+
+current_text_to_classify: Thanks for the idea do you have any more tips?
+==============================================
+
+========== PROMPT FOR test_00447 ==========
+Seeker: Hi
+Supporter: hello how are you ?
+Seeker: I'm in depression because my exam is near and I can't finsh my studies.
+Supporter: can i ask you ,why you can't finish
+Seeker: It is because i'm very behind in my work.
+Supporter: try to catch up with your studies give more time then you feel better
+Seeker: How am I going to catch up on my work?
+Supporter: i think you need to be confident about your studies then you fell better
+Seeker: How can I be confident?
+Supporter: i think you need to take more online classes those can help you
+Seeker: Ok I will try to get in an online class if I can.
+Supporter: because same think happen with me and i took online classes those help me a lot *thing
+Seeker: Ok how much time do you spend on online classes?
+Supporter: i spend like 3 hours a day on online class
+Seeker: Thanks for the idea do you have any more tips?
+Supporter: i think you need to take help from your family or friend those who know all about your studies
+Seeker: Thanks for helping me I might pass the exam after all.
+Supporter: your welcome , thanks for sharing your problem
+Seeker: Your welcome!
+Supporter: any time
+Seeker: Bye!
+
+current_text_to_classify: Bye!
+==============================================
+
+========== PROMPT FOR test_00448 ==========
+Supporter: Hello what's going on?
+Seeker: Hello.
+Supporter: Hey :)
+Seeker: I just found out that I will be losing my job. I have no clue what to do.
+Supporter: I was in a similar situation a short while back I can understand if you feel anxious and stressed. Was it due to the pandemic?
+Seeker: Yes it is. We haven't gotten the funding form the government and we are a small business. I am not sure how to tell my wife.
+Supporter: So if I understand the anxiety of you losing your job is increased because you also have to give your wife the news?
+Seeker: Yes and I also have to find some place else to work at.
+Supporter: If where you live has some form of unemployment insurance it may be a good time to apply for it if your comfortable with that since you are aware your job is coming to an end
+Seeker: Not a bad idea. I will look into that for sure. I am not sure how long it will take to get it. I'm not to bad off because I do have savings but I am just worried that I will not be able to find any work around where I live and I don't want to move.
+Supporter: It's completly understandable that telling your wife is additionally difficult since it's life effecting news and you are probably worried about the effect the news will have on your wife
+Seeker: Yes for sure. She has her job so it just would feel weird for me to be at home while she works.
+Supporter: In my case I am still currently in school and lack credentials but I've managed to find some online work that is getting me by
+Seeker: I never have thought about online work. That might be a good idea.
+Supporter: You may want to budget relevant areas of yur spending ahead of time so your savings will go longer but Isuggest not to the point that it effects your mental well being Also if your on good terms maybe get references
+Seeker: That is a great idea. I am sure I can get references. My boss loves me. He said he is looking to help me any way he can.
+
+current_text_to_classify: That is a great idea. I am sure I can get references. My boss loves me. He said he is looking to help me any way he can.
+==============================================
+
+========== PROMPT FOR test_00449 ==========
+Supporter: Hello what's going on?
+Seeker: Hello.
+Supporter: Hey :)
+Seeker: I just found out that I will be losing my job. I have no clue what to do.
+Supporter: I was in a similar situation a short while back I can understand if you feel anxious and stressed. Was it due to the pandemic?
+Seeker: Yes it is. We haven't gotten the funding form the government and we are a small business. I am not sure how to tell my wife.
+Supporter: So if I understand the anxiety of you losing your job is increased because you also have to give your wife the news?
+Seeker: Yes and I also have to find some place else to work at.
+Supporter: If where you live has some form of unemployment insurance it may be a good time to apply for it if your comfortable with that since you are aware your job is coming to an end
+Seeker: Not a bad idea. I will look into that for sure. I am not sure how long it will take to get it. I'm not to bad off because I do have savings but I am just worried that I will not be able to find any work around where I live and I don't want to move.
+Supporter: It's completly understandable that telling your wife is additionally difficult since it's life effecting news and you are probably worried about the effect the news will have on your wife
+Seeker: Yes for sure. She has her job so it just would feel weird for me to be at home while she works.
+Supporter: In my case I am still currently in school and lack credentials but I've managed to find some online work that is getting me by
+Seeker: I never have thought about online work. That might be a good idea.
+Supporter: You may want to budget relevant areas of yur spending ahead of time so your savings will go longer but Isuggest not to the point that it effects your mental well being Also if your on good terms maybe get references
+Seeker: That is a great idea. I am sure I can get references. My boss loves me. He said he is looking to help me any way he can.
+Supporter: I don't drive so my options were limited to avoid riding the bus I do recommend getting out of you living space other ways if you work online but its all right I think with that kind of connection with your boss especially with your job loss being circumstantial you should have a really good starting point
+Seeker: I am going to look online for sure. I would like to work form home. I am sure with my IT degree I can find some online jobs.
+Supporter: It does have benefits you save money on transportation costs for example :) That is actually along the lines of what I'm doing on the low end of the totem pole Not the high paying jobs but the basic and intermediate seems to be a fair bit available I don't male much but Ihave flexible hours and still finishing my degree How are you currently feeling about your situation with a little bit of a plan in place?
+Seeker: that's awesome. I'm feeling a little better. Just so much to do now but at least I have an idea of what to do. I feel like with this plan my wife will not be so worried.
+Supporter: Maybe if you get your basic ideas together where your satisfied with it it will ease some of the difficulty of talking to your wife. I apologise we had the same idea
+Seeker: Yes. i plan on doing that this afternoon. Thank you so much. I am feeling way more at ease. I hope you have a wonderful day.
+
+current_text_to_classify: Yes. i plan on doing that this afternoon. Thank you so much. I am feeling way more at ease. I hope you have a wonderful day.
+==============================================
+
+========== PROMPT FOR test_00450 ==========
+Supporter: Hello
+Seeker: Hello :) how are you
+Supporter: I'm good. How can I help you?
+Seeker: Im feeling very scared regarding my schooling Im close to failing out and Im not sure what to do
+Supporter: So you are afraid you will fail your classes?
+Seeker: yeah Im getting pretty close and I can't afford to fail my courses
+Supporter: Have you tried tutor service at school? They usually provide free of charge or very cheap
+Seeker: I've looked around and there arn't any good tutoring services for my field of study I've tried reaching out for help but Im still doing poorly
+Supporter: It must be frustrated for you.
+Seeker: Yea im very frustrated at myself. I just can't seem to do well no matter how hard I try
+Supporter: How about talking to your professors about that you don't understand and how they can help?
+Seeker: Maybe. I haven't tried that yet do you think they would help me?
+Supporter: don't be too harsh on yourself. We all struggle in life. As long as we find an appropriate solution, I believe you will get better Of course, it's their job after all
+Seeker: Im trying not to be too hard on myself but it's really scary not knowing if i'll pass the next wave of exams Ill try asking my profs thats a good idea, they can probably give me some good guidance
+
+current_text_to_classify: Im trying not to be too hard on myself but it's really scary not knowing if i'll pass the next wave of exams Ill try asking my profs thats a good idea, they can probably give me some good guidance
+==============================================
+
+========== PROMPT FOR test_00451 ==========
+Supporter: hello
+Seeker: Hello.
+Supporter: how are you doing. What is troubling you dear
+Seeker: I lost my job because my employer wouldn't make an exemption for my medical condition. I'm out of work. I don't know how I'm going to pay my bills.
+Supporter: if i get you right, you are fired because of your health condition
+Seeker: No, I quit because they refused to make an exemption. I physically couldn't fulfill the requirements that they put on me.
+Supporter: that's really hard, i can feel your fear i lost my job also because of covid economy inpact
+Seeker: Yeah, I just don't know what to do now. My wife works part-time but I need a little more cash.
+Supporter: have you try looking another job from nearby
+Seeker: Yes, I have. I think I am getting closer to finding something.
+Supporter: that's a good news
+Seeker: Yeah, thanks. I just hope it works out...
+Supporter: you can also go online
+Seeker: Yeah, I'm using Indeed.
+Supporter: you are welcome. you have to keep it together for a while before you get one. But i believe it will be soon
+Seeker: Thanks, have you found a job?
+
+current_text_to_classify: Thanks, have you found a job?
+==============================================
+
+========== PROMPT FOR test_00452 ==========
+Seeker: Hello. How are you?
+
+current_text_to_classify: Hello. How are you?
+==============================================
+
+========== PROMPT FOR test_00453 ==========
+Supporter: Good evening.
+Seeker: hello
+Supporter: How are you this evening?
+Seeker: Things are always crazy, and of course with the pandemic my anxiety is even more through the roof. It's not a good time to have immune issues
+Supporter: Are you someone who has immune issues?
+Seeker: I am also facing the real possibility of surgery which scares the heck out of me. I am! I have a severe auto immune disease called Ulcerative Colitis, and I am on immuno suppresant meds on top of that
+
+current_text_to_classify: I am also facing the real possibility of surgery which scares the heck out of me. I am! I have a severe auto immune disease called Ulcerative Colitis, and I am on immuno suppresant meds on top of that
+==============================================
+
+========== PROMPT FOR test_00454 ==========
+Supporter: Good evening.
+Seeker: hello
+Supporter: How are you this evening?
+Seeker: Things are always crazy, and of course with the pandemic my anxiety is even more through the roof. It's not a good time to have immune issues
+Supporter: Are you someone who has immune issues?
+Seeker: I am also facing the real possibility of surgery which scares the heck out of me. I am! I have a severe auto immune disease called Ulcerative Colitis, and I am on immuno suppresant meds on top of that
+Supporter: Just to clarify, you are extremely anxious about the pandemic and the affect it may have on you because of your weakened immune system.
+Seeker: Well kind of yes. I am going crazy because I've had this for 8 years now and it's forever changing. I've been hospitalized so many times its crazy. This pandemic has made things worse because stress makes it all worse
+Supporter: Just from the few messages we have exchanged, I can tell it makes you very anxious
+Seeker: Its just really depressing not knowing what to expect next. Its hard to trust the good days sometimes because you can have a wonderful day and wake up really sick the next. Its very unpredictable and I think whats worse is that people really don't understand.
+Supporter: Have you reached out to support groups for people with auto-immune issues? it is often helpful to speak with people who are experiencing the same issues you are.
+Seeker: Yes I am part of many on facebook, and yes it does help a lot. I just wish my husband would be able to understand. He says and does some things that make me feel even worse. Almost like he thinks I'm making it up at times. Like, dear goodness no.
+Supporter: Have you talked to him about the way he reacts to your immune issues? Sometimes people don't realize they are not being helpful and they think they are doing good when they aren't.
+Seeker: I have tried to talk to him but he seems very uninterested at times. I even tried going to counseling with him and that didn't work. It's just frustrating. He was with me when the one doctor had said just how bad it was and he didn't seem to really pay attention. He was also there when I had to have an emergancy blood transfusion and it was really hard to read him. He just doesnt say or so much
+Supporter: Have you asked what his feelings are towards it? Maybe he is afraid and worried about your health and he isn't sure how to express it and sometimes it comes off as uninterested.
+Seeker: Yeah whenever I try it's like pulling teeth. I know some of it is how he was brought up. I don't think his dad ever showed much emotion/ so yes I'm sure that has something to do with it. I also feel bad a lot of the time because I have two kids. I feel like I fail them a lot our oldest was born before I got sick. Our youngest was a miracle baby. I was on birth control and he was determained anyway :) He is definatly a gift but I feel bad often
+Supporter: Have you been able to talk to your kids about this as well?
+Seeker: My oldest yes, he seems to understand, he is 8.5 years old. Our youngest is only one so he doesn't understand any of this yet. He says he understands, but I'm not sure on just what level.
+
+current_text_to_classify: My oldest yes, he seems to understand, he is 8.5 years old. Our youngest is only one so he doesn't understand any of this yet. He says he understands, but I'm not sure on just what level.
+==============================================
+
+========== PROMPT FOR test_00455 ==========
+Seeker: Hi
+Supporter: Hi, how are you doing?
+Seeker: I am doing alright. How are you?
+
+current_text_to_classify: I am doing alright. How are you?
+==============================================
+
+========== PROMPT FOR test_00456 ==========
+Seeker: Hi
+Supporter: Hi, how are you doing?
+Seeker: I am doing alright. How are you?
+Supporter: I'm doing ok, thanks for asking. Is there anything that's bothering you?
+Seeker: Yes, I broke up with my partner...
+Supporter: Oh no I'm sorry to hear that. do you want to talk about what happened?
+Seeker: I am very depressed... cannot go on with my daily life.
+Supporter: It sounds like this is really affecting you, that must be hard How long were you and your partner together?
+Seeker: Yes, it is hard.. we have been together for last 6 months..
+Supporter: I've been through break ups as well where things can seem pointless afterwards. It took me some time but I eventually got through it Were you happy in the relationship?
+Seeker: How did you cope up with the situation?
+Supporter: I talked to my friends about it a lot, and tried to keep myself occupied with lots of activities I also deleted old messages from my partner so I didn't dwell on the past as much
+Seeker: How does talking to friends help?
+Supporter: It depends on the situation, but for me I had a lot of unresolved feelings from not getting proper closure, so ranting to my friends about how my partner hurt me helped satisfy that Do you have friends you feel comfortable talking to about this?
+Seeker: I have couple of close friends I can talk to.. but have not thought about doing so..
+
+current_text_to_classify: I have couple of close friends I can talk to.. but have not thought about doing so..
+==============================================
+
+========== PROMPT FOR test_00457 ==========
+Seeker: Hi
+Supporter: Hi, how are you doing?
+Seeker: I am doing alright. How are you?
+Supporter: I'm doing ok, thanks for asking. Is there anything that's bothering you?
+Seeker: Yes, I broke up with my partner...
+Supporter: Oh no I'm sorry to hear that. do you want to talk about what happened?
+Seeker: I am very depressed... cannot go on with my daily life.
+Supporter: It sounds like this is really affecting you, that must be hard How long were you and your partner together?
+Seeker: Yes, it is hard.. we have been together for last 6 months..
+Supporter: I've been through break ups as well where things can seem pointless afterwards. It took me some time but I eventually got through it Were you happy in the relationship?
+Seeker: How did you cope up with the situation?
+Supporter: I talked to my friends about it a lot, and tried to keep myself occupied with lots of activities I also deleted old messages from my partner so I didn't dwell on the past as much
+Seeker: How does talking to friends help?
+Supporter: It depends on the situation, but for me I had a lot of unresolved feelings from not getting proper closure, so ranting to my friends about how my partner hurt me helped satisfy that Do you have friends you feel comfortable talking to about this?
+Seeker: I have couple of close friends I can talk to.. but have not thought about doing so..
+Supporter: I think it could be helpful, friends can be really supportive
+Seeker: Yes, I will give it a try...
+
+current_text_to_classify: Yes, I will give it a try...
+==============================================
+
+========== PROMPT FOR test_00458 ==========
+Seeker: Hi
+Supporter: Hi, how are you doing?
+Seeker: I am doing alright. How are you?
+Supporter: I'm doing ok, thanks for asking. Is there anything that's bothering you?
+Seeker: Yes, I broke up with my partner...
+Supporter: Oh no I'm sorry to hear that. do you want to talk about what happened?
+Seeker: I am very depressed... cannot go on with my daily life.
+Supporter: It sounds like this is really affecting you, that must be hard How long were you and your partner together?
+Seeker: Yes, it is hard.. we have been together for last 6 months..
+Supporter: I've been through break ups as well where things can seem pointless afterwards. It took me some time but I eventually got through it Were you happy in the relationship?
+Seeker: How did you cope up with the situation?
+Supporter: I talked to my friends about it a lot, and tried to keep myself occupied with lots of activities I also deleted old messages from my partner so I didn't dwell on the past as much
+Seeker: How does talking to friends help?
+Supporter: It depends on the situation, but for me I had a lot of unresolved feelings from not getting proper closure, so ranting to my friends about how my partner hurt me helped satisfy that Do you have friends you feel comfortable talking to about this?
+Seeker: I have couple of close friends I can talk to.. but have not thought about doing so..
+Supporter: I think it could be helpful, friends can be really supportive
+Seeker: Yes, I will give it a try...
+Supporter: It's awesome that even though you're feeling so depressed, you're willing to give something a try to help you out of it
+Seeker: Any other suggestion you might have?
+
+current_text_to_classify: Any other suggestion you might have?
+==============================================
+
+========== PROMPT FOR test_00459 ==========
+Seeker: Hi
+Supporter: Hi, how are you doing?
+Seeker: I am doing alright. How are you?
+Supporter: I'm doing ok, thanks for asking. Is there anything that's bothering you?
+Seeker: Yes, I broke up with my partner...
+Supporter: Oh no I'm sorry to hear that. do you want to talk about what happened?
+Seeker: I am very depressed... cannot go on with my daily life.
+Supporter: It sounds like this is really affecting you, that must be hard How long were you and your partner together?
+Seeker: Yes, it is hard.. we have been together for last 6 months..
+Supporter: I've been through break ups as well where things can seem pointless afterwards. It took me some time but I eventually got through it Were you happy in the relationship?
+Seeker: How did you cope up with the situation?
+Supporter: I talked to my friends about it a lot, and tried to keep myself occupied with lots of activities I also deleted old messages from my partner so I didn't dwell on the past as much
+Seeker: How does talking to friends help?
+Supporter: It depends on the situation, but for me I had a lot of unresolved feelings from not getting proper closure, so ranting to my friends about how my partner hurt me helped satisfy that Do you have friends you feel comfortable talking to about this?
+Seeker: I have couple of close friends I can talk to.. but have not thought about doing so..
+Supporter: I think it could be helpful, friends can be really supportive
+Seeker: Yes, I will give it a try...
+Supporter: It's awesome that even though you're feeling so depressed, you're willing to give something a try to help you out of it
+Seeker: Any other suggestion you might have?
+Supporter: Getting involved in a new hobby, or something you used to enjoy, can be helpful
+Seeker: I don't have any hobby per say.. but I would like to travel new places..
+
+current_text_to_classify: I don't have any hobby per say.. but I would like to travel new places..
+==============================================
+
+========== PROMPT FOR test_00460 ==========
+Supporter: Hello, how are you?
+Seeker: I am ok. How do you do Can you help out
+Supporter: Great, I am happy to lend a listening ear.
+Seeker: Thank you for your concern.
+Supporter: Of course, what is bothering you today?
+Seeker: I am worry about my job. Because of pandemic
+Supporter: Are you worried of losing your job due to COVID-19?
+Seeker: yes. absolutely
+Supporter: I understand your concern about losing your job during these times. So many people are worried and it doesn't seem to be getting better.
+Seeker: Ya. I am feeling the same.
+Supporter: Have you tried speaking to your employer about how you can secure your job? Many people have been trying to see if they can get unemployment just in case they do lose their income.
+Seeker: Not yet speak. I will try my best to solve this problem
+Supporter: It is always good to know all your options during the pandemic. I hope you feel better assured knowing that you can try and qualify for unemployment benefits just in case you do lose your job.
+Seeker: Ok thank you so much for your best time which is spend with me.
+Supporter: Is there anything else you would like to share with me?
+Seeker: No. thanks
+
+current_text_to_classify: No. thanks
+==============================================
+
+========== PROMPT FOR test_00461 ==========
+Supporter: Hello, how are you?
+Seeker: I am ok. How do you do Can you help out
+Supporter: Great, I am happy to lend a listening ear.
+Seeker: Thank you for your concern.
+Supporter: Of course, what is bothering you today?
+Seeker: I am worry about my job. Because of pandemic
+Supporter: Are you worried of losing your job due to COVID-19?
+Seeker: yes. absolutely
+Supporter: I understand your concern about losing your job during these times. So many people are worried and it doesn't seem to be getting better.
+Seeker: Ya. I am feeling the same.
+Supporter: Have you tried speaking to your employer about how you can secure your job? Many people have been trying to see if they can get unemployment just in case they do lose their income.
+Seeker: Not yet speak. I will try my best to solve this problem
+Supporter: It is always good to know all your options during the pandemic. I hope you feel better assured knowing that you can try and qualify for unemployment benefits just in case you do lose your job.
+Seeker: Ok thank you so much for your best time which is spend with me.
+Supporter: Is there anything else you would like to share with me?
+Seeker: No. thanks
+Supporter: Please end the conversation if there is nothing left for me to help you with :)
+Seeker: Ok.
+Supporter: Happy to work with you :)
+Seeker: Happy to chat with you again in future
+
+current_text_to_classify: Happy to chat with you again in future
+==============================================
+
+========== PROMPT FOR test_00462 ==========
+Supporter: Hello there and Happy Holidays! I hope you are feeling okay at the moment?
+Seeker: I am not, this is a very hard time of the year for me.
+
+current_text_to_classify: I am not, this is a very hard time of the year for me.
+==============================================
+
+========== PROMPT FOR test_00463 ==========
+Supporter: Hello there and Happy Holidays! I hope you are feeling okay at the moment?
+Seeker: I am not, this is a very hard time of the year for me.
+Supporter: I am really sorry to hear that. Please know that I am happy to listen and to help you if I can!
+Seeker: Thank you for that. I really miss my girlfriend.
+Supporter: I am sorry to hear that. Have you separated or can you just not be together at Christmas?
+Seeker: We are separated. She said I was watching too much Buzzr and didn't pay enough attention to her, so she dumped me.
+Supporter: That is not good. But relationships can be reestablished if you talk. Have you considered seeing a third party to help you both talk this out?
+Seeker: We tried to see a counselor. It did go too well, the counselor took her side on everything, it was very unprofessional.
+Supporter: I seem, so do I hear you saying that you feel that everyone is against you on this and that you feel powerless?
+Seeker: It feels like that way. Even my parents seem to support her more than me. I am all alone now watching a Buzzr marathon with no one to truly support me.
+Supporter: I am sorry that your parents are not being more supportive. I understand how hard it is when you have a break up and loved ones seem to support your ex!
+Seeker: Has this happened to you before?
+Supporter: Please know that you are not alone in this situation and that there will be light at the end of the tunnel. Yes it has .. my boyfriend left me for someone else and most of our mutual friends took his side!
+Seeker: I am sorry to hear that, I think your boyfriend made a big mistake leaving you, you seem like a very nice and sweet person.
+
+current_text_to_classify: I am sorry to hear that, I think your boyfriend made a big mistake leaving you, you seem like a very nice and sweet person.
+==============================================
+
+========== PROMPT FOR test_00464 ==========
+Supporter: Hello there and Happy Holidays! I hope you are feeling okay at the moment?
+Seeker: I am not, this is a very hard time of the year for me.
+Supporter: I am really sorry to hear that. Please know that I am happy to listen and to help you if I can!
+Seeker: Thank you for that. I really miss my girlfriend.
+Supporter: I am sorry to hear that. Have you separated or can you just not be together at Christmas?
+Seeker: We are separated. She said I was watching too much Buzzr and didn't pay enough attention to her, so she dumped me.
+Supporter: That is not good. But relationships can be reestablished if you talk. Have you considered seeing a third party to help you both talk this out?
+Seeker: We tried to see a counselor. It did go too well, the counselor took her side on everything, it was very unprofessional.
+Supporter: I seem, so do I hear you saying that you feel that everyone is against you on this and that you feel powerless?
+Seeker: It feels like that way. Even my parents seem to support her more than me. I am all alone now watching a Buzzr marathon with no one to truly support me.
+Supporter: I am sorry that your parents are not being more supportive. I understand how hard it is when you have a break up and loved ones seem to support your ex!
+Seeker: Has this happened to you before?
+Supporter: Please know that you are not alone in this situation and that there will be light at the end of the tunnel. Yes it has .. my boyfriend left me for someone else and most of our mutual friends took his side!
+Seeker: I am sorry to hear that, I think your boyfriend made a big mistake leaving you, you seem like a very nice and sweet person.
+Supporter: Thank you :) I am sure that there is someone else out there for you too if you cannot reconcile with your ex. The question is, how much do you really want to? You might be better off without her
+Seeker: That might be true, she really blew it with me, I am a good catch.
+
+current_text_to_classify: That might be true, she really blew it with me, I am a good catch.
+==============================================
+
+========== PROMPT FOR test_00465 ==========
+Seeker: Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.
+
+current_text_to_classify: Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.
+==============================================
+
+========== PROMPT FOR test_00466 ==========
+Seeker: Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.
+Supporter: hello how may I assist you today?
+Seeker: I am just so upset It's like things never get better
+Supporter: I am sorry to hear that. I know how you feel.
+Seeker: Yeah... My mom is in Mexico right now for some ex who got deported. Like come on. It's bad enough she sent money to him.
+Supporter: What have you tried in the past to turn things around?
+Seeker: Hm. I tried moving on. And it just appears she gets worst
+Supporter: So you are missing your mom?
+Seeker: Not really... She just keeps asking me for mone I gave her like 10k for the house she bought and she hasn't done anything back.
+Supporter: Oh I see my mom has also done this in the past. Sometimes I wonder who raised who?
+Seeker: Yeah. I get that She rented it to some guy and left before even getting some decent money so now she is stranded in Mexico with some guy who can't even afford to get her back
+
+current_text_to_classify: Yeah. I get that She rented it to some guy and left before even getting some decent money so now she is stranded in Mexico with some guy who can't even afford to get her back
+==============================================
+
+========== PROMPT FOR test_00467 ==========
+Seeker: Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.
+Supporter: hello how may I assist you today?
+Seeker: I am just so upset It's like things never get better
+Supporter: I am sorry to hear that. I know how you feel.
+Seeker: Yeah... My mom is in Mexico right now for some ex who got deported. Like come on. It's bad enough she sent money to him.
+Supporter: What have you tried in the past to turn things around?
+Seeker: Hm. I tried moving on. And it just appears she gets worst
+Supporter: So you are missing your mom?
+Seeker: Not really... She just keeps asking me for mone I gave her like 10k for the house she bought and she hasn't done anything back.
+Supporter: Oh I see my mom has also done this in the past. Sometimes I wonder who raised who?
+Seeker: Yeah. I get that She rented it to some guy and left before even getting some decent money so now she is stranded in Mexico with some guy who can't even afford to get her back
+Supporter: That is the worst. I ended up having to cut my mom out of my life.
+Seeker: I wonder if I should do the same... My grand mother basically gave me a whole speech about how ashamed she is.
+Supporter: Sometimes it is for the best to set clear boundries.
+Seeker: But who knows. Apparently my mom said she'll put the house in my name for all these things I did for her. Kind of annoying to be frank.
+Supporter: Is Grand mother ashamed of you or her daughter? I feel it should be her ashamed of her daughter.
+Seeker: My grand mother is ashamed of her daughter I am kind of left with a weird circumstance.
+
+current_text_to_classify: My grand mother is ashamed of her daughter I am kind of left with a weird circumstance.
+==============================================
+
+========== PROMPT FOR test_00468 ==========
+Seeker: Hello. I am so upset. It's ridiculous how things keep happening to people around me. I suppose my supporter is not here.
+Supporter: hello how may I assist you today?
+Seeker: I am just so upset It's like things never get better
+Supporter: I am sorry to hear that. I know how you feel.
+Seeker: Yeah... My mom is in Mexico right now for some ex who got deported. Like come on. It's bad enough she sent money to him.
+Supporter: What have you tried in the past to turn things around?
+Seeker: Hm. I tried moving on. And it just appears she gets worst
+Supporter: So you are missing your mom?
+Seeker: Not really... She just keeps asking me for mone I gave her like 10k for the house she bought and she hasn't done anything back.
+Supporter: Oh I see my mom has also done this in the past. Sometimes I wonder who raised who?
+Seeker: Yeah. I get that She rented it to some guy and left before even getting some decent money so now she is stranded in Mexico with some guy who can't even afford to get her back
+Supporter: That is the worst. I ended up having to cut my mom out of my life.
+Seeker: I wonder if I should do the same... My grand mother basically gave me a whole speech about how ashamed she is.
+Supporter: Sometimes it is for the best to set clear boundries.
+Seeker: But who knows. Apparently my mom said she'll put the house in my name for all these things I did for her. Kind of annoying to be frank.
+Supporter: Is Grand mother ashamed of you or her daughter? I feel it should be her ashamed of her daughter.
+Seeker: My grand mother is ashamed of her daughter I am kind of left with a weird circumstance.
+Supporter: At least that is a good thing to come out of a bad situation.
+Seeker: Only reason she has a house is because I helped. And if I leave it. Everyone in my family said I would be irresponsible to let my mom lose it.
+
+current_text_to_classify: Only reason she has a house is because I helped. And if I leave it. Everyone in my family said I would be irresponsible to let my mom lose it.
+==============================================
+
+========== PROMPT FOR test_00469 ==========
+Seeker: Hello
+Supporter: Hello
+Seeker: How are you doing?
+Supporter: I am pretty good. How are you?
+Seeker: I'm pretty miserable. It's been a rough week
+Supporter: What is going on?
+Seeker: I ended things with my girlfriend last week.
+Supporter: I am sorry to hear that, what caused you to wan to end things?
+Seeker: Things have been pretty rough for the last few years. I found out she was hanging out with her ex and she lied about it The kicker is that we live together and her family is planning on coming to stay with us for xmas. they already have their flights booked and now are trying to cancel
+Supporter: So from what I am hearing, you ended things with your girlfriend because she was talking to her ex and lying to you about it and you are feeling upset about it.
+Seeker: yeah, plus our relationship has been rocky for the past year. I think we are just loosing interest in eachother
+
+current_text_to_classify: yeah, plus our relationship has been rocky for the past year. I think we are just loosing interest in eachother
+==============================================
+
+========== PROMPT FOR test_00470 ==========
+Seeker: Hello
+Supporter: Hello
+Seeker: How are you doing?
+Supporter: I am pretty good. How are you?
+Seeker: I'm pretty miserable. It's been a rough week
+Supporter: What is going on?
+Seeker: I ended things with my girlfriend last week.
+Supporter: I am sorry to hear that, what caused you to wan to end things?
+Seeker: Things have been pretty rough for the last few years. I found out she was hanging out with her ex and she lied about it The kicker is that we live together and her family is planning on coming to stay with us for xmas. they already have their flights booked and now are trying to cancel
+Supporter: So from what I am hearing, you ended things with your girlfriend because she was talking to her ex and lying to you about it and you are feeling upset about it.
+Seeker: yeah, plus our relationship has been rocky for the past year. I think we are just loosing interest in eachother
+Supporter: I understand your situation completely. I had a recent ex that I lived with who also was talking to her ex and hanging out with him and lying to me about it.
+Seeker: what did you do about it?
+Supporter: The first thing I did was had a conversation to try and see why she was talking to her ex and lying to me about it. Trying to get closure is very helpful.
+Seeker: yes, i could see that. We have discussed and decided to end things. Like I said, her family was planning on staying with us for xmas, so now it feels like we ruined xmas for everyone
+
+current_text_to_classify: yes, i could see that. We have discussed and decided to end things. Like I said, her family was planning on staying with us for xmas, so now it feels like we ruined xmas for everyone
+==============================================
+
+========== PROMPT FOR test_00471 ==========
+Supporter: Hello, what can I help you?
+Seeker: I really sad as my partner walked out on me. Any thoughts what could cheer me up?
+
+current_text_to_classify: I really sad as my partner walked out on me. Any thoughts what could cheer me up?
+==============================================
+
+========== PROMPT FOR test_00472 ==========
+Supporter: Hello, what can I help you?
+Seeker: I really sad as my partner walked out on me. Any thoughts what could cheer me up?
+Supporter: Was there anything that leads to this?
+Seeker: Not really. I thought everything was ok between us. That is why it kind of struck me.
+Supporter: That's terrible and unacceptable behavior. How long have you been together?
+Seeker: I have to agree with you-it is unacceptable, considering that he didn't give me any reasons as to why he did it. We have been together for 5 years.
+Supporter: That sucks. I wouldn't be able to accept either. Have you talked to your friends about this?
+Seeker: It is still rather raw,I have mentioned to it to a few of my friends and they deeply symphatise with me but I feel there is nothing much they can do to help me.They are as shocked as me to be honest.
+
+current_text_to_classify: It is still rather raw,I have mentioned to it to a few of my friends and they deeply symphatise with me but I feel there is nothing much they can do to help me.They are as shocked as me to be honest.
+==============================================
+
+========== PROMPT FOR train_00001 ==========
+Seeker: hi
+
+current_text_to_classify: hi
+
+CORRECT_DEFENSE_LEVEL: 0
+Your task is to generate the ClinicalReasoning (thinking trace) that correctly concludes that the defense level is 0.
+==============================================
+
