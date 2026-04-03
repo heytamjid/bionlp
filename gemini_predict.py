@@ -41,9 +41,7 @@ class ClinicalReasoning(BaseModel):
 
 
 class DefensePrediction(BaseModel):
-    clinical_reasoning: ClinicalReasoning = Field(
-        description="Structured clinical reasoning generated BEFORE predicting the label."
-    )
+    clinical_reasoning: ClinicalReasoning
     defense_level: int = Field(description="The numeric defense level (0-8).")
     label: str = Field(description="The specific name of the defense mechanism used.")
 
@@ -87,7 +85,8 @@ MODEL_ID = "gemini-3.1-pro-preview"
 
 # Minimum token count required for context caching to be cost-effective.
 # Gemini enforces a minimum of 32,768 tokens for cached content.
-CACHE_TTL = "7200"  # Cache lives for 2 hour; adjust as needed.
+CACHE_TTL = "7200s"  # Cache lives for 2 hour; adjust as needed.
+cacheRef = "cachedContents/pkd3ephtou62ih1lsyl3g5b03coofq1r5x28uqmw"
 
 
 # ==============================================================================
@@ -129,22 +128,23 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
         log_file.write(SYSTEM_INSTRUCTION + "\n")
         log_file.write("=================================================\n")
 
-    try:
-        # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
-        # and set a concise system_instruction for the model's persona.
-        cache = client.caches.create(
-            model=MODEL_ID,
-            config=types.CreateCachedContentConfig(
-                system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
-                contents=[SYSTEM_INSTRUCTION],
-                display_name="dmrs-handbook-cache",
-                ttl=CACHE_TTL,
-            ),
-        )
-        print(f"Cache created successfully: {cache.name}")
-    except Exception as e:
-        print(f"Failed to create cache: {e}")
-        return
+    # AS ALREADY CREATED, USING VIA cacheRef
+    # try:
+    #     # Pass the massive SYSTEM_INSTRUCTION string into contents to cache it,
+    #     # and set a concise system_instruction for the model's persona.
+    #     cache = client.caches.create(
+    #         model=MODEL_ID,
+    #         config=types.CreateCachedContentConfig(
+    #             system_instruction="You are an expert clinical psychologist and data annotator classifying dialogues based on the Defense Mechanisms Rating Scales (DMRS).",
+    #             contents=[SYSTEM_INSTRUCTION],
+    #             display_name="dmrs-handbook-cache",
+    #             ttl=CACHE_TTL,
+    #         ),
+    #     )
+    #     print(f"Cache created successfully: {cache.name}")
+    # except Exception as e:
+    #     print(f"Failed to create cache: {e}")
+    #     return
 
     # Process the dataset
     new_items_processed = 0
@@ -183,7 +183,7 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
                     model="gemini-3.1-pro-preview",
                     contents=user_prompt,
                     config=types.GenerateContentConfig(
-                        cached_content=cache.name,  # Reference the active cache here
+                        cached_content=cacheRef,  # cache.name,  # Reference the active cache here
                         response_mime_type="application/json",
                         response_schema=DefensePrediction,
                         temperature=0.1,  # Low temperature for classification consistency
@@ -196,6 +196,27 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
                 item["predicted_label"] = prediction["label"]
                 item["predicted_defense_level"] = prediction["defense_level"]
                 item["clinical_reasoning"] = prediction["clinical_reasoning"]
+
+                # Simple raw dump of everything the model sent back, converted to a cleaned dictionary
+                parts_dump = []
+                if response.candidates and response.candidates[0].content.parts:
+                    for part in response.candidates[0].content.parts:
+                        try:
+                            # Safely attempt to convert the Part object to a dict to see its keys
+                            part_dict = part.model_dump(exclude_none=True)
+                        except Exception:
+                            # Fallback if it's not a standard Pydantic model
+                            part_dict = vars(part)
+
+                        # If this part is just the final text payload, skip it so we don't duplicate the JSON
+                        if part_dict.get("text") is not None:
+                            continue
+
+                        parts_dump.append(part_dict)
+
+                # Store the dump directly as a JSON object list instead of raw bracket strings
+                item["model_thinking_dump"] = parts_dump
+
                 results.append(item)
                 processed_ids.add(item_id)
                 new_items_processed += 1
@@ -227,7 +248,7 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
     # CLEANUP: Delete the cache to prevent ongoing storage charges
     # ==========================================================================
     try:
-        client.caches.delete(name=cache.name)
+        client.caches.delete(name=cacheRef)
         print("Context cache deleted successfully.")
     except Exception as e:
         print(
@@ -237,4 +258,4 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
 
 if __name__ == "__main__":
     # Example usage:
-    annotate_dataset("train_data.json", "annotated_train_data.json")
+    annotate_dataset("input_data/test.json", "annotated_train_data.json")

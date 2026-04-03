@@ -1,0 +1,164 @@
+[
+    {
+        "id": "test_00001",
+        "dialogue_id": "ESConv_001",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks if the seeker is currently working and acknowledges their cash flow issues.",
+            "psychological_goal": "To answer the supporter's question factually and confirm their understanding of the financial situation.",
+            "handbook_alignment": "The utterance serves a purely conversational function, exchanging logistical information without psychological self-revelation or distortion, fitting the criteria for a neutral utterance.",
+            "differential_diagnosis": "This is not a defense mechanism because there is no avoidance, distortion, or transformation of an underlying emotional conflict. It is a straightforward, undefended statement of fact, ruling out higher or lower-level defenses."
+        },
+        "model_thinking_dump": [
+            "function_call=None code_execution_result=None executable_code=None file_data=None function_response=None inline_data=None text='{\\n  \"clinical_reasoning\": {\\n    \"context_trigger\": \"The supporter asks if the seeker is currently working and acknowledges their cash flow issues.\",\\n    \"psychological_goal\": \"To answer the supporter\\'s question factually and confirm their understanding of the financial situation.\",\\n    \"handbook_alignment\": \"The utterance serves a purely conversational function, exchanging logistical information without psychological self-revelation or distortion, fitting the criteria for a neutral utterance.\",\\n    \"differential_diagnosis\": \"This is not a defense mechanism because there is no avoidance, distortion, or transformation of an underlying emotional conflict. It is a straightforward, undefended statement of fact, ruling out higher or lower-level defenses.\"\\n  },\\n  \"defense_level\": 0,\\n  \"label\": \"No Defense / Neutral Utterance\"\\n}' thought=None thought_signature=b'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' video_metadata=None"
+        ]
+    },
+    {
+        "id": "test_00002",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks how the seeker is doing and how they can help.",
+            "psychological_goal": "The seeker is directly communicating their current emotional and physical state to initiate the conversation and seek support.",
+            "handbook_alignment": "The handbook explicitly states that the direct expression of an emotion or physiological sensation (e.g., 'I am very sad' or 'I feel a bit cold') is not classified as a defense mechanism. The utterance is a straightforward self-disclosure.",
+            "differential_diagnosis": "This is not a defense mechanism (Levels 1-7) because there is no psychological distortion, avoidance, or transformation of the distress. It is a clear, undefended statement of fact regarding their internal state."
+        },
+        "model_thinking_dump": [
+            "function_call=None code_execution_result=None executable_code=None file_data=None function_response=None inline_data=None text='{\\n  \"clinical_reasoning\": {\\n    \"context_trigger\": \"The supporter asks how the seeker is doing and how they can help.\",\\n    \"psychological_goal\": \"The seeker is directly communicating their current emotional and physical state to initiate the conversation and seek support.\",\\n    \"handbook_alignment\": \"The handbook explicitly states that the direct expression of an emotion or physiological sensation (e.g., \\'I am very sad\\' or \\'I feel a bit cold\\') is not classified as a defense mechanism. The utterance is a straightforward self-disclosure.\",\\n    \"differential_diagnosis\": \"This is not a defense mechanism (Levels 1-7) because there is no psychological distortion, avoidance, or transformation of the distress. It is a clear, undefended statement of fact regarding their internal state.\"\\n  },\\n  \"defense_level\": 0,\\n  \"label\": \"No Defense / Neutral Utterance\"\\n}' thought=None thought_signature=b'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' video_metadata=None"
+        ]
+    },
+    {
+        "id": "test_00003",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "hello",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The beginning of a new conversation.",
+            "psychological_goal": "To initiate the interaction and express basic social niceties.",
+            "handbook_alignment": "The handbook explicitly states that 'Greetings and Farewells: Hello, Hi, Bye, See you later' fall under Label 0.",
+            "differential_diagnosis": "This is a purely functional, undefended statement used to maintain conversational flow. There is no emotional conflict, distortion, or psychological defense present, ruling out levels 1 through 7."
+        },
+        "model_thinking_dump": [
+            "function_call=None code_execution_result=None executable_code=None file_data=None function_response=None inline_data=None text='{\\n  \"clinical_reasoning\": {\\n    \"context_trigger\": \"The beginning of a new conversation.\",\\n    \"psychological_goal\": \"To initiate the interaction and express basic social niceties.\",\\n    \"handbook_alignment\": \"The handbook explicitly states that \\'Greetings and Farewells: Hello, Hi, Bye, See you later\\' fall under Label 0.\",\\n    \"differential_diagnosis\": \"This is a purely functional, undefended statement used to maintain conversational flow. There is no emotional conflict, distortion, or psychological defense present, ruling out levels 1 through 7.\"\\n  },\\n  \"defense_level\": 0,\\n  \"label\": \"No Defense / Neutral Utterance\"\\n}' thought=None thought_signature=b'EugFCuUFAb4+9vv1uU7+V/rI5pHBqxdL9FnqU5OKyIt843skjHnZViLUx8GiheHTqwKp/13lR3NImuTHLT6/jM9sl0inQHK3pXuro50arcBtNEOQNH9qMQ8H8m3b6KcrS912J0EIoDMc5C9gZUH4wJIGAufU3NeOeRuZ0jEhJAMqH3l+cUKlfEnCxwbzims5KZlhq/g5+S+ALzig5uSs4hWkOL2105z6gy9q8LzKWSniCdSTluYUMcTJfaSfAAdbAmcGxKqkE3PhyuPpcJ5YHNa0GNIBAcCS0eO5L+A6mMMeVrKP55FdEwzr+XfNd/Ejafuki3HpX3vkHDwojtNeqRHjBKGUnvPMf6OV13mk3lhNVbNKdOFNMbTem3sHSHZZXua6Evjhel9bUn8+2EHKDbdkP3fCrPUZupGfAd4aR3PlO9npgPK2HTPJd+daN8vS6jdPMvL0c/jLadCwVdOzR8g48qpdWeqw8inm9Syan3q4pp1EUYpsBBMMpHFIxGvCLScAeuvePgpb81sXU48Tfc0RMvAEg/ka6AHAYgY6HXJfYVof/Pi9YSEZEH6R4C9a58Z/024wiZ3GTBs8g5hDk/lwFDgbZzOxNHtB47t+RZkIxqgEJiOzg4VuM3U/GIBU8TToiPjerI+L0ipbru/VNgEl2DRp7nLf5p5AcidpqCLIzKf6YmTd7EiKgloDJRz2+wy4HceEALAq3v9Ne/GbmqUOKTN8uauVDsCYXe6GLOhqZswcsVbpx1lCop7vW+DPdg6gTxIQ0Woxt3v5Z1r90+otx2oDOELPrg1rNzeqhMAK173yb+0ITyttnwho6CYJXIHV29tdr7wWm9NOFGxLBFfxZ5p2jpQ5ViAhV4UTb7dN8uIgLAOHppGnIS3D3O5LDj4Em8Z4QTeWWqZHozF/aBN5IcMmaN801zn/1pqaRJWMt7919e2AOirrHR4US//C3QbKl9DkRCu2oRsZ39937ryVrOBhM/m3Ghde' video_metadata=None"
+        ]
+    },
+    {
+        "id": "test_00004",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks the seeker how they are doing today.",
+            "psychological_goal": "To directly communicate their current emotional state and the practical stressors they are facing.",
+            "handbook_alignment": "The handbook states that the direct expression of an emotion (e.g., 'I am very sad') or reporting factual details of an event is not classified as a defense mechanism. The seeker is simply stating their feelings of stress and anxiety and the reality of their unemployment and financial struggles without any psychological distortion.",
+            "differential_diagnosis": "This is not Help-Rejecting Complaining (Level 1) because there is no evidence of rejecting advice or help. It is also not Self-Assertion (Level 7) because it is a simple self-disclosure in response to a greeting, rather than navigating an immediate interpersonal conflict. Therefore, it remains a Level 0 undefended statement."
+        },
+        "model_thinking_dump": [
+            "function_call=None code_execution_result=None executable_code=None file_data=None function_response=None inline_data=None text='{\\n  \"clinical_reasoning\": {\\n    \"context_trigger\": \"The supporter asks the seeker how they are doing today.\",\\n    \"psychological_goal\": \"To directly communicate their current emotional state and the practical stressors they are facing.\",\\n    \"handbook_alignment\": \"The handbook states that the direct expression of an emotion (e.g., \\'I am very sad\\') or reporting factual details of an event is not classified as a defense mechanism. The seeker is simply stating their feelings of stress and anxiety and the reality of their unemployment and financial struggles without any psychological distortion.\",\\n    \"differential_diagnosis\": \"This is not Help-Rejecting Complaining (Level 1) because there is no evidence of rejecting advice or help. It is also not Self-Assertion (Level 7) because it is a simple self-disclosure in response to a greeting, rather than navigating an immediate interpersonal conflict. Therefore, it remains a Level 0 undefended statement.\"\\n  },\\n  \"defense_level\": 0,\\n  \"label\": \"No Defense / Neutral Utterance\"\\n}' thought=None thought_signature=b'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' video_metadata=None"
+        ]
+    },
+    {
+        "id": "test_00005",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The seeker is experiencing significant financial and emotional stress due to unemployment and the pandemic, and the supporter asks about government assistance.",
+            "psychological_goal": "To actively cope with their financial hardship by taking concrete steps to find employment, while realistically acknowledging their limitations.",
+            "handbook_alignment": "The response aligns with Self-Assertion (Level 7), specifically ITEM 90: 'When the subject has a physical or emotional or practical problem, the subject takes steps to deal with his or her needs... rather than ignore them.' The seeker is actively 'trying to get job at ski resort' to resolve their financial crisis.",
+            "differential_diagnosis": "This is not a Level 0 (Neutral Utterance) because it demonstrates an active, adaptive coping mechanism in response to a severe stressor, rather than just stating a fact. It is not Level 1 (Help-Rejecting Complaining) because the seeker is not just whining about the $170/week; they are actively taking steps to improve their situation by applying for jobs."
+        },
+        "model_thinking_dump": [
+            "function_call=None code_execution_result=None executable_code=None file_data=None function_response=None inline_data=None text='{\\n  \"clinical_reasoning\": {\\n    \"context_trigger\": \"The seeker is experiencing significant financial and emotional stress due to unemployment and the pandemic, and the supporter asks about government assistance.\",\\n    \"psychological_goal\": \"To actively cope with their financial hardship by taking concrete steps to find employment, while realistically acknowledging their limitations.\",\\n    \"handbook_alignment\": \"The response aligns with Self-Assertion (Level 7), specifically ITEM 90: \\'When the subject has a physical or emotional or practical problem, the subject takes steps to deal with his or her needs... rather than ignore them.\\' The seeker is actively \\'trying to get job at ski resort\\' to resolve their financial crisis.\",\\n    \"differential_diagnosis\": \"This is not a Level 0 (Neutral Utterance) because it demonstrates an active, adaptive coping mechanism in response to a severe stressor, rather than just stating a fact. It is not Level 1 (Help-Rejecting Complaining) because the seeker is not just whining about the $170/week; they are actively taking steps to improve their situation by applying for jobs.\"\\n  },\\n  \"defense_level\": 7,\\n  \"label\": \"Highly Adaptive Defense Level\"\\n}' thought=None thought_signature=b'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' video_metadata=None"
+        ]
+    }
+]

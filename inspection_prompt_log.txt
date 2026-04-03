@@ -1,0 +1,1465 @@
+========== PROMPT FOR test_00001 ==========
+Seeker: hi
+Supporter: Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.
+Seeker: going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her
+Supporter: It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?
+Seeker: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+
+current_text_to_classify: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+==============================================
+
+========== PROMPT FOR test_00002 ==========
+Supporter: hi, how are you and how can i help?
+Seeker: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+
+current_text_to_classify: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+==============================================
+
+========== PROMPT FOR test_00003 ==========
+Seeker: hello
+
+current_text_to_classify: hello
+==============================================
+
+========== PROMPT FOR test_00001 ==========
+Seeker: hi
+Supporter: Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.
+Seeker: going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her
+Supporter: It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?
+Seeker: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+
+current_text_to_classify: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+==============================================
+
+========== PROMPT FOR test_00002 ==========
+Supporter: hi, how are you and how can i help?
+Seeker: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+
+current_text_to_classify: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+==============================================
+
+========== PROMPT FOR test_00003 ==========
+Seeker: hello
+
+current_text_to_classify: hello
+==============================================
+
+========== PROMPT FOR test_00004 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+
+current_text_to_classify: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+==============================================
+
+========== PROMPT FOR test_00005 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+
+current_text_to_classify: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+==============================================
+
+========== PROMPT FOR test_00006 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+
+current_text_to_classify: haha if i had the money id love too was a nice state
+==============================================
+
+========== PROMPT FOR test_00007 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+Supporter: hiring might be better here than in vermont I get it- bummer
+Seeker: says i need to talk back and forth ten times for reward lol oh yea? more open there?
+Supporter: Yes, I think we met the quota!
+Seeker: oh nice
+Supporter: Yes, the iowa governor is super right wing so she is adament about keeping business open etc
+Seeker: ah gotcha and no high cases?
+Supporter: So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open
+Seeker: ah true , they closed down alot here to stop spread
+Supporter: no we still have an increase, but she won't do a lockdown or anything extreme-
+Seeker: gotvha interesting
+Supporter: So naturally that has helped employers stay hiring...so?
+Seeker: yea makes sense but if everyone gets sick then what hha
+
+current_text_to_classify: yea makes sense but if everyone gets sick then what hha
+==============================================
+
+========== PROMPT FOR test_00008 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+Supporter: hiring might be better here than in vermont I get it- bummer
+Seeker: says i need to talk back and forth ten times for reward lol oh yea? more open there?
+Supporter: Yes, I think we met the quota!
+Seeker: oh nice
+Supporter: Yes, the iowa governor is super right wing so she is adament about keeping business open etc
+Seeker: ah gotcha and no high cases?
+Supporter: So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open
+Seeker: ah true , they closed down alot here to stop spread
+Supporter: no we still have an increase, but she won't do a lockdown or anything extreme-
+Seeker: gotvha interesting
+Supporter: So naturally that has helped employers stay hiring...so?
+Seeker: yea makes sense but if everyone gets sick then what hha
+Supporter: very true
+Seeker: yea its wild i just wish was over
+Supporter: I understand that feeling! well hopefully we get paid;) keep your head up:) Good luck to you!
+Seeker: enjoy your evening same to you
+
+current_text_to_classify: enjoy your evening same to you
+==============================================
+
+========== PROMPT FOR test_00009 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+
+current_text_to_classify: I try but the loneliness is the hard part
+==============================================
+
+========== PROMPT FOR test_00010 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+Supporter: It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?
+Seeker: It is just the lack of communication
+
+current_text_to_classify: It is just the lack of communication
+==============================================
+
+========== PROMPT FOR test_00011 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+Supporter: It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?
+Seeker: It is just the lack of communication
+Supporter: I hear you. Perhaps you could call one of your children now? See if they'd like to catch-up?
+Seeker: without any communication it makes it seem like a battle alone My daughter is busy and 3 hours away different time zones amke it hard
+Supporter: Maybe schedule in a call with her for the future? I have been making time to speak with my family every Tuesday, it gives us something to look forward to each week
+Seeker: Children can only share so much I chat with her, but the timing is off
+
+current_text_to_classify: Children can only share so much I chat with her, but the timing is off
+==============================================
+
+========== PROMPT FOR test_00012 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+Supporter: It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?
+Seeker: It is just the lack of communication
+Supporter: I hear you. Perhaps you could call one of your children now? See if they'd like to catch-up?
+Seeker: without any communication it makes it seem like a battle alone My daughter is busy and 3 hours away different time zones amke it hard
+Supporter: Maybe schedule in a call with her for the future? I have been making time to speak with my family every Tuesday, it gives us something to look forward to each week
+Seeker: Children can only share so much I chat with her, but the timing is off
+Supporter: What are your plans in Virginia?
+Seeker: Find a place to live for awhile I have to take care of a legal matter
+
+current_text_to_classify: Find a place to live for awhile I have to take care of a legal matter
+==============================================
+
+========== PROMPT FOR test_00013 ==========
+Seeker: I am having a very anxious day today
+Supporter: Hello! I am here to help, could you please tell me what the issue is?
+Seeker: My mother in law is sick with COVID and my husband, when he contracted COVID from her, got terminated from his job.
+Supporter: I can see why you feel anxious, I would be too given the situation. When did your mother in law got sick with COVID?
+Seeker: Yeah, it's just really stressful and I am over anxious about it. Right before Thanksgiving, she is elderly and has cancer, she is finally feeling better though.
+Supporter: Cancer is already a hard enough disease to fight against. My aunt is a cancer survivor. I am sure your mother can make it too.
+Seeker: She is a fighter.
+Supporter: From my knowledge, people usually recover from COVID after 2 to 3 weeks, you might consider having a doctor see your mother if she is still struggling.
+Seeker: Yeah, she went again the other day. She is doing quite a bit better. He said because of underlying conditions it may take her longer, but she is doing great. That was encouraging.
+Supporter: There are substantially more people recovering from covid each day despite the number of infected growing exponentially. I am sure that, with the proper care, your mother in law will make it, and so will your husband. I am sure he will be able to find a new job soon as new business start to open, even if it's a temporary one.
+Seeker: Yeah, I guess you're right. I know you're right. I just haven't felt really in the Christmas spirit this year and I am anxious about everything I can't control. He did have an interview today too, so that is good news.
+Supporter: Those are some great news indeed. I am sure he will get a call soon : )
+Seeker: Lol - you made me smile. Thanks. I will believe that too.
+Supporter: I am glad I can make your day just a little better, that's what we are here for ^_^
+Seeker: It really did help. Just talking and saying it out loud (or online) helped. Feeling heard helped.
+Supporter: And I am glad you are someone easy to talk to! Some of my patients do not argument at all and expect me to end the conversation when I, as a therapist, have to make sure they are good to go! Helping you has been a pleasure!
+Seeker: I am thankful for your listening to me. It does make a big difference. I am in a better mood. Thank you!
+
+current_text_to_classify: I am thankful for your listening to me. It does make a big difference. I am in a better mood. Thank you!
+==============================================
+
+========== PROMPT FOR test_00014 ==========
+Seeker: I am having a very anxious day today
+Supporter: Hello! I am here to help, could you please tell me what the issue is?
+Seeker: My mother in law is sick with COVID and my husband, when he contracted COVID from her, got terminated from his job.
+Supporter: I can see why you feel anxious, I would be too given the situation. When did your mother in law got sick with COVID?
+Seeker: Yeah, it's just really stressful and I am over anxious about it. Right before Thanksgiving, she is elderly and has cancer, she is finally feeling better though.
+Supporter: Cancer is already a hard enough disease to fight against. My aunt is a cancer survivor. I am sure your mother can make it too.
+Seeker: She is a fighter.
+Supporter: From my knowledge, people usually recover from COVID after 2 to 3 weeks, you might consider having a doctor see your mother if she is still struggling.
+Seeker: Yeah, she went again the other day. She is doing quite a bit better. He said because of underlying conditions it may take her longer, but she is doing great. That was encouraging.
+Supporter: There are substantially more people recovering from covid each day despite the number of infected growing exponentially. I am sure that, with the proper care, your mother in law will make it, and so will your husband. I am sure he will be able to find a new job soon as new business start to open, even if it's a temporary one.
+Seeker: Yeah, I guess you're right. I know you're right. I just haven't felt really in the Christmas spirit this year and I am anxious about everything I can't control. He did have an interview today too, so that is good news.
+Supporter: Those are some great news indeed. I am sure he will get a call soon : )
+Seeker: Lol - you made me smile. Thanks. I will believe that too.
+Supporter: I am glad I can make your day just a little better, that's what we are here for ^_^
+Seeker: It really did help. Just talking and saying it out loud (or online) helped. Feeling heard helped.
+Supporter: And I am glad you are someone easy to talk to! Some of my patients do not argument at all and expect me to end the conversation when I, as a therapist, have to make sure they are good to go! Helping you has been a pleasure!
+Seeker: I am thankful for your listening to me. It does make a big difference. I am in a better mood. Thank you!
+Supporter: You are very welcome!
+Seeker: Thanks and have a great day!
+
+current_text_to_classify: Thanks and have a great day!
+==============================================
+
+========== PROMPT FOR test_00015 ==========
+Seeker: I am really feeling the loneliness of the season and being isolated.
+Supporter: Good evening.
+Seeker: Good evening
+
+current_text_to_classify: Good evening
+==============================================
+
+========== PROMPT FOR test_00016 ==========
+Supporter: Hello
+Seeker: Hi! Did they send you a summary or anything of what's going on? If not, I've been struggling general depression. And overwhelming anxiety.
+Supporter: They did not, what is causing your depression and anxiety?
+Seeker: A cycle of anxiety.. overthinking that leads to depression. Nothing specific at the moment
+Supporter: So just to clarify, you are having overwhelming depression and anxiety today that has been caused by nothing in particular?
+Seeker: yes
+Supporter: I completely understand, I have had many issues in the past with anxiety and depression.
+Seeker: Any advice on how to push past the racing thoughts?
+Supporter: Have you tried to talk to a professional about this, it is always helpful to talk to someone who is trained to talk about things like this with people.
+Seeker: Yes
+
+current_text_to_classify: Yes
+==============================================
+
+========== PROMPT FOR test_00017 ==========
+Seeker: I need understanding at this time. Please respond and help me see what I did wrong.
+Supporter: Hi, sorry I just saw this How are you and how may I assist you?
+Seeker: Thanks for answering me. I need support for my depression.
+
+current_text_to_classify: Thanks for answering me. I need support for my depression.
+==============================================
+
+========== PROMPT FOR test_00018 ==========
+Seeker: I need understanding at this time. Please respond and help me see what I did wrong.
+Supporter: Hi, sorry I just saw this How are you and how may I assist you?
+Seeker: Thanks for answering me. I need support for my depression.
+Supporter: I am so sorry to hear it. I am happy assist.
+Seeker: What can you tellme to help me adjust.
+
+current_text_to_classify: What can you tellme to help me adjust.
+==============================================
+
+========== PROMPT FOR test_00001 ==========
+Seeker: hi
+Supporter: Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.
+Seeker: going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her
+Supporter: It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?
+Seeker: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+
+current_text_to_classify: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+==============================================
+
+========== PROMPT FOR test_00002 ==========
+Supporter: hi, how are you and how can i help?
+Seeker: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+
+current_text_to_classify: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+==============================================
+
+========== PROMPT FOR test_00003 ==========
+Seeker: hello
+
+current_text_to_classify: hello
+==============================================
+
+========== PROMPT FOR test_00004 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+
+current_text_to_classify: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+==============================================
+
+========== PROMPT FOR test_00005 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+
+current_text_to_classify: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+==============================================
+
+========== PROMPT FOR test_00006 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+
+current_text_to_classify: haha if i had the money id love too was a nice state
+==============================================
+
+========== PROMPT FOR test_00007 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+Supporter: hiring might be better here than in vermont I get it- bummer
+Seeker: says i need to talk back and forth ten times for reward lol oh yea? more open there?
+Supporter: Yes, I think we met the quota!
+Seeker: oh nice
+Supporter: Yes, the iowa governor is super right wing so she is adament about keeping business open etc
+Seeker: ah gotcha and no high cases?
+Supporter: So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open
+Seeker: ah true , they closed down alot here to stop spread
+Supporter: no we still have an increase, but she won't do a lockdown or anything extreme-
+Seeker: gotvha interesting
+Supporter: So naturally that has helped employers stay hiring...so?
+Seeker: yea makes sense but if everyone gets sick then what hha
+
+current_text_to_classify: yea makes sense but if everyone gets sick then what hha
+==============================================
+
+========== PROMPT FOR test_00008 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+Supporter: hiring might be better here than in vermont I get it- bummer
+Seeker: says i need to talk back and forth ten times for reward lol oh yea? more open there?
+Supporter: Yes, I think we met the quota!
+Seeker: oh nice
+Supporter: Yes, the iowa governor is super right wing so she is adament about keeping business open etc
+Seeker: ah gotcha and no high cases?
+Supporter: So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open
+Seeker: ah true , they closed down alot here to stop spread
+Supporter: no we still have an increase, but she won't do a lockdown or anything extreme-
+Seeker: gotvha interesting
+Supporter: So naturally that has helped employers stay hiring...so?
+Seeker: yea makes sense but if everyone gets sick then what hha
+Supporter: very true
+Seeker: yea its wild i just wish was over
+Supporter: I understand that feeling! well hopefully we get paid;) keep your head up:) Good luck to you!
+Seeker: enjoy your evening same to you
+
+current_text_to_classify: enjoy your evening same to you
+==============================================
+
+========== PROMPT FOR test_00009 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+
+current_text_to_classify: I try but the loneliness is the hard part
+==============================================
+
+========== PROMPT FOR test_00001 ==========
+Seeker: hi
+Supporter: Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.
+Seeker: going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her
+Supporter: It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?
+Seeker: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+
+current_text_to_classify: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+==============================================
+
+========== PROMPT FOR test_00002 ==========
+Supporter: hi, how are you and how can i help?
+Seeker: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+
+current_text_to_classify: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+==============================================
+
+========== PROMPT FOR test_00003 ==========
+Seeker: hello
+
+current_text_to_classify: hello
+==============================================
+
+========== PROMPT FOR test_00004 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+
+current_text_to_classify: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+==============================================
+
+========== PROMPT FOR test_00005 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+
+current_text_to_classify: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+==============================================
+
+========== PROMPT FOR test_00006 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+
+current_text_to_classify: haha if i had the money id love too was a nice state
+==============================================
+
+========== PROMPT FOR test_00007 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+Supporter: hiring might be better here than in vermont I get it- bummer
+Seeker: says i need to talk back and forth ten times for reward lol oh yea? more open there?
+Supporter: Yes, I think we met the quota!
+Seeker: oh nice
+Supporter: Yes, the iowa governor is super right wing so she is adament about keeping business open etc
+Seeker: ah gotcha and no high cases?
+Supporter: So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open
+Seeker: ah true , they closed down alot here to stop spread
+Supporter: no we still have an increase, but she won't do a lockdown or anything extreme-
+Seeker: gotvha interesting
+Supporter: So naturally that has helped employers stay hiring...so?
+Seeker: yea makes sense but if everyone gets sick then what hha
+
+current_text_to_classify: yea makes sense but if everyone gets sick then what hha
+==============================================
+
+========== PROMPT FOR test_00001 ==========
+Seeker: hi
+Supporter: Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.
+Seeker: going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her
+Supporter: It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?
+Seeker: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+
+current_text_to_classify: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+==============================================
+
+========== PROMPT FOR test_00002 ==========
+Supporter: hi, how are you and how can i help?
+Seeker: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+
+current_text_to_classify: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+==============================================
+
+========== PROMPT FOR test_00003 ==========
+Seeker: hello
+
+current_text_to_classify: hello
+==============================================
+
+========== PROMPT FOR test_00004 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+
+current_text_to_classify: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+==============================================
+
+========== PROMPT FOR test_00005 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+
+current_text_to_classify: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+==============================================
+
+========== PROMPT FOR test_00006 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+
+current_text_to_classify: haha if i had the money id love too was a nice state
+==============================================
+
+========== PROMPT FOR test_00007 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+Supporter: hiring might be better here than in vermont I get it- bummer
+Seeker: says i need to talk back and forth ten times for reward lol oh yea? more open there?
+Supporter: Yes, I think we met the quota!
+Seeker: oh nice
+Supporter: Yes, the iowa governor is super right wing so she is adament about keeping business open etc
+Seeker: ah gotcha and no high cases?
+Supporter: So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open
+Seeker: ah true , they closed down alot here to stop spread
+Supporter: no we still have an increase, but she won't do a lockdown or anything extreme-
+Seeker: gotvha interesting
+Supporter: So naturally that has helped employers stay hiring...so?
+Seeker: yea makes sense but if everyone gets sick then what hha
+
+current_text_to_classify: yea makes sense but if everyone gets sick then what hha
+==============================================
+
+========== PROMPT FOR test_00008 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+Supporter: hiring might be better here than in vermont I get it- bummer
+Seeker: says i need to talk back and forth ten times for reward lol oh yea? more open there?
+Supporter: Yes, I think we met the quota!
+Seeker: oh nice
+Supporter: Yes, the iowa governor is super right wing so she is adament about keeping business open etc
+Seeker: ah gotcha and no high cases?
+Supporter: So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open
+Seeker: ah true , they closed down alot here to stop spread
+Supporter: no we still have an increase, but she won't do a lockdown or anything extreme-
+Seeker: gotvha interesting
+Supporter: So naturally that has helped employers stay hiring...so?
+Seeker: yea makes sense but if everyone gets sick then what hha
+Supporter: very true
+Seeker: yea its wild i just wish was over
+Supporter: I understand that feeling! well hopefully we get paid;) keep your head up:) Good luck to you!
+Seeker: enjoy your evening same to you
+
+current_text_to_classify: enjoy your evening same to you
+==============================================
+
+========== PROMPT FOR test_00009 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+
+current_text_to_classify: I try but the loneliness is the hard part
+==============================================
+
+========== PROMPT FOR test_00010 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+Supporter: It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?
+Seeker: It is just the lack of communication
+
+current_text_to_classify: It is just the lack of communication
+==============================================
+
+========== PROMPT FOR test_00001 ==========
+Seeker: hi
+Supporter: Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.
+Seeker: going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her
+Supporter: It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?
+Seeker: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+
+current_text_to_classify: yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much
+==============================================
+
+========== PROMPT FOR test_00002 ==========
+Supporter: hi, how are you and how can i help?
+Seeker: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+
+current_text_to_classify: Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.
+==============================================
+
+========== PROMPT FOR test_00003 ==========
+Seeker: hello
+
+current_text_to_classify: hello
+==============================================
+
+========== PROMPT FOR test_00004 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+
+current_text_to_classify: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+==============================================
+
+========== PROMPT FOR test_00005 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+
+current_text_to_classify: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+==============================================
+
+========== PROMPT FOR test_00006 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+
+current_text_to_classify: haha if i had the money id love too was a nice state
+==============================================
+
+========== PROMPT FOR test_00007 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+Supporter: hiring might be better here than in vermont I get it- bummer
+Seeker: says i need to talk back and forth ten times for reward lol oh yea? more open there?
+Supporter: Yes, I think we met the quota!
+Seeker: oh nice
+Supporter: Yes, the iowa governor is super right wing so she is adament about keeping business open etc
+Seeker: ah gotcha and no high cases?
+Supporter: So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open
+Seeker: ah true , they closed down alot here to stop spread
+Supporter: no we still have an increase, but she won't do a lockdown or anything extreme-
+Seeker: gotvha interesting
+Supporter: So naturally that has helped employers stay hiring...so?
+Seeker: yea makes sense but if everyone gets sick then what hha
+
+current_text_to_classify: yea makes sense but if everyone gets sick then what hha
+==============================================
+
+========== PROMPT FOR test_00008 ==========
+Seeker: hello
+Supporter: Hi how are you doing today?
+Seeker: stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally
+Supporter: I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?
+Seeker: anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def
+Supporter: Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.
+Seeker: yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet
+Supporter: well I applaud your efforts to seek out employment! Keep up the faith!
+Seeker: yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay
+Supporter: you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources
+Seeker: ill check it out
+Supporter: Yes I understand, I live in Iowa- a bigger town but the struggles are still very real
+Seeker: thanks ah word i hear ya i was in des moises once zombie burher lol burger
+Supporter: Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)
+Seeker: thanks yea i hope they open and stay open i guess we will see sooo goood
+Supporter: anything else I can help with? truth!
+Seeker: not sure haha just figured try this out
+Supporter: me too!
+Seeker: so we both get paid for this right ? haha
+Supporter: hopefully:)
+Seeker: haha i hope so
+Supporter: honestly good luck with everything!
+Seeker: thanks you too! eat some zombie burger for me
+Supporter: appreciate that! Take care! LOL i will:)
+Seeker: no problem and haha wish i could come back remember had one with cheese curds so goood
+Supporter: drive on down and over
+Seeker: haha if i had the money id love too was a nice state
+Supporter: hiring might be better here than in vermont I get it- bummer
+Seeker: says i need to talk back and forth ten times for reward lol oh yea? more open there?
+Supporter: Yes, I think we met the quota!
+Seeker: oh nice
+Supporter: Yes, the iowa governor is super right wing so she is adament about keeping business open etc
+Seeker: ah gotcha and no high cases?
+Supporter: So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open
+Seeker: ah true , they closed down alot here to stop spread
+Supporter: no we still have an increase, but she won't do a lockdown or anything extreme-
+Seeker: gotvha interesting
+Supporter: So naturally that has helped employers stay hiring...so?
+Seeker: yea makes sense but if everyone gets sick then what hha
+Supporter: very true
+Seeker: yea its wild i just wish was over
+Supporter: I understand that feeling! well hopefully we get paid;) keep your head up:) Good luck to you!
+Seeker: enjoy your evening same to you
+
+current_text_to_classify: enjoy your evening same to you
+==============================================
+
+========== PROMPT FOR test_00009 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+
+current_text_to_classify: I try but the loneliness is the hard part
+==============================================
+
+========== PROMPT FOR test_00010 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+Supporter: It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?
+Seeker: It is just the lack of communication
+
+current_text_to_classify: It is just the lack of communication
+==============================================
+
+========== PROMPT FOR test_00011 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+Supporter: It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?
+Seeker: It is just the lack of communication
+Supporter: I hear you. Perhaps you could call one of your children now? See if they'd like to catch-up?
+Seeker: without any communication it makes it seem like a battle alone My daughter is busy and 3 hours away different time zones amke it hard
+Supporter: Maybe schedule in a call with her for the future? I have been making time to speak with my family every Tuesday, it gives us something to look forward to each week
+Seeker: Children can only share so much I chat with her, but the timing is off
+
+current_text_to_classify: Children can only share so much I chat with her, but the timing is off
+==============================================
+
+========== PROMPT FOR test_00012 ==========
+Supporter: Hello, how are you feeling today?
+Seeker: The season has me down. No family around.
+Supporter: I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?
+Seeker: trying to work and write but lack motivation
+Supporter: It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.
+Seeker: I don't talk to anyone
+Supporter: Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?
+Seeker: I live in a hotel currently No family or friends around, especially with the virus
+Supporter: What do you do for work? Are you able to get out of the hotel frequently?
+Seeker: I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country
+Supporter: I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.
+Seeker: I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down
+Supporter: Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.
+Seeker: No verbal communication makes it hard
+Supporter: Can you call them?
+Seeker: I try but the loneliness is the hard part
+Supporter: It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?
+Seeker: It is just the lack of communication
+Supporter: I hear you. Perhaps you could call one of your children now? See if they'd like to catch-up?
+Seeker: without any communication it makes it seem like a battle alone My daughter is busy and 3 hours away different time zones amke it hard
+Supporter: Maybe schedule in a call with her for the future? I have been making time to speak with my family every Tuesday, it gives us something to look forward to each week
+Seeker: Children can only share so much I chat with her, but the timing is off
+Supporter: What are your plans in Virginia?
+Seeker: Find a place to live for awhile I have to take care of a legal matter
+
+current_text_to_classify: Find a place to live for awhile I have to take care of a legal matter
+==============================================
+
+========== PROMPT FOR test_00013 ==========
+Seeker: I am having a very anxious day today
+Supporter: Hello! I am here to help, could you please tell me what the issue is?
+Seeker: My mother in law is sick with COVID and my husband, when he contracted COVID from her, got terminated from his job.
+Supporter: I can see why you feel anxious, I would be too given the situation. When did your mother in law got sick with COVID?
+Seeker: Yeah, it's just really stressful and I am over anxious about it. Right before Thanksgiving, she is elderly and has cancer, she is finally feeling better though.
+Supporter: Cancer is already a hard enough disease to fight against. My aunt is a cancer survivor. I am sure your mother can make it too.
+Seeker: She is a fighter.
+Supporter: From my knowledge, people usually recover from COVID after 2 to 3 weeks, you might consider having a doctor see your mother if she is still struggling.
+Seeker: Yeah, she went again the other day. She is doing quite a bit better. He said because of underlying conditions it may take her longer, but she is doing great. That was encouraging.
+Supporter: There are substantially more people recovering from covid each day despite the number of infected growing exponentially. I am sure that, with the proper care, your mother in law will make it, and so will your husband. I am sure he will be able to find a new job soon as new business start to open, even if it's a temporary one.
+Seeker: Yeah, I guess you're right. I know you're right. I just haven't felt really in the Christmas spirit this year and I am anxious about everything I can't control. He did have an interview today too, so that is good news.
+Supporter: Those are some great news indeed. I am sure he will get a call soon : )
+Seeker: Lol - you made me smile. Thanks. I will believe that too.
+Supporter: I am glad I can make your day just a little better, that's what we are here for ^_^
+Seeker: It really did help. Just talking and saying it out loud (or online) helped. Feeling heard helped.
+Supporter: And I am glad you are someone easy to talk to! Some of my patients do not argument at all and expect me to end the conversation when I, as a therapist, have to make sure they are good to go! Helping you has been a pleasure!
+Seeker: I am thankful for your listening to me. It does make a big difference. I am in a better mood. Thank you!
+
+current_text_to_classify: I am thankful for your listening to me. It does make a big difference. I am in a better mood. Thank you!
+==============================================
+
+========== PROMPT FOR test_00014 ==========
+Seeker: I am having a very anxious day today
+Supporter: Hello! I am here to help, could you please tell me what the issue is?
+Seeker: My mother in law is sick with COVID and my husband, when he contracted COVID from her, got terminated from his job.
+Supporter: I can see why you feel anxious, I would be too given the situation. When did your mother in law got sick with COVID?
+Seeker: Yeah, it's just really stressful and I am over anxious about it. Right before Thanksgiving, she is elderly and has cancer, she is finally feeling better though.
+Supporter: Cancer is already a hard enough disease to fight against. My aunt is a cancer survivor. I am sure your mother can make it too.
+Seeker: She is a fighter.
+Supporter: From my knowledge, people usually recover from COVID after 2 to 3 weeks, you might consider having a doctor see your mother if she is still struggling.
+Seeker: Yeah, she went again the other day. She is doing quite a bit better. He said because of underlying conditions it may take her longer, but she is doing great. That was encouraging.
+Supporter: There are substantially more people recovering from covid each day despite the number of infected growing exponentially. I am sure that, with the proper care, your mother in law will make it, and so will your husband. I am sure he will be able to find a new job soon as new business start to open, even if it's a temporary one.
+Seeker: Yeah, I guess you're right. I know you're right. I just haven't felt really in the Christmas spirit this year and I am anxious about everything I can't control. He did have an interview today too, so that is good news.
+Supporter: Those are some great news indeed. I am sure he will get a call soon : )
+Seeker: Lol - you made me smile. Thanks. I will believe that too.
+Supporter: I am glad I can make your day just a little better, that's what we are here for ^_^
+Seeker: It really did help. Just talking and saying it out loud (or online) helped. Feeling heard helped.
+Supporter: And I am glad you are someone easy to talk to! Some of my patients do not argument at all and expect me to end the conversation when I, as a therapist, have to make sure they are good to go! Helping you has been a pleasure!
+Seeker: I am thankful for your listening to me. It does make a big difference. I am in a better mood. Thank you!
+Supporter: You are very welcome!
+Seeker: Thanks and have a great day!
+
+current_text_to_classify: Thanks and have a great day!
+==============================================
+
+========== PROMPT FOR test_00015 ==========
+Seeker: I am really feeling the loneliness of the season and being isolated.
+Supporter: Good evening.
+Seeker: Good evening
+
+current_text_to_classify: Good evening
+==============================================
+
+========== PROMPT FOR test_00016 ==========
+Supporter: Hello
+Seeker: Hi! Did they send you a summary or anything of what's going on? If not, I've been struggling general depression. And overwhelming anxiety.
+Supporter: They did not, what is causing your depression and anxiety?
+Seeker: A cycle of anxiety.. overthinking that leads to depression. Nothing specific at the moment
+Supporter: So just to clarify, you are having overwhelming depression and anxiety today that has been caused by nothing in particular?
+Seeker: yes
+Supporter: I completely understand, I have had many issues in the past with anxiety and depression.
+Seeker: Any advice on how to push past the racing thoughts?
+Supporter: Have you tried to talk to a professional about this, it is always helpful to talk to someone who is trained to talk about things like this with people.
+Seeker: Yes
+
+current_text_to_classify: Yes
+==============================================
+
+========== PROMPT FOR test_00017 ==========
+Seeker: I need understanding at this time. Please respond and help me see what I did wrong.
+Supporter: Hi, sorry I just saw this How are you and how may I assist you?
+Seeker: Thanks for answering me. I need support for my depression.
+
+current_text_to_classify: Thanks for answering me. I need support for my depression.
+==============================================
+
+========== PROMPT FOR test_00018 ==========
+Seeker: I need understanding at this time. Please respond and help me see what I did wrong.
+Supporter: Hi, sorry I just saw this How are you and how may I assist you?
+Seeker: Thanks for answering me. I need support for my depression.
+Supporter: I am so sorry to hear it. I am happy assist.
+Seeker: What can you tellme to help me adjust.
+
+current_text_to_classify: What can you tellme to help me adjust.
+==============================================
+
+========== PROMPT FOR test_00019 ==========
+Seeker: Hello,is anone there?
+Supporter: Yes sorry, the app was misbehaving. How are you doing today?
+Seeker: I don't know. I'm shaking because I don't know what I'm going to do.
+
+current_text_to_classify: I don't know. I'm shaking because I don't know what I'm going to do.
+==============================================
+
+========== PROMPT FOR test_00020 ==========
+Seeker: Hello,is anone there?
+Supporter: Yes sorry, the app was misbehaving. How are you doing today?
+Seeker: I don't know. I'm shaking because I don't know what I'm going to do.
+Supporter: Im sorry to hear that, but going to do about what situation specifically?
+Seeker: I know you're busy prepping for the holiday but I described my problem earlier. It should be listed either at the top or on the left side of your screen. I know you're probably prepping for the holiday. I didn't mean to interrupt your Sunday.
+Supporter: Im sorry but we do not get those promps We just get to talk pretty much, we have to find out whats going on. You are not interrupting anything.
+Seeker: Here! Last Christmas I bought the condo of my dreams. This April 2020 I lost my job due Covid 19. My unemployment is ending and my savings are depleted. I've recived an eviction notice and don't know what to do. Help! Have you ever been evicted?
+Supporter: Where are you that you are able to be evicted? You should not be able to be evicted from your home during this time in pretty much every state. Have you tried contacting anyone for help other than your landlord?
+Seeker: I'm still in my condo but I no longer have a job, umemployment has run out and my savings are all gone.
+Supporter: Well the plus side is they cannot kick you out right now. Have you talk to your landlord about working out some payment arrangement. Have you tried applying for any job? Now is not the time for pride to get in the way, i would accept anything
+Seeker: When you say work out a plan what do you mean? I have no job. I have been applying for jobs but I haven't received a callback or an offer of employment. Have you ever been in this situation? Also, I'm calling a helpline so Pride is not my issue.
+
+current_text_to_classify: When you say work out a plan what do you mean? I have no job. I have been applying for jobs but I haven't received a callback or an offer of employment. Have you ever been in this situation? Also, I'm calling a helpline so Pride is not my issue.
+==============================================
+
+========== PROMPT FOR test_00021 ==========
+Supporter: hi
+Seeker: Hey You there?
+Supporter: Hi I stepped out, how are you?
+Seeker: I'm okay I guess. How are you?
+Supporter: Good, I am good. Is there anything I can be of an assistence today?
+Seeker: I don't know. I've been dealing with a lot this last month.
+
+current_text_to_classify: I don't know. I've been dealing with a lot this last month.
+==============================================
+
+========== PROMPT FOR test_00022 ==========
+Supporter: hi
+Seeker: Hey You there?
+Supporter: Hi I stepped out, how are you?
+Seeker: I'm okay I guess. How are you?
+Supporter: Good, I am good. Is there anything I can be of an assistence today?
+Seeker: I don't know. I've been dealing with a lot this last month.
+Supporter: I feel you. You might be just feeling a little tired. Do you feel like you need a rest?
+Seeker: Ha I'm a mother of two small children, I'm always tired lol
+
+current_text_to_classify: Ha I'm a mother of two small children, I'm always tired lol
+==============================================
+
+========== PROMPT FOR test_00023 ==========
+Supporter: hi
+Seeker: Hey You there?
+Supporter: Hi I stepped out, how are you?
+Seeker: I'm okay I guess. How are you?
+Supporter: Good, I am good. Is there anything I can be of an assistence today?
+Seeker: I don't know. I've been dealing with a lot this last month.
+Supporter: I feel you. You might be just feeling a little tired. Do you feel like you need a rest?
+Seeker: Ha I'm a mother of two small children, I'm always tired lol
+Supporter: Mom of 2 kids! You must be super busy. How are they doing today, playful? calm?
+Seeker: I'm always busy im surprised i can sit down to do this lol
+Supporter: Oh well, it is a small gift then. I hope you can utilize this nice time Never know when you lose your free time, it maybe in a next few minutes?
+Seeker: Yes I am thankful for every moment of peace. Idk honestly it always varies on how long my autistic toddler stays occupied XD
+
+current_text_to_classify: Yes I am thankful for every moment of peace. Idk honestly it always varies on how long my autistic toddler stays occupied XD
+==============================================
+
+========== PROMPT FOR test_00024 ==========
+Supporter: hi
+Seeker: Hey You there?
+Supporter: Hi I stepped out, how are you?
+Seeker: I'm okay I guess. How are you?
+Supporter: Good, I am good. Is there anything I can be of an assistence today?
+Seeker: I don't know. I've been dealing with a lot this last month.
+Supporter: I feel you. You might be just feeling a little tired. Do you feel like you need a rest?
+Seeker: Ha I'm a mother of two small children, I'm always tired lol
+Supporter: Mom of 2 kids! You must be super busy. How are they doing today, playful? calm?
+Seeker: I'm always busy im surprised i can sit down to do this lol
+Supporter: Oh well, it is a small gift then. I hope you can utilize this nice time Never know when you lose your free time, it maybe in a next few minutes?
+Seeker: Yes I am thankful for every moment of peace. Idk honestly it always varies on how long my autistic toddler stays occupied XD
+Supporter: It is so adorable when toddlers are occupied with something, like playing with toys. I might feel worried if my free time lasts long, becuause it is so unusual!
+Seeker: Exactly, when it gets quiet it gets suspicious XD Right now my little girl has her woody doll and bo peep doll making them kiss while she watches sherk lol. My 8 years old is engrossed in his cellphone.
+
+current_text_to_classify: Exactly, when it gets quiet it gets suspicious XD Right now my little girl has her woody doll and bo peep doll making them kiss while she watches sherk lol. My 8 years old is engrossed in his cellphone.
+==============================================
+
+========== PROMPT FOR test_00025 ==========
+Seeker: Hello.
+
+current_text_to_classify: Hello.
+==============================================
+
+========== PROMPT FOR test_00026 ==========
+Seeker: Hello.
+Supporter: Hello How are you tonight?
+Seeker: Feeling depressed as usual
+Supporter: I'm sorry to hear that. What has you feeling depressed?
+Seeker: Everything. Life. It's awful. How many years do you really need to stop enjoying this place. Ya know what I mean
+Supporter: I understand, but just to make sure I know what is going on fully, you are depressed in general and don't know how to get through it.
+Seeker: I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?
+
+current_text_to_classify: I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?
+==============================================
+
+========== PROMPT FOR test_00027 ==========
+Seeker: Hello.
+Supporter: Hello How are you tonight?
+Seeker: Feeling depressed as usual
+Supporter: I'm sorry to hear that. What has you feeling depressed?
+Seeker: Everything. Life. It's awful. How many years do you really need to stop enjoying this place. Ya know what I mean
+Supporter: I understand, but just to make sure I know what is going on fully, you are depressed in general and don't know how to get through it.
+Seeker: I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?
+Supporter: Just from these few messages, I can tell you are extremely upset about this. I have had problems in the past with depression as well, I used to have severe anxiety as well.
+Seeker: Sorry to hear that. Anxiety and depression are dual bladed sword of badness Really bad mixture I never struggled too much with anxiety.
+Supporter: It was tough. Have you thought about consulting a psychological professional to help with this issue? I did when I was going through my depression and it really helped.
+Seeker: NO! I would never do that. I'm already on anti depressants. That didn't help at all. I just don't understand why people like life enough to make more people! It is madness!
+Supporter: I didn't like the meds that they gave me either, however I felt that talking to someone helped me a great deal.
+Seeker: Well, I'm glad it helped you. I'm not just saying that. Being depressed is awful. What did it do for you? How so?
+
+current_text_to_classify: Well, I'm glad it helped you. I'm not just saying that. Being depressed is awful. What did it do for you? How so?
+==============================================
+
+========== PROMPT FOR test_00028 ==========
+Seeker: Hello.
+Supporter: Hello How are you tonight?
+Seeker: Feeling depressed as usual
+Supporter: I'm sorry to hear that. What has you feeling depressed?
+Seeker: Everything. Life. It's awful. How many years do you really need to stop enjoying this place. Ya know what I mean
+Supporter: I understand, but just to make sure I know what is going on fully, you are depressed in general and don't know how to get through it.
+Seeker: I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?
+Supporter: Just from these few messages, I can tell you are extremely upset about this. I have had problems in the past with depression as well, I used to have severe anxiety as well.
+Seeker: Sorry to hear that. Anxiety and depression are dual bladed sword of badness Really bad mixture I never struggled too much with anxiety.
+Supporter: It was tough. Have you thought about consulting a psychological professional to help with this issue? I did when I was going through my depression and it really helped.
+Seeker: NO! I would never do that. I'm already on anti depressants. That didn't help at all. I just don't understand why people like life enough to make more people! It is madness!
+Supporter: I didn't like the meds that they gave me either, however I felt that talking to someone helped me a great deal.
+Seeker: Well, I'm glad it helped you. I'm not just saying that. Being depressed is awful. What did it do for you? How so?
+Supporter: It was good to be able to talk to an objective third party about what was going on. It allowed me to get my feelings out without the threat of being judges or harrassed.
+Seeker: I understand. Well, I appreciate your time and advice. I just don't feel like you and I are understanding each other very well, though. Anyway, you made your bonus. I appreciate you trying to help me, though We got to talk for another 4 minutes though
+
+current_text_to_classify: I understand. Well, I appreciate your time and advice. I just don't feel like you and I are understanding each other very well, though. Anyway, you made your bonus. I appreciate you trying to help me, though We got to talk for another 4 minutes though
+==============================================
+
+========== PROMPT FOR test_00029 ==========
+Seeker: Hello.
+Supporter: Hello How are you tonight?
+Seeker: Feeling depressed as usual
+Supporter: I'm sorry to hear that. What has you feeling depressed?
+Seeker: Everything. Life. It's awful. How many years do you really need to stop enjoying this place. Ya know what I mean
+Supporter: I understand, but just to make sure I know what is going on fully, you are depressed in general and don't know how to get through it.
+Seeker: I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?
+Supporter: Just from these few messages, I can tell you are extremely upset about this. I have had problems in the past with depression as well, I used to have severe anxiety as well.
+Seeker: Sorry to hear that. Anxiety and depression are dual bladed sword of badness Really bad mixture I never struggled too much with anxiety.
+Supporter: It was tough. Have you thought about consulting a psychological professional to help with this issue? I did when I was going through my depression and it really helped.
+Seeker: NO! I would never do that. I'm already on anti depressants. That didn't help at all. I just don't understand why people like life enough to make more people! It is madness!
+Supporter: I didn't like the meds that they gave me either, however I felt that talking to someone helped me a great deal.
+Seeker: Well, I'm glad it helped you. I'm not just saying that. Being depressed is awful. What did it do for you? How so?
+Supporter: It was good to be able to talk to an objective third party about what was going on. It allowed me to get my feelings out without the threat of being judges or harrassed.
+Seeker: I understand. Well, I appreciate your time and advice. I just don't feel like you and I are understanding each other very well, though. Anyway, you made your bonus. I appreciate you trying to help me, though We got to talk for another 4 minutes though
+Supporter: Have you tried to focus on more of your hobbies in order to get your mind off of things?
+Seeker: I used to have more hobbies. Now, I'm not so motivated to do much of anything anymore. I used to play instruments. I like hiking a little, but it is winter now. So... I can't even do that. Plus... I have to travel really far to do that because there is nothing to hike that is very close
+Supporter: Why did you stop playing insturments?
+Seeker: I just lost interest. I'm losing interest in everything, man I think it's time for my heart to give out and make space for the new, ya know Cross my fingers at least Dying in your sleep would be best Wouldn't that be nice? You just drift off after your heart stops in a dream?
+Supporter: I certainly hope you don't do that!
+Seeker: Well, that's nice. You are a nice person. Anyway, You finally earned your 3 dollars and 50 cents. You tried. I appreciate it. Goodbye fellow mturker slave
+Supporter: I apologize that I wasn't able to make you feel any better
+Seeker: NO! DOnt you dare It is all k goodbye
+
+current_text_to_classify: NO! DOnt you dare It is all k goodbye
+==============================================
+
+========== PROMPT FOR test_00030 ==========
+Seeker: hi there
+
+current_text_to_classify: hi there
+==============================================
+
+========== PROMPT FOR test_00031 ==========
+Seeker: hi there
+Supporter: Hello! what seems to be bothering you today?
+Seeker: currently, i am living in a house with my brother, which i co own and can not afford to move out.
+Supporter: Is living with your brother a bad thing? What specifically is making you upset?
+Seeker: yes it is. he acts like a azz most of the time. he dosent care about anyone but himself. just like his fiancé. he throws away the bills and expects me to pay to keep the utilities on when they are about to be disconnected. then tells me i dont contribute to the house.
+Supporter: It seems like he would be a very difficult person to live with. And that is hard for you obviously. I'm thinking your upset because you can't leave so you're stuck. Is that correct?
+Seeker: yes, felling very stuck.
+Supporter: It's completely normal to feel that way. I'm sure you're handling the situation as best as you can. What have you done to try and help the situation?
+Seeker: trying to, looking for every way possible to make money and save it up and move out. really dont want to have to partition the property as its the house we grew up in.
+Supporter: I would feel the same way if that's a house I grew up in. I'm so sorry!
+Seeker: i tried to talk to him, in his mind its all my fault he cant pay the bills he had before i moved in. i had been living in california for the last few years, but came back with corona virus on the rise there.
+Supporter: If he's in a certain mindset, it would be hard to change that. Do you have people to talk to about this? It sounds like a lot to handle.
+Seeker: right? and his fiancé is the same way, they are both alcoholics and spend most of their income on their habits. its all i can do right now to keep food in the house, let alone running water.
+Supporter: I think it would be good for you to talk to someone and get help. Right now, all you can do is keep chugging along and trying your best to stay afloat.
+Seeker: i have a couple of friends that i have talked to about it, but it just seems like i am screaming at a brick wall and nothing changes.
+
+current_text_to_classify: i have a couple of friends that i have talked to about it, but it just seems like i am screaming at a brick wall and nothing changes.
+==============================================
+
+========== PROMPT FOR test_00032 ==========
+Seeker: Hi
+Supporter: Hello How may i help you today?
+Seeker: I am feeling depressed .I don't feel like doing anything.
+Supporter: What got you depressed?
+Seeker: I don't know. Maybe stuck at one place
+
+current_text_to_classify: I don't know. Maybe stuck at one place
+==============================================
+
+========== PROMPT FOR test_00033 ==========
+Seeker: Hi
+Supporter: Hello How may i help you today?
+Seeker: I am feeling depressed .I don't feel like doing anything.
+Supporter: What got you depressed?
+Seeker: I don't know. Maybe stuck at one place
+Supporter: What have you tried to do to control it?
+Seeker: don't know what to do
+
+current_text_to_classify: don't know what to do
+==============================================
+

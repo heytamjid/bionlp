@@ -1,0 +1,1994 @@
+[
+    {
+        "id": "test_00001",
+        "dialogue_id": "ESConv_001",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you're having some cash flow issues, right? I can relate to that at a few more points in my life than I'd points in my life than I'd like to recall. It's so very loving and sweet of you to be putting so much thought into the gift! That isn't all that common anymore, unfortunately.. Are you currently working?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yes, your are right, I cannot stay in house without paying bills yes, I am working but the income is not that much",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter validates the seeker's financial struggles and asks a direct question about whether the seeker is currently working.",
+            "psychological_goal": "To directly answer the supporter's question and confirm the reality of their financial situation without emotional distortion.",
+            "handbook_alignment": "The utterance consists of simple affirmations ('yes, your are right', 'yes, I am working') and the reporting of objective factual details ('I cannot stay in house without paying bills', 'the income is not that much'). This aligns perfectly with the criteria for a neutral, undefended statement.",
+            "differential_diagnosis": "This is not a defense mechanism (such as Rationalization or Help-Rejecting Complaining) because the seeker is not making excuses to avoid blame, nor are they rejecting help. They are simply stating the reality of their circumstances in a straightforward, functional manner."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00002",
+        "dialogue_id": "ESConv_002",
+        "dialogue": [
+            {
+                "text": "hi, how are you and how can i help?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Hi I'm experiencing a lot of anxiety and depression because of constant severe back pain.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks how the seeker is doing and how they can help.",
+            "psychological_goal": "The seeker is directly communicating their current emotional and physical state to initiate the conversation and seek support.",
+            "handbook_alignment": "The handbook explicitly states that the direct expression of an emotion (e.g., 'I am very sad') or physiological sensation is not classified as a defense mechanism. A defense is only present when an emotional expression is clearly distorted, avoided, or transformed.",
+            "differential_diagnosis": "This is not a defense mechanism (Levels 1-7) because the seeker is openly acknowledging their anxiety and depression and linking it to a realistic physical cause (severe back pain) without any distortion, avoidance, or unconscious transformation."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00003",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "hello",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "Initiation of the dialogue.",
+            "psychological_goal": "To greet the other person and start the conversation.",
+            "handbook_alignment": "The handbook explicitly states that 'Greetings and Farewells: Hello, Hi, Bye, See you later' fall under Label 0.",
+            "differential_diagnosis": "This is a simple social pleasantry with no emotional conflict, distortion, or avoidance, ruling out any defense mechanisms (Levels 1-7)."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00004",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks the seeker how they are doing today.",
+            "psychological_goal": "The seeker is directly answering the question by disclosing their current emotional state and financial struggles.",
+            "handbook_alignment": "The handbook explicitly states that the direct expression of an emotion (e.g., 'I am very sad') is not classified as a defense mechanism. The seeker is simply stating their feelings ('stressed out, anxious') and objective reality without any psychological distortion.",
+            "differential_diagnosis": "This is not a defense mechanism because there is no avoidance, distortion, or transformation of the emotional conflict. It is not Self-Assertion (Level 7) because it is a simple self-disclosure of feelings in a safe environment rather than an active coping behavior to navigate an immediate interpersonal conflict."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00005",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks if the seeker has looked into government assistance to help with their financial struggles.",
+            "psychological_goal": "To answer the supporter's question, explain the realistic limitations of the assistance they receive, and share the practical steps they are taking to find employment.",
+            "handbook_alignment": "The utterance is a straightforward, undefended report of factual details regarding the seeker's financial situation, geographical constraints, and job search efforts. It aligns with the Level 0 criteria of 'Reporting factual details of an event' and 'Describing objective personal information' without any psychological distortion.",
+            "differential_diagnosis": "This is not Help-Rejecting Complaining (Level 1) because the seeker is not dismissing the supporter's suggestion; rather, they are factually stating the limits of the assistance and demonstrating active problem-solving by applying for a job. It is also not a Level 7 defense (like Self-Assertion) because the utterance is simply a factual report of their circumstances and actions, rather than an active, in-the-moment navigation of an emotional conflict through direct expression. Therefore, it remains a neutral, undefended statement."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00006",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well I applaud your efforts to seek out employment! Keep up the faith!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ill check it out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes I understand, I live in Iowa- a bigger town but the struggles are still very real",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks ah word i hear ya i was in des moises once zombie burher lol burger",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks yea i hope they open and stay open i guess we will see sooo goood",
+                "speaker": "seeker"
+            },
+            {
+                "text": "anything else I can help with? truth!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "not sure haha just figured try this out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "me too!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "so we both get paid for this right ? haha",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hopefully:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "haha i hope so",
+                "speaker": "seeker"
+            },
+            {
+                "text": "honestly good luck with everything!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks you too! eat some zombie burger for me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "appreciate that! Take care! LOL i will:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "no problem and haha wish i could come back remember had one with cheese curds so goood",
+                "speaker": "seeker"
+            },
+            {
+                "text": "drive on down and over",
+                "speaker": "supporter"
+            },
+            {
+                "text": "haha if i had the money id love too was a nice state",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "haha if i had the money id love too was a nice state",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter jokingly suggests the seeker drive down to Iowa to get a burger.",
+            "psychological_goal": "To respond to the lighthearted suggestion, acknowledge their financial reality, and maintain a friendly conversational flow.",
+            "handbook_alignment": "The utterance serves a purely conversational and social function. The seeker states a factual limitation ('if i had the money') and offers a compliment ('was a nice state') without any psychological distortion or avoidance, aligning with Level 0.",
+            "differential_diagnosis": "This is not Humor (Level 7) because the 'haha' is a conversational marker rather than a mechanism to mitigate an acute emotional conflict. It is also not Rationalization (Level 3) because the lack of money is a previously established objective reality, not a self-serving excuse to avoid blame."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00007",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well I applaud your efforts to seek out employment! Keep up the faith!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ill check it out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes I understand, I live in Iowa- a bigger town but the struggles are still very real",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks ah word i hear ya i was in des moises once zombie burher lol burger",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks yea i hope they open and stay open i guess we will see sooo goood",
+                "speaker": "seeker"
+            },
+            {
+                "text": "anything else I can help with? truth!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "not sure haha just figured try this out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "me too!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "so we both get paid for this right ? haha",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hopefully:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "haha i hope so",
+                "speaker": "seeker"
+            },
+            {
+                "text": "honestly good luck with everything!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks you too! eat some zombie burger for me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "appreciate that! Take care! LOL i will:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "no problem and haha wish i could come back remember had one with cheese curds so goood",
+                "speaker": "seeker"
+            },
+            {
+                "text": "drive on down and over",
+                "speaker": "supporter"
+            },
+            {
+                "text": "haha if i had the money id love too was a nice state",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hiring might be better here than in vermont I get it- bummer",
+                "speaker": "supporter"
+            },
+            {
+                "text": "says i need to talk back and forth ten times for reward lol oh yea? more open there?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, I think we met the quota!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "oh nice",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, the iowa governor is super right wing so she is adament about keeping business open etc",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ah gotcha and no high cases?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ah true , they closed down alot here to stop spread",
+                "speaker": "seeker"
+            },
+            {
+                "text": "no we still have an increase, but she won't do a lockdown or anything extreme-",
+                "speaker": "supporter"
+            },
+            {
+                "text": "gotvha interesting",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So naturally that has helped employers stay hiring...so?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea makes sense but if everyone gets sick then what hha",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yea makes sense but if everyone gets sick then what hha",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter mentions that their state (Iowa) is not locking down, which helps employers continue hiring despite the pandemic.",
+            "psychological_goal": "The seeker is maintaining the conversational flow by acknowledging the supporter's point while pointing out a logical, realistic consequence of that policy.",
+            "handbook_alignment": "The utterance is a functional exchange of non-emotional information and a logical observation. It serves to continue the casual dialogue about state policies, fitting the criteria for a Neutral Utterance. The 'hha' acts as a simple conversational filler rather than a structured psychological defense.",
+            "differential_diagnosis": "This is not Humor (Level 7) because the 'hha' is a social nicety/filler rather than a deliberate, ironic joke used to actively cope with internal conflict. It is not Intellectualization (Level 6) because the seeker is directly responding to the supporter's topic with a simple, realistic observation, rather than using excessive abstract thinking to avoid personal feelings."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00008",
+        "dialogue_id": "ESConv_003",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "stressed out, anxious , this covid life is so tough cant find any work and just struggling with money and emotionally",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you- I can definitely relate. I'm sorry to hear you are unable to find work. What type of work are you looking for?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "anything really atm and sorry to hear that its tough everywhere alot of people having a hard time def",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you looked into government assistance due to covid complications? Yes, we are all in this weird boat together.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea they give me like 170 a week cant even cover rent and bills and to eat so on so its tough yea definitly weird times i live in a small town in vermont so only so much around, trying to get job at ski resort but no call back yet",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well I applaud your efforts to seek out employment! Keep up the faith!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea im trying but its been awhile im also just so stir crazy cant watch anymore tv do the mturk here and there but hasnt been greay",
+                "speaker": "seeker"
+            },
+            {
+                "text": "you have probably seen this resource but in case you havent: benefits.gov/help/faq/Coronavirus-resources",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ill check it out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes I understand, I live in Iowa- a bigger town but the struggles are still very real",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks ah word i hear ya i was in des moises once zombie burher lol burger",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Sounds like you are onto something with the ski resorts- sure hope something pans out oh yes! classic:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks yea i hope they open and stay open i guess we will see sooo goood",
+                "speaker": "seeker"
+            },
+            {
+                "text": "anything else I can help with? truth!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "not sure haha just figured try this out",
+                "speaker": "seeker"
+            },
+            {
+                "text": "me too!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "so we both get paid for this right ? haha",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hopefully:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "haha i hope so",
+                "speaker": "seeker"
+            },
+            {
+                "text": "honestly good luck with everything!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thanks you too! eat some zombie burger for me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "appreciate that! Take care! LOL i will:)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "no problem and haha wish i could come back remember had one with cheese curds so goood",
+                "speaker": "seeker"
+            },
+            {
+                "text": "drive on down and over",
+                "speaker": "supporter"
+            },
+            {
+                "text": "haha if i had the money id love too was a nice state",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hiring might be better here than in vermont I get it- bummer",
+                "speaker": "supporter"
+            },
+            {
+                "text": "says i need to talk back and forth ten times for reward lol oh yea? more open there?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, I think we met the quota!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "oh nice",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, the iowa governor is super right wing so she is adament about keeping business open etc",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ah gotcha and no high cases?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So even with numbers spiking, some schools are open still, lots of restaurants and businesses still open",
+                "speaker": "supporter"
+            },
+            {
+                "text": "ah true , they closed down alot here to stop spread",
+                "speaker": "seeker"
+            },
+            {
+                "text": "no we still have an increase, but she won't do a lockdown or anything extreme-",
+                "speaker": "supporter"
+            },
+            {
+                "text": "gotvha interesting",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So naturally that has helped employers stay hiring...so?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea makes sense but if everyone gets sick then what hha",
+                "speaker": "seeker"
+            },
+            {
+                "text": "very true",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea its wild i just wish was over",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand that feeling! well hopefully we get paid;) keep your head up:) Good luck to you!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "enjoy your evening same to you",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "enjoy your evening same to you",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The conversation has reached its natural conclusion, and the supporter has wished the seeker good luck.",
+            "psychological_goal": "To politely end the conversation and reciprocate the well wishes.",
+            "handbook_alignment": "The utterance falls under Label 0: No Defense / Neutral Utterance. The handbook explicitly lists 'Greetings and Farewells' as manifestations of this level, serving a purely social function.",
+            "differential_diagnosis": "This is a simple social pleasantry and farewell. There is no psychological distortion, avoidance, or transformation of an underlying emotional conflict, ruling out any defense mechanism from levels 1-7."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00009",
+        "dialogue_id": "ESConv_004",
+        "dialogue": [
+            {
+                "text": "Hello, how are you feeling today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "The season has me down. No family around.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "trying to work and write but lack motivation",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't talk to anyone",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I live in a hotel currently No family or friends around, especially with the virus",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What do you do for work? Are you able to get out of the hotel frequently?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No verbal communication makes it hard",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Can you call them?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I try but the loneliness is the hard part",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I try but the loneliness is the hard part",
+        "predicted_label": "Action Defense Level",
+        "predicted_defense_level": 1,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter suggests that the seeker call their family to help alleviate their lack of communication and feelings of isolation.",
+            "psychological_goal": "The seeker aims to elicit sympathy and maintain a helpless stance by dismissing the supporter's suggestion, avoiding the effort or potential disappointment of the proposed solution.",
+            "handbook_alignment": "The response 'I try but...' is a classic manifestation of Help-Rejecting Complaining. The seeker ostensibly engages with the advice but immediately pivots back to the insurmountable nature of their complaint ('the loneliness is the hard part'), fitting DMRS-Q Item 130 (complains about problems as insoluble and systematically rejects others' suggestions). This utterance culminates a clear pattern in the dialogue of the seeker rejecting every coping strategy offered by the supporter.",
+            "differential_diagnosis": "This is not a Level 0 Neutral Utterance or simple self-disclosure because it functions to deflect the supporter's advice and maintain a state of distress. It is not Level 3 Rationalization because the focus is on rejecting help through complaining rather than making excuses for a specific fault. It is not Level 7 Affiliation because the seeker is not collaboratively using the supporter's help to find a constructive solution."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00010",
+        "dialogue_id": "ESConv_004",
+        "dialogue": [
+            {
+                "text": "Hello, how are you feeling today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "The season has me down. No family around.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "trying to work and write but lack motivation",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't talk to anyone",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I live in a hotel currently No family or friends around, especially with the virus",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What do you do for work? Are you able to get out of the hotel frequently?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No verbal communication makes it hard",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Can you call them?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I try but the loneliness is the hard part",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is just the lack of communication",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "It is just the lack of communication",
+        "predicted_label": "Action Defense Level",
+        "predicted_defense_level": 1,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter suggests making online friends in forums to help alleviate the seeker's loneliness.",
+            "psychological_goal": "To elicit sympathy and maintain a helpless posture by rejecting the supporter's advice and continuing to complain.",
+            "handbook_alignment": "The utterance aligns with Help-Rejecting Complaining under Action Defenses (Level 1). Specifically, it matches ITEM 130 and ITEM 149, where the subject complains about problems as insoluble and dismisses others' suggestions by reverting to the complaint ('lack of communication') instead of engaging with the advice.",
+            "differential_diagnosis": "This is not a Level 0 Neutral Utterance because it actively functions to reject help and sustain a complaining dynamic. It is not Level 3 Rationalization because the focus is on rejecting support rather than justifying a specific fault. It is not Level 7 Affiliation because the seeker is refusing to collaborate on a solution."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00011",
+        "dialogue_id": "ESConv_004",
+        "dialogue": [
+            {
+                "text": "Hello, how are you feeling today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "The season has me down. No family around.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "trying to work and write but lack motivation",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't talk to anyone",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I live in a hotel currently No family or friends around, especially with the virus",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What do you do for work? Are you able to get out of the hotel frequently?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No verbal communication makes it hard",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Can you call them?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I try but the loneliness is the hard part",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is just the lack of communication",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you. Perhaps you could call one of your children now? See if they'd like to catch-up?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "without any communication it makes it seem like a battle alone My daughter is busy and 3 hours away different time zones amke it hard",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Maybe schedule in a call with her for the future? I have been making time to speak with my family every Tuesday, it gives us something to look forward to each week",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Children can only share so much I chat with her, but the timing is off",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Children can only share so much I chat with her, but the timing is off",
+        "predicted_label": "Action Defense Level",
+        "predicted_defense_level": 1,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter suggests scheduling a regular call with the seeker's daughter to help alleviate the seeker's feelings of loneliness and isolation.",
+            "psychological_goal": "To maintain the role of a helpless sufferer and avoid the vulnerability or effort of actually connecting, by dismissing the supporter's practical advice.",
+            "handbook_alignment": "The response aligns with Help-Rejecting Complaining (Level 1). The seeker repeatedly complains about loneliness and lack of communication, but systematically rejects every suggestion the supporter offers (e.g., making online friends, calling children, scheduling a call) with excuses like 'the timing is off' and 'children can only share so much' (DMRS-Q Item 130).",
+            "differential_diagnosis": "This is not Rationalization (Level 3), which involves making excuses for one's own past misdeeds or avoiding blame. Instead, it is an active, real-time rejection of offered help while continuing to complain, which is the hallmark of Help-Rejecting Complaining. It is not Passive Aggression because there is no facade of compliance; the seeker is overtly dismissing the advice."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00012",
+        "dialogue_id": "ESConv_004",
+        "dialogue": [
+            {
+                "text": "Hello, how are you feeling today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "The season has me down. No family around.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. Are you finding time to do things you enjoy by yourself? Any hobbies?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "trying to work and write but lack motivation",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like you are feeling some lethargy in this cold season, and feel as though you have no support from your family.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't talk to anyone",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Do you have any plans to spend Christmas with family or friends? That may help to break the cycle of feeling low?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I live in a hotel currently No family or friends around, especially with the virus",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What do you do for work? Are you able to get out of the hotel frequently?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am a writer. Witht he virus it is hard to meet anyone i am only here until next week then I have to go to Virignia My children r all over the country",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I agree, it is hard to spend time with people at the moment. We are all finding ourselves spending a lot more time alone than we are used to. Perhaps you could all plan an event for next year when we will hopefully be less restricted. It would be good to have something positive to look forward to.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I try the dating sites, but they seem to far away or impersonal Hope things are better. Just the current season ahs me down",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, I can see that. Keep in touch with your family and try to think of positive, happy times you can all have together in the future.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No verbal communication makes it hard",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Can you call them?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I try but the loneliness is the hard part",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like this loneliness is really getting to you and you are struggling to see a way forwards. As you are a writer could you perhaps try to make some online friends in forums?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is just the lack of communication",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you. Perhaps you could call one of your children now? See if they'd like to catch-up?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "without any communication it makes it seem like a battle alone My daughter is busy and 3 hours away different time zones amke it hard",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Maybe schedule in a call with her for the future? I have been making time to speak with my family every Tuesday, it gives us something to look forward to each week",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Children can only share so much I chat with her, but the timing is off",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What are your plans in Virginia?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Find a place to live for awhile I have to take care of a legal matter",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Find a place to live for awhile I have to take care of a legal matter",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks the seeker about their specific plans upon moving to Virginia.",
+            "psychological_goal": "To provide a straightforward, factual answer regarding their upcoming logistical and personal tasks.",
+            "handbook_alignment": "The handbook defines Level 0 as utterances that serve a purely conversational or social function, including exchanging logistical information without psychological self-revelation. The seeker is simply reporting factual details about finding housing and handling a legal matter.",
+            "differential_diagnosis": "This is not a defense mechanism (Levels 1-7) because there is no evidence of emotional distortion, avoidance, or unconscious conflict management. It is a direct, undefended statement of fact in response to a question."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00013",
+        "dialogue_id": "ESConv_005",
+        "dialogue": [
+            {
+                "text": "I am having a very anxious day today",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello! I am here to help, could you please tell me what the issue is?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My mother in law is sick with COVID and my husband, when he contracted COVID from her, got terminated from his job.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I can see why you feel anxious, I would be too given the situation. When did your mother in law got sick with COVID?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, it's just really stressful and I am over anxious about it. Right before Thanksgiving, she is elderly and has cancer, she is finally feeling better though.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Cancer is already a hard enough disease to fight against. My aunt is a cancer survivor. I am sure your mother can make it too.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "She is a fighter.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "From my knowledge, people usually recover from COVID after 2 to 3 weeks, you might consider having a doctor see your mother if she is still struggling.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, she went again the other day. She is doing quite a bit better. He said because of underlying conditions it may take her longer, but she is doing great. That was encouraging.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "There are substantially more people recovering from covid each day despite the number of infected growing exponentially. I am sure that, with the proper care, your mother in law will make it, and so will your husband. I am sure he will be able to find a new job soon as new business start to open, even if it's a temporary one.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, I guess you're right. I know you're right. I just haven't felt really in the Christmas spirit this year and I am anxious about everything I can't control. He did have an interview today too, so that is good news.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Those are some great news indeed. I am sure he will get a call soon : )",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Lol - you made me smile. Thanks. I will believe that too.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am glad I can make your day just a little better, that's what we are here for ^_^",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It really did help. Just talking and saying it out loud (or online) helped. Feeling heard helped.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "And I am glad you are someone easy to talk to! Some of my patients do not argument at all and expect me to end the conversation when I, as a therapist, have to make sure they are good to go! Helping you has been a pleasure!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am thankful for your listening to me. It does make a big difference. I am in a better mood. Thank you!",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I am thankful for your listening to me. It does make a big difference. I am in a better mood. Thank you!",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The seeker experienced significant anxiety due to their mother-in-law's illness and their husband's job loss, and engaged in a supportive conversation to cope.",
+            "psychological_goal": "To express genuine gratitude and acknowledge the emotional relief and positive impact of the support received.",
+            "handbook_alignment": "The seeker explicitly states that being listened to made a 'big difference' and improved their mood. This aligns with Affiliation (a Highly Adaptive Defense), where the individual turns to others for support and acknowledges the emotional benefit of the interaction, going beyond a simple social pleasantry.",
+            "differential_diagnosis": "This is not a Level 0 Neutral Utterance because it involves a detailed reflection on the psychological benefit of the help received and actively builds connection, rather than just a functional 'thank you.' It is not a lower-level defense because there is no distortion, avoidance, or acting out; the seeker is adaptively managing their anxiety through interpersonal connection."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00014",
+        "dialogue_id": "ESConv_005",
+        "dialogue": [
+            {
+                "text": "I am having a very anxious day today",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello! I am here to help, could you please tell me what the issue is?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My mother in law is sick with COVID and my husband, when he contracted COVID from her, got terminated from his job.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I can see why you feel anxious, I would be too given the situation. When did your mother in law got sick with COVID?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, it's just really stressful and I am over anxious about it. Right before Thanksgiving, she is elderly and has cancer, she is finally feeling better though.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Cancer is already a hard enough disease to fight against. My aunt is a cancer survivor. I am sure your mother can make it too.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "She is a fighter.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "From my knowledge, people usually recover from COVID after 2 to 3 weeks, you might consider having a doctor see your mother if she is still struggling.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, she went again the other day. She is doing quite a bit better. He said because of underlying conditions it may take her longer, but she is doing great. That was encouraging.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "There are substantially more people recovering from covid each day despite the number of infected growing exponentially. I am sure that, with the proper care, your mother in law will make it, and so will your husband. I am sure he will be able to find a new job soon as new business start to open, even if it's a temporary one.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, I guess you're right. I know you're right. I just haven't felt really in the Christmas spirit this year and I am anxious about everything I can't control. He did have an interview today too, so that is good news.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Those are some great news indeed. I am sure he will get a call soon : )",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Lol - you made me smile. Thanks. I will believe that too.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am glad I can make your day just a little better, that's what we are here for ^_^",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It really did help. Just talking and saying it out loud (or online) helped. Feeling heard helped.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "And I am glad you are someone easy to talk to! Some of my patients do not argument at all and expect me to end the conversation when I, as a therapist, have to make sure they are good to go! Helping you has been a pleasure!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am thankful for your listening to me. It does make a big difference. I am in a better mood. Thank you!",
+                "speaker": "seeker"
+            },
+            {
+                "text": "You are very welcome!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks and have a great day!",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Thanks and have a great day!",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The conversation has reached its natural conclusion after the Seeker expressed gratitude for the Supporter's help.",
+            "psychological_goal": "To politely end the conversation and maintain social etiquette.",
+            "handbook_alignment": "The handbook explicitly states that 'Greetings and Farewells' (e.g., 'Bye', 'See you later') and 'Simple Social Rituals' (e.g., 'Thank you') fall under Label 0.",
+            "differential_diagnosis": "This is a purely functional, undefended statement used for social niceties. It does not involve any psychological distortion, avoidance, or transformation of an emotional conflict, ruling out any defense mechanism from levels 1-7."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00015",
+        "dialogue_id": "ESConv_006",
+        "dialogue": [
+            {
+                "text": "I am really feeling the loneliness of the season and being isolated.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Good evening.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Good evening",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Good evening",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter initiated a social greeting by saying 'Good evening.'",
+            "psychological_goal": "To return a social greeting and maintain the conversational flow.",
+            "handbook_alignment": "The handbook explicitly states that 'Greetings and Farewells' such as 'Hello,' 'Hi,' and 'Good evening' fall under Label 0: No Defense / Neutral Utterance.",
+            "differential_diagnosis": "This is a purely functional social nicety. It does not involve any psychological distortion, avoidance, or transformation of an emotional conflict, ruling out any defense mechanism from levels 1 through 7."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00016",
+        "dialogue_id": "ESConv_007",
+        "dialogue": [
+            {
+                "text": "Hello",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi! Did they send you a summary or anything of what's going on? If not, I've been struggling general depression. And overwhelming anxiety.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "They did not, what is causing your depression and anxiety?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "A cycle of anxiety.. overthinking that leads to depression. Nothing specific at the moment",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So just to clarify, you are having overwhelming depression and anxiety today that has been caused by nothing in particular?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I completely understand, I have had many issues in the past with anxiety and depression.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Any advice on how to push past the racing thoughts?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you tried to talk to a professional about this, it is always helpful to talk to someone who is trained to talk about things like this with people.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yes",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks if the seeker has tried talking to a professional about their anxiety and depression.",
+            "psychological_goal": "To provide a factual answer to the supporter's direct question.",
+            "handbook_alignment": "The utterance is a simple 'Yes', which aligns perfectly with the handbook's definition of Label 0: No Defense / Neutral Utterance, specifically under 'Simple Affirmations/Negations: Short, non-elaborated responses like Okay, Yes, No, or Right.'",
+            "differential_diagnosis": "This is a purely functional and factual response. There is no evidence of emotional distortion, avoidance, or transformation that would indicate a defense mechanism from levels 1-7. It is not Level 8 because the function of the utterance is clear."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00017",
+        "dialogue_id": "ESConv_008",
+        "dialogue": [
+            {
+                "text": "I need understanding at this time. Please respond and help me see what I did wrong.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi, sorry I just saw this How are you and how may I assist you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks for answering me. I need support for my depression.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Thanks for answering me. I need support for my depression.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks the seeker how they are doing and how they can assist them.",
+            "psychological_goal": "To clearly communicate their current mental health struggle and the reason for initiating the conversation.",
+            "handbook_alignment": "The handbook explicitly states that simple expressions of thanks and direct expressions of emotion or need (e.g., 'I am very sad', 'I need support') without psychological distortion are classified as Level 0. The seeker is simply stating a fact about their condition and what they are looking for.",
+            "differential_diagnosis": "This is not Affiliation (Level 7) because it lacks the collaborative, solution-oriented elaboration typical of that defense; it is merely an opening statement of purpose. It is also not Self-Assertion (Level 7) because it is not in response to an immediate interpersonal conflict or boundary violation. It remains a purely functional and undefended statement."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00018",
+        "dialogue_id": "ESConv_008",
+        "dialogue": [
+            {
+                "text": "I need understanding at this time. Please respond and help me see what I did wrong.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi, sorry I just saw this How are you and how may I assist you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks for answering me. I need support for my depression.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am so sorry to hear it. I am happy assist.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "What can you tellme to help me adjust.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "What can you tellme to help me adjust.",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The seeker is experiencing depression and has reached out to the supporter for help.",
+            "psychological_goal": "The seeker is trying to obtain guidance, advice, and support to actively cope with and adjust to their depressive state.",
+            "handbook_alignment": "This utterance aligns with Affiliation, a Highly Adaptive Defense (Level 7), which is defined as turning to others for help and support to collaboratively find solutions. The seeker is explicitly asking the supporter for advice on how to adjust.",
+            "differential_diagnosis": "This is not a Level 0 Neutral Utterance because it is an active, emotionally driven request for coping assistance rather than a simple factual question or social pleasantry. It is not Level 1 Help-Rejecting Complaining because the seeker is genuinely asking for help without any indication of rejecting it."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00019",
+        "dialogue_id": "ESConv_010",
+        "dialogue": [
+            {
+                "text": "Hello,is anone there?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes sorry, the app was misbehaving. How are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't know. I'm shaking because I don't know what I'm going to do.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I don't know. I'm shaking because I don't know what I'm going to do.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks the seeker how they are doing today.",
+            "psychological_goal": "The seeker is directly expressing their current state of distress, confusion, and physical symptoms (shaking) without attempting to hide, avoid, or distort them.",
+            "handbook_alignment": "The handbook explicitly states that the direct expression of an emotion or physiological sensation is not classified as a defense mechanism. A defense is only present when an emotional expression is clearly distorted, avoided, or transformed.",
+            "differential_diagnosis": "This is not a Level 3 (Disavowal) or Level 5 (Neurotic) defense because the seeker is fully conscious of their anxiety and is not avoiding or repressing the emotion. It is a direct, undefended statement of their current experience."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00020",
+        "dialogue_id": "ESConv_010",
+        "dialogue": [
+            {
+                "text": "Hello,is anone there?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes sorry, the app was misbehaving. How are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't know. I'm shaking because I don't know what I'm going to do.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Im sorry to hear that, but going to do about what situation specifically?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I know you're busy prepping for the holiday but I described my problem earlier. It should be listed either at the top or on the left side of your screen. I know you're probably prepping for the holiday. I didn't mean to interrupt your Sunday.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Im sorry but we do not get those promps We just get to talk pretty much, we have to find out whats going on. You are not interrupting anything.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Here! Last Christmas I bought the condo of my dreams. This April 2020 I lost my job due Covid 19. My unemployment is ending and my savings are depleted. I've recived an eviction notice and don't know what to do. Help! Have you ever been evicted?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Where are you that you are able to be evicted? You should not be able to be evicted from your home during this time in pretty much every state. Have you tried contacting anyone for help other than your landlord?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm still in my condo but I no longer have a job, umemployment has run out and my savings are all gone.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Well the plus side is they cannot kick you out right now. Have you talk to your landlord about working out some payment arrangement. Have you tried applying for any job? Now is not the time for pride to get in the way, i would accept anything",
+                "speaker": "supporter"
+            },
+            {
+                "text": "When you say work out a plan what do you mean? I have no job. I have been applying for jobs but I haven't received a callback or an offer of employment. Have you ever been in this situation? Also, I'm calling a helpline so Pride is not my issue.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "When you say work out a plan what do you mean? I have no job. I have been applying for jobs but I haven't received a callback or an offer of employment. Have you ever been in this situation? Also, I'm calling a helpline so Pride is not my issue.",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter suggests the seeker should make a payment plan and take any job, implying that 'pride' might be preventing the seeker from finding work.",
+            "psychological_goal": "To correct the supporter's assumptions, defend their self-esteem, and assert the reality of their ongoing efforts.",
+            "handbook_alignment": "Self-Assertion (Level 7). The seeker directly and respectfully addresses the supporter's comment about pride ('Pride is not my issue') and clarifies their situation ('I have been applying for jobs'). This aligns with ITEM 105 (standing up for oneself appropriately when someone is dismissive or makes assumptions) and ITEM 146 (expressing thoughts clearly and directly).",
+            "differential_diagnosis": "It is not Passive Aggression (Level 1) because the disagreement is expressed directly and clearly, not covertly. It is not Rationalization (Level 3) because the seeker is stating factual efforts (applying for jobs, calling a helpline) rather than making excuses to avoid responsibility. It is not Devaluation (Level 4) because the seeker does not attack the supporter's character, but rather firmly corrects the specific misconception."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00021",
+        "dialogue_id": "ESConv_011",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hey You there?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi I stepped out, how are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm okay I guess. How are you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Good, I am good. Is there anything I can be of an assistence today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't know. I've been dealing with a lot this last month.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I don't know. I've been dealing with a lot this last month.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter asks the seeker if there is anything they can assist with today.",
+            "psychological_goal": "The seeker is opening up about their recent struggles and expressing genuine uncertainty about how to proceed or what specific help they need.",
+            "handbook_alignment": "The utterance is a simple, undefended self-disclosure. The seeker states a fact about their recent experience ('dealing with a lot') without any psychological distortion, avoidance, or transformation of the underlying emotion.",
+            "differential_diagnosis": "This is not Help-Rejecting Complaining (Level 1) because there is no established pattern of rejecting offered advice; it is merely an initial expression of uncertainty. It is not Repression (Level 5) as the vagueness is typical for an opening statement rather than an unconscious block of specific distressing details."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00022",
+        "dialogue_id": "ESConv_011",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hey You there?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi I stepped out, how are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm okay I guess. How are you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Good, I am good. Is there anything I can be of an assistence today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't know. I've been dealing with a lot this last month.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I feel you. You might be just feeling a little tired. Do you feel like you need a rest?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ha I'm a mother of two small children, I'm always tired lol",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Ha I'm a mother of two small children, I'm always tired lol",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter suggests the seeker might be tired and asks if she needs a rest after the seeker mentions dealing with a lot recently.",
+            "psychological_goal": "To acknowledge her chronic exhaustion in a lighthearted, socially acceptable way, diffusing the tension and emotional weight of her stress.",
+            "handbook_alignment": "This aligns with Humor (Highly Adaptive Defense Level). The seeker uses laughter ('Ha', 'lol') and an ironic truth ('mother of two small children, I'm always tired') to mitigate the negative feelings associated with her stress and exhaustion, fitting ITEM 40.",
+            "differential_diagnosis": "This is not a Level 0 neutral utterance because it actively employs humor to manage the emotional weight of her situation. It is not Level 3 (Denial) as she fully acknowledges her fatigue. It is not Level 4 (Devaluation) because she is not harshly criticizing herself, but rather using constructive humor to cope."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00023",
+        "dialogue_id": "ESConv_011",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hey You there?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi I stepped out, how are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm okay I guess. How are you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Good, I am good. Is there anything I can be of an assistence today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't know. I've been dealing with a lot this last month.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I feel you. You might be just feeling a little tired. Do you feel like you need a rest?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ha I'm a mother of two small children, I'm always tired lol",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Mom of 2 kids! You must be super busy. How are they doing today, playful? calm?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm always busy im surprised i can sit down to do this lol",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh well, it is a small gift then. I hope you can utilize this nice time Never know when you lose your free time, it maybe in a next few minutes?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes I am thankful for every moment of peace. Idk honestly it always varies on how long my autistic toddler stays occupied XD",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yes I am thankful for every moment of peace. Idk honestly it always varies on how long my autistic toddler stays occupied XD",
+        "predicted_label": "Highly Adaptive Defense Level",
+        "predicted_defense_level": 7,
+        "clinical_reasoning": {
+            "context_trigger": "The seeker is discussing the constant busyness, exhaustion, and unpredictability of raising two small children, including an autistic toddler.",
+            "psychological_goal": "To relieve the tension and stress of her demanding daily life by finding amusement in the unpredictability of her situation.",
+            "handbook_alignment": "DMRS-Q ITEM 40: In confronting difficult situations which the subject cannot change, the subject uses humor about the situation to mitigate the negative feelings arising. The use of 'XD' and laughing at the unpredictability of her toddler's occupation time demonstrates this.",
+            "differential_diagnosis": "This is not a Level 0 neutral utterance because it actively manages the stress of her situation. It is not a Level 3 Disavowal defense because she fully acknowledges the reality of her demanding life. It is a mature, highly adaptive defense (Humor) because it relieves tension without distorting reality or harming anyone."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00024",
+        "dialogue_id": "ESConv_011",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hey You there?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi I stepped out, how are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm okay I guess. How are you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Good, I am good. Is there anything I can be of an assistence today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't know. I've been dealing with a lot this last month.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I feel you. You might be just feeling a little tired. Do you feel like you need a rest?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ha I'm a mother of two small children, I'm always tired lol",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Mom of 2 kids! You must be super busy. How are they doing today, playful? calm?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm always busy im surprised i can sit down to do this lol",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh well, it is a small gift then. I hope you can utilize this nice time Never know when you lose your free time, it maybe in a next few minutes?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes I am thankful for every moment of peace. Idk honestly it always varies on how long my autistic toddler stays occupied XD",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is so adorable when toddlers are occupied with something, like playing with toys. I might feel worried if my free time lasts long, becuause it is so unusual!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Exactly, when it gets quiet it gets suspicious XD Right now my little girl has her woody doll and bo peep doll making them kiss while she watches sherk lol. My 8 years old is engrossed in his cellphone.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Exactly, when it gets quiet it gets suspicious XD Right now my little girl has her woody doll and bo peep doll making them kiss while she watches sherk lol. My 8 years old is engrossed in his cellphone.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter jokes about feeling worried when the house is quiet because it is so unusual with toddlers.",
+            "psychological_goal": "To agree with the supporter's relatable parenting observation and provide a factual update on what her children are currently doing.",
+            "handbook_alignment": "The utterance falls under Level 0 as it is a purely functional exchange of non-emotional information. The speaker is simply describing the current situation in her home to maintain the conversational flow.",
+            "differential_diagnosis": "Although there is a lighthearted tone ('XD', 'lol'), this does not qualify as the mature defense of Humor (Level 7) because it is not being used to mitigate a specific, acute emotional conflict or tension. It is a standard conversational trope and factual reporting, lacking any psychological distortion or defensive function."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00025",
+        "dialogue_id": "ESConv_012",
+        "dialogue": [
+            {
+                "text": "Hello.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Hello.",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The beginning of a conversation.",
+            "psychological_goal": "To initiate a conversation and perform a standard social nicety.",
+            "handbook_alignment": "The handbook explicitly states that 'Greetings and Farewells: Hello, Hi, Bye, See you later' are classified as No Defense / Neutral Utterance.",
+            "differential_diagnosis": "This is a purely functional utterance without any emotional conflict, psychological distortion, or avoidance, ruling out any defense mechanisms (Levels 1-7)."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00026",
+        "dialogue_id": "ESConv_012",
+        "dialogue": [
+            {
+                "text": "Hello.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello How are you tonight?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Feeling depressed as usual",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. What has you feeling depressed?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Everything. Life. It's awful. How many years do you really need to stop enjoying this place. Ya know what I mean",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand, but just to make sure I know what is going on fully, you are depressed in general and don't know how to get through it.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?",
+        "predicted_label": "Disavowal Defense Level",
+        "predicted_defense_level": 3,
+        "clinical_reasoning": {
+            "context_trigger": "The seeker is experiencing severe depression, finding life awful, boring, and repetitive, and the supporter has just clarified that the seeker feels stuck and doesn't know how to get through it.",
+            "psychological_goal": "To escape the painful, mundane reality of their existence and the effort required to change it by retreating into a grandiose, destructive daydream.",
+            "handbook_alignment": "The seeker expresses a desire for an asteroid to cause an apocalypse to 'break up the routine.' This aligns with Autistic Fantasy (a Disavowal Defense), where the individual engages in excessive daydreaming or fantasy as a substitute for direct action, human relationships, or realistic problem-solving (DMRS-Q Item 106: preferring to daydream about solutions as a substitute for planning direct, realistic actions).",
+            "differential_diagnosis": "This is not Humor (Level 7) because it is not a constructive, shared attempt to relieve tension, but rather a morbid retreat reflecting deep depression. It is not Devaluation (Level 4); while the seeker devalues life as 'boring and repetitive,' the primary coping mechanism here is the retreat into the apocalyptic fantasy. It is not an Action Defense (Level 1) because the seeker is merely fantasizing about an external event rather than acting out impulsively."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00027",
+        "dialogue_id": "ESConv_012",
+        "dialogue": [
+            {
+                "text": "Hello.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello How are you tonight?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Feeling depressed as usual",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. What has you feeling depressed?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Everything. Life. It's awful. How many years do you really need to stop enjoying this place. Ya know what I mean",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand, but just to make sure I know what is going on fully, you are depressed in general and don't know how to get through it.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Just from these few messages, I can tell you are extremely upset about this. I have had problems in the past with depression as well, I used to have severe anxiety as well.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Sorry to hear that. Anxiety and depression are dual bladed sword of badness Really bad mixture I never struggled too much with anxiety.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It was tough. Have you thought about consulting a psychological professional to help with this issue? I did when I was going through my depression and it really helped.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "NO! I would never do that. I'm already on anti depressants. That didn't help at all. I just don't understand why people like life enough to make more people! It is madness!",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I didn't like the meds that they gave me either, however I felt that talking to someone helped me a great deal.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Well, I'm glad it helped you. I'm not just saying that. Being depressed is awful. What did it do for you? How so?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Well, I'm glad it helped you. I'm not just saying that. Being depressed is awful. What did it do for you? How so?",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The Supporter shares their personal experience that talking to a professional helped them deal with their depression.",
+            "psychological_goal": "The Seeker aims to gather more information about the Supporter's experience and understand how therapy was beneficial to them.",
+            "handbook_alignment": "The utterance consists of a direct, undefended question ('What did it do for you? How so?') and a straightforward expression of empathy ('I'm glad it helped you'). It falls under Level 0 as it serves a purely conversational and information-gathering function without any psychological distortion.",
+            "differential_diagnosis": "This is not Affiliation (Level 7) because the Seeker is not explicitly asking for help or collaboratively finding a solution for their own problem, but rather asking a factual question about the Supporter's past experience. It lacks the avoidance, distortion, or emotional transformation characteristic of any defense mechanisms."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00028",
+        "dialogue_id": "ESConv_012",
+        "dialogue": [
+            {
+                "text": "Hello.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello How are you tonight?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Feeling depressed as usual",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. What has you feeling depressed?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Everything. Life. It's awful. How many years do you really need to stop enjoying this place. Ya know what I mean",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand, but just to make sure I know what is going on fully, you are depressed in general and don't know how to get through it.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Just from these few messages, I can tell you are extremely upset about this. I have had problems in the past with depression as well, I used to have severe anxiety as well.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Sorry to hear that. Anxiety and depression are dual bladed sword of badness Really bad mixture I never struggled too much with anxiety.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It was tough. Have you thought about consulting a psychological professional to help with this issue? I did when I was going through my depression and it really helped.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "NO! I would never do that. I'm already on anti depressants. That didn't help at all. I just don't understand why people like life enough to make more people! It is madness!",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I didn't like the meds that they gave me either, however I felt that talking to someone helped me a great deal.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Well, I'm glad it helped you. I'm not just saying that. Being depressed is awful. What did it do for you? How so?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It was good to be able to talk to an objective third party about what was going on. It allowed me to get my feelings out without the threat of being judges or harrassed.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I understand. Well, I appreciate your time and advice. I just don't feel like you and I are understanding each other very well, though. Anyway, you made your bonus. I appreciate you trying to help me, though We got to talk for another 4 minutes though",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I understand. Well, I appreciate your time and advice. I just don't feel like you and I are understanding each other very well, though. Anyway, you made your bonus. I appreciate you trying to help me, though We got to talk for another 4 minutes though",
+        "predicted_label": "Minor Image-distorting Defense Level",
+        "predicted_defense_level": 4,
+        "clinical_reasoning": {
+            "context_trigger": "The Supporter explains the benefits of therapy, a suggestion the Seeker had previously rejected, and attempts to offer a different perspective.",
+            "psychological_goal": "The Seeker aims to dismiss the Supporter's advice and protect their own pessimistic worldview by undermining the Supporter's genuine intentions.",
+            "handbook_alignment": "The Seeker attributes a mercenary motive to the Supporter ('Anyway, you made your bonus') to minimize the significance of their support and quickly dismisses the interaction. This aligns with Devaluation (DMRS-Q Item 82: devaluing others' motives to minimize their significance; Item 143: making sarcastic or biting statements).",
+            "differential_diagnosis": "This is not Passive Aggression (Level 1), which typically involves behavioral resistance masked by compliance; here, the hostility is expressed through direct verbal sarcasm. It is not Splitting (Level 2) because the Seeker still offers superficial appreciation ('I appreciate your time'), indicating the distortion is minor rather than an absolute 'all-bad' categorization."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00029",
+        "dialogue_id": "ESConv_012",
+        "dialogue": [
+            {
+                "text": "Hello.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello How are you tonight?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Feeling depressed as usual",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. What has you feeling depressed?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Everything. Life. It's awful. How many years do you really need to stop enjoying this place. Ya know what I mean",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand, but just to make sure I know what is going on fully, you are depressed in general and don't know how to get through it.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Just from these few messages, I can tell you are extremely upset about this. I have had problems in the past with depression as well, I used to have severe anxiety as well.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Sorry to hear that. Anxiety and depression are dual bladed sword of badness Really bad mixture I never struggled too much with anxiety.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It was tough. Have you thought about consulting a psychological professional to help with this issue? I did when I was going through my depression and it really helped.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "NO! I would never do that. I'm already on anti depressants. That didn't help at all. I just don't understand why people like life enough to make more people! It is madness!",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I didn't like the meds that they gave me either, however I felt that talking to someone helped me a great deal.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Well, I'm glad it helped you. I'm not just saying that. Being depressed is awful. What did it do for you? How so?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It was good to be able to talk to an objective third party about what was going on. It allowed me to get my feelings out without the threat of being judges or harrassed.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I understand. Well, I appreciate your time and advice. I just don't feel like you and I are understanding each other very well, though. Anyway, you made your bonus. I appreciate you trying to help me, though We got to talk for another 4 minutes though",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you tried to focus on more of your hobbies in order to get your mind off of things?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I used to have more hobbies. Now, I'm not so motivated to do much of anything anymore. I used to play instruments. I like hiking a little, but it is winter now. So... I can't even do that. Plus... I have to travel really far to do that because there is nothing to hike that is very close",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Why did you stop playing insturments?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I just lost interest. I'm losing interest in everything, man I think it's time for my heart to give out and make space for the new, ya know Cross my fingers at least Dying in your sleep would be best Wouldn't that be nice? You just drift off after your heart stops in a dream?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I certainly hope you don't do that!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Well, that's nice. You are a nice person. Anyway, You finally earned your 3 dollars and 50 cents. You tried. I appreciate it. Goodbye fellow mturker slave",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I apologize that I wasn't able to make you feel any better",
+                "speaker": "supporter"
+            },
+            {
+                "text": "NO! DOnt you dare It is all k goodbye",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "NO! DOnt you dare It is all k goodbye",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The supporter apologizes and expresses regret for not being able to alleviate the seeker's depressive feelings.",
+            "psychological_goal": "The seeker is trying to absolve the supporter of any guilt for not helping and to formally terminate the conversation.",
+            "handbook_alignment": "The utterance functions as a conversational closing ('goodbye') and a direct social response to an apology ('NO! DOnt you dare It is all k'). It serves a purely functional and social purpose without introducing psychological distortion.",
+            "differential_diagnosis": "Although the seeker previously displayed signs of help-rejecting complaining and disavowal, this specific utterance does not contain a defense mechanism. It is not Level 3 Denial, as 'It is all k' refers to the supporter's inability to help rather than a denial of the seeker's own depression. It is also not Level 1 Action Defense, as there is no covert hostility or acting out in this specific farewell."
+        },
+        "model_thinking_dump": []
+    },
+    {
+        "id": "test_00030",
+        "dialogue_id": "ESConv_013",
+        "dialogue": [
+            {
+                "text": "hi there",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "hi there",
+        "predicted_label": "No Defense / Neutral Utterance",
+        "predicted_defense_level": 0,
+        "clinical_reasoning": {
+            "context_trigger": "The beginning of a conversation.",
+            "psychological_goal": "To initiate a conversation and express social niceties.",
+            "handbook_alignment": "The handbook explicitly states that 'Greetings and Farewells' such as 'Hello' and 'Hi' fall under Label 0: No Defense / Neutral Utterance.",
+            "differential_diagnosis": "This is a purely functional utterance to maintain conversational flow. There is no emotional conflict, stressor, or psychological distortion present, ruling out any defense mechanism (Levels 1-7)."
+        },
+        "model_thinking_dump": []
+    }
+]
