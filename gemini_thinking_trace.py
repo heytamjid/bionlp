@@ -144,10 +144,14 @@ def annotate_dataset(input_json_path: str, output_json_path: str):
     #     print(f"Failed to create cache: {e}")
     #     return
 
-    # or if alrady has
     cacheRef = (
-        "projects/942972453935/locations/global/cachedContents/6181276834588524544"
+        "projects/942972453935/locations/global/cachedContents/3015909302058614784"
     )
+
+    # or if alrady has
+    # cacheRef = (
+    #     "projects/942972453935/locations/global/cachedContents/6181276834588524544"
+    # )
     # (
     # cache.name
     # )  # "projects/942972453935/locations/global/cachedContents/5700403225157435392"  # cache.name

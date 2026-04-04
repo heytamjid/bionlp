@@ -30,7 +30,7 @@ def list_active_caches():
         print(f"An error occurred while fetching caches:\n{e}")
 
     # client.caches.delete(
-    #     name="projects/942972453935/locations/global/cachedContents/8949301755561115648"
+    #     name="projects/942972453935/locations/global/cachedContents/379113292884344832"
     # )
 
 
