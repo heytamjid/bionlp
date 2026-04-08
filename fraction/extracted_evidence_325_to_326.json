@@ -1,0 +1,122 @@
+[
+    {
+        "id": "test_00326",
+        "dialogue_id": "ESConv_139",
+        "dialogue": [
+            {
+                "text": "Hello!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "How are you doing?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Well I'm distraught",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Why do you feel that way?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Because my girlfriend has left me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That must be really hard for you. I haven't personally had to deal with that, but I have had friends that have. How long were you together?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "four years",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Being together that long must have made that break up difficult. How are you coping with it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "well I'm not really, especially as she'd gone off with someone else. But I'm to blame which makes it worse",
+                "speaker": "seeker"
+            },
+            {
+                "text": "You do seem upset so that shows that you care! Do you mind me asking what happened?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I cheated on her on a drunken night. It was a one-off and I regret it terribly. But she found out about it and left me without giving me a chance to explain.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I see how she would be upset. It must be difficult for you though because she didn't give you another chance. Do you have someone to talk to about your feelings?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah, I'm not saying I deserved it just wish she had But no, not really. No-one who would understand",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I would have wanted a second chance too if I were in your shoes. Is this affecting you really bad?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah I feel so low",
+                "speaker": "seeker"
+            },
+            {
+                "text": "If your mood is affecting your daily activities, normally that means your mental health has been affected. You could always talk to a professional if it's hard for you.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "it's difficult though, to open up",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is. But trust me, it really helps. I've been seeing a therapist recently actually and I love it. I don't have to worry about judgement at all. It's a hard step but worth it in the end.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "They won't think I'm to blame?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "The job of the therapist isn't to figure out if what you did was wrong or right. It's to help you understand your feelings and better cope. That's why they are so great!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "oh yeah, that's a good point",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Would you like to talk anything else through?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No you've been helpful thanks",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "No you've been helpful thanks",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 44: When the subject describes seeking help from others, there is a sense of having learned something from the interchange.",
+                "match_justification": "The Seeker explicitly states 'you've been helpful', indicating that they have gained value, perspective, or a sense of direction (specifically regarding the suggestion to see a therapist) from the supportive interchange.",
+                "sublevel_name": "Affiliation"
+            },
+            {
+                "dmrs_q_item": "ITEM 93: When dealing with an emotionally difficult situation, the subject reports that talking to others helps the subject think through how best to handle the problem.",
+                "match_justification": "The Seeker is navigating the emotional distress of a breakup and guilt. By concluding the conversation with 'you've been helpful', they acknowledge that talking to the Supporter assisted them in thinking through their problem and accepting the idea of professional help.",
+                "sublevel_name": "Affiliation"
+            },
+            {
+                "dmrs_q_item": "ITEM 22: Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.",
+                "match_justification": "The Seeker shared their distress with the Supporter. By thanking the Supporter for being helpful after discussing the prospect of therapy, the Seeker demonstrates they used the interaction to find a viable coping strategy (going to therapy) rather than expecting the Supporter to magically fix the relationship.",
+                "sublevel_name": "Affiliation"
+            }
+        ]
+    }
+]

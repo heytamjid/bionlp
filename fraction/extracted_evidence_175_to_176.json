@@ -1,0 +1,170 @@
+[
+    {
+        "id": "test_00176",
+        "dialogue_id": "ESConv_079",
+        "dialogue": [
+            {
+                "text": "How are you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "not really well how about you",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What's wrong? How can I help you? I'm doing pretty well.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i lost my job last week that really shatters me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That\u2019s a tough situation. I feel for you. Losing a job is hard, but now, with the pandemic, it's especially hard. Do you live by yourself? Is there someone you can talk to?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes the worst situation i met in this year.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you. This is tough! It is important to be around other people. Don't isolate yourself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes i have someone but they are not ready to talk with me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's too bad. Is there another person, a family member? By the way, how long had you worked at the job?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I know it, but people aroud me are angry because i lost my job",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's unfair of them. You don't need to discuss the problem. Just chatting with someone can change your mood.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i worked for six years and 4 monts yeah thats why im here",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Six years...That's a long time. I bet you were good at your job. I want to help you.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes i am, but the compay lay off me to reduce their expences and thats my worst time",
+                "speaker": "seeker"
+            },
+            {
+                "text": "The economy really has gotten bad. Many people are in a similar situation. I worry too that I might lose my job.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "dont think like that, it is very hard in that situation",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Many people are angry with you. Have they tried to help you with the job search? Do you want to reach out to them for that?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "try to stay in your job whatever may happen",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I try to stay positive. I talk to people. I think about after the pandemic and how things will be.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I ask them to do so, but they don't give any informaton back",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hmm. That's not supportive. Is there an agency in your city that can help you get that kind of info?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes, there is one i know but it is closed because of the pandemic",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's too bad. Normally I would send them an email, see if you can schedule an online chat. I'm not sure what to do in this case. Have you applied for unemployment?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah i would like to get any othe job",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That might not be possible at the moment. Work is scarce. I've looked for extra online work, but so many people are trying to get the same work!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "no i did not apllied it",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's the next thing for you to do. You might get cash coming in. It will help you stay optimistic.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i see, i will try to apply for it",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Great! I hope that this chat has been helpful.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes i think so thankyou very muck much",
+                "speaker": "seeker"
+            },
+            {
+                "text": "You're quite welcome! Best of luck with the job search!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thank you i hope i will get a better obe one",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hope so too.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "thank you",
+                "speaker": "seeker"
+            },
+            {
+                "text": "By the way, you need to press the submit button on your end.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "oh sorry i forgot for some doubt, are you not able to subit it by your side",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "oh sorry i forgot for some doubt, are you not able to subit it by your side",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 89: While outwardly cooperative or compliant, the individual procrastinates and refuses to do things on time or as asked, even when it would be easy to do so.",
+                "match_justification": "The supporter explicitly asks the seeker to press the submit button. Although the seeker apologizes (appearing outwardly cooperative), they do not comply with this simple and easy request. Instead, they push the task back onto the supporter by asking if they can do it, which aligns with refusing to do things as asked.",
+                "sublevel_name": "Passive Aggression"
+            },
+            {
+                "dmrs_q_item": "ITEM 19: To avoid taking responsibility for one's actions or misdeeds, the subject makes excuses or points out others' contributions to the problem, thereby minimizing his or her own role.",
+                "match_justification": "The seeker avoids taking direct responsibility for failing to press the submit button by offering a vague excuse ('i forgot for some doubt'). This serves to minimize their own role in the oversight by attributing it to confusion rather than simply acknowledging the mistake.",
+                "sublevel_name": "Rationalization"
+            },
+            {
+                "dmrs_q_item": "ITEM 42: The subject avoids feelings of guilt or shame by justifying his actions or by referring to external reasons that impelled him to act.",
+                "match_justification": "To avoid any minor awkwardness or guilt for not following the supporter's instruction, the seeker justifies their inaction by referring to a vague reason ('for some doubt'). This acts as a rationalized explanation for why the simple task was not completed.",
+                "sublevel_name": "Rationalization"
+            }
+        ]
+    }
+]

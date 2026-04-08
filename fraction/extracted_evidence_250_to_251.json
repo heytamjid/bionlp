@@ -1,0 +1,178 @@
+[
+    {
+        "id": "test_00251",
+        "dialogue_id": "ESConv_111",
+        "dialogue": [
+            {
+                "text": "Good afternoon",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Good afternoon How are you",
+                "speaker": "seeker"
+            },
+            {
+                "text": "How can I be of service to you I am well despite the virus",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am looking for advice to help me feel better from a horrible break up We shared many years together and I thought forever was in our minds. But he cheated on me and I do not know just what i did wrong",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Breakup from a girlfriend? Spouse",
+                "speaker": "supporter"
+            },
+            {
+                "text": "a boyfriend/fiance",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Sorry about that. How long ago",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Just 2 weeks ago He proposed to me on Thanksgiving day! But turns out he was not being faithful to me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That really must be a painful happening, especially this time of year",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is, I just can not wrap my head around it all",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Was the other person someone you knew",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have been feeling depressed about it all, because we share so many memories together NO! He met this person online on a secret dating site that I was unaware he was even on",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Any idea how long he was dating this other girl",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have no idea and that is part of what is killing me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "He definitely did not give you any clues Were you living together",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No he did not, I never in a million years would have assumed because he does have this friend he talks to all the time by the name Johnnie, well turns out Johnnie is a girl Yes we have been living together for 6 years and have a child together",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Wow. Your child must be taking it hard also",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes he is, do you have any ideas to help me cope better with this",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It always hurts both partners when it happens.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes it does",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Let me ask if you are involved with a church",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes and my preacher has been so helpful in this situation",
+                "speaker": "seeker"
+            },
+            {
+                "text": "You must have other friends in common, maybe they were afraid to say anything to hurt you",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is possible",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That is good you are involved with a church.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes without my church family I would be even more depressed",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Maybe you can chat with some friends and ask if they knew.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes i will definitely try that Thank you for your advice",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What bright spots do you see in all this",
+                "speaker": "supporter"
+            },
+            {
+                "text": "That I am financially stable, and I have learned my self worth",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Talking with friends can help you not feel secluded",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thank you , I will definitely try that",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Let me ask if you were to find out after being married would it hurt any worse",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes it would. I am glad i found out before I did marry because i do not believe in divorce",
+                "speaker": "seeker"
+            },
+            {
+                "text": "The one thing I would suggest is that you don't isolate yourself. Friends can help you overcome",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I do believe that but because of this break up I feel I can trust nobody",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand about the pains of divorce",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I could imagine the pain i would feel if it was when we were married",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I could imagine the pain i would feel if it was when we were married",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 32: When confronting emotionally important problems, the subject can reflect upon relevant personal experiences and explore emotional reactions. This allows the subject to adjust better to limitations and compromises, possibly leading to more fulfilling outcomes.",
+                "match_justification": "The seeker reflects on the emotional implications of a hypothetical scenario (being married when the infidelity was discovered). By exploring these imagined emotional reactions, she is able to contextualize her current pain and adjust to her situation, recognizing that finding out before marriage was a comparatively better outcome.",
+                "sublevel_name": "Self-Observation"
+            },
+            {
+                "dmrs_q_item": "ITEM 146: When confronted with emotionally difficult situations, the subject expresses his or her thoughts, wishes, or feelings clearly and directly without inhibition or excess.",
+                "match_justification": "Despite the emotional devastation of the breakup, the seeker clearly and directly expresses her thoughts and feelings. She openly articulates the profound pain she imagines she would feel in a worse scenario, communicating her internal state to the supporter in a straightforward manner.",
+                "sublevel_name": "Self-Assertion"
+            },
+            {
+                "dmrs_q_item": "ITEM 69: When confronting emotionally charged topics, the subject tends not to address concerns directly and fully but wanders off to tangentially related topics that are emotionally easier for the subject to discuss or prefers to pay attention to someone else dealing with a similar situation. This can include preferring to read or watch a film portraying people dealing with similar problems.",
+                "match_justification": "Just prior to this text, the seeker expressed a very raw, immediate feeling of complete mistrust ('I feel I can trust nobody'). By following the supporter's lead and shifting the focus to a tangentially related, hypothetical scenario (the pain of divorce), the seeker engages with a topic that may be emotionally easier to discuss than her current, overwhelming inability to trust.",
+                "sublevel_name": "Displacement"
+            }
+        ]
+    }
+]
