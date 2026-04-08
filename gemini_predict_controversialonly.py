@@ -22,19 +22,19 @@ You are an expert clinical psychologist analyzing conversational data. Your task
 
 You will be acting as an expert adjudicator. The given utterance has been pre-analyzed and mapping models have provided an initial selection of 2 or 3 potential (but differing) defense items, along with their reasoning ("Retrieved DMRS Evidence").
 
-YOUR TASK LIES IN BROADER EVALUATION: You have been given the broad handbook sections for these specific controversial labels. You are NOT bound exclusively to evaluating just the specific items/reasoning in the "Retrieved DMRS Evidence". Use the pre-analyzed reasoning as an initial consideration, but evaluate the target utterance against the ENTIRE provided handbook sections for these levels to verdict WHICH LEVEL ultimately applies best.
+YOUR TASK LIES IN BROADER EVALUATION: You have been given the broad handbook sections for these specific controversial labels, as well as the handbook sections for Level 0 (No Defense) and Level 8 (Unclear/More need inof). You are NOT bound exclusively to evaluating just the specific items/reasoning in the "Retrieved DMRS Evidence". Use the pre-analyzed reasoning as an initial consideration, but evaluate the target utterance against the ENTIRE provided handbook sections for these levels to verdict WHICH LEVEL ultimately applies best.
 
 CRITICAL RULES:
-1. Grounding: You will be provided with the exact broad handbook sections for ONLY the controversial levels in question. Base your decision on comparing the target utterance against these full handbook sections. The "Retrieved DMRS Evidence" should guide your thinking, but your final verdict must reflect the broader definitions and criteria from the handbook text provided.
+1. Grounding: You will be provided with the exact broad handbook sections for the controversial levels in question, PLUS Level 0 and Level 8. Base your decision on comparing the target utterance against these full handbook sections. The "Retrieved DMRS Evidence" should guide your thinking, but your final verdict must reflect the broader definitions and criteria from the handbook text provided.
 2. Multiple Defenses: What if a single sentence contains multiple defense mechanisms?
    * Principle: Choose the most central, dominant defense mechanism. If it's truly impossible to distinguish and multiple defenses are prominent, consider using 8 (Unclear / Needs More Information) and make a note. If multiple defenses are present, the one from less mature is typically chosen as the primary label.
-3. Ambiguity: In case of severe ambiguity or if none of the provided controversial options legitimately fit the broad handbook criteria, label it 8 (Unclear / Needs More Information).
+3. Non-Defense or Ambiguity: If the utterance does not contain a defense mechanism, label it 0 (No Defense / Neutral). In case of severe ambiguity or if none of the provided controversial options legitimately fit the broad handbook criteria, label it 8 (Unclear / Needs More Information).
 
 Follow these analytical steps:
 1. Context: Analyze the preceding dialogue to understand what triggered this utterance.
 2. Function: Identify the psychological goal the speaker is trying to achieve or avoid.
 3. Evaluation: Rigorously evaluate the target utterance using the broader DMRS criteria from the provided handbook snippets, considering the pre-analyzed "Retrieved DMRS Evidence" as helpful initial context.
-4. Verdict: Select the single BEST fitting level strictly from among the proposed controversial ones.
+4. Verdict: Select the single BEST fitting level from among the proposed controversial ones, OR choose 0 (No Defense) or 8 (Unclear).
 
 First provide your clinical reasoning trace evaluating the broad criteria, then output the final selected defense level (0-8).
 """
@@ -43,8 +43,10 @@ First provide your clinical reasoning trace evaluating the broad criteria, then 
     handbook_dir = "fraction_handbook"
 
     loaded_any = False
-    for level in sorted(list(controversial_levels)):
-        if level is None or level == 8 or level == "None":
+    levels_to_load = set(controversial_levels)
+    levels_to_load.update([0, 8])
+    for level in sorted(list(levels_to_load)):
+        if level is None or level == "None":
             continue
         try:
             with open(
