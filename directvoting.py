@@ -1,13 +1,13 @@
 import json
 import os
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 # ==============================================================================
 # 1. Define the Mapping Dictionary & Weights
 # ==============================================================================
 # The linear combination weights for Match 1, Match 2, and Match 3.
 # Tweak these numbers to give more/less power to the top choices!
-MATCH_WEIGHTS = [0.70, 0.20, 0.10]
+MATCH_WEIGHTS = [0.45, 0.35, 0.20]
 
 DEFENSE_MAPPING = {
     # Level 1: Action Defenses
@@ -75,6 +75,12 @@ def map_sublevels_to_labels(input_file: str, output_file: str):
     processed_count = 0
     missing_mappings = defaultdict(list)
 
+    total_analyzed = 0
+    all_3_match = 0
+    match_2_of_3 = 0
+    all_diff = 0
+    mismatch_patterns = Counter()
+
     for item in data:
         extracted_evidence = item.get("extracted_dmrs_evidence", [])
 
@@ -83,6 +89,7 @@ def map_sublevels_to_labels(input_file: str, output_file: str):
 
         # A dictionary to hold the weighted vote tally for this specific conversation turn
         level_scores = defaultdict(float)
+        mapped_levels = []
 
         # Process each piece of extracted evidence
         for idx, evidence in enumerate(extracted_evidence):
@@ -100,10 +107,27 @@ def map_sublevels_to_labels(input_file: str, output_file: str):
 
                 # Add the vote weight to that specific defense level's total score
                 level_scores[level] += weight
+                mapped_levels.append(level)
             else:
                 evidence["defense_level"] = None
                 identifier = item.get("text", str(item)[:100])
                 missing_mappings[sublevel].append(identifier)
+                mapped_levels.append("None")
+
+        # Analyze label agreement based on mapped values (0-8)
+        if len(mapped_levels) == 3:
+            total_analyzed += 1
+            unique_len = len(set(mapped_levels))
+            if unique_len == 1:
+                all_3_match += 1
+            else:
+                pattern = f"1st:{mapped_levels[0]} | 2nd:{mapped_levels[1]} | 3rd:{mapped_levels[2]}"
+                if unique_len == 2:
+                    match_2_of_3 += 1
+                    mismatch_patterns[pattern] += 1
+                else:
+                    all_diff += 1
+                    mismatch_patterns[pattern] += 1
 
         # Determine the final label using the weighted scores
         if level_scores:
@@ -127,6 +151,24 @@ def map_sublevels_to_labels(input_file: str, output_file: str):
 
     print(f"\nSuccessfully mapped and weighted levels for {processed_count} items.")
     print(f"Data saved to {output_file}")
+
+    print("\n" + "=" * 50)
+    print("MAPPED LABEL AGREEMENT STATS (For items with 3 preds)")
+    print("=" * 50)
+    print(f"Items analyzed (matched 3 preds): {total_analyzed}")
+    if total_analyzed > 0:
+        print(
+            f"All 3 match:      {all_3_match} ({all_3_match/total_analyzed*100:.1f}%)"
+        )
+        print(
+            f"2 of 3 match:     {match_2_of_3} ({match_2_of_3/total_analyzed*100:.1f}%)"
+        )
+        print(f"All 3 different:  {all_diff} ({all_diff/total_analyzed*100:.1f}%)")
+
+        if mismatch_patterns:
+            print("\nTop 50 Most Common Ranking Mismatches:")
+            for pattern, count in mismatch_patterns.most_common(50):
+                print(f" - {pattern}: {count} cases")
 
     if missing_mappings:
         print(

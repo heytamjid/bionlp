@@ -1,0 +1,1584 @@
+[
+    {
+        "id": "test_00033",
+        "dialogue_id": "ESConv_014",
+        "dialogue": [
+            {
+                "text": "Hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello How may i help you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am feeling depressed .I don't feel like doing anything.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What got you depressed?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't know. Maybe stuck at one place",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What have you tried to do to control it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "don't know what to do",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "don't know what to do",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 137: The subject is hard to talk with, responding to many questions with answers like ''no'' or ''not really'' and does not elaborate, rather than giving some fuller answers which one would normally expect.",
+                "match_justification": "When the supporter asks a direct, open-ended question about what the seeker has tried to do to control their depression, the seeker responds with a brief, conversation-stopping 'don't know what to do.' This short answer fails to elaborate on their situation or explore potential coping mechanisms, acting as a block that makes the subject hard to talk with.",
+                "sublevel_name": "Denial",
+                "defense_level": 3
+            },
+            {
+                "dmrs_q_item": "ITEM 50: When discussing a topic that brings up negative, conflicting feelings, the subject prefers to keep things vague, reflected in very vague, general or inexact statements.",
+                "match_justification": "The seeker is discussing a highly negative and distressing topic (their depression and feeling stuck). Instead of exploring specific actions, thoughts, or feelings when prompted about how they manage it, they rely on the extremely vague and general statement 'don't know what to do,' which keeps the emotional conflict and any potential self-reflection at a distance.",
+                "sublevel_name": "Repression",
+                "defense_level": 5
+            },
+            {
+                "dmrs_q_item": "ITEM 84: The subject recites a litany of issues and problems but does not appear to be engaged in solving them, but rather prefers to complain.",
+                "match_justification": "The seeker lists several problems throughout the short dialogue ('feeling depressed', 'don't feel like doing anything', 'stuck at one place'). However, when the supporter attempts to shift the focus toward problem-solving by asking what they have tried, the seeker immediately responds with 'don't know what to do,' demonstrating a lack of active engagement in resolving their issues.",
+                "sublevel_name": "Help-Rejecting Complaining",
+                "defense_level": 1
+            }
+        ],
+        "predicted_defense_level": 3,
+        "level_scores": {
+            "3": 0.45,
+            "5": 0.35,
+            "1": 0.2
+        }
+    },
+    {
+        "id": "test_00067",
+        "dialogue_id": "ESConv_029",
+        "dialogue": [
+            {
+                "text": "hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hi how is your side? Please how may I be of help",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I would just like someone to talk to, very reserved because of covid",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I could see that you are indoor and bored because of the pandemic season",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes very lonely and no one to talk to, world is so scary",
+                "speaker": "seeker"
+            },
+            {
+                "text": "everyone says so, life is in circle, you just need to keep on pushing it simultaneously.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i try very hard but I don't know how much longer i can take it",
+                "speaker": "seeker"
+            },
+            {
+                "text": "do you have any hobby? that you can use to wipe away time",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i like to watch soccer and basketball",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I was once in that situation, but what helped me is that, I never give up, though I may be overwhelmed with the challenges and unpalatable situations ..... I keep on pressing it,",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I will keep trying to make people proud",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am a lover of sport, just get use to it, anytime you are down, take your phone and watch football or basket ball either on YouTube or any other means .",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes I will watch highlights and goals on YouTube very nice",
+                "speaker": "seeker"
+            },
+            {
+                "text": "that is what you need. Winner never quit ! Life is not friendly at a time, but when you look at mirror and tell yourself that you will make it, by God's grace you will make it",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes thank u yes I love God and Jesus",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Jesus is the son of God and the savior, by His grace, we shall win",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes I always pray he makes everything better I hope you have a very Merry Christmas may God bless u and your family",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yes I always pray he makes everything better I hope you have a very Merry Christmas may God bless u and your family",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 61: The subject attributes unrealistic positive characteristics to an object, such as being all-powerful, omni-benevolent, a savior. Because of the unrealistic belief that the positive object will take care of one's problems, the subject ignores the need to take care of some of his or her own needs.",
+                "match_justification": "The Seeker attributes all-powerful, savior-like qualities to an external figure (God/Jesus), expressing the belief that praying to this figure will \"make everything better.\" This perfectly matches the item's description of relying on an omni-benevolent object to magically resolve profound feelings of loneliness and despair, rather than taking direct action to cope with the situation.",
+                "sublevel_name": "Splitting",
+                "defense_level": 2
+            },
+            {
+                "dmrs_q_item": "ITEM 95: When confronted with problems, the subject prefers to dwell on the positive qualities of others on whom he or she relies, such as being lovable, smart, beautiful, creative, ''the best,'' as if those qualities will take care of the problems.",
+                "match_justification": "Confronted with the overwhelming problem of pandemic isolation and depression, the Seeker dwells on their reliance on a higher power. By stating \"I always pray he makes everything better,\" they act as if the positive, idealized qualities of this relied-upon figure will automatically take care of their complex emotional problems.",
+                "sublevel_name": "Idealization",
+                "defense_level": 4
+            },
+            {
+                "dmrs_q_item": "ITEM 55: The subject is very compliant, agreeing to most everything the interviewer points out, when some disagreement and discussion would be expected.",
+                "match_justification": "Earlier in the dialogue, the Seeker expressed severe distress (\"I don't know how much longer I can take it\"). The Supporter responded with somewhat superficial advice (watching sports, religious platitudes). Instead of expressing expected frustration or continuing to discuss their pain, the Seeker becomes extremely compliant and adopts an overly positive, agreeable facade (\"Yes I always pray...\", \"Merry Christmas\", \"God bless u\"), masking their unresolved negative affect.",
+                "sublevel_name": "Reaction Formation",
+                "defense_level": 5
+            }
+        ],
+        "predicted_defense_level": 2,
+        "level_scores": {
+            "2": 0.45,
+            "4": 0.35,
+            "5": 0.2
+        }
+    },
+    {
+        "id": "test_00073",
+        "dialogue_id": "ESConv_034",
+        "dialogue": [
+            {
+                "text": "Hello I am very sad I am more depressed than ever",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Would you care to elaborate about what you're feeling sad about?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I recently broke up with my girlfriend",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that, that sounds difficult.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "its been very hard on me I've spent the last few years wit her",
+                "speaker": "seeker"
+            },
+            {
+                "text": "How have you been coping? That can be really hard, have you been able to talk to anyone about it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i've been trying to talk to family mainly my mom and brother",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Do you find that to be helpful?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes family is always there for me its only hard because I've been with my gf for so long and we've spent so much time during quarantine together",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's good, it's great to have a good support system. I can imagine that's difficult, that would be a lot of close time together. Have you been able to socialize with friends or colleagues?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i try to keep my personal life away from my coworkers i've talked to a few friends i'm actually going out tonight to meet some up for happy hour",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's understandable about the coworkers. Going out sounds like would be beneficial, just to at least spend some time with people who care about you.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yea its going to take my mind off of things",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you been able to engage in any other activities that help you cope/take your mid=nd off things?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i've gone for long runs and swims well i'm going to go get ready thank you for all your time and advice",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Is there anything else I can help you with?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "if you were in my shoes, what would you do if you broke up with a serious gf/bf",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "if you were in my shoes, what would you do if you broke up with a serious gf/bf",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 4: When confronting personal issues, the subject tends to ask general questions, as if getting general information or answers from others will elucidate his or her own feelings and concerns. As a result, personal reactions are kept at a distance.",
+                "match_justification": "The seeker is dealing with the painful personal issue of a breakup. Instead of continuing to express their own sadness directly, they ask a general, hypothetical question ('what would you do if you broke up with a serious gf/bf'). This seeks general information from the supporter to process the situation, keeping the seeker's own raw emotional reactions at a safe distance.",
+                "sublevel_name": "Intellectualization",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 22: Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.",
+                "match_justification": "The seeker is actively turning to the supporter for advice and perspective on their breakup. By asking 'what would you do,' they are seeking collaborative input and potential coping strategies that they can consider implementing in their own life, demonstrating a mature reliance on others for support.",
+                "sublevel_name": "Affiliation",
+                "defense_level": 7
+            },
+            {
+                "dmrs_q_item": "ITEM 69: When confronting emotionally charged topics, the subject tends not to address concerns directly and fully but wanders off to tangentially related topics that are emotionally easier for the subject to discuss or prefers to pay attention to someone else dealing with a similar situation. This can include preferring to read or watch a film portraying people dealing with similar problems.",
+                "match_justification": "The topic of the breakup is highly emotionally charged. To make it easier to discuss, the seeker shifts the scenario onto the supporter ('if you were in my shoes'). This allows the seeker to explore the issue by paying attention to how someone else would hypothetically handle a similar situation, temporarily displacing the emotional focus away from themselves.",
+                "sublevel_name": "Displacement",
+                "defense_level": 5
+            }
+        ],
+        "predicted_defense_level": 6,
+        "level_scores": {
+            "6": 0.45,
+            "7": 0.35,
+            "5": 0.2
+        }
+    },
+    {
+        "id": "test_00107",
+        "dialogue_id": "ESConv_050",
+        "dialogue": [
+            {
+                "text": "hello how are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't know how to get over this I'm just alright.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "You are having some trouble getting over something is that correct? Why are you feeling just alright?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm feeling just alright because nothing excites me or gives me joy anymore. Many of my family have passed on and the holidays are coming.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand that it is hard to have some type of joy especially with the holidays coming along especially when family has passed on.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "This pandemic doesn't help either. No gatherings with many people.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "This pandemic doesn't help either. No gatherings with many people.",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 84: The subject recites a litany of issues and problems but does not appear to be engaged in solving them, but rather prefers to complain.",
+                "match_justification": "The seeker is adding to a running list of grievances (anhedonia, deceased family, upcoming holidays, and now the pandemic and lack of gatherings). By stacking these insurmountable external issues, the seeker recites a litany of problems that justify their negative emotional state without showing any engagement in problem-solving or active coping.",
+                "sublevel_name": "Help-Rejecting Complaining",
+                "defense_level": 1
+            },
+            {
+                "dmrs_q_item": "ITEM 26: The subject talks about his personal experiences by making general statements that appear accurate but somehow avoid revealing specific personal feelings and reactions.",
+                "match_justification": "Instead of delving into the specific, raw emotional pain of their grief and loneliness, the seeker uses a broad, generalized, and factual statement about public health restrictions ('This pandemic doesn't help either. No gatherings with many people.'). This accurate general statement explains their situation logically while keeping their deeper, more vulnerable personal feelings at a distance.",
+                "sublevel_name": "Intellectualization",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 69: When confronting emotionally charged topics, the subject tends not to address concerns directly and fully but wanders off to tangentially related topics that are emotionally easier for the subject to discuss or prefers to pay attention to someone else dealing with a similar situation.",
+                "match_justification": "After bringing up the highly emotionally charged and painful topic of family members passing away, the seeker shifts the focus to the pandemic and the logistical inability to have large gatherings. This moves the conversation from the direct, intimate pain of bereavement to a broader, tangentially related, and emotionally easier topic of societal restrictions.",
+                "sublevel_name": "Displacement",
+                "defense_level": 5
+            }
+        ],
+        "predicted_defense_level": 1,
+        "level_scores": {
+            "1": 0.45,
+            "6": 0.35,
+            "5": 0.2
+        }
+    },
+    {
+        "id": "test_00111",
+        "dialogue_id": "ESConv_051",
+        "dialogue": [
+            {
+                "text": "Hello...I have never done this before",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am doing ok,and yourself?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am doing good, is there anything you would like to talk about?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes,I have never talked about it with any of my friends not even the ones closest to me.....about 5 years ago when my daughter was 16 she was sexually assaulted while at a sleepover at her friend's house",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am so sorry. I understand it must be hard to deal with I myself have a daughter. Did you press charges?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes we did,there was an investigation and a trial that we had to testify at but unfortunatly he was found not guilty which I will never understand.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That must be awful for her as well as you, I feel that sometimes the victims are left in the shadows when it comes to sexual assault. How is your daughter doing now?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It was hard on her she felt like what was the point of it all for the jury not to believe her ..I kept telling her I was proud of her because it was a very brave thing to do..i also feel like this is why victims don't speak up out of fear of not being believed she is doing well now,she has a job and she is now a mom herself,my grandson is 15 months old",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's true alot of people dont come forward with sexual assault due to being not believed. She was very brave, and is a role model for others!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "it was good she had really supportive friends to help her through it",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes friends are very helpful, Im glad she had that.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "She was also in therapy for a time",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Therapy can be a great thing especially if you find that one therapist you feel comfortable with. It always helps to talk about things.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I think it was beneficial,I just wished she continued on with it..she stopped because her therapist left the practice Thanks for the chat,but I got to go",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I think it was beneficial,I just wished she continued on with it..she stopped because her therapist left the practice Thanks for the chat,but I got to go",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 150: When presented with an emotionally charged situation, the subject can postpone dealing with his or her feelings to attend to the things that need to be done immediately. The feelings don't get in the way or distract the subject, because the subject is able to give them adequate attention later.",
+                "match_justification": "The Seeker has been discussing a highly distressing and emotionally charged topic (their daughter's sexual assault and the subsequent trial). By stating \"I got to go,\" they are making a conscious decision to halt the emotional conversation to attend to other immediate tasks. This functions as Suppression, as they are voluntarily postponing further emotional engagement with the trauma.",
+                "sublevel_name": "Suppression",
+                "defense_level": 7
+            },
+            {
+                "dmrs_q_item": "ITEM 140: The subject describes events with good detail, but without mention of any attendant feelings, like a reporter describing the narrative of someone's life, but devoid of personal reactions.",
+                "match_justification": "When discussing the daughter's therapy\u2014a topic inherently linked to severe trauma and recovery\u2014the Seeker reports the logistical reason for it ending (\"she stopped because her therapist left the practice\") in a purely factual, detached manner. They describe the event like a reporter providing an update, devoid of the complex personal feelings or distress one might expect regarding the interruption of their child's healing process.",
+                "sublevel_name": "Isolation of Affect",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 20: When confronted with topics that might be personally meaningful, the subject denies they are important and refuses to talk about them further.",
+                "match_justification": "In the preceding turn, the Supporter gently encourages further emotional exploration by stating, \"It always helps to talk about things.\" The Seeker immediately responds by abruptly ending the chat (\"Thanks for the chat,but I got to go\"). While framed as a polite social farewell, in the context of the Supporter's invitation to open up, this abrupt exit functionally acts as a refusal to talk about the personally meaningful and painful topic any further.",
+                "sublevel_name": "Denial",
+                "defense_level": 3
+            }
+        ],
+        "predicted_defense_level": 7,
+        "level_scores": {
+            "7": 0.45,
+            "6": 0.35,
+            "3": 0.2
+        }
+    },
+    {
+        "id": "test_00116",
+        "dialogue_id": "ESConv_054",
+        "dialogue": [
+            {
+                "text": "Hello!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi!",
+                "speaker": "seeker"
+            },
+            {
+                "text": "How are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am so very angry and disgusted with my life",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry to hear that. Why do feel that way?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My husband keeps calling me names degrading me not respecting me. I am so angry because he does this in front of our kids He doesnt do it all the time but its enough to make me feel inferior and angry every time I think about it",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand why you'd feel that way, we should be treated with respect especially with our partners.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes we should but tell that to him. If I stand up for myself he ll go into OH Here we go lets play the victim role Poor you only he says my name and tell boys what a worthless mom I am and white trash",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What a terrible thing to say. How do you answer him?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Usually I keep quiet but if I say something it will be what i do for family and how he doesn't help me or respect me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sorry about what you're going through. It might be a good idea to take some time away from him and for yourself, if that would be possible. Do you have friends or family near you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Not with Covid going on no. I havent seen my mom since march I have no siblings and a few friends boys are cyberschooling he works remote so no that is not possible",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It really is a difficult situation for everybody. It sounds like you're all feeling stressed and cooped in too, does that sound right?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "This happened before Covid. Covid just made it worst because he went to work boys went to school and I had me time for a few hours before I picked youngest up kindergarted",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It would be good if you can reach out to your friends and let them know how you're feeling. Try to make some time for yourself and let your husband know how you really feel.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "well I got get going . boys need me to help withhomework. Great idea . I think I will . Keep safe",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hope you keep safe out there too.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Has this worked for any other people you supported ? talk to you later",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Has this worked for any other people you supported ? talk to you later",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 4: When confronting personal issues, the subject tends to ask general questions, as if getting general information or answers from others will elucidate his or her own feelings and concerns. As a result, personal reactions are kept at a distance.",
+                "match_justification": "The Seeker responds to the Supporter's advice by asking a general question about its success rate with 'other people.' By seeking general information rather than discussing her own emotional readiness to apply the advice, she intellectualizes the issue and keeps her personal anxiety and reactions at a safe distance.",
+                "sublevel_name": "Intellectualization",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 69: When confronting emotionally charged topics, the subject tends not to address concerns directly and fully but wanders off to tangentially related topics that are emotionally easier for the subject to discuss or prefers to pay attention to someone else dealing with a similar situation. This can include preferring to read or watch a film portraying people dealing with similar problems.",
+                "match_justification": "Confronted with the emotionally charged task of standing up to her abusive husband, the Seeker shifts her focus away from her own direct concerns. Instead, she displaces her anxiety by asking to pay attention to 'other people' who might be dealing with similar situations, making the topic emotionally easier to handle.",
+                "sublevel_name": "Displacement",
+                "defense_level": 5
+            },
+            {
+                "dmrs_q_item": "ITEM 82: The subject devalues others' accomplishments or motives, to minimize their significance, but he or she quickly dismisses such topics rather than dwell on them.",
+                "match_justification": "By questioning whether the Supporter's advice has actually 'worked for any other people,' the Seeker subtly casts doubt on the validity and usefulness of the help offered, minimizing its significance. She then quickly dismisses the topic by ending the conversation ('talk to you later') rather than dwelling on it.",
+                "sublevel_name": "Devaluation",
+                "defense_level": 4
+            }
+        ],
+        "predicted_defense_level": 6,
+        "level_scores": {
+            "6": 0.45,
+            "5": 0.35,
+            "4": 0.2
+        }
+    },
+    {
+        "id": "test_00117",
+        "dialogue_id": "ESConv_055",
+        "dialogue": [
+            {
+                "text": "hi",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hey! How are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "trying to stay positive but keep having too many thoughts at once :(",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What are these thoughts? :)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Its so stupid. I keep worrying about worrying or having something bad happen. The thoughts just come so fast",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Maybe your mind is just congested with the thoughts of life, and you just need to relax for a little while",
+                "speaker": "supporter"
+            },
+            {
+                "text": "tried that. its become more of a chronic thing, like sometimes I cant controll the thoughts or like I dont know how to relax. like a chemical thing",
+                "speaker": "seeker"
+            },
+            {
+                "text": "A chemical thing, so maybe you need a counsellor, and then he can assess your problem, and everything will be alright :)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have one and it helps sometimes. I try to meditate",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, meditation is very good at calming down the mind. Does it help you? If it does maybe do it more continuously and more frequently",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i pretty much have to do it constantly",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Not constantly. because then you won't have anytime to do anything else, but if negative thoughts always come into your head, maybe try doing something you enjoy doing",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah maybe its as simple as that. I know Im the problem cause its very obvious that im the on ein control of the thoughts for the most part",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yeah, maybe. But always look at the bright side of stuff and maybe the negative thoughts can stop",
+                "speaker": "supporter"
+            },
+            {
+                "text": "right. I will try and start that more today and commit to it",
+                "speaker": "seeker"
+            },
+            {
+                "text": "yes that's the spirit! And with that mind set good things will always come to you!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes i agree. when i consistently use meditation and positive attitude, any bad things are defintely minimized",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yes, as long as you keep focused and not divert into any other thoughts :)",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes. do you meditate? '",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I do it once a week and it really helps. I used to do it more often when I felt I couldn't do anything right, so always do it according to the situation",
+                "speaker": "supporter"
+            },
+            {
+                "text": "do you want to keep talking or should we wrap up? i could go either way",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "do you want to keep talking or should we wrap up? i could go either way",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 146: When confronted with emotionally difficult situations, the subject expresses his or her thoughts, wishes, or feelings clearly and directly without inhibition or excess.",
+                "match_justification": "While this utterance functions primarily as a neutral, logistical question to manage the conversation, it most closely aligns with the mature defense of Self-Assertion. The Seeker is communicating their current state and availability clearly, directly, and respectfully, without resorting to passive aggression, avoidance, or emotional excess.",
+                "sublevel_name": "Self-Assertion",
+                "defense_level": 7
+            },
+            {
+                "dmrs_q_item": "ITEM 81: The subject conveys opinions about something or someone with a series of opposite or contradictory statements, as if uncomfortable with taking a clear stand one way or the other.",
+                "match_justification": "The Seeker presents two opposite options ('keep talking' vs. 'wrap up') and explicitly states 'i could go either way.' Structurally, this mirrors the behavior described in Undoing where an individual avoids taking a definitive stance, although in this specific context, it is utilized for social politeness and accommodation rather than managing an internal conflict or guilt.",
+                "sublevel_name": "Undoing",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 55: The subject is very compliant, agreeing to most everything the interviewer points out, when some disagreement and discussion would be expected.",
+                "match_justification": "By deferring the decision of whether to end the conversation entirely to the Supporter ('do you want to... i could go either way'), the Seeker exhibits a highly compliant and accommodating posture. This reflects the behavioral pattern of Reaction Formation where one suppresses their own definitive needs to overly accommodate another, even if here it serves a benign social function.",
+                "sublevel_name": "Reaction Formation",
+                "defense_level": 5
+            }
+        ],
+        "predicted_defense_level": 7,
+        "level_scores": {
+            "7": 0.45,
+            "6": 0.35,
+            "5": 0.2
+        }
+    },
+    {
+        "id": "test_00174",
+        "dialogue_id": "ESConv_079",
+        "dialogue": [
+            {
+                "text": "How are you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "not really well how about you",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What's wrong? How can I help you? I'm doing pretty well.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i lost my job last week that really shatters me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That\u2019s a tough situation. I feel for you. Losing a job is hard, but now, with the pandemic, it's especially hard. Do you live by yourself? Is there someone you can talk to?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes the worst situation i met in this year.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I hear you. This is tough! It is important to be around other people. Don't isolate yourself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes i have someone but they are not ready to talk with me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's too bad. Is there another person, a family member? By the way, how long had you worked at the job?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I know it, but people aroud me are angry because i lost my job",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's unfair of them. You don't need to discuss the problem. Just chatting with someone can change your mood.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "i worked for six years and 4 monts yeah thats why im here",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Six years...That's a long time. I bet you were good at your job. I want to help you.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yes i am, but the compay lay off me to reduce their expences and thats my worst time",
+                "speaker": "seeker"
+            },
+            {
+                "text": "The economy really has gotten bad. Many people are in a similar situation. I worry too that I might lose my job.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "dont think like that, it is very hard in that situation",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Many people are angry with you. Have they tried to help you with the job search? Do you want to reach out to them for that?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "try to stay in your job whatever may happen",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "try to stay in your job whatever may happen",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 69: When confronting emotionally charged topics, the subject tends not to address concerns directly and fully but wanders off to tangentially related topics that are emotionally easier for the subject to discuss or prefers to pay attention to someone else dealing with a similar situation. This can include preferring to read or watch a film portraying people dealing with similar problems.",
+                "match_justification": "The Supporter asks an emotionally charged question about whether the Seeker wants to reach out to their angry acquaintances for help with a job search. Instead of answering this difficult question, the Seeker deflects and prefers to pay attention to the Supporter, focusing on the Supporter's previously mentioned anxiety about potentially losing their own job.",
+                "sublevel_name": "Displacement",
+                "defense_level": 5
+            },
+            {
+                "dmrs_q_item": "ITEM 149: When the subject brings up a problem to discuss, others try to address the problem, but in response the subject skips to a different problem, thereby dismissing rather than engaging others in any suggestions offered.",
+                "match_justification": "The Supporter actively tries to address the Seeker's unemployment problem by offering a concrete suggestion ('Have they tried to help you with the job search? Do you want to reach out to them for that?'). The Seeker completely ignores this suggestion, dismissing the offered help by skipping to a different topic entirely\u2014advising the Supporter on their own job retention.",
+                "sublevel_name": "Help-Rejecting Complaining",
+                "defense_level": 1
+            },
+            {
+                "dmrs_q_item": "ITEM 11: The subject helps others who are experiencing a problem they cannot adequately deal with alone. The problem appears to have a personal meaning to the subject related to similar experiences in the subject's past (e.g., 'It made me feel good to help someone in the same position that I once found so difficult'.).",
+                "match_justification": "The Seeker attempts to protect and advise the Supporter ('try to stay in your job whatever may happen'). This advice is directly rooted in the Seeker's own recent, traumatic experience of being laid off, demonstrating an attempt to channel their own painful experience into helping someone else avoid the same fate.",
+                "sublevel_name": "Altruism",
+                "defense_level": 7
+            }
+        ],
+        "predicted_defense_level": 5,
+        "level_scores": {
+            "5": 0.45,
+            "1": 0.35,
+            "7": 0.2
+        }
+    },
+    {
+        "id": "test_00200",
+        "dialogue_id": "ESConv_092",
+        "dialogue": [
+            {
+                "text": "Hello, how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am feeling angry today about work.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Oh no, what happened to make you feel this way?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My coworker expects me to do things the way she does and is constantly critical. I just want her to understand that I am able to do things my way and it is still okay. I told her this and she ignored me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm sure that's terribly frustrating having someone treat you like that. Is this something that your boss is aware of?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I have not told her yet. I do not want to get her into trouble and I want to have a good relationship with her.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I have not told her yet. I do not want to get her into trouble and I want to have a good relationship with her.",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 88: The subject fails to stand up for his or her interests and seems to let bad things happen to him or herself that could be prevented, maybe even assuming a ''martyr'' role.",
+                "match_justification": "The seeker is actively choosing not to report the coworker's critical and dismissive behavior to their boss. By doing so, they fail to stand up for their own workplace well-being and allow the negative situation to continue, taking on a martyr-like role by prioritizing the coworker's safety over their own comfort.",
+                "sublevel_name": "Passive Aggression",
+                "defense_level": 1
+            },
+            {
+                "dmrs_q_item": "ITEM 74: In dealing with people who are angry or abusive, the subject is cooperative and nice and eager to please, failing to express any negative feelings which might be expected.",
+                "match_justification": "Despite the coworker being constantly critical and ignoring the seeker's boundaries, the seeker responds with a desire to protect the coworker from trouble and maintain a good relationship. This substitutes the expected self-protective assertion with an overly accommodating attitude toward an abusive party.",
+                "sublevel_name": "Reaction Formation",
+                "defense_level": 5
+            },
+            {
+                "dmrs_q_item": "ITEM 86: Whenever confronted about his or her own feelings or intentions, the subject avoids acknowledging them by giving a plausible explanation that covers up the real subjective reasons.",
+                "match_justification": "When the supporter asks if the boss is aware, the seeker justifies their inaction with a seemingly noble and plausible explanation of wanting to protect the coworker and maintain a good relationship. This likely covers up the real subjective reasons for their passivity, such as a fear of conflict or confrontation.",
+                "sublevel_name": "Rationalization",
+                "defense_level": 3
+            }
+        ],
+        "predicted_defense_level": 1,
+        "level_scores": {
+            "1": 0.45,
+            "5": 0.35,
+            "3": 0.2
+        }
+    },
+    {
+        "id": "test_00227",
+        "dialogue_id": "ESConv_102",
+        "dialogue": [
+            {
+                "text": "Hi, How are you doing today!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Good you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am well! How can I help you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I recently divorced after finding out my husband married another women in another country. He is has also been abusive for many years and is now trying to win me back. Im feeling anxiety and I feel like im losing my power again I contact him because we have children together but Im thinkin to just disconnect with him fully before he tries to lure me in and become abusive agian",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am so sorry to hear that this has been going on. How recently did the divorce take place?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "two months ago",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you have children together and want to disconnect but that is a complicating factor? It must be so tough to be going through what you are going through now, I am so sorry.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes I'm fealing anxiety because hes trying to lure me in order to trap me and I believe i'm losing control. I don't have much emotional support from anyone. Unsupportive family and friends",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Have you spoken to a professional? Is this something that you are able to do through your insurance or work?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm to embarassed to seek professional help I think i need time to control my emotions first",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I completely understand. I have been in situations at work that I couldn't resolve due to the exact same reasons.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks for understanding",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Is there a way that you could seek help at work without anyone finding out?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I might be, but I'm not really close with any coworkers. I work primarily remote and when I entered my current job COVID happened and I didnt really get the chance to get to know anyone all that well",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Sometimes someone looking in from the outside can see things in a way that you might not be able to see since you are in the middle of the situation. I know that this has happened to me.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Thanks for your input It was a nice chatting with you today",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Through work you may be able to speak to a professional counselor or therapist while just having a small co-pay.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "have a nice day",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "have a nice day",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 20: When confronted with topics that might be personally meaningful, the subject denies they are important and refuses to talk about them further.",
+                "match_justification": "Based on the 'Primacy of Context' principle, the Seeker's farewell is not just a neutral pleasantry; it functions as a definitive refusal to talk further. The Supporter persistently brings up the personally meaningful and uncomfortable topic of seeking professional therapy. By abruptly saying 'have a nice day' immediately after the Supporter's continued pushing, the Seeker shuts down the conversation to avoid the topic entirely.",
+                "sublevel_name": "Denial",
+                "defense_level": 3
+            },
+            {
+                "dmrs_q_item": "ITEM 130: The subject complains about life issues or problems as if each were insoluble, and systematically rejects others' suggestions about ways of handling them.",
+                "match_justification": "The Seeker's final utterance is the culmination of a help-rejecting pattern seen throughout the dialogue. After complaining about their abusive ex-husband and dismissing previous suggestions for therapy due to embarrassment, the Supporter offers one more piece of advice. The Seeker's 'have a nice day' acts as the final systematic rejection of this suggestion, terminating the interaction rather than engaging with the help offered.",
+                "sublevel_name": "Help-Rejecting Complaining",
+                "defense_level": 1
+            },
+            {
+                "dmrs_q_item": "ITEM 109: The subject can disagree with others and express opinions without being overly hostile, devaluing, or manipulative of others.",
+                "match_justification": "Viewed through the lens of mature coping, the Seeker is dealing with a Supporter who is ignoring their previously stated boundaries (the Seeker already tried to exit with 'Thanks for your input It was a nice chatting with you today'). When the Supporter pushes again, the Seeker asserts their boundary by definitively ending the chat with 'have a nice day,' managing to disagree with the Supporter's persistence and exit the situation without resorting to hostility.",
+                "sublevel_name": "Self-Assertion",
+                "defense_level": 7
+            }
+        ],
+        "predicted_defense_level": 3,
+        "level_scores": {
+            "3": 0.45,
+            "1": 0.35,
+            "7": 0.2
+        }
+    },
+    {
+        "id": "test_00231",
+        "dialogue_id": "ESConv_104",
+        "dialogue": [
+            {
+                "text": "Hello, How are you feeling today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "am fine at least for now",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "am fine at least for now",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 150: When presented with an emotionally charged situation, the subject can postpone dealing with his or her feelings to attend to the things that need to be done immediately. The feelings don't get in the way or distract the subject, because the subject is able to give them adequate attention later.",
+                "match_justification": "The Seeker's qualifying phrase 'at least for now' indicates a conscious, temporary bracketing of potential distress or complex emotions. They are acknowledging that while things may not be permanently resolved, they are choosing to maintain a functional state of being 'fine' in the present moment, which aligns with the postponing function of Suppression.",
+                "sublevel_name": "Suppression",
+                "defense_level": 7
+            },
+            {
+                "dmrs_q_item": "ITEM 50: When discussing a topic that brings up negative, conflicting feelings, the subject prefers to keep things vague, reflected in very vague, general or inexact statements.",
+                "match_justification": "When asked directly about their feelings, the Seeker relies on the highly vague and generalized phrase 'am fine'. This lack of specificity serves to keep any deeper, potentially conflicting, or negative emotional states out of the immediate conversation, reflecting the vagueness characteristic of Repression.",
+                "sublevel_name": "Repression",
+                "defense_level": 5
+            },
+            {
+                "dmrs_q_item": "ITEM 137: The subject is hard to talk with, responding to many questions with answers like ''no'' or ''not really'' and does not elaborate, rather than giving some fuller answers which one would normally expect.",
+                "match_justification": "The Seeker provides a very brief, non-elaborative response to an open-ended supportive question ('How are you feeling today?'). By simply stating they are 'fine' without offering the fuller emotional context that might be expected in a helping dialogue, they restrict the flow of emotional information, functioning as a mild form of conversational Denial.",
+                "sublevel_name": "Denial",
+                "defense_level": 3
+            }
+        ],
+        "predicted_defense_level": 7,
+        "level_scores": {
+            "7": 0.45,
+            "5": 0.35,
+            "3": 0.2
+        }
+    },
+    {
+        "id": "test_00255",
+        "dialogue_id": "ESConv_112",
+        "dialogue": [
+            {
+                "text": "Hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello, how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "well, my husband of 25 years left me last week My life is done now",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's terrible, I'm sorry to hear that. You're life isn't done, it's just a new start. It's scary for sure but you have a lot more to you than your ex husband.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "well, I cannot say it is a new start when I will be 90 in March",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Then you've definitely got a lot going for you if you're 90!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Had",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Why did he leave you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "He wanted a younger woman. His new girlfriend is 63 He is 45",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like that is more of his problem then. You deserve someone that's better than leaving someone because of their age.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I thought it would be nice to have a younger man when we got married. He eventually told me he just married me for my money, and was waiting for me to pass so he could inherit all of it. He said he got tired of waiting, so he moved on to someone else.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Personally, if that's how he felt, then you're better off. I know that doesn't stop the hurt you're feeling, but you are worth more than that.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Now I am here alone",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Being single does not mean you're completely alone. There are a lot of resources to talk to someone and make friends. Being single does not mean you're completely alone. There are a lot of resources to talk to someone and make friends.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am looking on Tinder for a new friend, but nobody wants someone that is 90 I never used it before, but someone told me about it Considering I haven't dated in 25 years.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Could you try something like Facebook or Instagram to connect with old friends or acquaintances?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "What are those? I heard of them, but never used them. Most of my old friends are no longer around...",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Social networks online, you can connect with family or old coworkers. And post pictures and see what other people are doing with their lives.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am looking for something quicker, I don't know how much longer I have. I can't be spending months waiting for the right person.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So you're looking for a strictly romantic relationship?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "well....someone to spend time with My great grandson said people meet others on Tinder now. Told me I should try it. Have you heard of it or used it?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Can you go to the park? Maybe visit there to meet new people?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Possibly. My cats don't like to have a leash on them though",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I've never used it, not sure if Tinder is the right place to meet someone to spend time with. Not always the best intentions.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "why?",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "why?",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 4: When confronting personal issues, the subject tends to ask general questions, as if getting general information or answers from others will elucidate his or her own feelings and concerns. As a result, personal reactions are kept at a distance.",
+                "match_justification": "The seeker responds to the supporter's warning about Tinder with a simple question ('why?'). While this utterance is primarily a 'No Defense / Neutral Utterance' serving to ask a factual question for clarification, if viewed through a defensive lens, it most closely aligns with Intellectualization. By asking a general question, the seeker keeps the focus on gathering external information rather than expressing her own emotional reaction to the potential danger or her underlying feelings of loneliness.",
+                "sublevel_name": "Intellectualization",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 137: The subject is hard to talk with, responding to many questions with answers like ''no'' or ''not really'' and does not elaborate, rather than giving some fuller answers which one would normally expect.",
+                "match_justification": "The seeker's response is a single-word question ('why?'). Although this is functionally a neutral request for clarification, its extreme brevity and lack of elaboration structurally resemble the conversational style described in this Denial item. The seeker does not elaborate on her thoughts or feelings regarding the supporter's warning, providing a minimal response instead of a fuller exploration of the topic.",
+                "sublevel_name": "Denial",
+                "defense_level": 3
+            },
+            {
+                "dmrs_q_item": "ITEM 50: When discussing a topic that brings up negative, conflicting feelings, the subject prefers to keep things vague, reflected in very vague, general or inexact statements.",
+                "match_justification": "The topic of finding a companion quickly before time runs out, and the potential risks of dating apps, is emotionally charged. The seeker's response ('why?') is very brief and general. While it is most accurately classified as a neutral utterance expressing genuine confusion, in a forced choice of defenses, this brevity could be seen as keeping the conversation vague to avoid engaging with the negative feelings associated with the supporter's warning.",
+                "sublevel_name": "Repression",
+                "defense_level": 5
+            }
+        ],
+        "predicted_defense_level": 6,
+        "level_scores": {
+            "6": 0.45,
+            "3": 0.35,
+            "5": 0.2
+        }
+    },
+    {
+        "id": "test_00266",
+        "dialogue_id": "ESConv_115",
+        "dialogue": [
+            {
+                "text": "I feel sad",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that. Do you want to tell me more about what is going on?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "im mad at myself for trusting him again",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What happened?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "he cheated on me",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am so sorry about that. I would be sad and mad too",
+                "speaker": "supporter"
+            },
+            {
+                "text": "he ghosted and he was trying to get with other girsl on tinder i wish he had the balls to actually do a proper break up he promised me he would never do that but ofcourse he lied",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "he ghosted and he was trying to get with other girsl on tinder i wish he had the balls to actually do a proper break up he promised me he would never do that but ofcourse he lied",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 84: The subject recites a litany of issues and problems but does not appear to be engaged in solving them, but rather prefers to complain.",
+                "match_justification": "The Seeker's utterance is a continuous, run-on list of grievances against the ex-partner (ghosting, trying to get with other girls on Tinder, lacking the courage to break up properly, and lying). At this moment, the Seeker is entirely focused on reciting these multiple problems and complaining about the ex's behavior rather than discussing how to cope or move forward.",
+                "sublevel_name": "Help-Rejecting Complaining",
+                "defense_level": 1
+            },
+            {
+                "dmrs_q_item": "ITEM 146: When confronted with emotionally difficult situations, the subject expresses his or her thoughts, wishes, or feelings clearly and directly without inhibition or excess.",
+                "match_justification": "Despite the intense emotional pain and difficulty of being cheated on and ghosted, the Seeker is able to articulate their thoughts, anger, and feelings of betrayal clearly and directly to the Supporter. This demonstrates an uninhibited, direct expression of their internal state and grievances in response to a severe stressor.",
+                "sublevel_name": "Self-Assertion",
+                "defense_level": 7
+            },
+            {
+                "dmrs_q_item": "ITEM 94: The subject fails to recognize that someone may be untrustworthy, hurtful, or manipulative and does not draw obvious conclusions based on their behavior. This generally results in using very poor judgment about how others will treat the subject.",
+                "match_justification": "In the context of the dialogue (where the Seeker earlier stated, 'im mad at myself for trusting him again'), the phrase 'he promised me he would never do that but ofcourse he lied' highlights the Seeker's realization of their past failure to recognize the ex-partner's untrustworthy and manipulative nature. The Seeker is acknowledging the poor judgment they used in trusting someone who ultimately hurt them.",
+                "sublevel_name": "Splitting",
+                "defense_level": 2
+            }
+        ],
+        "predicted_defense_level": 1,
+        "level_scores": {
+            "1": 0.45,
+            "7": 0.35,
+            "2": 0.2
+        }
+    },
+    {
+        "id": "test_00321",
+        "dialogue_id": "ESConv_137",
+        "dialogue": [
+            {
+                "text": "Hi, I was wondering if I could talk to you about a problem.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hi there! My name is Rob, how are you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am doing okay,",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Of course! What is the problem?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My boyfriend has been cheating on me, He constantly denies it and I want to believe him, but my family also knows and thinks I need to end things.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So to make sure I understand, have you caught your partner cheating?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I haven't actually caught him myself.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Has someone told you they suspect he is cheating?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, My best friend and my sister have told me.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It is a horrible feeling when that seed has been planted in your head.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Exactly and he denies it. I just don't know what to do or who to believe.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Exactly and he denies it. I just don't know what to do or who to believe.",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 94: The subject fails to recognize that someone may be untrustworthy, hurtful, or manipulative and does not draw obvious conclusions based on their behavior. This generally results in using very poor judgment about how others will treat the subject.",
+                "match_justification": "Despite having strong evidence from highly trusted sources (her best friend and sister) that her boyfriend is cheating, the seeker fails to draw the obvious conclusion that he is untrustworthy. Instead, she clings to his denials and claims she doesn't know 'who to believe,' demonstrating a failure to recognize his manipulative or hurtful behavior.",
+                "sublevel_name": "Splitting",
+                "defense_level": 2
+            },
+            {
+                "dmrs_q_item": "ITEM 81: The subject conveys opinions about something or someone with a series of opposite or contradictory statements, as if uncomfortable with taking a clear stand one way or the other.",
+                "match_justification": "The seeker is caught between two opposing narratives: her boyfriend's claim of innocence and her family's accusations of his infidelity. By stating 'I just don't know what to do or who to believe,' she highlights her ambivalence and extreme discomfort with taking a definitive stand on either side of the contradictory information.",
+                "sublevel_name": "Undoing",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 22: Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.",
+                "match_justification": "The seeker initiated the conversation to talk about a problem and explicitly states 'I just don't know what to do.' This demonstrates her actively bringing a difficult personal dilemma to the supporter to seek guidance, advice, and collaborative help in figuring out how to handle the situation.",
+                "sublevel_name": "Affiliation",
+                "defense_level": 7
+            }
+        ],
+        "predicted_defense_level": 2,
+        "level_scores": {
+            "2": 0.45,
+            "6": 0.35,
+            "7": 0.2
+        }
+    },
+    {
+        "id": "test_00353",
+        "dialogue_id": "ESConv_149",
+        "dialogue": [
+            {
+                "text": "Hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How are you?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I'm fine. How are you? Is there any issue I can help you with?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah I'm really depressed. I just found out my buddy of 20 years is now posting that he believes Trump and that the election is being stolen from him. I thought I knew him but now I don't know.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's a really tough thing to deal with. It can be hard to be confronted with a different, unexpected side from a trusted friend.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "And I had this guy as my best man for my wedding",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Perhaps you can try reasoning with him. I'm certain that your judgement in friendships is not flawed and although he has made quite the yikes choice, he still has redeemable qualities. Especially if he wasn't making his political viewpoint known until recently. It leans towards the idea that with the right information, he'll understand that Trump is a big loser and he lost lmao",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I tried but he says that he's sick and tired of Facebook and Twitter putting a muzzle on Trump and ever since he's been on Parler he now knows the truth It's like he doesn't believe science anymore",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Consider directing him to news sources that are not Twitter or Facebook, though I know this is hard to do. it is just a teensy bit funny he thinks that Trump is being muzzled on twitter when they are not deleting any of his tweets.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah he thinks it's wrong that Twitter is flagging his tweets and he's mad that Facebook are taking down these groups that he feels are telling the truth",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yeah he thinks it's wrong that Twitter is flagging his tweets and he's mad that Facebook are taking down these groups that he feels are telling the truth",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 130: The subject complains about life issues or problems as if each were insoluble, and systematically rejects others' suggestions about ways of handling them.",
+                "match_justification": "In the preceding turn, the Supporter offers constructive advice, suggesting the Seeker direct their friend to alternative news sources. The Seeker responds by elaborating on why the friend is deeply entrenched in his beliefs (trusting flagged Facebook and Twitter content as 'the truth'). This functions to implicitly reject the Supporter's suggestion by framing the friend's mindset as an insoluble barrier, continuing a pattern of complaining rather than engaging with the proposed solution.",
+                "sublevel_name": "Help-Rejecting Complaining",
+                "defense_level": 1
+            },
+            {
+                "dmrs_q_item": "ITEM 140: The subject describes events with good detail, but without mention of any attendant feelings, like a reporter describing the narrative of someone's life, but devoid of personal reactions.",
+                "match_justification": "Earlier in the dialogue, the Seeker expressed deep emotional distress ('really depressed') over the loss of their best man. In this specific utterance, however, the Seeker shifts to objectively reporting the friend's specific grievances about social media moderation. They describe the situation with factual, reporter-like detail, completely devoid of their own personal emotional reactions or the pain of the severed relationship.",
+                "sublevel_name": "Isolation of Affect",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 69: When confronting emotionally charged topics, the subject tends not to address concerns directly and fully but wanders off to tangentially related topics that are emotionally easier for the subject to discuss or prefers to pay attention to someone else dealing with a similar situation. This can include preferring to read or watch a film portraying people dealing with similar problems.",
+                "match_justification": "The primary, emotionally charged concern is the Seeker's grief and shock over losing a 20-year friendship. Instead of continuing to address this painful core issue directly, the Seeker wanders off into a tangentially related discussion about the mechanics of Twitter flagging and Facebook group removals. Focusing on the friend's social media complaints is emotionally much easier and safer for the Seeker to discuss than their own feelings of betrayal and loss.",
+                "sublevel_name": "Displacement",
+                "defense_level": 5
+            }
+        ],
+        "predicted_defense_level": 1,
+        "level_scores": {
+            "1": 0.45,
+            "6": 0.35,
+            "5": 0.2
+        }
+    },
+    {
+        "id": "test_00390",
+        "dialogue_id": "ESConv_164",
+        "dialogue": [
+            {
+                "text": "My friends are trying to shame me. How ridiculous....",
+                "speaker": "seeker"
+            },
+            {
+                "text": "hi i am sorry to hear that what are they trying to shame you with? what are they trying to shame you with?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It is Christmas and my friends say that I do not donate enough to charity. They are putting me on a guilt trip. My one old friend is the President of a local non-profit.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well, the donation to charity should be what either you can affort or volunteeer, it all depends on your situation",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I am not making much income with the COVID-19, either.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "it has to come from the heart and if your circumstances do not allow that then they should not talk badly about you",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Two different (so-called) friends of mine need to get a life.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "shame on them to do that to you well you might not consider them real friends if that is what they do. it is always easier to judge over other people then to validate what anyone self is doing.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah, people don't know that just because my two friends go \"Way back,\" does not mean they should be able to to hurt me, emotionally. What should I do about these two (so-called) friends?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "definatly not ...have you tried explaining your situation to them?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "No, they don't know that I am in financial trouble myself. COVID-19 has wrecked my steady income levels.... Things were great, this time last year.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well i know thats something most people do not want to disclose can you help the organization with donating your time?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I might be able to do that.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "unfortunatly it is right now very comen this situation, so no shame for that,",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Well, I used to donate a LOT in year's past.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "a lot of times donating time to help organisatiosn is more valuable then money.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Great point.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "times and situations change so thats ok.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My friends may like to know that I am trading time....instead of donating money.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i worked for a non profit and the biggest struggle was to find volunteers to help out",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, you make a good point.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I feel that is a great donation and if they do not like that tell them money is easy to give time not",
+                "speaker": "supporter"
+            },
+            {
+                "text": "The proble is that some people just want to shame people without knowing their plight.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Yeah, true, we need to stay above them then in all actuality we don't know what goes on behind closed doors in their life. sometimes people like that reflect",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I need to think of others ways to contribute that won't have my friends hating on me. I have pride, too.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "BUt it should be what you want not what your 'freinds want. you should be proud of yourself.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah......",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hopefully next year will bring better things and maybe even a better friend that does not judge into your life.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "The problem is that I am not sure it my friends are going to believe me; I am a well-to-do individual We can only hope for a better 2021 Not sure how quickly the markets rebound....",
+                "speaker": "seeker"
+            },
+            {
+                "text": "well if they do not believe you as well you might really need to rethink your friendships and the meaning in those so called freind ships. hopefully soon for all of us, but hold on to the thought of being healthy",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Well, I usually go to their get-togethers. Both of my friends are well-to-do.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Well, I usually go to their get-togethers. Both of my friends are well-to-do.",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 139: When confronted with any negative aspects of others important to the subject, the subject appears to downplay or ignore them, by substituting talk about the positive image or attributes instead.",
+                "match_justification": "The supporter confronts the seeker with the negative reality of their friends' behavior, suggesting they 'rethink' the 'so-called friendships.' The seeker ignores this negative evaluation and instead substitutes talk about the friends' positive, superficial image and status ('Both of my friends are well-to-do'), effectively downplaying the criticism.",
+                "sublevel_name": "Idealization",
+                "defense_level": 4
+            },
+            {
+                "dmrs_q_item": "ITEM 69: When confronting emotionally charged topics, the subject tends not to address concerns directly and fully but wanders off to tangentially related topics that are emotionally easier for the subject to discuss or prefers to pay attention to someone else dealing with a similar situation.",
+                "match_justification": "The suggestion to re-evaluate or potentially end long-term friendships is an emotionally charged topic. Rather than addressing this concern directly and fully, the seeker wanders off to the tangentially related and emotionally easier topic of their usual social habits ('I usually go to their get-togethers') and the friends' financial status.",
+                "sublevel_name": "Displacement",
+                "defense_level": 5
+            },
+            {
+                "dmrs_q_item": "ITEM 26: The subject talks about his personal experiences by making general statements that appear accurate but somehow avoid revealing specific personal feelings and reactions.",
+                "match_justification": "When faced with a personal and emotional challenge regarding the value of their friendships, the seeker responds with general, factual statements about attending get-togethers and their friends' wealth. This allows the seeker to avoid revealing specific personal feelings or emotional reactions to the supporter's advice, keeping the emotional conflict at a distance.",
+                "sublevel_name": "Intellectualization",
+                "defense_level": 6
+            }
+        ],
+        "predicted_defense_level": 4,
+        "level_scores": {
+            "4": 0.45,
+            "5": 0.35,
+            "6": 0.2
+        }
+    },
+    {
+        "id": "test_00403",
+        "dialogue_id": "ESConv_168",
+        "dialogue": [
+            {
+                "text": "Hi, are you having a good day at the moment?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Today is okay, i guess. I'm just stressed.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Is there a general problem that you would like to talk about? I am more than happy to listen.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I found out I didnt pass college algebra and my academic advisor is pressuring me to take the class over this winter break in order to graduate on time. But I have been in new york city all year and my parents just got me tickets to fly home I really miss them",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that but try not to panic, just failing one class is not the end of the world. How do you feel about retaking it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't mind retaking it, really",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I don't mind retaking it, really",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 121: Whenever talking about potentially distressing events or experiences, the subject strongly claims not to have any feelings about the topic, although this seems highly unlikely.",
+                "match_justification": "The seeker has just revealed a significant and distressing conflict: having to retake a class over winter break directly interferes with a paid trip home to see parents they deeply miss. By stating \"I don't mind retaking it, really,\" the seeker is strongly claiming a lack of negative feelings about the situation. Given the emotional weight of missing their family trip, this claim seems highly unlikely, pointing directly to Denial of their true emotional state.",
+                "sublevel_name": "Denial",
+                "defense_level": 3
+            },
+            {
+                "dmrs_q_item": "ITEM 31: In talking about a meaningful, emotionally charged experience, the subject talks in a detached way, as if he or she is not in touch with the feelings that should surround it.",
+                "match_justification": "Failing a class and facing the prospect of canceling a much-anticipated family visit is an emotionally charged dilemma. When asked how they feel about it, the seeker's response (\"I don't mind retaking it, really\") is notably flat and detached. This suggests they are currently out of touch with the natural feelings of sadness, frustration, or disappointment that should surround this conflict, isolating the cognitive reality from the affect.",
+                "sublevel_name": "Isolation of Affect",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 49: When presented with an external demanding situation over which the subject has no control, the subject can accept the demand, putting negative feelings aside to deal with what must be done.",
+                "match_justification": "Viewed through the lens of mature coping, the seeker is facing an external demand from their academic advisor that is necessary to graduate on time. By stating \"I don't mind retaking it, really,\" the seeker may be demonstrating Suppression by consciously choosing to put aside their disappointment and negative feelings about missing the trip home in order to accept the academic reality and do what must be done.",
+                "sublevel_name": "Suppression",
+                "defense_level": 7
+            }
+        ],
+        "predicted_defense_level": 3,
+        "level_scores": {
+            "3": 0.45,
+            "6": 0.35,
+            "7": 0.2
+        }
+    },
+    {
+        "id": "test_00469",
+        "dialogue_id": "ESConv_198",
+        "dialogue": [
+            {
+                "text": "Hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello",
+                "speaker": "supporter"
+            },
+            {
+                "text": "How are you doing?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am pretty good. How are you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I'm pretty miserable. It's been a rough week",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What is going on?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I ended things with my girlfriend last week.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that, what caused you to wan to end things?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Things have been pretty rough for the last few years. I found out she was hanging out with her ex and she lied about it The kicker is that we live together and her family is planning on coming to stay with us for xmas. they already have their flights booked and now are trying to cancel",
+                "speaker": "seeker"
+            },
+            {
+                "text": "So from what I am hearing, you ended things with your girlfriend because she was talking to her ex and lying to you about it and you are feeling upset about it.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "yeah, plus our relationship has been rocky for the past year. I think we are just loosing interest in eachother",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "yeah, plus our relationship has been rocky for the past year. I think we are just loosing interest in eachother",
+        "extracted_dmrs_evidence": [
+            {
+                "dmrs_q_item": "ITEM 26: The subject talks about his personal experiences by making general statements that appear accurate but somehow avoid revealing specific personal feelings and reactions.",
+                "match_justification": "The seeker describes the end of the relationship using a broad, generalized statement ('I think we are just loosing interest in eachother'). This intellectualized summary appears accurate but serves to distance the seeker from the specific, acute emotional pain and raw feelings associated with his girlfriend lying and seeing her ex.",
+                "sublevel_name": "Intellectualization",
+                "defense_level": 6
+            },
+            {
+                "dmrs_q_item": "ITEM 86: Whenever confronted about his or her own feelings or intentions, the subject avoids acknowledging them by giving a plausible explanation that covers up the real subjective reasons.",
+                "match_justification": "When the supporter explicitly names the seeker's feelings regarding the betrayal ('you are feeling upset about it'), the seeker briefly agrees ('yeah') but immediately pivots to a plausible, logical explanation for the breakup ('relationship has been rocky', 'loosing interest'). This rationalization helps soften the intense subjective pain of being deceived by framing the breakup as an inevitable, mutual decline.",
+                "sublevel_name": "Rationalization",
+                "defense_level": 3
+            },
+            {
+                "dmrs_q_item": "ITEM 32: When confronting emotionally important problems, the subject can reflect upon relevant personal experiences and explore emotional reactions. This allows the subject to adjust better to limitations and compromises, possibly leading to more fulfilling outcomes.",
+                "match_justification": "Alternatively, this statement can be viewed as a mature coping mechanism. Following the supporter's summary of the immediate crisis, the seeker demonstrates reflection by zooming out to consider the broader context of the relationship ('rocky for the past year'). This acknowledgment of reality helps him process the breakup as a culmination of long-term issues rather than just a sudden, unexplainable betrayal.",
+                "sublevel_name": "Self-Observation",
+                "defense_level": 7
+            }
+        ],
+        "predicted_defense_level": 6,
+        "level_scores": {
+            "6": 0.45,
+            "3": 0.35,
+            "7": 0.2
+        }
+    }
+]

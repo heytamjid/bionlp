@@ -1,6 +1,7 @@
 import os
 import json
 import glob
+from collections import Counter
 
 
 def merge_fractional_jsons(
@@ -80,7 +81,68 @@ def merge_fractional_jsons(
             f"\nPerfect! All test cases from test_00000 to test_{str(max_test_id).zfill(5)} are accounted for."
         )
 
-    # 3. Sort the final data by ID and save
+    # 3. Analyze label agreement
+    total_analyzed = 0
+    all_3_match = 0
+    match_2_of_3 = 0
+    all_diff = 0
+    mismatch_patterns = Counter()
+
+    for item in merged_data.values():
+        evidence = item.get("extracted_dmrs_evidence", [])
+        if not evidence:
+            continue
+
+        # Get normalized lowercased sequence of sublabels
+        sublabels = [str(e.get("sublevel_name", "")).lower().strip() for e in evidence]
+
+        # Only analyze items that expected to have 3 predictions
+        if len(sublabels) != 3:
+            continue
+
+        total_analyzed += 1
+        label_counts = Counter(sublabels)
+
+        unique_len = len(label_counts)
+        if unique_len == 1:
+            all_3_match += 1
+        elif unique_len == 2:
+            match_2_of_3 += 1
+            # Record what the mismatch was: "winning_label (2) vs losing_label (1)"
+            parts = [
+                f"{lbl}({count})"
+                for label, count in label_counts.most_common()
+                for lbl in [label if label else "none"]
+            ]
+            mismatch_patterns[" vs ".join(parts)] += 1
+        else:
+            all_diff += 1
+            parts = [
+                f"{lbl}({count})"
+                for label, count in label_counts.most_common()
+                for lbl in [label if label else "none"]
+            ]
+            mismatch_patterns[" vs ".join(parts)] += 1
+
+    print("\n" + "=" * 40)
+    print("LABEL AGREEMENT STATS (For items with 3 preds)")
+    print("=" * 40)
+    print(f"Items analyzed: {total_analyzed}")
+    if total_analyzed > 0:
+        print(
+            f"All 3 match:      {all_3_match} ({all_3_match/total_analyzed*100:.1f}%)"
+        )
+        print(
+            f"2 of 3 match:     {match_2_of_3} ({match_2_of_3/total_analyzed*100:.1f}%)"
+        )
+        print(f"All 3 different:  {all_diff} ({all_diff/total_analyzed*100:.1f}%)")
+
+        if mismatch_patterns:
+            print("\nTop 15 Most Common Mismatches:")
+            for pattern, count in mismatch_patterns.most_common(15):
+                print(f" - {pattern}: {count} cases")
+
+    # 4. Sort the final data by ID and save
     # This ensures your final JSON is beautifully organized, regardless of what order the files were read
     final_list = sorted(merged_data.values(), key=lambda x: x.get("id", ""))
 

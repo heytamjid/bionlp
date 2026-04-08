@@ -47,8 +47,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.7999999999999999,
-            "3": 0.2
+            "7": 0.65,
+            "3": 0.35
         }
     },
     {
@@ -87,7 +87,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -122,7 +122,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -165,8 +165,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "1": 0.1
+            "7": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -225,7 +225,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -364,7 +364,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -551,7 +551,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -754,7 +754,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -849,7 +849,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -952,7 +952,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -1071,7 +1071,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -1198,7 +1198,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -1297,7 +1297,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -1404,7 +1404,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -1447,7 +1447,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -1518,8 +1518,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "1": 0.1
+            "3": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -1562,7 +1562,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -1613,7 +1613,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -1656,8 +1656,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "5": 0.1
+            "7": 0.8,
+            "5": 0.2
         }
     },
     {
@@ -1730,10 +1730,10 @@
                 "defense_level": 7
             }
         ],
-        "predicted_defense_level": 1,
+        "predicted_defense_level": 7,
         "level_scores": {
-            "1": 0.7,
-            "7": 0.30000000000000004
+            "1": 0.45,
+            "7": 0.55
         }
     },
     {
@@ -1786,10 +1786,10 @@
                 "defense_level": 5
             }
         ],
-        "predicted_defense_level": 7,
+        "predicted_defense_level": 5,
         "level_scores": {
-            "7": 0.7,
-            "5": 0.30000000000000004
+            "7": 0.45,
+            "5": 0.55
         }
     },
     {
@@ -1852,7 +1852,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -1931,7 +1931,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -2018,7 +2018,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -2053,7 +2053,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -2112,8 +2112,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.7999999999999999,
-            "1": 0.2
+            "3": 0.65,
+            "1": 0.35
         }
     },
     {
@@ -2196,8 +2196,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "6": 0.1
+            "7": 0.8,
+            "6": 0.2
         }
     },
     {
@@ -2286,10 +2286,10 @@
                 "defense_level": 1
             }
         ],
-        "predicted_defense_level": 4,
+        "predicted_defense_level": 1,
         "level_scores": {
-            "4": 0.7,
-            "1": 0.30000000000000004
+            "4": 0.45,
+            "1": 0.55
         }
     },
     {
@@ -2412,8 +2412,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "6": 0.1
+            "3": 0.8,
+            "6": 0.2
         }
     },
     {
@@ -2448,7 +2448,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -2539,7 +2539,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -2590,7 +2590,7 @@
         ],
         "predicted_defense_level": 5,
         "level_scores": {
-            "5": 0.9999999999999999
+            "5": 1.0
         }
     },
     {
@@ -2649,9 +2649,9 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.7,
-            "5": 0.2,
-            "1": 0.1
+            "3": 0.45,
+            "5": 0.35,
+            "1": 0.2
         }
     },
     {
@@ -2698,7 +2698,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -2753,7 +2753,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -2792,7 +2792,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -2839,7 +2839,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -2942,8 +2942,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "5": 0.1
+            "6": 0.8,
+            "5": 0.2
         }
     },
     {
@@ -3062,7 +3062,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -3097,7 +3097,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -3164,7 +3164,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -3263,7 +3263,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -3370,7 +3370,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -3451,10 +3451,10 @@
                 "defense_level": 1
             }
         ],
-        "predicted_defense_level": 3,
+        "predicted_defense_level": 1,
         "level_scores": {
-            "3": 0.7,
-            "1": 0.30000000000000004
+            "3": 0.45,
+            "1": 0.55
         }
     },
     {
@@ -3569,7 +3569,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -3692,7 +3692,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -3795,7 +3795,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -3854,7 +3854,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -3921,8 +3921,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "3": 0.1
+            "6": 0.8,
+            "3": 0.2
         }
     },
     {
@@ -4019,10 +4019,10 @@
                 "defense_level": 6
             }
         ],
-        "predicted_defense_level": 5,
+        "predicted_defense_level": 6,
         "level_scores": {
-            "5": 0.7,
-            "6": 0.30000000000000004
+            "5": 0.45,
+            "6": 0.55
         }
     },
     {
@@ -4101,7 +4101,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -4216,7 +4216,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -4347,7 +4347,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -4494,7 +4494,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -4529,7 +4529,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -4564,7 +4564,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -4663,7 +4663,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -4770,7 +4770,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -4893,7 +4893,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -4936,8 +4936,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "6": 0.1
+            "7": 0.8,
+            "6": 0.2
         }
     },
     {
@@ -5028,7 +5028,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -5107,8 +5107,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "1": 0.1
+            "3": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -5147,8 +5147,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "1": 0.1
+            "7": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -5203,7 +5203,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -5338,7 +5338,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -5405,8 +5405,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.7999999999999999,
-            "5": 0.2
+            "7": 0.65,
+            "5": 0.35
         }
     },
     {
@@ -5505,9 +5505,9 @@
         ],
         "predicted_defense_level": 2,
         "level_scores": {
-            "2": 0.7,
-            "4": 0.2,
-            "5": 0.1
+            "2": 0.45,
+            "4": 0.35,
+            "5": 0.2
         }
     },
     {
@@ -5566,8 +5566,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "7": 0.1
+            "3": 0.8,
+            "7": 0.2
         }
     },
     {
@@ -5634,7 +5634,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -5689,7 +5689,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -5728,7 +5728,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -5779,7 +5779,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -5878,9 +5878,9 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.7,
-            "7": 0.2,
-            "5": 0.1
+            "6": 0.45,
+            "7": 0.35,
+            "5": 0.2
         }
     },
     {
@@ -6019,7 +6019,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -6074,7 +6074,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -6161,7 +6161,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -6272,7 +6272,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -6355,7 +6355,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -6426,8 +6426,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "1": 0.1
+            "7": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -6506,8 +6506,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7999999999999999,
-            "4": 0.2
+            "1": 0.65,
+            "4": 0.35
         }
     },
     {
@@ -6582,8 +6582,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "6": 0.1
+            "3": 0.8,
+            "6": 0.2
         }
     },
     {
@@ -6626,7 +6626,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -6709,7 +6709,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -6848,7 +6848,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -6903,7 +6903,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -6966,7 +6966,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -7045,8 +7045,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "7": 0.1
+            "6": 0.8,
+            "7": 0.2
         }
     },
     {
@@ -7085,7 +7085,7 @@
         ],
         "predicted_defense_level": 5,
         "level_scores": {
-            "5": 0.9999999999999999
+            "5": 1.0
         }
     },
     {
@@ -7140,8 +7140,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "3": 0.1
+            "7": 0.8,
+            "3": 0.2
         }
     },
     {
@@ -7204,7 +7204,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -7283,7 +7283,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -7332,10 +7332,10 @@
                 "defense_level": 7
             }
         ],
-        "predicted_defense_level": 5,
+        "predicted_defense_level": 7,
         "level_scores": {
-            "5": 0.7,
-            "7": 0.30000000000000004
+            "5": 0.45,
+            "7": 0.55
         }
     },
     {
@@ -7394,8 +7394,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "5": 0.1
+            "6": 0.8,
+            "5": 0.2
         }
     },
     {
@@ -7474,7 +7474,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -7591,10 +7591,10 @@
                 "defense_level": 7
             }
         ],
-        "predicted_defense_level": 0,
+        "predicted_defense_level": 7,
         "level_scores": {
-            "0": 0.7,
-            "7": 0.30000000000000004
+            "0": 0.45,
+            "7": 0.55
         }
     },
     {
@@ -7639,10 +7639,10 @@
                 "defense_level": 4
             }
         ],
-        "predicted_defense_level": 2,
+        "predicted_defense_level": 4,
         "level_scores": {
-            "2": 0.7,
-            "4": 0.30000000000000004
+            "2": 0.45,
+            "4": 0.55
         }
     },
     {
@@ -7697,7 +7697,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -7768,8 +7768,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "6": 0.1
+            "7": 0.8,
+            "6": 0.2
         }
     },
     {
@@ -7888,7 +7888,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -7951,7 +7951,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -8070,7 +8070,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -8105,7 +8105,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -8148,7 +8148,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -8247,7 +8247,7 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.9999999999999999
+            "4": 1.0
         }
     },
     {
@@ -8370,7 +8370,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -8425,7 +8425,7 @@
         ],
         "predicted_defense_level": 2,
         "level_scores": {
-            "2": 0.9999999999999999
+            "2": 1.0
         }
     },
     {
@@ -8480,9 +8480,9 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7,
-            "6": 0.2,
-            "5": 0.1
+            "1": 0.45,
+            "6": 0.35,
+            "5": 0.2
         }
     },
     {
@@ -8553,7 +8553,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -8604,7 +8604,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -8687,7 +8687,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -8778,9 +8778,9 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.7,
-            "6": 0.2,
-            "3": 0.1
+            "7": 0.45,
+            "6": 0.35,
+            "3": 0.2
         }
     },
     {
@@ -8843,8 +8843,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "5": 0.1
+            "6": 0.8,
+            "5": 0.2
         }
     },
     {
@@ -8935,7 +8935,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -8974,7 +8974,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -9045,7 +9045,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -9148,9 +9148,9 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.7,
-            "5": 0.2,
-            "4": 0.1
+            "6": 0.45,
+            "5": 0.35,
+            "4": 0.2
         }
     },
     {
@@ -9265,9 +9265,9 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.7,
-            "6": 0.2,
-            "5": 0.1
+            "7": 0.45,
+            "6": 0.35,
+            "5": 0.2
         }
     },
     {
@@ -9390,7 +9390,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -9483,10 +9483,10 @@
                 "defense_level": 4
             }
         ],
-        "predicted_defense_level": 7,
+        "predicted_defense_level": 4,
         "level_scores": {
-            "7": 0.7,
-            "4": 0.30000000000000004
+            "7": 0.45,
+            "4": 0.55
         }
     },
     {
@@ -9581,8 +9581,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "1": 0.1
+            "3": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -9725,7 +9725,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -9772,7 +9772,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -9819,7 +9819,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -9882,8 +9882,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.7999999999999999,
-            "3": 0.2
+            "6": 0.65,
+            "3": 0.35
         }
     },
     {
@@ -9954,7 +9954,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -10041,7 +10041,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -10108,7 +10108,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -10231,7 +10231,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -10270,7 +10270,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -10325,7 +10325,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -10404,7 +10404,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -10523,7 +10523,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -10562,7 +10562,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -10609,7 +10609,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -10712,7 +10712,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -10751,7 +10751,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -10798,7 +10798,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -10909,7 +10909,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11028,7 +11028,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -11087,7 +11087,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11154,7 +11154,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11269,7 +11269,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -11356,7 +11356,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11451,7 +11451,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11490,8 +11490,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "3": 0.1
+            "6": 0.8,
+            "3": 0.2
         }
     },
     {
@@ -11554,7 +11554,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11641,7 +11641,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11680,7 +11680,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11719,7 +11719,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -11790,7 +11790,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11893,7 +11893,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11928,7 +11928,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -11971,7 +11971,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12058,7 +12058,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12149,7 +12149,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12248,7 +12248,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12335,7 +12335,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12438,7 +12438,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12509,8 +12509,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "5": 0.1
+            "3": 0.8,
+            "5": 0.2
         }
     },
     {
@@ -12605,7 +12605,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12652,7 +12652,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12707,7 +12707,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12778,7 +12778,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -12889,7 +12889,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -12932,8 +12932,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.8999999999999999,
-            "7": 0.1
+            "1": 0.8,
+            "7": 0.2
         }
     },
     {
@@ -12984,7 +12984,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -13075,7 +13075,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -13174,7 +13174,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -13253,7 +13253,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -13340,7 +13340,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -13467,7 +13467,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -13602,8 +13602,8 @@
         ],
         "predicted_defense_level": 5,
         "level_scores": {
-            "5": 0.7999999999999999,
-            "3": 0.2
+            "5": 0.65,
+            "3": 0.35
         }
     },
     {
@@ -13698,7 +13698,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -13801,9 +13801,9 @@
         ],
         "predicted_defense_level": 5,
         "level_scores": {
-            "5": 0.7,
-            "1": 0.2,
-            "7": 0.1
+            "5": 0.45,
+            "1": 0.35,
+            "7": 0.2
         }
     },
     {
@@ -13954,7 +13954,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -14127,10 +14127,10 @@
                 "defense_level": 3
             }
         ],
-        "predicted_defense_level": 1,
+        "predicted_defense_level": 3,
         "level_scores": {
-            "1": 0.7,
-            "3": 0.30000000000000004
+            "1": 0.45,
+            "3": 0.55
         }
     },
     {
@@ -14185,7 +14185,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -14248,7 +14248,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -14335,7 +14335,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -14382,8 +14382,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.7999999999999999,
-            "1": 0.2
+            "7": 0.65,
+            "1": 0.35
         }
     },
     {
@@ -14454,7 +14454,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -14555,10 +14555,10 @@
                 "defense_level": 5
             }
         ],
-        "predicted_defense_level": 3,
+        "predicted_defense_level": 5,
         "level_scores": {
-            "3": 0.7,
-            "5": 0.30000000000000004
+            "3": 0.45,
+            "5": 0.55
         }
     },
     {
@@ -14669,7 +14669,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -14812,7 +14812,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -14985,10 +14985,10 @@
                 "defense_level": 5
             }
         ],
-        "predicted_defense_level": 0,
+        "predicted_defense_level": 5,
         "level_scores": {
-            "0": 0.7,
-            "5": 0.30000000000000004
+            "0": 0.45,
+            "5": 0.55
         }
     },
     {
@@ -15023,7 +15023,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -15122,7 +15122,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -15217,7 +15217,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -15328,8 +15328,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "1": 0.1
+            "7": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -15404,8 +15404,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.8999999999999999,
-            "2": 0.1
+            "1": 0.8,
+            "2": 0.2
         }
     },
     {
@@ -15480,7 +15480,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -15593,10 +15593,10 @@
                 "defense_level": 1
             }
         ],
-        "predicted_defense_level": 3,
+        "predicted_defense_level": 1,
         "level_scores": {
-            "3": 0.7,
-            "1": 0.30000000000000004
+            "3": 0.45,
+            "1": 0.55
         }
     },
     {
@@ -15707,7 +15707,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -15766,7 +15766,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -15849,8 +15849,8 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.7999999999999999,
-            "1": 0.2
+            "4": 0.65,
+            "1": 0.35
         }
     },
     {
@@ -15941,8 +15941,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.7999999999999999,
-            "5": 0.2
+            "7": 0.65,
+            "5": 0.35
         }
     },
     {
@@ -16073,8 +16073,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "4": 0.1
+            "7": 0.8,
+            "4": 0.2
         }
     },
     {
@@ -16121,8 +16121,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "4": 0.1
+            "7": 0.8,
+            "4": 0.2
         }
     },
     {
@@ -16201,7 +16201,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -16256,9 +16256,9 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7,
-            "5": 0.2,
-            "3": 0.1
+            "1": 0.45,
+            "5": 0.35,
+            "3": 0.2
         }
     },
     {
@@ -16321,7 +16321,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -16416,7 +16416,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -16463,7 +16463,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -16526,7 +16526,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -16597,8 +16597,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "1": 0.1
+            "7": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -16633,7 +16633,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -16684,8 +16684,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "1": 0.1
+            "7": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -16800,7 +16800,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -16947,7 +16947,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -16994,7 +16994,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -17049,7 +17049,7 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.9999999999999999
+            "3": 1.0
         }
     },
     {
@@ -17110,10 +17110,10 @@
                 "defense_level": 3
             }
         ],
-        "predicted_defense_level": 1,
+        "predicted_defense_level": 3,
         "level_scores": {
-            "1": 0.7,
-            "3": 0.30000000000000004
+            "1": 0.45,
+            "3": 0.55
         }
     },
     {
@@ -17216,7 +17216,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -17327,7 +17327,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -17478,7 +17478,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -17525,7 +17525,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -17604,7 +17604,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -17683,7 +17683,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -17750,8 +17750,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "4": 0.1
+            "7": 0.8,
+            "4": 0.2
         }
     },
     {
@@ -17834,7 +17834,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -17887,10 +17887,10 @@
                 "defense_level": 3
             }
         ],
-        "predicted_defense_level": 6,
+        "predicted_defense_level": 3,
         "level_scores": {
-            "6": 0.7,
-            "3": 0.30000000000000004
+            "6": 0.45,
+            "3": 0.55
         }
     },
     {
@@ -17925,7 +17925,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -17968,7 +17968,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -18015,7 +18015,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -18070,8 +18070,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "7": 0.1
+            "6": 0.8,
+            "7": 0.2
         }
     },
     {
@@ -18166,7 +18166,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -18269,9 +18269,9 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.7,
-            "1": 0.2,
-            "7": 0.1
+            "3": 0.45,
+            "1": 0.35,
+            "7": 0.2
         }
     },
     {
@@ -18318,8 +18318,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "3": 0.1
+            "6": 0.8,
+            "3": 0.2
         }
     },
     {
@@ -18390,7 +18390,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -18525,8 +18525,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "5": 0.1
+            "7": 0.8,
+            "5": 0.2
         }
     },
     {
@@ -18565,9 +18565,9 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.7,
-            "5": 0.2,
-            "3": 0.1
+            "7": 0.45,
+            "5": 0.35,
+            "3": 0.2
         }
     },
     {
@@ -18614,7 +18614,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -18677,7 +18677,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -18764,7 +18764,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -18859,7 +18859,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -18902,7 +18902,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -18969,7 +18969,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -19016,8 +19016,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "7": 0.1
+            "6": 0.8,
+            "7": 0.2
         }
     },
     {
@@ -19152,7 +19152,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -19191,7 +19191,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -19252,10 +19252,10 @@
                 "defense_level": 7
             }
         ],
-        "predicted_defense_level": 0,
+        "predicted_defense_level": 7,
         "level_scores": {
-            "0": 0.7,
-            "7": 0.30000000000000004
+            "0": 0.45,
+            "7": 0.55
         }
     },
     {
@@ -19326,7 +19326,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -19413,7 +19413,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -19492,8 +19492,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "1": 0.1
+            "7": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -19542,10 +19542,10 @@
                 "defense_level": 4
             }
         ],
-        "predicted_defense_level": 2,
+        "predicted_defense_level": 4,
         "level_scores": {
-            "2": 0.7,
-            "4": 0.30000000000000004
+            "2": 0.45,
+            "4": 0.55
         }
     },
     {
@@ -19612,7 +19612,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -19647,7 +19647,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -19746,7 +19746,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -19817,8 +19817,8 @@
         ],
         "predicted_defense_level": 5,
         "level_scores": {
-            "5": 0.7999999999999999,
-            "7": 0.2
+            "5": 0.65,
+            "7": 0.35
         }
     },
     {
@@ -19921,7 +19921,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -20104,8 +20104,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "5": 0.1
+            "7": 0.8,
+            "5": 0.2
         }
     },
     {
@@ -20170,10 +20170,10 @@
                 "defense_level": 1
             }
         ],
-        "predicted_defense_level": 6,
+        "predicted_defense_level": 1,
         "level_scores": {
-            "6": 0.7,
-            "1": 0.30000000000000004
+            "6": 0.45,
+            "1": 0.55
         }
     },
     {
@@ -20248,7 +20248,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -20347,7 +20347,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -20478,9 +20478,9 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.7,
-            "3": 0.2,
-            "5": 0.1
+            "6": 0.45,
+            "3": 0.35,
+            "5": 0.2
         }
     },
     {
@@ -20535,7 +20535,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -20598,7 +20598,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -20677,7 +20677,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -20772,7 +20772,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -20851,8 +20851,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7999999999999999,
-            "2": 0.2
+            "1": 0.65,
+            "2": 0.35
         }
     },
     {
@@ -20947,8 +20947,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.8999999999999999,
-            "3": 0.1
+            "1": 0.8,
+            "3": 0.2
         }
     },
     {
@@ -21091,7 +21091,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -21242,8 +21242,8 @@
         ],
         "predicted_defense_level": 2,
         "level_scores": {
-            "2": 0.7999999999999999,
-            "1": 0.2
+            "2": 0.65,
+            "1": 0.35
         }
     },
     {
@@ -21278,7 +21278,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -21321,8 +21321,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7999999999999999,
-            "4": 0.2
+            "1": 0.65,
+            "4": 0.35
         }
     },
     {
@@ -21381,9 +21381,9 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7,
-            "7": 0.2,
-            "2": 0.1
+            "1": 0.45,
+            "7": 0.35,
+            "2": 0.2
         }
     },
     {
@@ -21430,8 +21430,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7999999999999999,
-            "4": 0.2
+            "1": 0.65,
+            "4": 0.35
         }
     },
     {
@@ -21510,7 +21510,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -21637,8 +21637,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.7999999999999999,
-            "1": 0.2
+            "3": 0.65,
+            "1": 0.35
         }
     },
     {
@@ -21697,7 +21697,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -21764,7 +21764,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -21847,7 +21847,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -21938,7 +21938,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -22045,7 +22045,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -22156,8 +22156,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "6": 0.1
+            "7": 0.8,
+            "6": 0.2
         }
     },
     {
@@ -22272,7 +22272,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -22423,7 +22423,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -22590,7 +22590,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -22641,8 +22641,8 @@
         ],
         "predicted_defense_level": 5,
         "level_scores": {
-            "5": 0.7999999999999999,
-            "6": 0.2
+            "5": 0.65,
+            "6": 0.35
         }
     },
     {
@@ -22725,7 +22725,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -22780,7 +22780,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -22851,7 +22851,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -22902,7 +22902,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -22981,7 +22981,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -23164,7 +23164,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -23231,7 +23231,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -23354,7 +23354,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -23433,8 +23433,8 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.7999999999999999,
-            "1": 0.2
+            "4": 0.65,
+            "1": 0.35
         }
     },
     {
@@ -23527,10 +23527,10 @@
                 "defense_level": 5
             }
         ],
-        "predicted_defense_level": 3,
+        "predicted_defense_level": 5,
         "level_scores": {
-            "3": 0.7,
-            "5": 0.30000000000000004
+            "3": 0.45,
+            "5": 0.55
         }
     },
     {
@@ -23665,7 +23665,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -23744,7 +23744,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -23779,7 +23779,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -23862,7 +23862,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -23961,7 +23961,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24000,7 +24000,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24055,7 +24055,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24142,7 +24142,7 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.9999999999999999
+            "3": 1.0
         }
     },
     {
@@ -24253,7 +24253,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24300,8 +24300,8 @@
         ],
         "predicted_defense_level": 2,
         "level_scores": {
-            "2": 0.7999999999999999,
-            "7": 0.2
+            "2": 0.65,
+            "7": 0.35
         }
     },
     {
@@ -24404,7 +24404,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24455,7 +24455,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24514,7 +24514,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24581,7 +24581,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24656,7 +24656,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -24739,7 +24739,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24830,7 +24830,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -24881,8 +24881,8 @@
         ],
         "predicted_defense_level": 2,
         "level_scores": {
-            "2": 0.7999999999999999,
-            "4": 0.2
+            "2": 0.65,
+            "4": 0.35
         }
     },
     {
@@ -24989,7 +24989,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -25052,8 +25052,8 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.8999999999999999,
-            "3": 0.1
+            "4": 0.8,
+            "3": 0.2
         }
     },
     {
@@ -25124,8 +25124,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.8999999999999999,
-            "2": 0.1
+            "1": 0.8,
+            "2": 0.2
         }
     },
     {
@@ -25242,10 +25242,10 @@
                 "defense_level": 1
             }
         ],
-        "predicted_defense_level": 7,
+        "predicted_defense_level": 1,
         "level_scores": {
-            "7": 0.7,
-            "1": 0.30000000000000004
+            "7": 0.45,
+            "1": 0.55
         }
     },
     {
@@ -25380,7 +25380,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -25523,7 +25523,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -25674,7 +25674,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -25721,7 +25721,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -25832,7 +25832,7 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.9999999999999999
+            "4": 1.0
         }
     },
     {
@@ -25915,7 +25915,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -26046,7 +26046,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -26097,7 +26097,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -26156,8 +26156,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.7999999999999999,
-            "2": 0.2
+            "6": 0.65,
+            "2": 0.35
         }
     },
     {
@@ -26232,9 +26232,9 @@
         ],
         "predicted_defense_level": 2,
         "level_scores": {
-            "2": 0.7,
-            "6": 0.2,
-            "7": 0.1
+            "2": 0.45,
+            "6": 0.35,
+            "7": 0.2
         }
     },
     {
@@ -26285,8 +26285,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "4": 0.1
+            "3": 0.8,
+            "4": 0.2
         }
     },
     {
@@ -26401,7 +26401,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -26496,7 +26496,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -26599,7 +26599,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -26726,7 +26726,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -26781,7 +26781,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -26840,7 +26840,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -26931,7 +26931,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -27038,7 +27038,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -27161,7 +27161,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -27196,7 +27196,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -27239,7 +27239,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -27288,10 +27288,10 @@
                 "defense_level": 7
             }
         ],
-        "predicted_defense_level": 6,
+        "predicted_defense_level": 7,
         "level_scores": {
-            "6": 0.7,
-            "7": 0.30000000000000004
+            "6": 0.45,
+            "7": 0.55
         }
     },
     {
@@ -27382,7 +27382,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -27425,7 +27425,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -27476,7 +27476,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -27511,7 +27511,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -27562,8 +27562,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "7": 0.1
+            "3": 0.8,
+            "7": 0.2
         }
     },
     {
@@ -27630,7 +27630,7 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.9999999999999999
+            "3": 1.0
         }
     },
     {
@@ -27703,10 +27703,10 @@
                 "defense_level": 3
             }
         ],
-        "predicted_defense_level": 1,
+        "predicted_defense_level": 3,
         "level_scores": {
-            "1": 0.7,
-            "3": 0.30000000000000004
+            "1": 0.45,
+            "3": 0.55
         }
     },
     {
@@ -27789,8 +27789,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "1": 0.1
+            "3": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -27901,7 +27901,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -27948,8 +27948,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "7": 0.1
+            "6": 0.8,
+            "7": 0.2
         }
     },
     {
@@ -28044,7 +28044,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -28145,10 +28145,10 @@
                 "defense_level": 6
             }
         ],
-        "predicted_defense_level": 2,
+        "predicted_defense_level": 6,
         "level_scores": {
-            "2": 0.7,
-            "6": 0.30000000000000004
+            "2": 0.45,
+            "6": 0.55
         }
     },
     {
@@ -28275,7 +28275,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -28330,7 +28330,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -28433,8 +28433,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.7999999999999999,
-            "5": 0.2
+            "7": 0.65,
+            "5": 0.35
         }
     },
     {
@@ -28561,7 +28561,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -28612,8 +28612,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "2": 0.1
+            "7": 0.8,
+            "2": 0.2
         }
     },
     {
@@ -28680,8 +28680,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7999999999999999,
-            "2": 0.2
+            "1": 0.65,
+            "2": 0.35
         }
     },
     {
@@ -28756,9 +28756,9 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7,
-            "6": 0.2,
-            "5": 0.1
+            "1": 0.45,
+            "6": 0.35,
+            "5": 0.2
         }
     },
     {
@@ -28873,7 +28873,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -28996,7 +28996,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -29039,7 +29039,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -29130,7 +29130,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -29245,7 +29245,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -29316,8 +29316,8 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.8999999999999999,
-            "4": 0.1
+            "3": 0.8,
+            "4": 0.2
         }
     },
     {
@@ -29396,8 +29396,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "6": 0.1
+            "7": 0.8,
+            "6": 0.2
         }
     },
     {
@@ -29492,7 +29492,7 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.9999999999999999
+            "3": 1.0
         }
     },
     {
@@ -29611,8 +29611,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7999999999999999,
-            "3": 0.2
+            "1": 0.65,
+            "3": 0.35
         }
     },
     {
@@ -29731,7 +29731,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -29770,7 +29770,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -29825,7 +29825,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -29928,7 +29928,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -29963,7 +29963,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -30046,7 +30046,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -30153,7 +30153,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -30204,8 +30204,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.8999999999999999,
-            "4": 0.1
+            "1": 0.8,
+            "4": 0.2
         }
     },
     {
@@ -30262,10 +30262,10 @@
                 "defense_level": 6
             }
         ],
-        "predicted_defense_level": 2,
+        "predicted_defense_level": 6,
         "level_scores": {
-            "2": 0.7,
-            "6": 0.30000000000000004
+            "2": 0.45,
+            "6": 0.55
         }
     },
     {
@@ -30396,7 +30396,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -30535,7 +30535,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -30582,7 +30582,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -30659,10 +30659,10 @@
                 "defense_level": 7
             }
         ],
-        "predicted_defense_level": 3,
+        "predicted_defense_level": 7,
         "level_scores": {
-            "3": 0.7,
-            "7": 0.30000000000000004
+            "3": 0.45,
+            "7": 0.55
         }
     },
     {
@@ -30781,7 +30781,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -30956,8 +30956,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "5": 0.1
+            "7": 0.8,
+            "5": 0.2
         }
     },
     {
@@ -31196,7 +31196,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -31443,7 +31443,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -31518,8 +31518,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "3": 0.1
+            "6": 0.8,
+            "3": 0.2
         }
     },
     {
@@ -31642,7 +31642,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -31677,7 +31677,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -31720,7 +31720,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -31771,8 +31771,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7999999999999999,
-            "4": 0.2
+            "1": 0.65,
+            "4": 0.35
         }
     },
     {
@@ -31867,8 +31867,8 @@
         ],
         "predicted_defense_level": 5,
         "level_scores": {
-            "5": 0.8999999999999999,
-            "4": 0.1
+            "5": 0.8,
+            "4": 0.2
         }
     },
     {
@@ -31919,7 +31919,7 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.9999999999999999
+            "3": 1.0
         }
     },
     {
@@ -31994,7 +31994,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -32085,7 +32085,7 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.9999999999999999
+            "4": 1.0
         }
     },
     {
@@ -32232,8 +32232,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.8999999999999999,
-            "4": 0.1
+            "1": 0.8,
+            "4": 0.2
         }
     },
     {
@@ -32388,9 +32388,9 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.7,
-            "5": 0.2,
-            "6": 0.1
+            "4": 0.45,
+            "5": 0.35,
+            "6": 0.2
         }
     },
     {
@@ -32429,7 +32429,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -32476,8 +32476,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "1": 0.1
+            "7": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -32564,7 +32564,7 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.9999999999999999
+            "3": 1.0
         }
     },
     {
@@ -32627,7 +32627,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -32706,7 +32706,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -32801,7 +32801,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -32904,7 +32904,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -33031,7 +33031,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -33074,7 +33074,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -33125,7 +33125,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -33192,7 +33192,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -33299,7 +33299,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -33354,9 +33354,9 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.7,
-            "6": 0.2,
-            "7": 0.1
+            "3": 0.45,
+            "6": 0.35,
+            "7": 0.2
         }
     },
     {
@@ -33435,7 +33435,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -33510,8 +33510,8 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.8999999999999999,
-            "1": 0.1
+            "4": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -33626,7 +33626,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -33717,8 +33717,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.7999999999999999,
-            "3": 0.2
+            "1": 0.65,
+            "3": 0.35
         }
     },
     {
@@ -33769,7 +33769,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -33836,7 +33836,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -33911,7 +33911,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34042,7 +34042,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34113,7 +34113,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -34148,7 +34148,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -34263,7 +34263,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34314,7 +34314,7 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.9999999999999999
+            "3": 1.0
         }
     },
     {
@@ -34373,8 +34373,8 @@
         ],
         "predicted_defense_level": 5,
         "level_scores": {
-            "5": 0.8999999999999999,
-            "7": 0.1
+            "5": 0.8,
+            "7": 0.2
         }
     },
     {
@@ -34441,7 +34441,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34540,7 +34540,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34623,7 +34623,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34730,7 +34730,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34773,7 +34773,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34808,8 +34808,8 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.8999999999999999,
-            "1": 0.1
+            "7": 0.8,
+            "1": 0.2
         }
     },
     {
@@ -34852,7 +34852,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34911,7 +34911,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -34978,8 +34978,8 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.8999999999999999,
-            "2": 0.1
+            "4": 0.8,
+            "2": 0.2
         }
     },
     {
@@ -35094,7 +35094,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -35137,7 +35137,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -35212,7 +35212,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -35311,7 +35311,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -35390,7 +35390,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -35485,7 +35485,7 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.9999999999999999
+            "3": 1.0
         }
     },
     {
@@ -35548,7 +35548,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -35627,7 +35627,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -35738,7 +35738,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -35817,8 +35817,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.8999999999999999,
-            "3": 0.1
+            "1": 0.8,
+            "3": 0.2
         }
     },
     {
@@ -35921,7 +35921,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -36032,7 +36032,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -36071,7 +36071,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -36158,7 +36158,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -36201,7 +36201,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -36292,7 +36292,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -36391,7 +36391,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -36498,7 +36498,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -36565,7 +36565,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -36624,7 +36624,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -36715,7 +36715,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -36830,7 +36830,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -36925,7 +36925,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -37044,7 +37044,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -37131,7 +37131,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -37226,7 +37226,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -37261,7 +37261,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -37316,7 +37316,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -37419,7 +37419,7 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.9999999999999999
+            "6": 1.0
         }
     },
     {
@@ -37462,7 +37462,7 @@
         ],
         "predicted_defense_level": 0,
         "level_scores": {
-            "0": 0.9999999999999999
+            "0": 1.0
         }
     },
     {
@@ -37551,10 +37551,10 @@
                 "defense_level": 7
             }
         ],
-        "predicted_defense_level": 6,
+        "predicted_defense_level": 7,
         "level_scores": {
-            "6": 0.7,
-            "7": 0.30000000000000004
+            "6": 0.45,
+            "7": 0.55
         }
     },
     {
@@ -37653,7 +37653,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -37760,7 +37760,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -37875,7 +37875,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -37970,7 +37970,7 @@
         ],
         "predicted_defense_level": 3,
         "level_scores": {
-            "3": 0.9999999999999999
+            "3": 1.0
         }
     },
     {
@@ -38081,7 +38081,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -38120,7 +38120,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -38207,8 +38207,8 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.8999999999999999,
-            "7": 0.1
+            "4": 0.8,
+            "7": 0.2
         }
     },
     {
@@ -38303,7 +38303,7 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.9999999999999999
+            "4": 1.0
         }
     },
     {
@@ -38338,7 +38338,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     },
     {
@@ -38413,8 +38413,8 @@
         ],
         "predicted_defense_level": 4,
         "level_scores": {
-            "4": 0.7999999999999999,
-            "1": 0.2
+            "4": 0.65,
+            "1": 0.35
         }
     },
     {
@@ -38513,8 +38513,8 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.8999999999999999,
-            "5": 0.1
+            "6": 0.8,
+            "5": 0.2
         }
     },
     {
@@ -38621,8 +38621,8 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.8999999999999999,
-            "3": 0.1
+            "1": 0.8,
+            "3": 0.2
         }
     },
     {
@@ -38697,9 +38697,9 @@
         ],
         "predicted_defense_level": 6,
         "level_scores": {
-            "6": 0.7,
-            "3": 0.2,
-            "7": 0.1
+            "6": 0.45,
+            "3": 0.35,
+            "7": 0.2
         }
     },
     {
@@ -38788,10 +38788,10 @@
                 "defense_level": 5
             }
         ],
-        "predicted_defense_level": 7,
+        "predicted_defense_level": 5,
         "level_scores": {
-            "7": 0.7,
-            "5": 0.30000000000000004
+            "7": 0.45,
+            "5": 0.55
         }
     },
     {
@@ -38830,7 +38830,7 @@
         ],
         "predicted_defense_level": 7,
         "level_scores": {
-            "7": 0.9999999999999999
+            "7": 1.0
         }
     },
     {
@@ -38893,7 +38893,7 @@
         ],
         "predicted_defense_level": 1,
         "level_scores": {
-            "1": 0.9999999999999999
+            "1": 1.0
         }
     }
 ]
