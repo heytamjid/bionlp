@@ -1,0 +1,190 @@
+[
+    {
+        "id": "test_00104",
+        "dialogue_id": "ESConv_047",
+        "dialogue": [
+            {
+                "text": "I believe that I can get over this time in my life but I need support.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "What are you having a problem with?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "My husband has cancer. I have been really depressed.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I understand how you are feeling. My mom had cancer. It really helped me to join a support group.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "So how do you keep going without crying? How do I find a support group? I live in a rural place.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Crying is natural. You have every right to have those feelings. Don't try and stop yourself from crying.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Ok. How do I not cry in front of him?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "There are online support groups you could get involved with.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah but where do I find them?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "You can google - online cancer support groups.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "It makes it tough because I don't make as much money as he does/ What kind of cancer di your mother have?",
+                "speaker": "seeker"
+            },
+            {
+                "text": "My mother had rectal cancer. She went through a surgery and chemo and radiation and then she went into remission.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Oh he has a 25 percent of remission",
+                "speaker": "seeker"
+            },
+            {
+                "text": "If you are having problems with money you might be able to qualify for food assistance through the SNAP program. Hang in there, I know it is rough but there is hope.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yeah but food I can always get. Its paying the bills.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hang in there, I know it is rough but there is hope.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I know I will snap out of it and get my strength back. I always bounce back.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I know I will snap out of it and get my strength back. I always bounce back.",
+        "model_reasoning": "Context Trigger: The seeker is facing the severe stressor of their husband's cancer diagnosis, their own depression, and financial difficulties. The supporter has just offered a general message of hope.\n\nPsychological Goal: To manage the overwhelming anxiety, fear, and feelings of helplessness associated with their husband's illness by inflating their own sense of emotional resilience and control.\n\nHandbook Alignment: The utterance 'I know I will snap out of it and get my strength back.",
+        "predicted_label": 8
+    },
+    {
+        "id": "test_00198",
+        "dialogue_id": "ESConv_091",
+        "dialogue": [
+            {
+                "text": "hello how are you today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Hi there. I'm OK but have had a difficult time at work recently",
+                "speaker": "seeker"
+            },
+            {
+                "text": "i am sorry to hear that, would you like to talk about it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes I have been given what I can only describe as ridiculous feedback by my manager and it had annoyed me greatly. I'm thinking about complaining about it.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "Yes I have been given what I can only describe as ridiculous feedback by my manager and it had annoyed me greatly. I'm thinking about complaining about it.",
+        "model_reasoning": "Context Trigger: The supporter invites the seeker to talk about their recent difficult time at work, specifically regarding feedback received from their manager.\n\nPsychological Goal: To protect their self-esteem and avoid the painful feelings of inadequacy, shame, or guilt that might arise from receiving critical feedback.\n\nHandbook Alignment: The seeker describes the manager's feedback as 'ridiculous.' This aligns with Devaluation (Level 4), where the subject attributes exaggerated negative qualities to an object (in this case, the feedback) to ward off painful",
+        "predicted_label": 8
+    },
+    {
+        "id": "test_00253",
+        "dialogue_id": "ESConv_112",
+        "dialogue": [
+            {
+                "text": "Hello",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Hello, how are you doing today?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "well, my husband of 25 years left me last week My life is done now",
+                "speaker": "seeker"
+            },
+            {
+                "text": "That's terrible, I'm sorry to hear that. You're life isn't done, it's just a new start. It's scary for sure but you have a lot more to you than your ex husband.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "well, I cannot say it is a new start when I will be 90 in March",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Then you've definitely got a lot going for you if you're 90!",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Had",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Why did he leave you?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "He wanted a younger woman. His new girlfriend is 63 He is 45",
+                "speaker": "seeker"
+            },
+            {
+                "text": "It sounds like that is more of his problem then. You deserve someone that's better than leaving someone because of their age.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I thought it would be nice to have a younger man when we got married. He eventually told me he just married me for my money, and was waiting for me to pass so he could inherit all of it. He said he got tired of waiting, so he moved on to someone else.",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I thought it would be nice to have a younger man when we got married. He eventually told me he just married me for my money, and was waiting for me to pass so he could inherit all of it. He said he got tired of waiting, so he moved on to someone else.",
+        "model_reasoning": "Context Trigger: The supporter asks the seeker why her husband of 25 years left her, prompting the seeker to reveal the devastating truth of his betrayal.\n\nPsychological Goal: To protect herself from the overwhelming pain, shock, and humiliation of her husband's profound betrayal by detaching her emotions from the traumatic memory.\n\nHandbook Alignment: The utterance perfectly aligns with Isolation of Affects (Level 6). The seeker describes a profoundly traumatic event\u2014her husband marrying her for money, waiting for her to die, and then leaving because he 'got tired of waiting'\u2014with remarkable clarity and detail, yet completely",
+        "predicted_label": 8
+    },
+    {
+        "id": "test_00403",
+        "dialogue_id": "ESConv_168",
+        "dialogue": [
+            {
+                "text": "Hi, are you having a good day at the moment?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Today is okay, i guess. I'm just stressed.",
+                "speaker": "seeker"
+            },
+            {
+                "text": "Is there a general problem that you would like to talk about? I am more than happy to listen.",
+                "speaker": "supporter"
+            },
+            {
+                "text": "Yes, I found out I didnt pass college algebra and my academic advisor is pressuring me to take the class over this winter break in order to graduate on time. But I have been in new york city all year and my parents just got me tickets to fly home I really miss them",
+                "speaker": "seeker"
+            },
+            {
+                "text": "I am sorry to hear that but try not to panic, just failing one class is not the end of the world. How do you feel about retaking it?",
+                "speaker": "supporter"
+            },
+            {
+                "text": "I don't mind retaking it, really",
+                "speaker": "seeker"
+            }
+        ],
+        "current_text": "I don't mind retaking it, really",
+        "model_reasoning": "Context Trigger: The seeker failed a college algebra class and is being pressured by their academic advisor to retake it over winter break to graduate on time, which conflicts with their desire to fly home to see",
+        "predicted_label": 8
+    }
+]

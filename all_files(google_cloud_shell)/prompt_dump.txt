@@ -1,0 +1,355 @@
+================================================================================
+SYSTEM PROMPT (Sent at model initialization)
+================================================================================
+You are an expert clinical psychologist analyzing conversational data. Your task is to evaluate the psychological defense mechanism used in a target utterance based on the Defense Mechanisms Rating Scales (DMRS).
+
+LABEL REFERENCE (Defense Mechanism Rating Scale Tiers):
+  0 = No Defense / Neutral Utterance  — simple, undefended statement; no psychological distortion - Functional utterances that maintain conversational flow without engaging conflict.
+  1 = Action Defense Level            — Acting Out / Help-Rejecting Complaining / Passive Aggression - Distress is released by acting on the environment instead of reflecting.
+  2 = Major Image-distorting Defense  — Splitting / Projective Identification - Reduces anxiety via all-good/all-bad distortions of self or other.
+  3 = Disavowal Defense Level         — Denial / Projection / Rationalization / Autistic Fantasy - Rejects threatening reality by denying, excusing, blaming, or fantasizing.
+  4 = Minor Image-distorting Defense  — Devaluation / Idealization / Omnipotence - Softer distortions temporarily inflate or deflate self-esteem.
+  5 = Neurotic Defense Level          — Displacement / Dissociation / Reaction Formation / Repression - Keeps unacceptable motives out of awareness; feelings surface indirectly.
+  6 = Obsessional Defense Level       — Intellectualization / Isolation of Affects / Undoing - Uses excessive logic or symbolic acts to separate feelings from events.
+  7 = Highly Adaptive Defense Level   — Affiliation / Altruism / Anticipation / Humor / Self-Assertion / Self-Observation / Sublimation / Suppression - Mature coping that integrates emotion and thought to channel affect constructively.
+  8 = Need More Information           — Evidence suggests a defense but is insufficient to confirm any tier - Label used when an utterance is too ambiguous or lacks context.
+
+Follow these analytical steps:
+1. Context   : Analyze the preceding dialogue to understand what triggered this utterance.
+2. Function  : Identify the psychological goal the speaker is trying to achieve or avoid.
+3. Grounding : Match the behavior to specific DMRS criteria.
+4. Hierarchy : Verify that exclusionary criteria for higher/lower levels are met.
+
+Evaluate the provided "Retrieved DMRS Evidence" (top matched DMRS-Q items from the handbook) to see if one applies best. Reason through their applicability.
+
+First provide your clinical reasoning trace, then output the defense level (0–8).
+
+================================================================================
+USER MESSAGE FOR SAMPLE ID: test_00167
+================================================================================
+## Dialogue Context
+
+Seeker: Hi, my work situation is stressful
+Supporter: Hi, I'm sorry to hear that. What's been happening?
+Seeker: They barely acknowledge my presence and don't really talk to me except for an occasional hello
+Supporter: That's not very fair. You deserve to feel valued at your workplace and it sounds like you don't feel that way.
+Seeker: I know, I don't know why they act this way. is it something I have done. I'm stressed.
+Supporter: You haven't done anything wrong. I have felt that way at work before too. I went to therapy to deal with my difficult work situation.
+Seeker: therapy, is it maybe me, or should I bring it up with my boss.
+Supporter: You could bring it up with your boss. That would be a very brave thing to do.
+Seeker: I am worried that he would bring it up to my coworkers and I'd feel left in the open. I don't know the best course of action.
+Supporter: Usually, bosses are required to keep those sorts of things confidential. You could request to speak to someone in Humane Resources, who is trained to help workers.
+Seeker: I might just do that, although I am worried about escalating above my boss and above my coworkers. Maybe it may best to speak to my coworkers,
+Supporter: You could speak to your coworkers and let them know that you would like a friendlier, more open work environment. Do you think that might help?
+Seeker: It might, I don't know what set them off in the first place.
+Supporter: That might be a good place to start when it comes to approaching them. Let them know your side of the situation and maybe they will understand.
+
+## Target Utterance To Classify: I think I will. Would you recommend me buying coffee and doughnuts?
+
+## Retrieved DMRS Evidence (Top Matches)
+The following items were retrieved as potential matches. Evaluate them to determine which (IF ANY) applies best:
+
+- dmrs_q_item: ITEM 22: Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.
+- match_justification: The Seeker is actively asking the Supporter for advice ('Would you recommend me buying coffee and doughnuts?') to refine a solution they have just agreed to carry out themselves ('I think I will'). They are using the interaction collaboratively to plan their own action, perfectly illustrating this Affiliation item.
+- sublevel_name: Affiliation
+- defense_level: 7
+
+- dmrs_q_item: ITEM 62: In confronting a new situation or an unknown task, the subject tries ahead of time to be aware of the emotional challenges and plan for whatever resources that will aid and comfort the subject in the new situation.
+- match_justification: The Seeker is preparing for the potentially stressful and unknown task of confronting their coworkers. By suggesting bringing coffee and doughnuts, they are planning ahead to introduce resources that will ease the tension, comfort the parties involved, and aid in a smoother interaction.
+- sublevel_name: Anticipation
+- defense_level: 7
+
+- dmrs_q_item: ITEM 90: When the subject has a physical or emotional or practical problem, the subject takes steps to deal with his or her needs possibly including initiating getting help - rather than ignore them or hope they will take care of themselves.
+- match_justification: By stating 'I think I will' (referring to speaking directly to the coworkers), the Seeker is deciding to take active, direct steps to address their stressful work environment. They are moving away from passive worry and choosing to assert their need for a friendlier workplace.
+- sublevel_name: Self-Assertion
+- defense_level: 7
+
+
+================================================================================
+USER MESSAGE FOR SAMPLE ID: test_00172
+================================================================================
+## Dialogue Context
+
+Supporter: Hello how are you today?
+Seeker: I am fine. thanks. how about you ?
+Supporter: I am well. Anything I can help with today?
+Seeker: I lost my job in the lockdown and I feel depressed
+Supporter: I understand it has een stressful for you during lockdown unemployed, that must feel frustrating. Is there anyone in your imediate household you can confide in with your feelings?
+Seeker: Yes It is frustrating. When I think about the financial issues I feel depressed
+Supporter: I compleyely understand I have also lost my career due to covid. Dont give up, staying positive and open minded to new opportunities will help you find work.
+Seeker: Not sure how to manage mortgage payments and credit card bills : (
+Supporter: i see.i would call the companies themselves and see if they have programs in place to help you.
+Seeker: That's a nice idea. I will call the bank to see if they provide mortgage holiday
+Supporter: At least they might give extensions.
+Seeker: Can you elaborate on extensions please ? Not sure what it is ?
+Supporter: Also there are people willing to help sometimes in local places. An extension would happen when the institution you owe gives you more time to pay them. I would try going to the town hall.
+Seeker: Ahh ok . I will give them a call and check. What does going to town hall mean ?
+Supporter: Going to the town hall means phsyically going to your local town hall asking for help for assistance. There should within have programs you can apply for.
+Seeker: ok understood. Have you had any depression issues during lockdown ?
+Supporter: Once again I a, sorry to hear that you are depressed. Make sure to go ouside everyday. I have learned that healthy doses of sunshine help. Yes I have often felt helpless due this pandemic. I will say though that exercise, movies and lots of coffee have helped me.
+Seeker: I do tried watching movies in streaming platforms like Netflix and Prime. Did you tried the same ?
+Supporter: Yes i normally use netflix. prime i do no use so much Did this conversation make you feel any less depressed?
+Seeker: I get a feeling that I ran out of my favourite genres in Netflix. Did you get the same feeling ?
+Supporter: No i can usuallly find something new to watch.
+Seeker: What are the other ways to avoid the sick feeling of this pandemic ?
+Supporter: Are you a real person or a computer program? Some other ways are staying as involed with anything I can, like reading, writing, or drawing.
+Seeker: I am a real person ? Are you a real person ?
+Supporter: Yes i am real and doing this task for amazon mechanical turk, are you as well? Although I do genuinelly care for helping others feel ettter. Are you waiting for me to end this to get the higher exrra payment at the end?
+
+## Target Utterance To Classify: Not sure how to end this conversation
+
+## Retrieved DMRS Evidence (Top Matches)
+The following items were retrieved as potential matches. Evaluate them to determine which (IF ANY) applies best:
+
+- dmrs_q_item: ITEM 69: When confronting emotionally charged topics, the subject tends not to address concerns directly and fully but wanders off to tangentially related topics that are emotionally easier for the subject to discuss or prefers to pay attention to someone else dealing with a similar situation. This can include preferring to read or watch a film portraying people dealing with similar problems.
+- match_justification: While this statement is most likely a 'No Defense / Neutral Utterance' expressing genuine logistical confusion about the platform's interface, if interpreted defensively, it aligns with Displacement. The Supporter asks a direct, potentially confrontational question about the Seeker's motives (waiting for extra payment). Instead of addressing this accusation directly, the Seeker shifts the focus to the tangentially related, emotionally neutral topic of how to physically end the conversation.
+- sublevel_name: Displacement
+- defense_level: 5
+
+- dmrs_q_item: ITEM 124: Whenever asked about things the subject did or felt, the subject denies any involvement, does not want to talk about them or avoids explaining his or her reluctance.
+- match_justification: Viewed through the lens of Denial, the Seeker is asked a direct question about their intentions and behavior on the platform. By simply stating they are 'not sure how to end this conversation,' they completely avoid talking about the confronted topic and avoid explaining any reluctance to answer, effectively shutting down the Supporter's inquiry without acknowledging it.
+- sublevel_name: Denial
+- defense_level: 3
+
+- dmrs_q_item: ITEM 30: In response to an emotionally charged situation, the subject suddenly becomes confused, depersonalized, "spaced out," or can't think or talk about the topic. Consciousness becomes clouded to a lesser or greater extent.
+- match_justification: If interpreted defensively rather than as a neutral statement of fact, this matches Dissociation. Faced with an unexpected question that breaks the fourth wall of the roleplay, the Seeker responds with a statement of confusion ('Not sure'). This mimics becoming confused or unable to process and talk about the emotionally charged topic introduced by the Supporter.
+- sublevel_name: Dissociation
+- defense_level: 5
+
+
+================================================================================
+USER MESSAGE FOR SAMPLE ID: test_00224
+================================================================================
+## Dialogue Context
+
+Supporter: Hi, How are you doing today!
+Seeker: Good you?
+Supporter: I am well! How can I help you today?
+
+## Target Utterance To Classify: I recently divorced after finding out my husband married another women in another country. He is has also been abusive for many years and is now trying to win me back. Im feeling anxiety and I feel like im losing my power again I contact him because we have children together but Im thinkin to just disconnect with him fully before he tries to lure me in and become abusive agian
+
+## Retrieved DMRS Evidence (Top Matches)
+The following items were retrieved as potential matches. Evaluate them to determine which (IF ANY) applies best:
+
+- dmrs_q_item: ITEM 78: In dealing with interpersonal conflicts, the subject tries to imagine how others might respond in planning how to deal with them, but without obsessing or over planning.
+- match_justification: The seeker is actively anticipating her ex-husband's future behavior based on past patterns, noting that he will likely try to 'lure me in and become abusive agian.' By imagining his response, she is realistically planning how to deal with the interpersonal conflict by deciding to 'disconnect with him fully' to protect herself.
+- sublevel_name: Anticipation
+- defense_level: 7
+
+- dmrs_q_item: ITEM 77: When considering an emotionally important decision, the subject explores his or her own motives and limitations to arrive at a more fulfilling decision.
+- match_justification: The seeker is weighing a highly emotional decision: whether to maintain contact for the sake of their children or to cut ties completely. She actively explores her internal emotional limitations, recognizing that she is 'feeling anxiety' and 'losing my power again,' which helps guide her toward the healthier decision of disconnecting.
+- sublevel_name: Self-Observation
+- defense_level: 7
+
+- dmrs_q_item: ITEM 90: When the subject has a physical or emotional or practical problem, the subject takes steps to deal with his or her needs possibly including initiating getting help - rather than ignore them or hope they will take care of themselves.
+- match_justification: Faced with the severe emotional and practical problem of an abusive ex-husband trying to win her back, the seeker does not passively ignore the threat. Instead, she takes active steps to deal with her needs by initiating help (reaching out to the supporter) and planning to assert her boundaries by fully disconnecting from him.
+- sublevel_name: Self-Assertion
+- defense_level: 7
+
+
+================================================================================
+USER MESSAGE FOR SAMPLE ID: test_00246
+================================================================================
+## Dialogue Context
+
+Seeker: I dont know how to live without my girlfriend. She broke up with me suddenly.
+Supporter: Ok, can you tell me how long ago this happened.
+Seeker: a week ago.
+Supporter: So your girlfriend broke up with you a week ago and you have no idea how to move forward. Is that correct
+Seeker: yes. she was my rock.
+Supporter: You know I am sure that hurts but like they say that "time heals all wounds"
+Seeker: but, i have been with her for 3 years. She is a part of my everyday life. we split household chores. now im overwhelmed
+Supporter: That is a long time. Event though she was your rock, just know that you will eventually find someone new and this hurt will be no more.
+
+## Target Utterance To Classify: But im not sure how to survive in the time being. my life will be a disaster.
+
+## Retrieved DMRS Evidence (Top Matches)
+The following items were retrieved as potential matches. Evaluate them to determine which (IF ANY) applies best:
+
+- dmrs_q_item: ITEM 130: The subject complains about life issues or problems as if each were insoluble, and systematically rejects others' suggestions about ways of handling them.
+- match_justification: The Seeker treats the breakup as an entirely insoluble crisis, stating they are 'not sure how to survive' and that their life 'will be a disaster.' Furthermore, they systematically reject the Supporter's attempts to offer reassurance and perspective (e.g., 'time heals all wounds', 'you will eventually find someone new') by repeatedly countering with 'but...' statements.
+- sublevel_name: Help-Rejecting Complaining
+- defense_level: 1
+
+- dmrs_q_item: ITEM 127: The subject tends to exaggerate his or her complaints about a life problem or somatic symptom, making them seem worse or more significant than they are.
+- match_justification: The Seeker uses catastrophic and exaggerated language to describe the aftermath of the breakup. Phrases like 'not sure how to survive' and 'my life will be a disaster' amplify the emotional pain of the breakup into an existential threat, making the problem seem significantly worse and more unmanageable than it objectively is.
+- sublevel_name: Help-Rejecting Complaining
+- defense_level: 1
+
+- dmrs_q_item: ITEM 84: The subject recites a litany of issues and problems but does not appear to be engaged in solving them, but rather prefers to complain.
+- match_justification: Instead of engaging with the Supporter's attempts to look toward the future or find a way to move forward, the Seeker continues to stack up reasons why they cannot cope (e.g., being together for 3 years, splitting household chores, being overwhelmed, life becoming a disaster). The Seeker shows a clear preference for dwelling on the negative aspects of the situation rather than engaging in any problem-solving.
+- sublevel_name: Help-Rejecting Complaining
+- defense_level: 1
+
+
+================================================================================
+USER MESSAGE FOR SAMPLE ID: test_00248
+================================================================================
+## Dialogue Context
+
+Seeker: I am very sad and depressed because of a recent breakup. How can I ever forget it and move on.
+Supporter: Oh no. I'm sorry to hear that. What happened?
+Seeker: I thought everything was great and I already had my wedding dress and we planned a wedding and out of nowhere he dumped me. Now his family won't talk to me either.
+Supporter: that must be horrible. You were already engaged?
+Seeker: Yes, we were only engaged for about a month but we have been friends since childhood.
+Supporter: that sounds really hard. that's a long time to know someone. how long ago did you breka up?
+Seeker: Yeah, it was basically my whole life. We broke up two nights ago and he already changed his number and blocked my on social media.
+Supporter: that's going to be tough for the next little bit, those sound like some pretty fresh wounds. Have you been able to talk to friends?
+Seeker: I would like to talk to talk to friends but they happen to be his sisters. So, I am cut off from all of my support. Thank You for talking to me.
+Supporter: I had a break up last year and while it was painful for a bit, i used it as an opportunity to focus on myself and the things I needed. It ended up being a really good self reflective opportunity. Maybe join a gym or a group of some kind to change your network a bit?
+Seeker: I have been wanting to join the gym. Is it hard going alone or do you go with friends? I hate doing things all alone.
+Supporter: I like going to the gym alone but that's just my personal preference. There are fitness groups like bootcamps that you could join and meet new people. Who knows, you may meet a new friend.
+Seeker: That is a good idea. I need to be around other people who have goals like weight loss. My boyfriend never wanted me to join groups and only wanted me to be friends with his family. That is why I am so alone right now. I made bad choices.
+Supporter: That sounds hard. You deserve to have friends of your own.
+Seeker: I agree with you. Do you think that I should try calling his friends and asking for his new number?
+Supporter: there are lots of different kinds of groups you can join, not just fitness. and you can choose how much you want to actively engage with them. I would suggest taking time for yourself. Maybe give yourself some distance from him. If you both decide to reach out again in the future that may be an opportunity, but definitely take care of you.
+
+## Target Utterance To Classify: Yeah, I can see your point of view. I have been obsessed with our relationship. We had a fight and it was a verbal war between us and he wouldn't forgive me afterwards.
+
+## Retrieved DMRS Evidence (Top Matches)
+The following items were retrieved as potential matches. Evaluate them to determine which (IF ANY) applies best:
+
+- dmrs_q_item: ITEM 9: When talking with someone about a personally charged topic, the subject displays an accurate view of him or herself and can see how he or she appears from the other person's point of view.
+- match_justification: The Seeker explicitly validates the Supporter's perspective by stating, "Yeah, I can see your point of view." Furthermore, she demonstrates an accurate and objective view of her own behavior by admitting, "I have been obsessed with our relationship," showing clear insight into her own state of mind during a highly charged conversation.
+- sublevel_name: Self-Observation
+- defense_level: 7
+
+- dmrs_q_item: ITEM 32: When confronting emotionally important problems, the subject can reflect upon relevant personal experiences and explore emotional reactions. This allows the subject to adjust better to limitations and compromises, possibly leading to more fulfilling outcomes.
+- match_justification: Confronting the painful reality of her breakup, the Seeker reflects on the specific events ("We had a fight and it was a verbal war") and her own emotional state ("obsessed"). This reflection helps her process the limitation that "he wouldn't forgive me," allowing her to accept the reality of the situation rather than acting impulsively.
+- sublevel_name: Self-Observation
+- defense_level: 7
+
+- dmrs_q_item: ITEM 44: When the subject describes seeking help from others, there is a sense of having learned something from the interchange.
+- match_justification: The Seeker reached out for support regarding her breakup. After the Supporter advises her to take time for herself and give it distance instead of calling his friends, the Seeker responds with "Yeah, I can see your point of view." This demonstrates that she has taken in the Supporter's advice and gained perspective from the interchange, using the affiliation to regulate her next steps.
+- sublevel_name: Affiliation
+- defense_level: 7
+
+
+================================================================================
+USER MESSAGE FOR SAMPLE ID: test_00289
+================================================================================
+## Dialogue Context
+
+Supporter: How are you feeling?
+Seeker: i feel depresed
+Supporter: Why do you feel depressed?
+Seeker: breakup with my partner
+Supporter: Breakups can be really tough. How long were you with your partner?
+Seeker: 3years of time we have been in love
+Supporter: I once had a relationship end after 5 years with a partner. Staying active really helped me get over the relationship. Through that activity I actually met my new partner!
+Seeker: but i love my partner so much that i couldnt forget her right now
+Supporter: Have you thought about doing something fun, like taking a trip somewhere?
+Seeker: yeah we went for trip we had a god relationship
+Supporter: It's really difficult, but I know you can get through this! What do you like to do for fun?
+Seeker: we had enjoyment and romance
+Supporter: Have you thought about fun activities you did without your partner?
+Seeker: none i love her so much so i have not done anything without her
+Supporter: What about before you met her?
+
+## Target Utterance To Classify: i was doing good
+
+## Retrieved DMRS Evidence (Top Matches)
+The following items were retrieved as potential matches. Evaluate them to determine which (IF ANY) applies best:
+
+- dmrs_q_item: ITEM 137: The subject is hard to talk with, responding to many questions with answers like ''no'' or ''not really'' and does not elaborate, rather than giving some fuller answers which one would normally expect.
+- match_justification: The supporter asks a direct question attempting to explore what the seeker did for fun before the relationship. The seeker responds with a short, evasive 'i was doing good' and completely fails to elaborate or provide the expected details about their past activities, making the conversation difficult to progress.
+- sublevel_name: Denial
+- defense_level: 3
+
+- dmrs_q_item: ITEM 50: When discussing a topic that brings up negative, conflicting feelings, the subject prefers to keep things vague, reflected in very vague, general or inexact statements.
+- match_justification: Discussing life before the partner is an emotionally loaded topic for the seeker, who is currently grieving the breakup. To avoid engaging with the painful reality of having to return to an independent life, the seeker relies on a highly vague and general statement ('i was doing good') rather than discussing specific past experiences.
+- sublevel_name: Repression
+- defense_level: 5
+
+- dmrs_q_item: ITEM 13: The subject keeps unpleasant things vague: he or she has trouble remembering or can't recall specific examples, when at least some should be forthcoming. This may include loss of memory for whole periods of time (e.g., childhood).
+- match_justification: When prompted by the supporter to recall specific fun activities or hobbies from before they met their partner, the seeker provides absolutely no specific examples. They keep their past entirely vague, acting as if they cannot recall any specific interests that existed outside of the relationship.
+- sublevel_name: Repression
+- defense_level: 5
+
+
+================================================================================
+USER MESSAGE FOR SAMPLE ID: test_00443
+================================================================================
+## Dialogue Context
+
+Seeker: Hi there, could you please give me some advice?
+Supporter: Hello, would you like to explain your situation and we can go through it together
+Seeker: I feel that I am blowing my future because I am just not scoring well on tests these days. I just don't feel motivated to work as hard as I know that I should.
+Supporter: So you don't feel motivated and you are not scoring well, have I understood that correctly?
+Seeker: Yes. I know that the two things are probably related but I just do not know what to do about them.
+Supporter: What are you currently studying?
+Seeker: I am studying microbiology. I do not know that I have the passion for it that I once did though.
+Supporter: Your motivation and how you are studying is probably related, you are right. What attracted you to microbiology in the first place?
+Seeker: I have always found it fascinating and have an uncle who is a microbiologist. But these days I feel I made the wrong decision. Is it too late to change?
+Supporter: It is never too late to change anything. However, i hear that you have always found it fascinating,have you considered talking to your uncle and seeing if you can find what you loved about it again?
+Seeker: Yes that does sound like good advice. I do not want to turn by back on my studies of the past years. But my grades are really poor and I am not sure what to do about that.
+Supporter: Studying can be really difficult , especially when you are half way through. i struggled in my studies and found that talking to my tutors helped and approaching student support. Have you tried anything like that or has your motivation held you back?
+Seeker: To be honest I have been a little afraid to approach them about the subject because they might accuse me of just slacking. I know it might look like that from the outside.
+Supporter: Just from chatting to you, I can sense that you are anxious, however, as many students feel this way, they will have a whole lot of help they can provide.
+Seeker: I do feel that part of my problem is that I am afraid to really open up about it. You are the first person I have really felt able to talk to.
+Supporter: I am pleased that you have been able to open up to me, it is the first step towards you finding your path. Do you find it easy to write things down?
+Seeker: Yes, it is really much more easy to write my problems down than to actually talk to people about them face to face.
+Supporter: One suggestion is for you to write down all the reasons that you love microbiology. It can be any format, I love a bubble chart (mind map), it could be in list form or just doodles, would this be something you would find useful?
+
+## Target Utterance To Classify: Yes, that is a fantastic idea! Maybe I can find a renewed interest in the subject. I hope that I can because I really do not want my time studying to have been wasted.
+
+## Retrieved DMRS Evidence (Top Matches)
+The following items were retrieved as potential matches. Evaluate them to determine which (IF ANY) applies best:
+
+- dmrs_q_item: ITEM 22: Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.
+- match_justification: The Seeker reached out for advice regarding their lack of motivation and poor grades. When the Supporter suggests a specific exercise (writing down reasons they love the subject), the Seeker enthusiastically accepts the idea to implement it themselves ('Maybe I can find a renewed interest'), showing they sought collaborative problem-solving rather than expecting the Supporter to magically fix the issue for them.
+- sublevel_name: Affiliation
+- defense_level: 7
+
+- dmrs_q_item: ITEM 44: When the subject describes seeking help from others, there is a sense of having learned something from the interchange.
+- match_justification: The Seeker's response ('Yes, that is a fantastic idea!') clearly demonstrates that they have gained a valuable new strategy from the interaction with the Supporter. They express hope that this new approach will help them, indicating a strong sense of having learned something useful from the exchange.
+- sublevel_name: Affiliation
+- defense_level: 7
+
+- dmrs_q_item: ITEM 93: When dealing with an emotionally difficult situation, the subject reports that talking to others helps the subject think through how best to handle the problem.
+- match_justification: The Seeker was dealing with the emotional difficulty of potentially wasting their years of study and feeling unmotivated. By talking to the Supporter and opening up, they were able to think through a practical step (creating a mind map or list) to handle their problem and potentially renew their interest in microbiology.
+- sublevel_name: Affiliation
+- defense_level: 7
+
+
+================================================================================
+USER MESSAGE FOR SAMPLE ID: test_00456
+================================================================================
+## Dialogue Context
+
+Seeker: Hi
+Supporter: Hi, how are you doing?
+Seeker: I am doing alright. How are you?
+Supporter: I'm doing ok, thanks for asking. Is there anything that's bothering you?
+Seeker: Yes, I broke up with my partner...
+Supporter: Oh no I'm sorry to hear that. do you want to talk about what happened?
+Seeker: I am very depressed... cannot go on with my daily life.
+Supporter: It sounds like this is really affecting you, that must be hard How long were you and your partner together?
+Seeker: Yes, it is hard.. we have been together for last 6 months..
+Supporter: I've been through break ups as well where things can seem pointless afterwards. It took me some time but I eventually got through it Were you happy in the relationship?
+Seeker: How did you cope up with the situation?
+Supporter: I talked to my friends about it a lot, and tried to keep myself occupied with lots of activities I also deleted old messages from my partner so I didn't dwell on the past as much
+Seeker: How does talking to friends help?
+Supporter: It depends on the situation, but for me I had a lot of unresolved feelings from not getting proper closure, so ranting to my friends about how my partner hurt me helped satisfy that Do you have friends you feel comfortable talking to about this?
+
+## Target Utterance To Classify: I have couple of close friends I can talk to.. but have not thought about doing so..
+
+## Retrieved DMRS Evidence (Top Matches)
+The following items were retrieved as potential matches. Evaluate them to determine which (IF ANY) applies best:
+
+- dmrs_q_item: ITEM 26: The subject talks about his personal experiences by making general statements that appear accurate but somehow avoid revealing specific personal feelings and reactions.
+- match_justification: Throughout the latter half of the dialogue, the Seeker avoids the Supporter's direct question about their feelings ('Were you happy?') and instead pivots to procedural questions about coping. In the analyzed text, the Seeker continues this pattern by making a logical, accurate, and general statement about their social resources. This allows them to answer the Supporter's question factually while keeping the raw, specific emotional pain of the breakup at a safe distance.
+- sublevel_name: Intellectualization
+- defense_level: 6
+
+- dmrs_q_item: ITEM 9: When talking with someone about a personally charged topic, the subject displays an accurate view of him or herself and can see how he or she appears from the other person's point of view.
+- match_justification: From the perspective of mature coping, the Seeker demonstrates clear self-awareness. When prompted by the Supporter about a personally charged topic (their isolation and depression), the Seeker accurately assesses their available resources ('couple of close friends') and honestly reflects on their own mental block or lack of initiative ('have not thought about doing so') without any distortion, denial, or defensiveness.
+- sublevel_name: Self-Observation
+- defense_level: 7
+
+- dmrs_q_item: ITEM 22: Whenever the subject brings a personal problem to someone for help or advice, the subject is not expecting the other to take care of it, but rather to help come up with a solution which the subject will then implement.
+- match_justification: The broader context of the dialogue is an exercise in Affiliation. The Seeker brings their distress to the Supporter and explicitly asks for advice ('How did you cope?'). In the analyzed text, the Seeker is actively engaging with the Supporter's suggested solution (talking to friends) by taking inventory of their own life to see if they can implement this coping strategy, demonstrating a collaborative reliance on the Supporter to help navigate the problem.
+- sublevel_name: Affiliation
+- defense_level: 7
+
+
