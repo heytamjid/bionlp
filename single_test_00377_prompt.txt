@@ -1,0 +1,962 @@
+
+You are an expert clinical psychologist and data annotator. Your task is to analyze dialogues and classify the psychological defense mechanism used in the 'current_text_to_classify' based on the Defense Mechanisms Rating Scales (DMRS) hierarchy.
+
+You must assign exactly one label from the list below:
+
+LABEL REFERENCE (Defense Mechanism Rating Scale Tiers):
+  0 = No Defense / Neutral Utterance  — simple, undefended statement; no psychological distortion
+  1 = Action Defense Level            — Acting Out / Help-Rejecting Complaining / Passive Aggression
+  2 = Major Image-distorting Defense  — Splitting / Projective Identification
+  3 = Disavowal Defense Level         — Denial / Projection / Rationalization / Autistic Fantasy
+  4 = Minor Image-distorting Defense  — Devaluation / Idealization / Omnipotence
+  5 = Neurotic Defense Level          — Displacement / Dissociation / Reaction Formation / Repression
+  6 = Obsessional Defense Level       — Intellectualization / Isolation of Affects / Undoing
+  7 = Highly Adaptive Defense Level   — Affiliation / Altruism / Anticipation / Humor /
+                                        Self-Assertion / Self-Observation / Sublimation / Suppression
+  8 = Need More Information           — Evidence suggests a defense but is insufficient to confirm any tier
+
+
+This comprehensive HANDBOOK serves as your core classifying guideline:
+
+
+Here are some examples of how to reason through the task:
+
+=======================================================
+                    LABEL 0: No Defense / Neutral Utterance
+=======================================================
+
+--- Example 1 ---
+Seeker: Hello
+
+current_text_to_classify: Hello
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 0,
+  "label": "No Defense / Neutral Utterance"
+}
+
+
+--- Example 2 ---
+Seeker: hello
+Supporter: Hi there. How can I help you today?
+Seeker: I believe we are supposed to talk about my description
+Supporter: Do you have something bothering you today?
+Seeker: Nothing really I only stated the incident with my friend How are you today?
+Supporter: I'm hear to listen to you in case there is something you would like to get off your chest and maybe give some advice or support.
+Seeker: Okay are you female or male? or how do you identify? I ask because i would want to hear your opinion on why girls pick unecessary fights for no reason with their friends
+Supporter: I am a 65 year old female with lots of experience with children and grandchildren.
+Seeker: Oh that is great Nice to make your acquaintance
+
+current_text_to_classify: Oh that is great Nice to make your acquaintance
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 0,
+  "label": "No Defense / Neutral Utterance"
+}
+
+
+--- Example 3 ---
+Supporter: Hello.
+Seeker: hello
+Supporter: How are you this evening?
+Seeker: I am doing ok. I am feeling very sad . How are you?
+Supporter: I am doing well, I am sorry to hear you are feeling sad. What is bothering you tonight?
+Seeker: I am going through a terrible divorce from an abusive narcissitic ex, But we have two young kids. I haven't seen them in months because he lied to CPS and told them I abuse my kids. I just feel very alone. I am afraid my children will forget me.
+Supporter: So, just to clarify, you are going through a hard divorce with your ex-wife and this has you feeling very down..
+Seeker: ex-husband yes
+Supporter: Sorry about that, ex-husband. I can definitely tell this is making you feel very anxious and sad from the few messages we have exchanged.
+Seeker: Yes very much so Do you have any advice?
+Supporter: I recently went through a hard break up with an ex-fiancé who got pregnant from another man, so I know how difficult a situation like this can be,
+Seeker: Oh my goodness My ex is out to destroy me emotionally
+Supporter: Have you had a conversation with him with some sort of objective third party to try and work through the differences in seeing your children? Often times, having an objective 3rd party helps to get somewhere in a conversation.
+Seeker: Yes, the court right now. They are moving so slow with Covid. I'm just worried my kids will forget me. or not love me anymore.
+Supporter: Does he allow you to have any contact with your children?
+Seeker: Not at this time. The court is in favor of their father. This situation is a little stickier. In July, I sent recordings of him being abusive to me, to my mother I told him I wanted a divorce and I didn't love him anymore. Next thing I know, I'm being arrested for "hitting" him, which never happened so I am trying to beat this criminal charge
+Supporter: Do you have information to reach out to who is handling your court case? Reaching out to ask for updates or for help from them might help.
+Seeker: That is a great idea I should try that.
+Supporter: I think it would help to reach out and let them know you would like updates!
+Seeker: I know that I am stronger for going through this situation.
+Supporter: You definitely will be! I know it is hard now, but I know you will make it through this!
+Seeker: Thank you for your support!
+Supporter: Not a problem! I am glad you reached out tonight!
+Seeker: Me as well. I was debating it for a while have a good evening
+Supporter: You as well!
+Seeker: good night
+
+current_text_to_classify: good night
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 0,
+  "label": "No Defense / Neutral Utterance"
+}
+
+
+=======================================================
+                    LABEL 1: Action Defense Level
+=======================================================
+
+--- Example 1 ---
+Supporter: Hi, How are you doing today!
+Seeker: Good you?
+Supporter: I am well! How can I help you today?
+Seeker: I recently divorced after finding out my husband married another women in another country. He is has also been abusive for many years and is now trying to win me back. Im feeling anxiety and I feel like im losing my power again I contact him because we have children together but Im thinkin to just disconnect with him fully before he tries to lure me in and become abusive agian
+Supporter: I am so sorry to hear that this has been going on. How recently did the divorce take place?
+Seeker: two months ago
+Supporter: So you have children together and want to disconnect but that is a complicating factor? It must be so tough to be going through what you are going through now, I am so sorry.
+Seeker: Yes I'm fealing anxiety because hes trying to lure me in order to trap me and I believe i'm losing control. I don't have much emotional support from anyone. Unsupportive family and friends
+Supporter: Have you spoken to a professional? Is this something that you are able to do through your insurance or work?
+Seeker: I'm to embarassed to seek professional help I think i need time to control my emotions first
+Supporter: I completely understand. I have been in situations at work that I couldn't resolve due to the exact same reasons.
+Seeker: Thanks for understanding
+Supporter: Is there a way that you could seek help at work without anyone finding out?
+Seeker: I might be, but I'm not really close with any coworkers. I work primarily remote and when I entered my current job COVID happened and I didnt really get the chance to get to know anyone all that well
+
+current_text_to_classify: I might be, but I'm not really close with any coworkers. I work primarily remote and when I entered my current job COVID happened and I didnt really get the chance to get to know anyone all that well
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 1,
+  "label": "Action Defense Level"
+}
+
+
+--- Example 2 ---
+Seeker: Well, I have some bad news. I am going to lose my damn job! Can you please help??
+Supporter: Im sorrty Im here
+Seeker: Yes. I am in a crisis at my job
+Supporter: why do you think you are going to lose your job
+Seeker: I have been told so. January 15th is my last day
+Supporter: That's not a good spot to be in, I completely understand.
+Seeker: I will get pay for the last two weeks of January, 2021.
+Supporter: That is horrible. Do you mind if I ask why?
+Seeker: What do you suppose I do? Looks like the company has been hot hard by COVID-19 lockdowns.
+Supporter: How long have you been working there?
+Seeker: I am very sad about this country and my work situation. For 5 years. I work in accounting.
+Supporter: I understand, I have been in a similar situation recently. COVID-19 really has got us all down.
+Seeker: What a great nation we live in.....a future 3rd world one. Yeah, but I was a good accountant.
+Supporter: WOW, I'm sure that is a big change for you...
+Seeker: Yeah, I have not told my wife about it just yet.
+Supporter: I agree, this country has got some issues but we can get through them Uh, oh, how do you think she will react?
+Seeker: Yeah, I am not sure. I better wait to break the news in 2021.
+Supporter: The good news is that we are on an incline for unemployment so there are a lot of opportunities out there.
+Seeker: And I am not the only one who is losing my job. Seems that all of accounting is going to be getting the axe. It makes me sad....
+Supporter: You could maybe tell her at the very end of this year so you can start fresh for the new year. Do you have a resume?
+Seeker: Plus, I have a 50 dollar a day spending habit on lottery tickets to one day hit it BIG Yes, I have a resume that I have not updated just yet. I have a college education and a CPA to boot, but I need one lucky break in life.
+Supporter: Sometimes that will help to get a better perspective on things... taking some time away from everything in order to catch a breath.
+Seeker: Maybe I can spend some quality time with my kids without them knowing I will be out of a job as of 01/15/2021 It is almost Christmas, too.
+Supporter: I hear ya, I feel like that quite a bit. Like if isn't one thing it's another. I'm sure your wife will understand how the economy has gotten and that she knows that it isn't your fault.
+Seeker: Maybe, but we have a huge mortgage and two BMW's. We spend lavishly.... Plus, I spend 50 dollars a day on lotto
+
+current_text_to_classify: Maybe, but we have a huge mortgage and two BMW's. We spend lavishly.... Plus, I spend 50 dollars a day on lotto
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 1,
+  "label": "Action Defense Level"
+}
+
+
+--- Example 3 ---
+Supporter: What canI do to help?
+Seeker: Hi! I am trying to find a new job for long time. There is no success in it
+Supporter: I feel bad for you. There are many openings for Uber and Uber Eats. What were you doing before you were looking for a job? Were you in college?
+Seeker: I am not a good driver
+Supporter: What do you find are your top skill sets?
+Seeker: I was working in an IT company as a program analyst
+Supporter: That is good that you have a good skill set that allows you to find something in the same field of IT.
+Seeker: I am really having hard time to get one
+Supporter: How so? What is the specific difficulty? Is it with your resume? Are you feeling nervous? Anxious?
+Seeker: The reason is recession or might be COVID.
+Supporter: Any other questions or concerns that you may have for me?
+Seeker: I am stressed
+Supporter: Well, how do you adapt to the work issue? Do you like dogs? There are opportunities for dog walkers. I made good money in the past walking my neighbors and friends dogs.
+Seeker: I don't have any pet so no experience with it
+
+current_text_to_classify: I don't have any pet so no experience with it
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 1,
+  "label": "Action Defense Level"
+}
+
+
+=======================================================
+                    LABEL 2: Major Image-distorting Defense Level
+=======================================================
+
+--- Example 1 ---
+Seeker: hi
+Supporter: Hi. How's it goin'? Are you feeling troubled about something this morning? I know it can be hard to talk about personal problems sometimes. I have a lot of trouble with that myself.
+Seeker: going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her
+
+current_text_to_classify: going smooth, i need to get a nice and a surprise able present for my parent, and at the same time I need to pay my house bills my father understands the situation that my earning is not that much, but my mum will fuck complain that I am taking care of my wife but not her
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 2,
+  "label": "Major Image-distorting Defense Level"
+}
+
+
+--- Example 2 ---
+Supporter: hi
+Seeker: Hello, I am struggling a lot right now
+Supporter: I'm here for you. what would you like to talk about
+Seeker: It's about my recent breakup. My girlfriend left me last week. I honestly don't think I can handle the loneliness.
+Supporter: That's a hard situation to go through. How long were you together
+Seeker: We were together for almost 2 years
+Supporter: If you don't mind me asking. how old are you
+Seeker: I am 24 years old.
+Supporter: Ok so you were together with this person for ten percent of your life almost. that is a significant relationship
+Seeker: It surely is. I definetely feel somewhat worthless now.
+Supporter: That is understandable. would you like to tell me what you plan on doing
+Seeker: Sometimes I have suicidal feelings...
+Supporter: That is a serious emotion. Have you been talking to anyone yet
+Seeker: No, I live alone
+Supporter: Do you have family or friends you can reach out too
+Seeker: I have one friend who lives in my neighborhood, but I dont trust him much.
+Supporter: Have you considered calling a help line. They are free, private and very professional
+Seeker: I feel like those are useless to be honest
+Supporter: I understand. Would you happen to be in college?
+Seeker: Yes, I am at my last year of college right now.
+Supporter: Have you tried to reach out to any of the free student services such as councillors.
+Seeker: No, althought I prefer those than help lines.
+Supporter: your situation is unique to you and they would be there to help That what you pay tuition for.
+Seeker: What if they make fun of me
+Supporter: That would get them fired. but it's ok if you don't want to go to them. I would suggest talking to your friend first at least. Even if you don't trust him. You need to express your emotions to someone.
+Seeker: I honestly don't feel like expressing my emotions would be of any help. Do they even care lol?
+Supporter: I am here to listen. please express your emotions
+Seeker: I just want to kill myself already...
+Supporter: I would no suggest that. Your life is important.
+Seeker: She was such an important part of my life... I can't live on without her. She was the only thing that I actually cared for. How can you say my life is important without her?
+Supporter: I understand. She was important. but now she is gone. You can accept this , or not. I would suggest accepting is the better option.
+Seeker: Well I think I rather not accept it and just end my life. Seems easier.
+
+current_text_to_classify: Well I think I rather not accept it and just end my life. Seems easier.
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 2,
+  "label": "Major Image-distorting Defense Level"
+}
+
+
+--- Example 3 ---
+Seeker: Hello. How are you?
+Supporter: i am good how can i help you today?
+Seeker: I'm feeling so depressed!
+Supporter: i am so sorry you are feeling depressed I can understand how you are feeling.
+Seeker: I can't seem to find a job...I've been trying so hard. I will run out of money, soon...
+Supporter: i can understand in this time it is hard finding a job during this pandemic
+Seeker: Yes....and wearing masks is hard, too....I get claustrophobic a lot. I get through it though.
+Supporter: Yes wearing a mask can be hard but it is for everyone protection and you are doing the right thing
+Seeker: I have a BA but that doesn't seem to help me find a job, much. Seems like all I see are jobs for construction type jobs.
+Supporter: have you tried looking online for jobs?
+Seeker: Yes, it's the main way I search. I've seen gas station and fast food jobs posted most lately.
+Supporter: don't let this get the best of you just know everything will be ok and you will find a job
+Seeker: I hope so. To make matters worse I've messed up my UI paperwork it seems and now that is delayed.
+
+current_text_to_classify: I hope so. To make matters worse I've messed up my UI paperwork it seems and now that is delayed.
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 2,
+  "label": "Major Image-distorting Defense Level"
+}
+
+
+=======================================================
+                    LABEL 3: Disavowal Defense Level
+=======================================================
+
+--- Example 1 ---
+Supporter: Hello how are you?
+Seeker: hello im looking for someone to talk to im fine how are you
+Supporter: I'm doing ok I'm glad you are good. Is it snowing by you? Merry Christmas!
+Seeker: thats great and no its not snowing its very cold thow merry christmas to you also
+Supporter: How can I help you today?
+Seeker: im having some issues with friends not actually being friends
+Supporter: I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right?
+Seeker: yes
+Supporter: I understand that... Did something happen that makes you feel like that?
+Seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc
+Supporter: Is this a significant other?
+Seeker: no friends
+Supporter: Are they ignoring you?
+Seeker: when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not
+Supporter: Are you sure they are okay? Or not away with family for the holidays?
+Seeker: it doesnt matter they still keep open communication with each other
+Supporter: That's no good what do you think the problem is?
+Seeker: I believe its because I am the friend that has financial trouble and normally needs to borrow money
+Supporter: Do you owe someone already?
+Seeker: no anything i owe i always pay back perhaps they are tired of being asked
+Supporter: That can get in the way of a friendship sometimes, but I try not to get ahead of myself and jump the gun. They may have lost a phone or something may have come up... That very well could be... Are you working?
+Seeker: no im not currently I also think sometimes to myself that they don't answer because they think I'm asking for money
+Supporter: I see, Have you tried for unemployment?
+Seeker: yes i dont qualify
+Supporter: I understand that. What if that is the case? You may need to talk to them and let them know how you feel about that. How long has this been going on?
+Seeker: I'm nervous about asking them why and it happens on and off like when they feel lie it i guess i will say maybe 4 months
+Supporter: I understand that, but if you want to get to a point that you feel better about it then you will have to speak to them.
+Seeker: yes i know i hope everything be immediately resolved and not lead into other problems and end of friendshps
+Supporter: Do you see them everyday? I understand that, are you able to go over there.
+Seeker: no i dont live in the same city anymore when i go out of town i can visit but with covid19 rules
+Supporter: Well I can see that you have put the effort in to try and keep the relationship so it sounds like the ball is in their court if they want to do the same.
+Seeker: yes
+Supporter: Well that is about all that can be done and wait for them to come around...Do you have any hobbies?
+Seeker: yes i like to read and play music
+Supporter: I like to go on runs every morning. It helps to clear my mind and makes it easier to brush things off when they bother me. What instrument do you play?
+Seeker: my sister goes on runs in the morning time and says it relax her for the day i think i migh i played the piano when i was in highschool
+Supporter: It is a really good stress reliever. I played when I was younger, didn't ever get very good. Did you?
+Seeker: no i didn't i had to stop because i have what the doctors call a trigger finger it caused great pain when i would practice
+Supporter: Hmm, well maybe take some more lessons, We can always strive to be better at everything we do.
+Seeker: yes that is true
+Supporter: Maybe take a run in order to clear your mind. I'm sure they will come around.
+Seeker: i think i would start off walking i am not in shape to run yes i will give them time maybe stop reaching out so much
+Supporter: That may be a good idea. Good talk
+Seeker: yes thank you for talking with me and giving great advice
+Supporter: to them and may find out that it was never anything against you
+Seeker: yes maybe everyone is stressed at some level thanks to covid19
+
+current_text_to_classify: yes maybe everyone is stressed at some level thanks to covid19
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 3,
+  "label": "Disavowal Defense Level"
+}
+
+
+--- Example 2 ---
+Supporter: How can I help you today?
+Seeker: Hi there. I'm seeking some support, maybe some advice in dealing with a situation at my work. I've got a new supervisor who is so different from my last one.
+Supporter: Sure, I see you need some support at work because your new supervisor is so different than your previous one What kinds of things are troubling to you?
+Seeker: Yes. They have a Military background and bark orders, and change the way I'm working without being open to conversation. When I ask questions, they threaten my job. Telling me they "Don't have to explain themselves!" as they are my supervisor.
+Supporter: Wow, that sounds difficult with them being so militant. Have you been able to talk to any co-workers in a similar situation?
+Seeker: Yes, there are two other people supervised by him. One of them is also Military and new him before hand, they seem to get along great. But my other co-worker is like me. Doesn't know what to do, or who to turn to. Sometimes the work environment is pretty hostile when we're just trying to continue projects that were started before he arrived.
+Supporter: That sounds hard that it is so hostile at work when you trying so hard.
+Seeker: Yea. But when he threatens and calls my insubordinate, I worry he might be making a case to remove me. I wonder if I should talk to the person above him, about it. But I worry they might just think I'm complaining because its different But it really is uncomfortable.
+Supporter: It sounds like you worry about having your job taken away from you. Talking to someone above your supervisor may be a good solution.
+Seeker: Its been 3 months since he started, I just wonder if its too soon. I'd hate to be seen as a complainer. And the person above him, is the person who hired him.
+
+current_text_to_classify: Its been 3 months since he started, I just wonder if its too soon. I'd hate to be seen as a complainer. And the person above him, is the person who hired him.
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 3,
+  "label": "Disavowal Defense Level"
+}
+
+
+--- Example 3 ---
+Seeker: Hello.
+Supporter: Hello How are you tonight?
+Seeker: Feeling depressed as usual
+Supporter: I'm sorry to hear that. What has you feeling depressed?
+Seeker: Everything. Life. It's awful. How many years do you really need to stop enjoying this place. Ya know what I mean
+Supporter: I understand, but just to make sure I know what is going on fully, you are depressed in general and don't know how to get through it.
+Seeker: I would say that is fairly accurate. Often times, I wish an asteroid would come down and begin the apocolypse. Something to break up the routine Don't you find life utterly boring and repetitive?
+Supporter: Just from these few messages, I can tell you are extremely upset about this. I have had problems in the past with depression as well, I used to have severe anxiety as well.
+Seeker: Sorry to hear that. Anxiety and depression are dual bladed sword of badness Really bad mixture I never struggled too much with anxiety.
+Supporter: It was tough. Have you thought about consulting a psychological professional to help with this issue? I did when I was going through my depression and it really helped.
+Seeker: NO! I would never do that. I'm already on anti depressants. That didn't help at all. I just don't understand why people like life enough to make more people! It is madness!
+Supporter: I didn't like the meds that they gave me either, however I felt that talking to someone helped me a great deal.
+Seeker: Well, I'm glad it helped you. I'm not just saying that. Being depressed is awful. What did it do for you? How so?
+Supporter: It was good to be able to talk to an objective third party about what was going on. It allowed me to get my feelings out without the threat of being judges or harrassed.
+Seeker: I understand. Well, I appreciate your time and advice. I just don't feel like you and I are understanding each other very well, though. Anyway, you made your bonus. I appreciate you trying to help me, though We got to talk for another 4 minutes though
+Supporter: Have you tried to focus on more of your hobbies in order to get your mind off of things?
+Seeker: I used to have more hobbies. Now, I'm not so motivated to do much of anything anymore. I used to play instruments. I like hiking a little, but it is winter now. So... I can't even do that. Plus... I have to travel really far to do that because there is nothing to hike that is very close
+Supporter: Why did you stop playing insturments?
+Seeker: I just lost interest. I'm losing interest in everything, man I think it's time for my heart to give out and make space for the new, ya know Cross my fingers at least Dying in your sleep would be best Wouldn't that be nice? You just drift off after your heart stops in a dream?
+
+current_text_to_classify: I just lost interest. I'm losing interest in everything, man I think it's time for my heart to give out and make space for the new, ya know Cross my fingers at least Dying in your sleep would be best Wouldn't that be nice? You just drift off after your heart stops in a dream?
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 3,
+  "label": "Disavowal Defense Level"
+}
+
+
+=======================================================
+                    LABEL 4: Minor Image-distorting Defense Level
+=======================================================
+
+--- Example 1 ---
+Supporter: Hello, how are you feeling today? Is there anything you'd like to talk about?
+Seeker: I am sad because I lost my girlfriend of one year.
+Supporter: Oh I am so sorry to hear that - this is a terrible time of year to get dumped. Please know that it will get better in time!
+Seeker: Why do you think it will get better?
+Supporter: Well, although it sounds like a cliche, time does help with healing wounds. It took me a while to get over a break up. We had been together eight years!
+Seeker: That must've been hard. Is it possible to heal without finding another?
+Supporter: Yes I think that it is but you really do need to be kind to yourself and give it time. Do you have good friends to support you?
+Seeker: Many of my friends wouldn't understand as they are in long-term relationships. But yes, I've a few good friends.
+Supporter: That is a blessing at least though I know it can be hard to see people in happy relationships when you are single.
+Seeker: What did you do to cope in the first year of losing your partner ?
+Supporter: I cried a lot to be honest, especially as he was happy with someone else. But I tried to focus on my work and my hobbies. It helped.
+Seeker: What sort of hobbies helped you?
+Supporter: Well I love to read. Do you have anything that you could do to help you relax and take your mind off things?
+Seeker: Well, I do love to write but sometimes the sadness just burns me out completely and I stare at the empty page.
+Supporter: Do you and she have any contact at all at the moment?
+Seeker: I tried to make peace with her and be friends but she's bitter.
+Supporter: Do you feel that perhaps you did not treat her as well as you could have done?
+Seeker: Yes. I think about that all the time... I could've been better but she was my first and I was foolish. I didn't appreciate her enough.
+
+current_text_to_classify: Yes. I think about that all the time... I could've been better but she was my first and I was foolish. I didn't appreciate her enough.
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 4,
+  "label": "Minor Image-distorting Defense Level"
+}
+
+
+--- Example 2 ---
+Seeker: Hello
+Supporter: Hello how are you feeling today?
+Seeker: Well. Not so good i just broke up with my girlfriend and she is packing her stuff to leave How are you doing?
+Supporter: I am very sorry to hear that. Breakups can be rough. I'm great! Thanks for asking. Was this a mutual agreement?
+Seeker: Well technically it was a mutual agreement but i feel like I dont want this to happen So what are you up to? Hello? Are you there?
+Supporter: Was there a reasoning behind your decision? Sometimes we let our anger and emotions make our decisions for us.
+Seeker: Well. Basically all started for jealousy and she saw a couple of text messages of my best friend and she misunderstood the conversation and since then its not the same. She doesnt trust me
+Supporter: I see trust is a very important key factor in relationships and without it the relationship stays stagnant. Have you tried reassuring her that your intentions are pure and maybe gave her some words of affirmation that would let her know how you truly feel about her? Just because you guys are best friends all she sees in her head is that you're talking to another female. Maybe she also has her wall up and some insecurities that you can help her with.
+Seeker: I tried in many way to help her with that and proving her that my feelings toward her was pure. I basically stop talking to my best friend to gain her confidence. But it did not work So it got to the point that nothing was the same So she decided to move away and gave us some spaces and think this out
+
+current_text_to_classify: I tried in many way to help her with that and proving her that my feelings toward her was pure. I basically stop talking to my best friend to gain her confidence. But it did not work So it got to the point that nothing was the same So she decided to move away and gave us some spaces and think this out
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 4,
+  "label": "Minor Image-distorting Defense Level"
+}
+
+
+--- Example 3 ---
+Seeker: hello how are you today?
+Supporter: Hello, how are you feeling today?
+Seeker: a bit sad more depressed its just i keep getting benched at work i'm not really sure what do to *to do
+Supporter: I'm sorry to hear that! I think that would make most people feel upset.
+Seeker: i'm not really sure what i'm doing wrong
+
+current_text_to_classify: i'm not really sure what i'm doing wrong
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 4,
+  "label": "Minor Image-distorting Defense Level"
+}
+
+
+=======================================================
+                    LABEL 5: Neurotic Defense Level
+=======================================================
+
+--- Example 1 ---
+Seeker: Just found out my position will be eliminated in January. Freaking out! 1
+Supporter: Wow. So you're being laid off soon?
+Seeker: Yes. Apparently the company just can't continue to operate and pay all of us. So my position will be gone. They said they may be able to hire me back after all the Covid stuff, but couldn't guarantee it 2
+Supporter: I've been laid off many times. Never gets easier. Will they give you severance? Do you qualify for unemployment? Any offer for retraining or job assistance?
+Seeker: It is hard emotionally - as well as financially. I tried calling the unemployment office to find out what help they may have but no one answered me. 3
+Supporter: Your not getting the unemployment office to respond seems to be a common problem. They weren't geared up for this. Fortunately, the online portal has been helpful for many. What are your skills and strong points?
+Seeker: I will have to look at that. I've not been in the job market for 25 years. I thought they may be able to provide some assistance in just where do I begin. 4 I'm a teacher at a private school. 4
+Supporter: You want to know where to start. Sounds like you are young.
+Seeker: Well not as young as I once was - in my 40s. 5
+Supporter: Teachers are wonderful! Experienced teachers are even better. Age 40 is still young enough to be competitive in today's market. You will get lots of job interviews and offers before you know it.
+Seeker: I'm concerned because now is just not the normal time they hire new teachers on. Plus a lot of the school systems around me are all virtual right now, so I'm concerned about that 6
+Supporter: How are your online/virtual skills? Use your time off to get confidence in online forums like Zoom and MS Teams.
+Seeker: We've used Zoom for some of our kids at my current school but it's usually one on one, not an entire classroom 7
+Supporter: There's many online job hunting sites that are free. Indeed, Zip Recruiter, Craig's List, Monster, newspaper classifieds.
+Seeker: Yes I need to investigate those. I got my current job right out of college and I've been there 25 years! I'm so nervous about teaching somewhere else. 8
+Supporter: I feel your pain. Being laid off is a stab to the heart. Very disconcerting. Sounds as if you have been thrown out of your comfort zone.
+Seeker: Most definitely. Not to mention the children that depend on me, many of the children that I work with have special needs and changing their teachers can be traumatic. So I'm worried about them as well. 9
+Supporter: I'm sixty and one thing I've noticed during past lay-offs is that people end up in a better position.
+Seeker: I hope that is the case this time around for me. Ugh, I've got to do a new resume too!! EEK! 10
+
+current_text_to_classify: I hope that is the case this time around for me. Ugh, I've got to do a new resume too!! EEK! 10
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 5,
+  "label": "Neurotic Defense Level"
+}
+
+
+--- Example 2 ---
+Seeker: I'm so stressed, my emotions and anxiety is through the roof
+Supporter: What do you think is the cause of that?
+Seeker: I have a my masters thesis tomorrow and we have to do a presentation. A public speaking presentaion
+Supporter: Oh, so it's the public speaking that has you rattled?
+Seeker: Yes, I have a specific professor that intimidates me and knows that she can rattle me. I wish I could avoid her.
+Supporter: That sounds like it'd be enough to upset anybody.
+Seeker: I know, right! I know I have my material ready to present and feel confident, its just how she gives constructive criticism and that her decisions and 25% of my final grade
+Supporter: I think most people aren't big fans of public speaking.
+Seeker: The last class I had with her she was very aggressive when I asked questions aloud. Almost if she was put out. Also told me that my bumper sticker that says "stop heroin" was ignorant.
+Supporter: Well she sounds like kind of a pain in the ass honestly, I had a teacher like that one time myself.
+Seeker: I have so much anxiety and emotional conflicts going into the last assignment. Just wish I had some good coping mechanisms to practice to get me through this. Oh yes! a PITA! That made me giggle a bit. Thank you for that
+Supporter: Maybe you could try and just put things in perspective. I mean this will all be behind you soon enough, and no matter how it goes it's not like you're going to wind up on skid row over it, I wouldn't think.
+Seeker: You are right, only skid row I know is 18 and life. Best with Sebastian Bach
+
+current_text_to_classify: You are right, only skid row I know is 18 and life. Best with Sebastian Bach
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 5,
+  "label": "Neurotic Defense Level"
+}
+
+
+--- Example 3 ---
+Seeker: Hi Hello, can you help me?
+Supporter: Hello. I hope so What kind of problem are you having?
+Seeker: I am really struggling with my studies at the moment, I am so anxious that I keep putting off my essays and worrying all the time.
+Supporter: It sounds like you are a student who is having trouble. Is that correct?
+Seeker: Yes, I am a mature student and struggling with my course.
+Supporter: I can understand how you feel. I was a nontraditional student recently who went back to school. It is very understandable that you are feeling stressed, especially with the pandemic and other issues happening.
+Seeker: yes, the pandemic is making it worse. I am working as well so I am struggling juggling them all and running a house. I just don't know how to get back on track with my studying
+Supporter: Have you thought about putting together a schedule to help you manage your time?
+Seeker: How would I go about that?
+Supporter: If you go online, there are different templates for students. One would be a time management template where you fill in the blocks of different times of the day. Also, do you know any of your classmates that you could email or text for support?
+Seeker: okay, I can see the sense in that. Have you used them before, if so would you recommend putting everything on there or keeping it flexible? I do have a couple that i could contact, I've been feeling really embarrassed to contact them, like they might think I am being silly
+Supporter: To start, fill in one week to see what all activities you have to do. Set aside specific time for doing your schoolwork. Try and stick with the schedule.
+Seeker: Okay, one week doesn't seem too scary I could colour coordinate it, I like things in colour
+
+current_text_to_classify: Okay, one week doesn't seem too scary I could colour coordinate it, I like things in colour
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 5,
+  "label": "Neurotic Defense Level"
+}
+
+
+=======================================================
+                    LABEL 6: Obsessional Defense Level
+=======================================================
+
+--- Example 1 ---
+Supporter: How are you today?
+Seeker: not really well how about you
+Supporter: What's wrong? How can I help you? I'm doing pretty well.
+Seeker: i lost my job last week that really shatters me
+Supporter: That’s a tough situation. I feel for you. Losing a job is hard, but now, with the pandemic, it's especially hard. Do you live by yourself? Is there someone you can talk to?
+Seeker: yes the worst situation i met in this year.
+Supporter: I hear you. This is tough! It is important to be around other people. Don't isolate yourself.
+Seeker: yes i have someone but they are not ready to talk with me
+Supporter: That's too bad. Is there another person, a family member? By the way, how long had you worked at the job?
+Seeker: I know it, but people aroud me are angry because i lost my job
+Supporter: That's unfair of them. You don't need to discuss the problem. Just chatting with someone can change your mood.
+Seeker: i worked for six years and 4 monts yeah thats why im here
+Supporter: Six years...That's a long time. I bet you were good at your job. I want to help you.
+Seeker: yes i am, but the compay lay off me to reduce their expences and thats my worst time
+Supporter: The economy really has gotten bad. Many people are in a similar situation. I worry too that I might lose my job.
+Seeker: dont think like that, it is very hard in that situation
+Supporter: Many people are angry with you. Have they tried to help you with the job search? Do you want to reach out to them for that?
+Seeker: try to stay in your job whatever may happen
+Supporter: I try to stay positive. I talk to people. I think about after the pandemic and how things will be.
+Seeker: I ask them to do so, but they don't give any informaton back
+
+current_text_to_classify: I ask them to do so, but they don't give any informaton back
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 6,
+  "label": "Obsessional Defense Level"
+}
+
+
+--- Example 2 ---
+Seeker: hello
+Supporter: Hi there. How can I help you today?
+Seeker: I believe we are supposed to talk about my description
+Supporter: Do you have something bothering you today?
+Seeker: Nothing really I only stated the incident with my friend How are you today?
+Supporter: I'm hear to listen to you in case there is something you would like to get off your chest and maybe give some advice or support.
+Seeker: Okay are you female or male? or how do you identify? I ask because i would want to hear your opinion on why girls pick unecessary fights for no reason with their friends
+Supporter: I am a 65 year old female with lots of experience with children and grandchildren.
+Seeker: Oh that is great Nice to make your acquaintance
+Supporter: It happens a lot that girls pick fights with their friends and it ends up hurting, right? My experience is that girls pick fights with whoever they feel safe with. Very strange but my grandchildren told me that they yell at me and take out their bad day on me because they know I will always love them no matter what.
+Seeker: Really? I do not understand the insecurities in this case
+Supporter: Really. What happened?
+Seeker: Few months ago she picked a fight with another of our friend for no reason Now its my turn
+Supporter: How do you think you should handle it? Did something happen in her life and she's taking it out on you?
+Seeker: And for some reason when this happens she expects you to come crawling asking her what you did wrong when infact you did nothing. she would start recalling what happened 5years ago I really do not know or understand how she processes things She recently had a baby and we where fine through out the pregnancy stretch, up untill the last month she stopped responding to me. the baby will be months soon and no word from her
+
+current_text_to_classify: And for some reason when this happens she expects you to come crawling asking her what you did wrong when infact you did nothing. she would start recalling what happened 5years ago I really do not know or understand how she processes things She recently had a baby and we where fine through out the pregnancy stretch, up untill the last month she stopped responding to me. the baby will be months soon and no word from her
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 6,
+  "label": "Obsessional Defense Level"
+}
+
+
+--- Example 3 ---
+Seeker: I am really feeling the loneliness of the season and being isolated.
+Supporter: Good evening.
+Seeker: Good evening
+Supporter: So just so I understand, the holiday season is making you feel alone and isolated.
+Seeker: Yes as well as the virus Are we out of time
+Supporter: Is there anything in particular about the holidays that is bothering you?
+Seeker: Just no family around
+Supporter: I am also far away from my family for the holidays, so I know how hard that is
+Seeker: The virus this year does not help.
+
+current_text_to_classify: The virus this year does not help.
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 6,
+  "label": "Obsessional Defense Level"
+}
+
+
+=======================================================
+                    LABEL 7: Highly Adaptive Defense Level
+=======================================================
+
+--- Example 1 ---
+Supporter: Hello there, how are you feeling today?
+Seeker: I'm feeling pretty awful... I've been down and depressed for months now. It's hard to get through the days.
+Supporter: I understand. Is this related to the pandemic or is it something separate? I am sure that the pandemic has not helped, though!
+Seeker: It's definitely related! I lost my dream job, went to a lower paying one, and I gained a lot of weight while working from home.
+Supporter: Oh I can certainly relate to that one! I've gained a stone and a half in the last year. All this sitting around is not good for us!
+Seeker: It's definitely nice to know that other people are having similar emotions as me.
+Supporter: Sometimes just having someone to talk to who knows how you are feeling can be really helpful I think.
+Seeker: It's sad that this year has been so awful. It's hard to convince myself that it's getting better any time soon..
+
+current_text_to_classify: It's sad that this year has been so awful. It's hard to convince myself that it's getting better any time soon..
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 7,
+  "label": "Highly Adaptive Defense Level"
+}
+
+
+--- Example 2 ---
+Supporter: hello
+Seeker: Hello.
+Supporter: how are you doing. What is troubling you dear
+Seeker: I lost my job because my employer wouldn't make an exemption for my medical condition. I'm out of work. I don't know how I'm going to pay my bills.
+Supporter: if i get you right, you are fired because of your health condition
+Seeker: No, I quit because they refused to make an exemption. I physically couldn't fulfill the requirements that they put on me.
+Supporter: that's really hard, i can feel your fear i lost my job also because of covid economy inpact
+Seeker: Yeah, I just don't know what to do now. My wife works part-time but I need a little more cash.
+Supporter: have you try looking another job from nearby
+Seeker: Yes, I have. I think I am getting closer to finding something.
+Supporter: that's a good news
+Seeker: Yeah, thanks. I just hope it works out...
+Supporter: you can also go online
+Seeker: Yeah, I'm using Indeed.
+
+current_text_to_classify: Yeah, I'm using Indeed.
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 7,
+  "label": "Highly Adaptive Defense Level"
+}
+
+
+--- Example 3 ---
+Seeker: Hi
+Supporter: hello how are you ?
+Seeker: I'm in depression because my exam is near and I can't finsh my studies.
+Supporter: can i ask you ,why you can't finish
+Seeker: It is because i'm very behind in my work.
+Supporter: try to catch up with your studies give more time then you feel better
+Seeker: How am I going to catch up on my work?
+Supporter: i think you need to be confident about your studies then you fell better
+Seeker: How can I be confident?
+Supporter: i think you need to take more online classes those can help you
+Seeker: Ok I will try to get in an online class if I can.
+
+current_text_to_classify: Ok I will try to get in an online class if I can.
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 7,
+  "label": "Highly Adaptive Defense Level"
+}
+
+
+=======================================================
+                    LABEL 8: Need More Information
+=======================================================
+
+--- Example 1 ---
+Supporter: Hello how are you?
+Seeker: hello im looking for someone to talk to im fine how are you
+Supporter: I'm doing ok I'm glad you are good. Is it snowing by you? Merry Christmas!
+Seeker: thats great and no its not snowing its very cold thow merry christmas to you also
+Supporter: How can I help you today?
+Seeker: im having some issues with friends not actually being friends
+Supporter: I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right?
+Seeker: yes
+Supporter: I understand that... Did something happen that makes you feel like that?
+Seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc
+Supporter: Is this a significant other?
+Seeker: no friends
+Supporter: Are they ignoring you?
+Seeker: when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not
+Supporter: Are you sure they are okay? Or not away with family for the holidays?
+Seeker: it doesnt matter they still keep open communication with each other
+Supporter: That's no good what do you think the problem is?
+Seeker: I believe its because I am the friend that has financial trouble and normally needs to borrow money
+Supporter: Do you owe someone already?
+Seeker: no anything i owe i always pay back perhaps they are tired of being asked
+Supporter: That can get in the way of a friendship sometimes, but I try not to get ahead of myself and jump the gun. They may have lost a phone or something may have come up... That very well could be... Are you working?
+Seeker: no im not currently I also think sometimes to myself that they don't answer because they think I'm asking for money
+Supporter: I see, Have you tried for unemployment?
+Seeker: yes i dont qualify
+Supporter: I understand that. What if that is the case? You may need to talk to them and let them know how you feel about that. How long has this been going on?
+Seeker: I'm nervous about asking them why and it happens on and off like when they feel lie it i guess i will say maybe 4 months
+Supporter: I understand that, but if you want to get to a point that you feel better about it then you will have to speak to them.
+Seeker: yes i know i hope everything be immediately resolved and not lead into other problems and end of friendshps
+Supporter: Do you see them everyday? I understand that, are you able to go over there.
+Seeker: no i dont live in the same city anymore when i go out of town i can visit but with covid19 rules
+Supporter: Well I can see that you have put the effort in to try and keep the relationship so it sounds like the ball is in their court if they want to do the same.
+Seeker: yes
+Supporter: Well that is about all that can be done and wait for them to come around...Do you have any hobbies?
+Seeker: yes i like to read and play music
+Supporter: I like to go on runs every morning. It helps to clear my mind and makes it easier to brush things off when they bother me. What instrument do you play?
+Seeker: my sister goes on runs in the morning time and says it relax her for the day i think i migh i played the piano when i was in highschool
+Supporter: It is a really good stress reliever. I played when I was younger, didn't ever get very good. Did you?
+Seeker: no i didn't i had to stop because i have what the doctors call a trigger finger it caused great pain when i would practice
+Supporter: Hmm, well maybe take some more lessons, We can always strive to be better at everything we do.
+Seeker: yes that is true
+
+current_text_to_classify: yes that is true
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 8,
+  "label": "Need More Information"
+}
+
+
+--- Example 2 ---
+Seeker: hi
+Supporter: Hello! How are you doing today?
+Seeker: im good. getting tired. had a long day hola?
+Supporter: It sounds like you worked really hard today. How are you taking care of yourself?
+Seeker: im good. just talked to my friend who is going in for heart surgery next week
+Supporter: That must be really hard. I'm glad that you were able to make time for your friend who is going through a difficult time.
+Seeker: thank ya. yeah it's important im there for him right now. he has to be nervous. they're going to open 4 or 5 valves.
+Supporter: It sounds like you are handling the situation well, given the stressful circumstance. What are some things you are doing to cope with this difficult situation?
+Seeker: thank ya. nothing that much different. i told my sister about it. she seems understanding about it.
+Supporter: It's wonderful that you have a support network that you trust and that you can talk with about this. I know that talking through things is really helpful for me too. Have you considered seeking professional help during this time?
+Seeker: nope. i feel that i get enough support from family. it might've been an option if I didn't have a strong support system
+Supporter: That's fantastic. Having family around during a tough season like this must be such a blessing. It's great that you can be there for your friend, almost as if they were part of your family, too.
+Seeker: yeah they feel like part of the family. i've known them since i was in college 20 years ago. we haven't always talked the whole time but....
+
+current_text_to_classify: yeah they feel like part of the family. i've known them since i was in college 20 years ago. we haven't always talked the whole time but....
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 8,
+  "label": "Need More Information"
+}
+
+
+--- Example 3 ---
+Seeker: My friends are trying to shame me. How ridiculous....
+Supporter: hi i am sorry to hear that what are they trying to shame you with? what are they trying to shame you with?
+Seeker: It is Christmas and my friends say that I do not donate enough to charity. They are putting me on a guilt trip. My one old friend is the President of a local non-profit.
+Supporter: well, the donation to charity should be what either you can affort or volunteeer, it all depends on your situation
+Seeker: I am not making much income with the COVID-19, either.
+Supporter: it has to come from the heart and if your circumstances do not allow that then they should not talk badly about you
+Seeker: Two different (so-called) friends of mine need to get a life.
+Supporter: shame on them to do that to you well you might not consider them real friends if that is what they do. it is always easier to judge over other people then to validate what anyone self is doing.
+Seeker: Yeah, people don't know that just because my two friends go "Way back," does not mean they should be able to to hurt me, emotionally. What should I do about these two (so-called) friends?
+Supporter: definatly not ...have you tried explaining your situation to them?
+Seeker: No, they don't know that I am in financial trouble myself. COVID-19 has wrecked my steady income levels.... Things were great, this time last year.
+Supporter: well i know thats something most people do not want to disclose can you help the organization with donating your time?
+Seeker: I might be able to do that.
+Supporter: unfortunatly it is right now very comen this situation, so no shame for that,
+Seeker: Well, I used to donate a LOT in year's past.
+Supporter: a lot of times donating time to help organisatiosn is more valuable then money.
+Seeker: Great point.
+Supporter: times and situations change so thats ok.
+Seeker: My friends may like to know that I am trading time....instead of donating money.
+Supporter: i worked for a non profit and the biggest struggle was to find volunteers to help out
+Seeker: Yes, you make a good point.
+Supporter: I feel that is a great donation and if they do not like that tell them money is easy to give time not
+Seeker: The proble is that some people just want to shame people without knowing their plight.
+Supporter: Yeah, true, we need to stay above them then in all actuality we don't know what goes on behind closed doors in their life. sometimes people like that reflect
+Seeker: I need to think of others ways to contribute that won't have my friends hating on me. I have pride, too.
+Supporter: BUt it should be what you want not what your 'freinds want. you should be proud of yourself.
+Seeker: Yeah......
+
+current_text_to_classify: Yeah......
+{
+  "clinical_reasoning": {
+    "context_trigger": "...",
+    "psychological_goal": "...",
+    "handbook_alignment": "...",
+    "differential_diagnosis": "..."
+  },
+  "defense_level": 8,
+  "label": "Need More Information"
+}
+
+
+
+CORE INSTRUCTIONS:
+1. Primacy of Context: Always read the preceding dialogue to understand what triggered the 'current_text_to_classify'.
+2. Function-Oriented: Ask yourself, "What psychological goal is the speaker trying to achieve?"
+3. Handbook Grounded: Match the behavior to the specific criteria in the DMRS Handbook. Reason through why specific criteria are met.
+4. You must maintain hierarchical integrity — explicitly reason through why the classification does not drift into higher (more adaptive) or lower (more pathological) levels by verifying that all exclusionary criteria for the selected level are met.
+5. Distinguish Emotion from Defense: Saying "I am sad" is Level 0. A defense requires distortion, avoidance, or transformation.
+6. Always pick the single most accurate label (0–8) from the LABEL REFERENCE above.
+7. Output strict JSON matching the requested schema (clinical_reasoning, defense_level, label) as a top-level JSON object.
+
+
+DIALOGUE:
+Supporter: Hello how are you?
+Seeker: hello im looking for someone to talk to im fine how are you
+Supporter: I'm doing ok I'm glad you are good. Is it snowing by you? Merry Christmas!
+Seeker: thats great and no its not snowing its very cold thow merry christmas to you also
+Supporter: How can I help you today?
+Seeker: im having some issues with friends not actually being friends
+Supporter: I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right?
+Seeker: yes
+Supporter: I understand that... Did something happen that makes you feel like that?
+Seeker: yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc
+Supporter: Is this a significant other?
+Seeker: no friends
+Supporter: Are they ignoring you?
+Seeker: when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not
+Supporter: Are you sure they are okay? Or not away with family for the holidays?
+Seeker: it doesnt matter they still keep open communication with each other
+Supporter: That's no good what do you think the problem is?
+Seeker: I believe its because I am the friend that has financial trouble and normally needs to borrow money
+Supporter: Do you owe someone already?
+Seeker: no anything i owe i always pay back perhaps they are tired of being asked
+Supporter: That can get in the way of a friendship sometimes, but I try not to get ahead of myself and jump the gun. They may have lost a phone or something may have come up... That very well could be... Are you working?
+Seeker: no im not currently I also think sometimes to myself that they don't answer because they think I'm asking for money
+Supporter: I see, Have you tried for unemployment?
+Seeker: yes i dont qualify
+Supporter: I understand that. What if that is the case? You may need to talk to them and let them know how you feel about that. How long has this been going on?
+Seeker: I'm nervous about asking them why and it happens on and off like when they feel lie it i guess i will say maybe 4 months
+Supporter: I understand that, but if you want to get to a point that you feel better about it then you will have to speak to them.
+Seeker: yes i know i hope everything be immediately resolved and not lead into other problems and end of friendshps
+Supporter: Do you see them everyday? I understand that, are you able to go over there.
+Seeker: no i dont live in the same city anymore when i go out of town i can visit but with covid19 rules
+Supporter: Well I can see that you have put the effort in to try and keep the relationship so it sounds like the ball is in their court if they want to do the same.
+Seeker: yes
+Supporter: Well that is about all that can be done and wait for them to come around...Do you have any hobbies?
+Seeker: yes i like to read and play music
+Supporter: I like to go on runs every morning. It helps to clear my mind and makes it easier to brush things off when they bother me. What instrument do you play?
+Seeker: my sister goes on runs in the morning time and says it relax her for the day i think i migh i played the piano when i was in highschool
+
+current_text_to_classify: my sister goes on runs in the morning time and says it relax her for the day i think i migh i played the piano when i was in highschool
+
+Return a single JSON object matching the schema: {"clinical_reasoning":{...}, "defense_level":<int>, "label":<str>}

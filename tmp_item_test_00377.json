@@ -1,0 +1,162 @@
+{
+  "id": "test_00377",
+  "dialogue_id": "ESConv_160",
+  "dialogue": [
+    {
+      "text": "Hello how are you?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "hello im looking for someone to talk to im fine how are you",
+      "speaker": "seeker"
+    },
+    {
+      "text": "I'm doing ok I'm glad you are good. Is it snowing by you? Merry Christmas!",
+      "speaker": "supporter"
+    },
+    {
+      "text": "thats great and no its not snowing its very cold thow merry christmas to you also",
+      "speaker": "seeker"
+    },
+    {
+      "text": "How can I help you today?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "im having some issues with friends not actually being friends",
+      "speaker": "seeker"
+    },
+    {
+      "text": "I hear you are having trouble figuring out which friends are really your friends and which ones aren't. Is that about right?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "yes",
+      "speaker": "seeker"
+    },
+    {
+      "text": "I understand that... Did something happen that makes you feel like that?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "yes their is no communication or interaction between me and them nobody answers phone calls txt messages etc",
+      "speaker": "seeker"
+    },
+    {
+      "text": "Is this a significant other?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "no friends",
+      "speaker": "seeker"
+    },
+    {
+      "text": "Are they ignoring you?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "when we where younger we all hung out all the time now that we are older its like they talk with each other im not sure if i did anything or not",
+      "speaker": "seeker"
+    },
+    {
+      "text": "Are you sure they are okay? Or not away with family for the holidays?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "it doesnt matter they still keep open communication with each other",
+      "speaker": "seeker"
+    },
+    {
+      "text": "That's no good what do you think the problem is?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "I believe its because I am the friend that has financial trouble and normally needs to borrow money",
+      "speaker": "seeker"
+    },
+    {
+      "text": "Do you owe someone already?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "no anything i owe i always pay back perhaps they are tired of being asked",
+      "speaker": "seeker"
+    },
+    {
+      "text": "That can get in the way of a friendship sometimes, but I try not to get ahead of myself and jump the gun. They may have lost a phone or something may have come up... That very well could be... Are you working?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "no im not currently I also think sometimes to myself that they don't answer because they think I'm asking for money",
+      "speaker": "seeker"
+    },
+    {
+      "text": "I see, Have you tried for unemployment?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "yes i dont qualify",
+      "speaker": "seeker"
+    },
+    {
+      "text": "I understand that. What if that is the case? You may need to talk to them and let them know how you feel about that. How long has this been going on?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "I'm nervous about asking them why and it happens on and off like when they feel lie it i guess i will say maybe 4 months",
+      "speaker": "seeker"
+    },
+    {
+      "text": "I understand that, but if you want to get to a point that you feel better about it then you will have to speak to them.",
+      "speaker": "supporter"
+    },
+    {
+      "text": "yes i know i hope everything be immediately resolved and not lead into other problems and end of friendshps",
+      "speaker": "seeker"
+    },
+    {
+      "text": "Do you see them everyday? I understand that, are you able to go over there.",
+      "speaker": "supporter"
+    },
+    {
+      "text": "no i dont live in the same city anymore when i go out of town i can visit but with covid19 rules",
+      "speaker": "seeker"
+    },
+    {
+      "text": "Well I can see that you have put the effort in to try and keep the relationship so it sounds like the ball is in their court if they want to do the same.",
+      "speaker": "supporter"
+    },
+    {
+      "text": "yes",
+      "speaker": "seeker"
+    },
+    {
+      "text": "Well that is about all that can be done and wait for them to come around...Do you have any hobbies?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "yes i like to read and play music",
+      "speaker": "seeker"
+    },
+    {
+      "text": "I like to go on runs every morning. It helps to clear my mind and makes it easier to brush things off when they bother me. What instrument do you play?",
+      "speaker": "supporter"
+    },
+    {
+      "text": "my sister goes on runs in the morning time and says it relax her for the day i think i migh i played the piano when i was in highschool",
+      "speaker": "seeker"
+    }
+  ],
+  "current_text": "my sister goes on runs in the morning time and says it relax her for the day i think i migh i played the piano when i was in highschool",
+  "predicted_label": "No Defense / Neutral Utterance",
+  "predicted_defense_level": 0,
+  "clinical_reasoning": {
+    "contextual_stressor": "The supporter asks about the seeker's hobbies (running and playing an instrument) to help them cope with the stress of feeling ignored by friends.",
+    "expected_normative_emotion": "Neutrality or mild interest.",
+    "actual_expressed_emotion": "Neutral and conversational.",
+    "distortion_analysis": "The speaker is directly answering the supporter's questions about running and playing an instrument by sharing factual information about their sister and their past. There is no emotional distortion, avoidance, or defensive function present.",
+    "handbook_evidence": "Label 0: No Defense / Neutral Utterance. 'Describing objective personal information' and 'Reporting factual details of an event.'",
+    "differential_diagnosis": "This is not a defense mechanism (Levels 1-7) because it does not involve managing an emotional conflict or distorting reality; it is a simple, undefended statement maintaining the conversational flow."
+  },
+  "model_thinking_dump": []
+}
